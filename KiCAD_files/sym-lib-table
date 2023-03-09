@@ -1,4 +1,5 @@
 (sym_lib_table
-  (lib (name "Symbols")(type "KiCad")(uri "/home/jal/Documents/OwnTech/1leg/KiCAD_files/Symbols.kicad_sym")(options "")(descr ""))
-  (lib (name "Symbols_old")(type "KiCad")(uri "/home/jal/Documents/OwnTech/1leg/KiCAD_files/Symbols.kicad_sym")(options "")(descr ""))
+  (version 7)
+  (lib (name "Symbols")(type "KiCad")(uri "/home/jal/Documents/OwnTech/1lg/KiCAD_files/Symbols.kicad_sym")(options " pwr_sym_only")(descr ""))
+  (lib (name "Symbols_old")(type "KiCad")(uri "/home/jal/Documents/OwnTech/1leg/KiCAD_files/Symbols.kicad_sym")(options " pwr_sym_only")(descr ""))
 )
