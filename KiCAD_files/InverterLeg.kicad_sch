@@ -1713,6 +1713,7 @@
     )
   )
 
+
   (junction (at 106.68 87.63) (diameter 0) (color 0 0 0 0)
     (uuid 054533d2-8c56-4c92-a55f-7bd60d25d002)
   )
@@ -2872,7 +2873,7 @@
     (fill (type none))
     (uuid de8bfd2b-f92d-46d0-aa09-3cf14d60b65b)
   )
-  (rectangle (start 19.05 99.06) (end 220.98 193.04)
+  (rectangle (start 19.05 99.06) (end 226.06 193.04)
     (stroke (width 0) (type default))
     (fill (type none))
     (uuid e80c5e8f-58ab-41f7-8d87-919f9dbe8023)
@@ -3438,6 +3439,52 @@
     )
   )
 
+  (symbol (lib_id "Device:C_Small") (at 157.48 124.46 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 11054f7f-a41e-4849-96f7-dff79f474a3a)
+    (property "Reference" "C?" (at 149.86 121.92 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "100nF" (at 148.59 124.46 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric" (at 157.48 124.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 157.48 124.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "manf#" "C1206C104K5RAC7867" (at 157.48 124.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "DNP" "x" (at 157.48 124.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Package" "1206" (at 152.4 129.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Voltage" "50V" (at 152.4 127 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid 5df19e12-0541-4413-8f58-d8ac87af80f2))
+    (pin "2" (uuid 43e6f73a-2e90-49a5-b000-81e18c0c8da7))
+    (instances
+      (project "InverterLeg"
+        (path "/22b63e0d-f11c-46a0-b2d0-b08207a579ff"
+          (reference "C?") (unit 1)
+        )
+      )
+      (project "inverter"
+        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
+          (reference "C235") (unit 1)
+        )
+        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
+          (reference "C240") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Transistor_FET:QM6006D") (at 259.08 243.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 112d4ea1-54d4-486b-bafd-0969fd013867)
@@ -3705,7 +3752,7 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "C241") (unit 1)
+          (reference "C240") (unit 1)
         )
       )
     )
@@ -4012,7 +4059,7 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "C242") (unit 1)
+          (reference "C241") (unit 1)
         )
       )
     )
@@ -4118,7 +4165,7 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "#PWR0262") (unit 1)
+          (reference "#PWR0260") (unit 1)
         )
       )
     )
@@ -4762,7 +4809,7 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "#PWR0261") (unit 1)
+          (reference "#PWR0262") (unit 1)
         )
       )
     )
@@ -4784,9 +4831,6 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "manf#" "AMC1100DUB" (at 74.93 242.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manf#" "AMC1100DUB" (at 74.93 242.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "DNP" "x" (at 74.93 242.57 0)
@@ -4957,7 +5001,7 @@
   (symbol (lib_id "Device:R_Small") (at 189.23 168.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 776dffb5-785c-48ea-a7dc-ca7f94f71bd0)
-    (property "Reference" "R234" (at 190.7286 167.7416 0)
+    (property "Reference" "R233" (at 190.7286 167.7416 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "470R" (at 190.7286 170.053 0)
@@ -4983,7 +5027,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "R234") (unit 1)
+          (reference "R233") (unit 1)
         )
       )
     )
@@ -5029,7 +5073,7 @@
   (symbol (lib_id "Device:R_Small") (at 189.23 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7c77759c-d158-494d-a455-20dc8d82c2a7)
-    (property "Reference" "R233" (at 190.7286 156.3116 0)
+    (property "Reference" "R232" (at 190.7286 156.3116 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "150k" (at 190.7286 158.623 0)
@@ -5055,7 +5099,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "R233") (unit 1)
+          (reference "R232") (unit 1)
         )
       )
     )
@@ -5293,49 +5337,6 @@
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
           (reference "C229") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Small") (at 157.48 124.46 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 888a26d2-ab72-46fa-946e-6647df93fb62)
-    (property "Reference" "C?" (at 151.13 121.92 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "100nF" (at 148.59 124.46 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Footprints:C_0805_2012Metric" (at 157.48 124.46 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 157.48 124.46 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "manf#" "C0805C104K5RACTU" (at 157.48 124.46 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "DNP" "x" (at 157.48 124.46 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Package" "0805" (at 152.4 129.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Voltage" "50V" (at 152.4 127 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (pin "1" (uuid b06c3a7c-ffa8-4606-806e-09200a9f52c2))
-    (pin "2" (uuid d423e573-53e5-458c-9ea2-eb4f81df51d2))
-    (instances
-      (project "InverterLeg"
-        (path "/22b63e0d-f11c-46a0-b2d0-b08207a579ff"
-          (reference "C?") (unit 1)
-        )
-      )
-      (project "inverter"
-        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "C235") (unit 1)
         )
       )
     )
@@ -5671,7 +5672,7 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "C246") (unit 1)
+          (reference "C242") (unit 1)
         )
       )
     )
@@ -6069,7 +6070,7 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "R232") (unit 1)
+          (reference "R234") (unit 1)
         )
       )
     )
@@ -6112,7 +6113,7 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "C247") (unit 1)
+          (reference "C243") (unit 1)
         )
       )
     )
@@ -6570,7 +6571,7 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "#PWR0260") (unit 1)
+          (reference "#PWR0261") (unit 1)
         )
       )
     )
