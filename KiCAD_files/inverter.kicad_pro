@@ -401,7 +401,7 @@
     "page_layout_descr_file": "Title_block.kicad_wks"
   },
   "schematic": {
-    "annotate_start_num": 0,
+    "annotate_start_num": 200,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
       "dashed_lines_gap_length_ratio": 3.0,
@@ -450,12 +450,8 @@
       ""
     ],
     [
-      "b9592210-62fd-48e0-8447-67f645d7d247",
-      "Power Leg 1"
-    ],
-    [
-      "4a11142e-1c8b-45f6-8828-f013379f9fc1",
-      "Power Leg 2"
+      "9564004e-9746-4b6b-831d-1e0ecc025868",
+      "Phase1"
     ],
     [
       "122c01f4-f23e-4db0-9503-7261d96dc78b",
