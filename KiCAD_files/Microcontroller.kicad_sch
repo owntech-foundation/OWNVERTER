@@ -5117,7 +5117,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 127679a9-3981-4934-815e-896a4e3ff56e)
   )
-  (text "Communication interfaces" (at 210.82 34.29 0)
+  (text "Communication interfaces" (at 208.28 34.29 0)
     (effects (font (size 2.4892 2.4892) (thickness 0.4978) bold) (justify left bottom))
     (uuid 1cb170b5-7320-4538-a341-6bb068cc3519)
   )
@@ -5689,7 +5689,7 @@
   (symbol (lib_id "Interface_CAN_LIN:TCAN334") (at 228.6 156.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006051d100)
-    (property "Reference" "U222" (at 214.63 144.78 0)
+    (property "Reference" "U604" (at 214.63 144.78 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TCAN334GDR" (at 219.71 147.32 0)
@@ -5718,7 +5718,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "U222") (unit 1)
+          (reference "U604") (unit 1)
         )
       )
     )
@@ -5727,7 +5727,7 @@
   (symbol (lib_id "Device:C_Small") (at 234.95 138.43 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006051f185)
-    (property "Reference" "C274" (at 233.7816 136.0932 90)
+    (property "Reference" "C606" (at 233.7816 136.0932 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 242.57 135.89 90)
@@ -5753,7 +5753,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "C274") (unit 1)
+          (reference "C606") (unit 1)
         )
       )
     )
@@ -5762,7 +5762,7 @@
   (symbol (lib_id "Jumper:Jumper_2_Bridged") (at 251.46 138.43 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006053c1cc)
-    (property "Reference" "JP213" (at 254 138.43 90)
+    (property "Reference" "JP613" (at 254 138.43 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Jumper" (at 258.445 139.065 90)
@@ -5785,7 +5785,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "JP213") (unit 1)
+          (reference "JP613") (unit 1)
         )
       )
     )
@@ -5794,7 +5794,7 @@
   (symbol (lib_id "Connector:RJ45_LED_Shielded") (at 331.47 78.74 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006062f6c1)
-    (property "Reference" "J208" (at 323.85 62.23 0)
+    (property "Reference" "J603" (at 323.85 62.23 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "RJ45_LED_Shielded" (at 331.47 64.77 0)
@@ -5828,7 +5828,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "J208") (unit 1)
+          (reference "J603") (unit 1)
         )
       )
     )
@@ -5837,7 +5837,7 @@
   (symbol (lib_id "Connector:RJ45_LED_Shielded") (at 332.74 127 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000606310e3)
-    (property "Reference" "J209" (at 326.39 110.49 0)
+    (property "Reference" "J604" (at 326.39 110.49 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "RJ45_LED_Shielded" (at 334.01 113.03 0)
@@ -5871,7 +5871,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "J209") (unit 1)
+          (reference "J604") (unit 1)
         )
       )
     )
@@ -5880,7 +5880,7 @@
   (symbol (lib_id "power:+3.3V") (at 360.68 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000606b841e)
-    (property "Reference" "#PWR0354" (at 360.68 87.63 0)
+    (property "Reference" "#PWR0644" (at 360.68 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V_DGND" (at 360.68 80.01 0)
@@ -5896,7 +5896,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "#PWR0354") (unit 1)
+          (reference "#PWR0644") (unit 1)
         )
       )
     )
@@ -5905,7 +5905,7 @@
   (symbol (lib_id "power:+3.3V") (at 361.95 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000606d231d)
-    (property "Reference" "#PWR0355" (at 361.95 137.16 0)
+    (property "Reference" "#PWR0645" (at 361.95 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V_DGND" (at 361.95 129.54 0)
@@ -5921,7 +5921,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "#PWR0355") (unit 1)
+          (reference "#PWR0645") (unit 1)
         )
       )
     )
@@ -5930,7 +5930,7 @@
   (symbol (lib_id "Device:D_Schottky_Small") (at 346.71 173.99 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060720972)
-    (property "Reference" "D212" (at 344.932 172.8216 90)
+    (property "Reference" "D602" (at 344.932 172.8216 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "RBR2MM60ATFTR" (at 344.932 175.133 90)
@@ -5953,7 +5953,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "D212") (unit 1)
+          (reference "D602") (unit 1)
         )
       )
     )
@@ -5962,7 +5962,7 @@
   (symbol (lib_id "Device:D_Schottky_Small") (at 351.79 207.01 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000607216af)
-    (property "Reference" "D213" (at 350.012 205.8416 90)
+    (property "Reference" "D603" (at 350.012 205.8416 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "RBR2MM60ATFTR" (at 350.012 208.153 90)
@@ -5985,7 +5985,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "D213") (unit 1)
+          (reference "D603") (unit 1)
         )
       )
     )
@@ -5994,7 +5994,7 @@
   (symbol (lib_id "Device:Polyfuse_Small") (at 351.79 184.15 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060722be6)
-    (property "Reference" "F206" (at 355.6 181.61 0)
+    (property "Reference" "F602" (at 355.6 181.61 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "350mA" (at 356.87 184.15 0)
@@ -6017,7 +6017,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "F206") (unit 1)
+          (reference "F602") (unit 1)
         )
       )
     )
@@ -6026,7 +6026,7 @@
   (symbol (lib_id "Device:R_Small") (at 346.71 83.82 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006079deb8)
-    (property "Reference" "R273" (at 346.71 80.01 90)
+    (property "Reference" "R621" (at 346.71 80.01 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "330R" (at 346.71 81.915 90)
@@ -6052,7 +6052,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "R273") (unit 1)
+          (reference "R621") (unit 1)
         )
       )
     )
@@ -6061,7 +6061,7 @@
   (symbol (lib_id "Device:R_Small") (at 346.71 68.58 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006079f09a)
-    (property "Reference" "R272" (at 346.71 63.5 90)
+    (property "Reference" "R620" (at 346.71 63.5 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3k" (at 346.71 66.04 90)
@@ -6087,7 +6087,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "R272") (unit 1)
+          (reference "R620") (unit 1)
         )
       )
     )
@@ -6096,7 +6096,7 @@
   (symbol (lib_id "Device:R_Small") (at 347.98 132.08 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000607a1f72)
-    (property "Reference" "R275" (at 347.98 128.27 90)
+    (property "Reference" "R623" (at 347.98 128.27 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "330R" (at 347.98 130.175 90)
@@ -6122,7 +6122,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "R275") (unit 1)
+          (reference "R623") (unit 1)
         )
       )
     )
@@ -6131,7 +6131,7 @@
   (symbol (lib_id "Device:R_Small") (at 347.98 116.84 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000607a1f78)
-    (property "Reference" "R274" (at 347.98 111.76 90)
+    (property "Reference" "R622" (at 347.98 111.76 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3k" (at 347.98 114.3 90)
@@ -6157,7 +6157,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "R274") (unit 1)
+          (reference "R622") (unit 1)
         )
       )
     )
@@ -6166,7 +6166,7 @@
   (symbol (lib_id "power:+3.3V") (at 228.6 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006087743d)
-    (property "Reference" "#PWR0340" (at 228.6 137.16 0)
+    (property "Reference" "#PWR0629" (at 228.6 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V_DGND" (at 228.6 129.54 0)
@@ -6182,7 +6182,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "#PWR0340") (unit 1)
+          (reference "#PWR0629") (unit 1)
         )
       )
     )
@@ -6191,7 +6191,7 @@
   (symbol (lib_id "Device:Thermistor") (at 33.02 247.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000061ad6692)
-    (property "Reference" "TH201" (at 35.687 246.4816 0)
+    (property "Reference" "TH601" (at 35.687 246.4816 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "NXFT15XH103FA2B100 " (at 35.687 248.793 0)
@@ -6214,7 +6214,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "TH201") (unit 1)
+          (reference "TH601") (unit 1)
         )
       )
     )
@@ -6223,7 +6223,7 @@
   (symbol (lib_id "Device:R") (at 33.02 234.95 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000062718547)
-    (property "Reference" "R253" (at 30.48 234.315 0)
+    (property "Reference" "R601" (at 30.48 234.315 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "20k" (at 30.48 236.22 0)
@@ -6252,7 +6252,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "R253") (unit 1)
+          (reference "R601") (unit 1)
         )
       )
     )
@@ -6261,7 +6261,7 @@
   (symbol (lib_id "power:+3.3V") (at 33.02 228.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000627a9ec5)
-    (property "Reference" "#PWR0313" (at 33.02 232.41 0)
+    (property "Reference" "#PWR0602" (at 33.02 232.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V_DGND" (at 32.385 224.79 0)
@@ -6277,7 +6277,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "#PWR0313") (unit 1)
+          (reference "#PWR0602") (unit 1)
         )
       )
     )
@@ -6286,7 +6286,7 @@
   (symbol (lib_id "Device:R") (at 260.35 260.35 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 03c2b312-af69-44a3-9d3d-4e6e95877abf)
-    (property "Reference" "R270" (at 257.81 257.81 90)
+    (property "Reference" "R618" (at 257.81 257.81 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7k" (at 265.43 257.81 90)
@@ -6312,7 +6312,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "R270") (unit 1)
+          (reference "R618") (unit 1)
         )
       )
     )
@@ -6321,7 +6321,7 @@
   (symbol (lib_name "OPA2277_2") (lib_id "Amplifier_Operational:OPA2277") (at 209.55 238.76 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 043990e6-ce36-46cb-9668-60987d494867)
-    (property "Reference" "U221" (at 203.2 233.68 0)
+    (property "Reference" "U603" (at 203.2 233.68 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "OPA2277" (at 204.47 243.84 0)
@@ -6350,7 +6350,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "U221") (unit 3)
+          (reference "U603") (unit 3)
         )
       )
     )
@@ -6359,7 +6359,7 @@
   (symbol (lib_id "power:+5VD") (at 62.23 341.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 052baba6-d655-4556-a700-8ec5faa4aefa)
-    (property "Reference" "#PWR0319" (at 62.23 345.44 0)
+    (property "Reference" "#PWR0608" (at 62.23 345.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V_DGND" (at 62.611 337.2358 0)
@@ -6375,7 +6375,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "#PWR0319") (unit 1)
+          (reference "#PWR0608") (unit 1)
         )
       )
     )
@@ -6384,7 +6384,7 @@
   (symbol (lib_id "Jumper:SolderJumper_2_Bridged") (at 140.97 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 071488e9-807f-4b64-9d5c-31f601fa1699)
-    (property "Reference" "JP206" (at 140.97 102.87 0)
+    (property "Reference" "JP606" (at 140.97 102.87 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Jumper_2_Bridged" (at 140.97 102.235 0)
@@ -6413,7 +6413,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "JP206") (unit 1)
+          (reference "JP606") (unit 1)
         )
       )
     )
@@ -6422,7 +6422,7 @@
   (symbol (lib_id "Device:C_Small") (at 35.56 340.36 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 07687f1a-80ce-4cea-a6a2-41ed43db935a)
-    (property "Reference" "C269" (at 33.02 341.63 0)
+    (property "Reference" "C601" (at 33.02 341.63 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "20pF" (at 33.02 343.535 0)
@@ -6448,7 +6448,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "C269") (unit 1)
+          (reference "C601") (unit 1)
         )
       )
     )
@@ -6457,7 +6457,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 143.51 158.75 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0801bc9e-3aaa-4a90-b52a-b3a2a2bcfc20)
-    (property "Reference" "TP235" (at 147.32 153.67 0)
+    (property "Reference" "TP605" (at 147.32 153.67 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 141.605 156.7179 0)
@@ -6476,7 +6476,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "TP235") (unit 1)
+          (reference "TP605") (unit 1)
         )
       )
     )
@@ -6485,7 +6485,7 @@
   (symbol (lib_id "Symbols:DGND") (at 60.96 255.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0fe557e1-310d-4bbb-8e9d-3a42355bbbdb)
-    (property "Reference" "#PWR0318" (at 60.96 261.62 0)
+    (property "Reference" "#PWR0607" (at 60.96 261.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "DGND" (at 60.96 259.715 0)
@@ -6501,7 +6501,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "#PWR0318") (unit 1)
+          (reference "#PWR0607") (unit 1)
         )
       )
     )
@@ -6510,7 +6510,7 @@
   (symbol (lib_id "Symbols:DGND") (at 359.41 212.09 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 108f5d47-629c-4988-b10f-a155c0fbb547)
-    (property "Reference" "#PWR0427" (at 359.41 218.44 0)
+    (property "Reference" "#PWR0643" (at 359.41 218.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "DGND" (at 359.41 216.535 0)
@@ -6526,7 +6526,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "#PWR0427") (unit 1)
+          (reference "#PWR0643") (unit 1)
         )
       )
     )
@@ -6535,7 +6535,7 @@
   (symbol (lib_id "Symbols:DGND") (at 143.51 198.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 116d846d-7795-42cd-995e-6ee0ce94739d)
-    (property "Reference" "#PWR0330" (at 143.51 204.47 0)
+    (property "Reference" "#PWR0619" (at 143.51 204.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "DGND" (at 140.97 201.93 0)
@@ -6551,7 +6551,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "#PWR0330") (unit 1)
+          (reference "#PWR0619") (unit 1)
         )
       )
     )
@@ -6560,7 +6560,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 143.51 198.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 12ce9efb-dda5-47d8-84e3-39e15c652223)
-    (property "Reference" "TP238" (at 142.24 193.04 0)
+    (property "Reference" "TP608" (at 142.24 193.04 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 145.415 196.0879 0)
@@ -6579,7 +6579,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "TP238") (unit 1)
+          (reference "TP608") (unit 1)
         )
       )
     )
@@ -6588,7 +6588,7 @@
   (symbol (lib_id "Symbols:DGND") (at 245.11 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1430e57b-d823-4836-8f1f-0349582d3ec2)
-    (property "Reference" "#PWR0345" (at 245.11 68.58 0)
+    (property "Reference" "#PWR0634" (at 245.11 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "DGND" (at 245.11 66.675 0)
@@ -6604,7 +6604,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "#PWR0345") (unit 1)
+          (reference "#PWR0634") (unit 1)
         )
       )
     )
@@ -6613,7 +6613,7 @@
   (symbol (lib_id "Jumper:SolderJumper_2_Open") (at 95.25 278.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 185f8bbc-7701-49a6-871e-c4a22edfa703)
-    (property "Reference" "JP202" (at 95.25 274.32 0)
+    (property "Reference" "JP602" (at 95.25 274.32 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SolderJumper_2_Open" (at 97.79 264.16 90)
@@ -6633,7 +6633,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "JP202") (unit 1)
+          (reference "JP602") (unit 1)
         )
       )
     )
@@ -6642,7 +6642,7 @@
   (symbol (lib_id "power:GND") (at 548.64 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1b151979-8e29-4b81-b20b-efc13c5600f7)
-    (property "Reference" "#PWR0359" (at 548.64 96.52 0)
+    (property "Reference" "#PWR0649" (at 548.64 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PGND" (at 548.64 93.98 0)
@@ -6658,7 +6658,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "#PWR0359") (unit 1)
+          (reference "#PWR0649") (unit 1)
         )
       )
     )
@@ -6667,7 +6667,7 @@
   (symbol (lib_id "Symbols:DGND") (at 33.02 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1b1e7567-fd58-405a-b5f2-26329b0c5392)
-    (property "Reference" "#PWR0312" (at 33.02 151.13 0)
+    (property "Reference" "#PWR0601" (at 33.02 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "DGND" (at 33.02 149.225 0)
@@ -6683,7 +6683,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "#PWR0312") (unit 1)
+          (reference "#PWR0601") (unit 1)
         )
       )
     )
@@ -6692,7 +6692,7 @@
   (symbol (lib_id "Device:C_Small") (at 241.3 59.69 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1be80dcd-2aaa-46d7-a411-1c2d45e0c230)
-    (property "Reference" "C276" (at 240.1316 57.3532 90)
+    (property "Reference" "C608" (at 240.1316 57.3532 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 248.92 57.15 90)
@@ -6718,7 +6718,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "C276") (unit 1)
+          (reference "C608") (unit 1)
         )
       )
     )
@@ -6727,7 +6727,7 @@
   (symbol (lib_id "Symbols:DGND") (at 43.18 355.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 226ad487-7f24-45c9-b5db-15946d877e7d)
-    (property "Reference" "#PWR0316" (at 43.18 361.95 0)
+    (property "Reference" "#PWR0605" (at 43.18 361.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "DGND" (at 40.64 359.41 0)
@@ -6743,7 +6743,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "#PWR0316") (unit 1)
+          (reference "#PWR0605") (unit 1)
         )
       )
     )
@@ -6752,7 +6752,7 @@
   (symbol (lib_id "power:+3.3V") (at 234.95 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 239cbd27-1501-4126-bfd8-aeb3ece3404e)
-    (property "Reference" "#PWR0342" (at 234.95 58.42 0)
+    (property "Reference" "#PWR0631" (at 234.95 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V_DGND" (at 234.95 50.8 0)
@@ -6768,7 +6768,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "#PWR0342") (unit 1)
+          (reference "#PWR0631") (unit 1)
         )
       )
     )
@@ -6777,7 +6777,7 @@
   (symbol (lib_id "power:GND") (at 539.75 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 24895113-9131-4d55-8371-38a64e8b7303)
-    (property "Reference" "#PWR0358" (at 539.75 96.52 0)
+    (property "Reference" "#PWR0648" (at 539.75 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PGND" (at 539.75 93.98 0)
@@ -6793,7 +6793,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "#PWR0358") (unit 1)
+          (reference "#PWR0648") (unit 1)
         )
       )
     )
@@ -6802,7 +6802,7 @@
   (symbol (lib_id "Symbols:DGND") (at 67.31 170.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 263a50d9-d66a-416c-b1c9-8dc22fd56d54)
-    (property "Reference" "#PWR0321" (at 67.31 176.53 0)
+    (property "Reference" "#PWR0610" (at 67.31 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "DGND" (at 67.31 173.99 0)
@@ -6818,7 +6818,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "#PWR0321") (unit 1)
+          (reference "#PWR0610") (unit 1)
         )
       )
     )
@@ -6827,7 +6827,7 @@
   (symbol (lib_id "Device:R") (at 255.27 222.25 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2a18bbfd-9abf-48ac-9b1c-05b0879dfb6b)
-    (property "Reference" "R266" (at 250.19 220.98 90)
+    (property "Reference" "R614" (at 250.19 220.98 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7k" (at 264.16 220.98 90)
@@ -6853,7 +6853,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "R266") (unit 1)
+          (reference "R614") (unit 1)
         )
       )
     )
@@ -6862,7 +6862,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 171.45 158.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 31702055-e5bc-46f7-ae3b-2be161e8bbbc)
-    (property "Reference" "TP242" (at 168.91 153.67 0)
+    (property "Reference" "TP612" (at 168.91 153.67 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 173.355 156.7179 0)
@@ -6881,7 +6881,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "TP242") (unit 1)
+          (reference "TP612") (unit 1)
         )
       )
     )
@@ -6890,7 +6890,7 @@
   (symbol (lib_id "Device:C_Small") (at 255.27 229.87 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 33ac9c67-a274-42dc-8c4a-0fb7142dd3b1)
-    (property "Reference" "C277" (at 251.46 228.6 90)
+    (property "Reference" "C609" (at 251.46 228.6 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "20pF" (at 261.62 228.6 90)
@@ -6916,7 +6916,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "C277") (unit 1)
+          (reference "C609") (unit 1)
         )
       )
     )
@@ -6925,7 +6925,7 @@
   (symbol (lib_id "power:+5VD") (at 91.44 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 366d37b7-da38-4692-bb8c-652963060e50)
-    (property "Reference" "#PWR0324" (at 91.44 96.52 0)
+    (property "Reference" "#PWR0613" (at 91.44 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V_DGND" (at 91.821 88.3158 0)
@@ -6941,7 +6941,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "#PWR0324") (unit 1)
+          (reference "#PWR0613") (unit 1)
         )
       )
     )
@@ -6950,7 +6950,7 @@
   (symbol (lib_id "Symbols:DGND") (at 194.31 232.41 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3785c0f0-8d92-4558-b575-f292134320da)
-    (property "Reference" "#PWR0334" (at 194.31 238.76 0)
+    (property "Reference" "#PWR0623" (at 194.31 238.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "DGND" (at 196.85 236.22 0)
@@ -6966,7 +6966,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "#PWR0334") (unit 1)
+          (reference "#PWR0623") (unit 1)
         )
       )
     )
@@ -6975,7 +6975,7 @@
   (symbol (lib_id "Symbols:DGND") (at 238.76 140.97 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 37a855c7-d36d-4ff6-b2e6-0ec6d22d0e5f)
-    (property "Reference" "#PWR0344" (at 238.76 147.32 0)
+    (property "Reference" "#PWR0633" (at 238.76 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "DGND" (at 238.76 145.415 0)
@@ -6991,7 +6991,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "#PWR0344") (unit 1)
+          (reference "#PWR0633") (unit 1)
         )
       )
     )
@@ -7000,7 +7000,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 135.89 158.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3838159b-ac72-4a13-8745-3a3b55d5b1ce)
-    (property "Reference" "TP231" (at 133.35 153.67 0)
+    (property "Reference" "TP601" (at 133.35 153.67 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 137.795 156.7179 0)
@@ -7019,7 +7019,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "TP231") (unit 1)
+          (reference "TP601") (unit 1)
         )
       )
     )
@@ -7028,7 +7028,7 @@
   (symbol (lib_id "Symbols:DGND") (at 76.2 320.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3998263f-2ef5-4190-ad80-97c5ed0425f2)
-    (property "Reference" "#PWR0323" (at 76.2 326.39 0)
+    (property "Reference" "#PWR0612" (at 76.2 326.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "DGND" (at 76.2 323.85 0)
@@ -7044,7 +7044,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "#PWR0323") (unit 1)
+          (reference "#PWR0612") (unit 1)
         )
       )
     )
@@ -7053,7 +7053,7 @@
   (symbol (lib_id "Symbols:DGND") (at 219.71 222.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3c41e5b7-a7bb-4a17-9582-6ed031cd396e)
-    (property "Reference" "#PWR0338" (at 219.71 228.6 0)
+    (property "Reference" "#PWR0627" (at 219.71 228.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "DGND" (at 217.17 226.06 0)
@@ -7069,7 +7069,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "#PWR0338") (unit 1)
+          (reference "#PWR0627") (unit 1)
         )
       )
     )
@@ -7078,7 +7078,7 @@
   (symbol (lib_id "Device:R") (at 260.35 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3c56118b-e919-43bb-b818-58cf8e1432ce)
-    (property "Reference" "R267" (at 262.128 49.6316 0)
+    (property "Reference" "R615" (at 262.128 49.6316 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7k" (at 262.128 51.943 0)
@@ -7104,7 +7104,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "R267") (unit 1)
+          (reference "R615") (unit 1)
         )
       )
     )
@@ -7113,7 +7113,7 @@
   (symbol (lib_id "power:Earth_Protective") (at 331.47 93.98 0) (mirror y) (unit 1)
     (in_bom yes) (on_board no) (dnp no)
     (uuid 432f4d1b-b3a1-47fd-83bf-c9e800d25a6e)
-    (property "Reference" "#PWR0350" (at 325.12 100.33 0)
+    (property "Reference" "#PWR0639" (at 325.12 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth_Protective" (at 331.47 102.87 0)
@@ -7129,7 +7129,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "#PWR0350") (unit 1)
+          (reference "#PWR0639") (unit 1)
         )
       )
     )
@@ -7138,7 +7138,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 135.89 198.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 43866dcc-9ad0-4778-9276-8ff51596d240)
-    (property "Reference" "TP234" (at 132.08 193.04 0)
+    (property "Reference" "TP604" (at 132.08 193.04 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 137.795 196.0879 0)
@@ -7157,7 +7157,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "TP234") (unit 1)
+          (reference "TP604") (unit 1)
         )
       )
     )
@@ -7166,7 +7166,7 @@
   (symbol (lib_id "Symbols:DGND") (at 534.67 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 497b6287-2224-4199-956c-bf0b37439caf)
-    (property "Reference" "#PWR0357" (at 534.67 96.52 0)
+    (property "Reference" "#PWR0647" (at 534.67 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "DGND" (at 534.67 93.98 0)
@@ -7182,7 +7182,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "#PWR0357") (unit 1)
+          (reference "#PWR0647") (unit 1)
         )
       )
     )
@@ -7191,7 +7191,7 @@
   (symbol (lib_id "Symbols:DGND") (at 234.95 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 49dba50c-055c-478b-9db4-7f3c74474c80)
-    (property "Reference" "#PWR0343" (at 234.95 106.68 0)
+    (property "Reference" "#PWR0632" (at 234.95 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "DGND" (at 234.95 104.775 0)
@@ -7207,7 +7207,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "#PWR0343") (unit 1)
+          (reference "#PWR0632") (unit 1)
         )
       )
     )
@@ -7216,7 +7216,7 @@
   (symbol (lib_id "Jumper:SolderJumper_2_Bridged") (at 92.71 328.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4bf3b667-a4bf-489a-bdff-d26fc75a5633)
-    (property "Reference" "JP201" (at 92.71 325.755 0)
+    (property "Reference" "JP601" (at 92.71 325.755 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SolderJumper_2_Open" (at 95.25 314.96 90)
@@ -7236,7 +7236,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "JP201") (unit 1)
+          (reference "JP601") (unit 1)
         )
       )
     )
@@ -7245,7 +7245,7 @@
   (symbol (lib_id "Interface_UART:LTC2850xS8") (at 234.95 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 51132b87-551c-4b29-ab8b-5da8f39decdc)
-    (property "Reference" "U223" (at 224.79 68.58 0)
+    (property "Reference" "U605" (at 224.79 68.58 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LTC2850xS8" (at 219.71 97.79 0)
@@ -7274,7 +7274,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "U223") (unit 1)
+          (reference "U605") (unit 1)
         )
       )
     )
@@ -7283,7 +7283,7 @@
   (symbol (lib_id "Symbols:DGND") (at 254 280.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 51e30db3-fd30-4e9a-8340-6ce1bebae12b)
-    (property "Reference" "#PWR0346" (at 254 287.02 0)
+    (property "Reference" "#PWR0635" (at 254 287.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "DGND" (at 251.46 284.48 0)
@@ -7299,7 +7299,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "#PWR0346") (unit 1)
+          (reference "#PWR0635") (unit 1)
         )
       )
     )
@@ -7308,7 +7308,7 @@
   (symbol (lib_id "Symbols:OwnTech_SPIN") (at 48.26 185.42 0) (mirror y) (unit 3)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 529408a8-a8cd-4052-9cac-5abb7cdf468c)
-    (property "Reference" "U219" (at 43.18 177.8 0)
+    (property "Reference" "U601" (at 43.18 177.8 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "OwnTech_SPIN" (at 45.72 200.66 0)
@@ -7384,7 +7384,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "U219") (unit 3)
+          (reference "U601") (unit 3)
         )
       )
     )
@@ -7393,7 +7393,7 @@
   (symbol (lib_id "Device:R") (at 229.87 215.9 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 588bd2da-b699-4d9c-95c6-42ef05a33b36)
-    (property "Reference" "R260" (at 227.33 218.44 90)
+    (property "Reference" "R608" (at 227.33 218.44 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7k" (at 236.22 218.44 90)
@@ -7419,7 +7419,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "R260") (unit 1)
+          (reference "R608") (unit 1)
         )
       )
     )
@@ -7428,7 +7428,7 @@
   (symbol (lib_id "Symbols:DGND") (at 351.79 212.09 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5c7ab56c-9e1c-4e3b-9b0a-c93544b7b389)
-    (property "Reference" "#PWR0353" (at 351.79 218.44 0)
+    (property "Reference" "#PWR0642" (at 351.79 218.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "DGND" (at 351.79 216.535 0)
@@ -7444,7 +7444,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "#PWR0353") (unit 1)
+          (reference "#PWR0642") (unit 1)
         )
       )
     )
@@ -7453,7 +7453,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 163.83 184.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5e7d9a95-eaaf-48e3-8a44-4196dd75f112)
-    (property "Reference" "TP239" (at 160.02 179.07 0)
+    (property "Reference" "TP609" (at 160.02 179.07 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 165.735 182.1179 0)
@@ -7472,7 +7472,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "TP239") (unit 1)
+          (reference "TP609") (unit 1)
         )
       )
     )
@@ -7481,7 +7481,7 @@
   (symbol (lib_id "Device:C_Small") (at 203.2 227.33 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5f360229-8ea0-4fa7-9a9a-6f533ffc9fcb)
-    (property "Reference" "C272" (at 198.12 224.79 90)
+    (property "Reference" "C604" (at 198.12 224.79 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 195.58 229.87 90)
@@ -7507,7 +7507,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "C272") (unit 1)
+          (reference "C604") (unit 1)
         )
       )
     )
@@ -7516,7 +7516,7 @@
   (symbol (lib_id "Symbols:DGND") (at 33.02 255.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 62652f2a-6996-4987-b6d8-674b1a990504)
-    (property "Reference" "#PWR0314" (at 33.02 261.62 0)
+    (property "Reference" "#PWR0603" (at 33.02 261.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "DGND" (at 33.02 259.715 0)
@@ -7532,7 +7532,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "#PWR0314") (unit 1)
+          (reference "#PWR0603") (unit 1)
         )
       )
     )
@@ -7541,7 +7541,7 @@
   (symbol (lib_id "power:+3.3V") (at 60.96 228.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 62c8f91e-d081-45a0-b641-212a01ca41a3)
-    (property "Reference" "#PWR0317" (at 60.96 232.41 0)
+    (property "Reference" "#PWR0606" (at 60.96 232.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V_DGND" (at 60.325 224.79 0)
@@ -7557,7 +7557,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "#PWR0317") (unit 1)
+          (reference "#PWR0606") (unit 1)
         )
       )
     )
@@ -7566,7 +7566,7 @@
   (symbol (lib_id "Device:R") (at 260.35 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 65b6a2fd-a13b-4fdc-8d19-281cc2686fe5)
-    (property "Reference" "R269" (at 262.128 101.7016 0)
+    (property "Reference" "R617" (at 262.128 101.7016 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7k" (at 262.128 104.013 0)
@@ -7592,7 +7592,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "R269") (unit 1)
+          (reference "R617") (unit 1)
         )
       )
     )
@@ -7601,7 +7601,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Male") (at 330.2 191.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 66d80a30-b3cc-46b6-bd46-a2d50c33fb2c)
-    (property "Reference" "J206" (at 327.66 193.04 0)
+    (property "Reference" "J601" (at 327.66 193.04 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x02_Male" (at 336.55 188.595 0)
@@ -7624,7 +7624,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "J206") (unit 1)
+          (reference "J601") (unit 1)
         )
       )
     )
@@ -7633,7 +7633,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 165.1 158.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6820296c-522c-4edc-bec3-95bc3004746a)
-    (property "Reference" "TP240" (at 161.29 153.67 0)
+    (property "Reference" "TP610" (at 161.29 153.67 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 167.005 156.7179 0)
@@ -7652,7 +7652,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "TP240") (unit 1)
+          (reference "TP610") (unit 1)
         )
       )
     )
@@ -7661,7 +7661,7 @@
   (symbol (lib_id "power:+5VD") (at 565.15 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6850b729-7c33-4693-8bd5-4665386bd2ab)
-    (property "Reference" "#PWR0360" (at 565.15 59.69 0)
+    (property "Reference" "#PWR0650" (at 565.15 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V_DGND" (at 565.531 51.4858 0)
@@ -7677,7 +7677,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "#PWR0360") (unit 1)
+          (reference "#PWR0650") (unit 1)
         )
       )
     )
@@ -7686,7 +7686,7 @@
   (symbol (lib_id "power:Earth_Protective") (at 332.74 142.24 0) (mirror y) (unit 1)
     (in_bom yes) (on_board no) (dnp no)
     (uuid 6fe2de55-1d6d-4537-8efd-bdf1beddf8f2)
-    (property "Reference" "#PWR0351" (at 326.39 148.59 0)
+    (property "Reference" "#PWR0640" (at 326.39 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth_Protective" (at 332.74 151.13 0)
@@ -7702,7 +7702,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "#PWR0351") (unit 1)
+          (reference "#PWR0640") (unit 1)
         )
       )
     )
@@ -7711,7 +7711,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Male") (at 330.2 199.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 72c08a24-6364-492f-af77-140359a23d7d)
-    (property "Reference" "J207" (at 327.66 200.66 0)
+    (property "Reference" "J602" (at 327.66 200.66 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x02_Male" (at 337.82 203.2 0)
@@ -7734,7 +7734,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "J207") (unit 1)
+          (reference "J602") (unit 1)
         )
       )
     )
@@ -7743,7 +7743,7 @@
   (symbol (lib_id "Device:R") (at 43.18 325.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 738674e7-f727-4652-bb46-ae56a944bae8)
-    (property "Reference" "R254" (at 44.958 323.9516 0)
+    (property "Reference" "R602" (at 44.958 323.9516 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47k" (at 44.958 326.263 0)
@@ -7769,7 +7769,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "R254") (unit 1)
+          (reference "R602") (unit 1)
         )
       )
     )
@@ -7778,7 +7778,7 @@
   (symbol (lib_id "Diode:1N4148WS") (at 264.16 213.36 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 77369cc2-ea49-4f47-b626-d7b0968432d9)
-    (property "Reference" "D211" (at 262.89 209.55 0)
+    (property "Reference" "D601" (at 262.89 209.55 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "PMEG2010AEJ,115" (at 264.16 216.535 0)
@@ -7801,7 +7801,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "D211") (unit 1)
+          (reference "D601") (unit 1)
         )
       )
     )
@@ -7810,7 +7810,7 @@
   (symbol (lib_id "Symbols:DGND") (at 62.23 354.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7b23884d-f67d-48a3-b4cf-f4ac92f4187c)
-    (property "Reference" "#PWR0320" (at 62.23 360.68 0)
+    (property "Reference" "#PWR0609" (at 62.23 360.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "DGND" (at 62.23 358.14 0)
@@ -7826,7 +7826,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "#PWR0320") (unit 1)
+          (reference "#PWR0609") (unit 1)
         )
       )
     )
@@ -7835,7 +7835,7 @@
   (symbol (lib_id "Jumper:SolderJumper_2_Open") (at 359.41 207.01 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7e1fe098-02bc-4003-901b-244ea9c500cc)
-    (property "Reference" "JP218" (at 364.49 205.74 90)
+    (property "Reference" "JP617" (at 364.49 205.74 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Jumper_2_Bridged" (at 356.235 207.01 0)
@@ -7855,7 +7855,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "JP218") (unit 1)
+          (reference "JP617") (unit 1)
         )
       )
     )
@@ -7864,7 +7864,7 @@
   (symbol (lib_id "Jumper:SolderJumper_2_Bridged") (at 140.97 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 837310d0-6a75-453d-83cf-63f4ab5d7a9a)
-    (property "Reference" "JP209" (at 140.97 124.714 0)
+    (property "Reference" "JP609" (at 140.97 124.714 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Jumper_2_Bridged" (at 140.97 123.825 0)
@@ -7884,7 +7884,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "JP209") (unit 1)
+          (reference "JP609") (unit 1)
         )
       )
     )
@@ -7893,7 +7893,7 @@
   (symbol (lib_id "Symbols:DGND") (at 143.51 184.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8819c7f1-040b-4df4-814b-cf075c17f2c3)
-    (property "Reference" "#PWR0329" (at 143.51 190.5 0)
+    (property "Reference" "#PWR0618" (at 143.51 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "DGND" (at 140.97 187.96 0)
@@ -7909,7 +7909,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "#PWR0329") (unit 1)
+          (reference "#PWR0618") (unit 1)
         )
       )
     )
@@ -7918,7 +7918,7 @@
   (symbol (lib_id "Symbols:DGND") (at 220.98 280.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 897a3519-e036-4f68-883a-e18ab2ac275c)
-    (property "Reference" "#PWR0339" (at 220.98 287.02 0)
+    (property "Reference" "#PWR0628" (at 220.98 287.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "DGND" (at 218.44 284.48 0)
@@ -7934,7 +7934,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "#PWR0339") (unit 1)
+          (reference "#PWR0628") (unit 1)
         )
       )
     )
@@ -7943,7 +7943,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 171.45 184.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8ceb62aa-0312-4d35-95f8-b6e108a0cb8e)
-    (property "Reference" "TP244" (at 171.45 179.07 0)
+    (property "Reference" "TP614" (at 171.45 179.07 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TestPoint" (at 173.355 182.1179 0)
@@ -7962,7 +7962,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "TP244") (unit 1)
+          (reference "TP614") (unit 1)
         )
       )
     )
@@ -7971,7 +7971,7 @@
   (symbol (lib_id "Symbols:DGND") (at 74.93 170.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8e14d590-df85-4683-9c2c-5d32e82dfb64)
-    (property "Reference" "#PWR0322" (at 74.93 176.53 0)
+    (property "Reference" "#PWR0611" (at 74.93 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "DGND" (at 74.93 173.99 0)
@@ -7987,7 +7987,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "#PWR0322") (unit 1)
+          (reference "#PWR0611") (unit 1)
         )
       )
     )
@@ -7996,7 +7996,7 @@
   (symbol (lib_id "Symbols:DGND") (at 260.35 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 914c80a4-10cb-4be4-9c30-5d106d81ef94)
-    (property "Reference" "#PWR0348" (at 260.35 114.3 0)
+    (property "Reference" "#PWR0637" (at 260.35 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "DGND" (at 260.35 112.395 0)
@@ -8012,7 +8012,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "#PWR0348") (unit 1)
+          (reference "#PWR0637") (unit 1)
         )
       )
     )
@@ -8021,7 +8021,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 143.51 171.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9247ed6e-7787-47bc-922a-0798ce0da4ce)
-    (property "Reference" "TP236" (at 140.97 166.37 0)
+    (property "Reference" "TP606" (at 140.97 166.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 145.415 169.4179 0)
@@ -8040,7 +8040,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "TP236") (unit 1)
+          (reference "TP606") (unit 1)
         )
       )
     )
@@ -8049,7 +8049,7 @@
   (symbol (lib_id "Device:Thermistor") (at 60.96 247.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 94168de8-b862-48aa-b09e-4e149cedfb3e)
-    (property "Reference" "TH202" (at 63.627 246.4816 0)
+    (property "Reference" "TH602" (at 63.627 246.4816 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "NXFT15XH103FA2B100 " (at 63.627 248.793 0)
@@ -8072,7 +8072,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "TH202") (unit 1)
+          (reference "TH602") (unit 1)
         )
       )
     )
@@ -8081,7 +8081,7 @@
   (symbol (lib_id "Jumper:Jumper_2_Bridged") (at 260.35 73.66 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9453ac4e-f975-4d37-829a-fd80f1f67e82)
-    (property "Reference" "JP215" (at 261.62 73.66 90)
+    (property "Reference" "JP615" (at 261.62 73.66 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Jumper" (at 267.335 74.295 90)
@@ -8104,7 +8104,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "JP215") (unit 1)
+          (reference "JP615") (unit 1)
         )
       )
     )
@@ -8113,7 +8113,7 @@
   (symbol (lib_id "Device:R") (at 260.35 265.43 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9a1d9814-b8c4-422e-ae7b-bfc18a8325c3)
-    (property "Reference" "R271" (at 257.81 267.97 90)
+    (property "Reference" "R619" (at 257.81 267.97 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7k" (at 266.7 267.97 90)
@@ -8139,7 +8139,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "R271") (unit 1)
+          (reference "R619") (unit 1)
         )
       )
     )
@@ -8148,7 +8148,7 @@
   (symbol (lib_id "Device:R") (at 234.95 248.92 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9b077ccb-2949-4924-87a7-660771473c84)
-    (property "Reference" "R261" (at 229.87 247.65 90)
+    (property "Reference" "R609" (at 229.87 247.65 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7k" (at 242.57 247.65 90)
@@ -8174,7 +8174,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "R261") (unit 1)
+          (reference "R609") (unit 1)
         )
       )
     )
@@ -8183,7 +8183,7 @@
   (symbol (lib_id "Device:R") (at 251.46 147.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9b52fe24-f3ea-4cd1-bdc6-74c04de07e2f)
-    (property "Reference" "R263" (at 253.238 146.1516 0)
+    (property "Reference" "R611" (at 253.238 146.1516 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "59R" (at 253.238 148.463 0)
@@ -8206,7 +8206,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "R263") (unit 1)
+          (reference "R611") (unit 1)
         )
       )
     )
@@ -8215,7 +8215,7 @@
   (symbol (lib_id "Symbols:OwnTech_SPIN") (at 58.42 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9b5e7ec6-4e02-4da4-a240-587169ac5293)
-    (property "Reference" "U219" (at 60.96 87.63 0)
+    (property "Reference" "U601" (at 60.96 87.63 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "OwnTech_SPIN" (at 53.34 152.4 0)
@@ -8291,7 +8291,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "U219") (unit 1)
+          (reference "U601") (unit 1)
         )
       )
     )
@@ -8300,7 +8300,7 @@
   (symbol (lib_id "Jumper:SolderJumper_2_Bridged") (at 140.97 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9c5d94f7-8f84-4e16-ad54-64f803f791de)
-    (property "Reference" "JP208" (at 140.97 118.364 0)
+    (property "Reference" "JP608" (at 140.97 118.364 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Jumper_2_Bridged" (at 140.97 117.475 0)
@@ -8320,7 +8320,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "JP208") (unit 1)
+          (reference "JP608") (unit 1)
         )
       )
     )
@@ -8329,7 +8329,7 @@
   (symbol (lib_id "Device:C_Small") (at 259.08 157.48 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9cf13882-5d95-451c-b51e-74a19e9409e9)
-    (property "Reference" "C278" (at 257.9116 155.1432 90)
+    (property "Reference" "C610" (at 257.9116 155.1432 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 266.7 154.94 90)
@@ -8355,7 +8355,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "C278") (unit 1)
+          (reference "C610") (unit 1)
         )
       )
     )
@@ -8364,7 +8364,7 @@
   (symbol (lib_id "power:+5VD") (at 207.01 224.79 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a19acf9f-24f6-42dc-bca9-14e37a15793b)
-    (property "Reference" "#PWR0336" (at 207.01 228.6 0)
+    (property "Reference" "#PWR0625" (at 207.01 228.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V_DGND" (at 207.01 219.71 0)
@@ -8380,22 +8380,22 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "#PWR0336") (unit 1)
+          (reference "#PWR0625") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:R") (at 201.93 87.63 0) (unit 1)
+  (symbol (lib_id "Device:R") (at 201.93 87.63 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a6a70449-1dbd-4657-9f6a-1f2187695b0a)
-    (property "Reference" "R257" (at 203.708 86.4616 0)
+    (property "Reference" "R605" (at 200.152 86.4616 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "4.7k" (at 203.708 88.773 0)
+    (property "Value" "4.7k" (at 200.152 88.773 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Footprints:R_0805_2012Metric" (at 200.152 87.63 90)
+    (property "Footprint" "Footprints:R_0805_2012Metric" (at 203.708 87.63 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 201.93 87.63 0)
@@ -8415,7 +8415,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "R257") (unit 1)
+          (reference "R605") (unit 1)
         )
       )
     )
@@ -8424,7 +8424,7 @@
   (symbol (lib_id "Symbols:DGND") (at 410.21 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid acb61fa9-55b3-42b3-98ba-16a95e1bb5de)
-    (property "Reference" "#PWR0356" (at 410.21 96.52 0)
+    (property "Reference" "#PWR0646" (at 410.21 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "DGND" (at 410.21 93.98 0)
@@ -8440,7 +8440,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "#PWR0356") (unit 1)
+          (reference "#PWR0646") (unit 1)
         )
       )
     )
@@ -8449,7 +8449,7 @@
   (symbol (lib_id "Jumper:SolderJumper_2_Open") (at 208.28 262.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b31be177-8d81-402c-926c-79a5f159527b)
-    (property "Reference" "JP210" (at 208.28 260.604 0)
+    (property "Reference" "JP610" (at 208.28 260.604 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Jumper_2_Bridged" (at 208.28 259.715 0)
@@ -8469,7 +8469,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "JP210") (unit 1)
+          (reference "JP610") (unit 1)
         )
       )
     )
@@ -8478,7 +8478,7 @@
   (symbol (lib_id "power:+3.3V") (at 107.95 102.87 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b33e6cbc-4e6a-464e-88f3-910f92ac4788)
-    (property "Reference" "#PWR0325" (at 107.95 106.68 0)
+    (property "Reference" "#PWR0614" (at 107.95 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V_DGND" (at 107.95 99.06 0)
@@ -8494,7 +8494,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "#PWR0325") (unit 1)
+          (reference "#PWR0614") (unit 1)
         )
       )
     )
@@ -8503,7 +8503,7 @@
   (symbol (lib_id "Amplifier_Operational:TLV6001DCK") (at 69.85 328.93 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b4e81ca0-e700-4c15-96b6-e3076b5847af)
-    (property "Reference" "U220" (at 74.93 332.74 0)
+    (property "Reference" "U602" (at 74.93 332.74 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "OPA316" (at 74.93 335.28 0)
@@ -8529,7 +8529,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "U220") (unit 1)
+          (reference "U602") (unit 1)
         )
       )
     )
@@ -8538,7 +8538,7 @@
   (symbol (lib_id "Jumper:SolderJumper_2_Bridged") (at 139.7 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b91a2423-d260-416d-8a74-ddce1e6314f2)
-    (property "Reference" "JP203" (at 139.7 82.804 0)
+    (property "Reference" "JP603" (at 139.7 82.804 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Jumper_2_Bridged" (at 139.7 81.915 0)
@@ -8558,7 +8558,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "JP203") (unit 1)
+          (reference "JP603") (unit 1)
         )
       )
     )
@@ -8567,7 +8567,7 @@
   (symbol (lib_id "Symbols:OwnTech_SPIN") (at 31.75 187.96 0) (mirror y) (unit 2)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b969fa66-9049-4375-b4de-4ec81ea0c316)
-    (property "Reference" "U219" (at 26.67 180.34 0)
+    (property "Reference" "U601" (at 26.67 180.34 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "OwnTech_SPIN" (at 29.21 198.12 0)
@@ -8643,7 +8643,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "U219") (unit 2)
+          (reference "U601") (unit 2)
         )
       )
     )
@@ -8652,7 +8652,7 @@
   (symbol (lib_id "Device:R") (at 260.35 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c092962a-291f-4b2d-9daf-3fc67b56e59d)
-    (property "Reference" "R268" (at 262.128 81.3816 0)
+    (property "Reference" "R616" (at 262.128 81.3816 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "120R" (at 262.128 83.693 0)
@@ -8678,7 +8678,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "R268") (unit 1)
+          (reference "R616") (unit 1)
         )
       )
     )
@@ -8687,7 +8687,7 @@
   (symbol (lib_id "Symbols:DGND") (at 269.24 160.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c1cba4b6-919c-4dc3-8b6c-52d961dbd9f2)
-    (property "Reference" "#PWR0349" (at 269.24 166.37 0)
+    (property "Reference" "#PWR0638" (at 269.24 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "DGND" (at 269.24 164.465 0)
@@ -8703,7 +8703,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "#PWR0349") (unit 1)
+          (reference "#PWR0638") (unit 1)
         )
       )
     )
@@ -8712,7 +8712,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 135.89 184.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c3455c0a-25b9-4f0a-a291-a9bc82cf22ee)
-    (property "Reference" "TP233" (at 132.08 179.07 0)
+    (property "Reference" "TP603" (at 132.08 179.07 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 137.795 182.1179 0)
@@ -8731,7 +8731,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "TP233") (unit 1)
+          (reference "TP603") (unit 1)
         )
       )
     )
@@ -8740,7 +8740,7 @@
   (symbol (lib_id "Symbols:DGND") (at 171.45 158.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c41a187b-2117-4abc-afcf-8fe9a10fbd2c)
-    (property "Reference" "#PWR0331" (at 171.45 165.1 0)
+    (property "Reference" "#PWR0620" (at 171.45 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "DGND" (at 168.91 162.56 0)
@@ -8756,7 +8756,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "#PWR0331") (unit 1)
+          (reference "#PWR0620") (unit 1)
         )
       )
     )
@@ -8765,7 +8765,7 @@
   (symbol (lib_id "Symbols:DGND") (at 171.45 184.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c5809c0e-0c2a-461e-977f-38a37cc134ef)
-    (property "Reference" "#PWR0333" (at 171.45 190.5 0)
+    (property "Reference" "#PWR0622" (at 171.45 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "DGND" (at 168.91 187.96 0)
@@ -8781,7 +8781,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "#PWR0333") (unit 1)
+          (reference "#PWR0622") (unit 1)
         )
       )
     )
@@ -8790,7 +8790,7 @@
   (symbol (lib_id "Jumper:SolderJumper_2_Bridged") (at 215.9 210.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c89bf550-d802-49bd-9b76-b37ae10c7ea3)
-    (property "Reference" "JP212" (at 215.9 208.534 0)
+    (property "Reference" "JP612" (at 215.9 208.534 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Jumper_2_Bridged" (at 215.9 207.645 0)
@@ -8810,7 +8810,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "JP212") (unit 1)
+          (reference "JP612") (unit 1)
         )
       )
     )
@@ -8819,7 +8819,7 @@
   (symbol (lib_id "Jumper:SolderJumper_2_Open") (at 260.35 93.98 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c8a6f40e-eec4-4a44-9f67-1d69af599876)
-    (property "Reference" "JP216" (at 266.7 93.98 90)
+    (property "Reference" "JP616" (at 266.7 93.98 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Jumper_2_Bridged" (at 263.525 93.98 0)
@@ -8839,7 +8839,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "JP216") (unit 1)
+          (reference "JP616") (unit 1)
         )
       )
     )
@@ -8848,7 +8848,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 143.51 184.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cabb1568-71bd-4868-b951-e5b80c38f9ec)
-    (property "Reference" "TP237" (at 140.97 179.07 0)
+    (property "Reference" "TP607" (at 140.97 179.07 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 145.415 182.1179 0)
@@ -8867,7 +8867,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "TP237") (unit 1)
+          (reference "TP607") (unit 1)
         )
       )
     )
@@ -8876,7 +8876,7 @@
   (symbol (lib_id "power:+5VD") (at 260.35 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cde6839a-1d6e-4de1-8941-7d50ef5f8f8a)
-    (property "Reference" "#PWR0347" (at 260.35 48.26 0)
+    (property "Reference" "#PWR0636" (at 260.35 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V_DGND" (at 260.35 39.37 0)
@@ -8892,7 +8892,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "#PWR0347") (unit 1)
+          (reference "#PWR0636") (unit 1)
         )
       )
     )
@@ -8901,7 +8901,7 @@
   (symbol (lib_id "Device:R") (at 254 274.32 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ceafa880-2361-45c0-b3c7-4346dbbc69e8)
-    (property "Reference" "R265" (at 256.54 273.05 0)
+    (property "Reference" "R613" (at 256.54 273.05 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7k" (at 256.54 275.59 0)
@@ -8927,7 +8927,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "R265") (unit 1)
+          (reference "R613") (unit 1)
         )
       )
     )
@@ -8936,7 +8936,7 @@
   (symbol (lib_name "C_Small_5") (lib_id "Device:C_Small") (at 62.23 349.25 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cfac5ff4-feca-4c95-a6bf-02e1c9566ad0)
-    (property "Reference" "C270" (at 59.69 347.98 0)
+    (property "Reference" "C602" (at 59.69 347.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 59.69 349.885 0)
@@ -8962,7 +8962,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "C270") (unit 1)
+          (reference "C602") (unit 1)
         )
       )
     )
@@ -8971,7 +8971,7 @@
   (symbol (lib_id "Jumper:SolderJumper_2_Open") (at 260.35 59.69 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d348dd0b-3ff9-4e32-864c-d2356e2b2250)
-    (property "Reference" "JP214" (at 266.7 59.69 90)
+    (property "Reference" "JP614" (at 266.7 59.69 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Jumper_2_Bridged" (at 263.525 59.69 0)
@@ -8991,7 +8991,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "JP214") (unit 1)
+          (reference "JP614") (unit 1)
         )
       )
     )
@@ -9000,7 +9000,7 @@
   (symbol (lib_id "Device:R") (at 247.65 201.93 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d6dfaacc-53c5-41c9-9dc6-914f32b201a1)
-    (property "Reference" "R262" (at 246.38 199.39 90)
+    (property "Reference" "R610" (at 246.38 199.39 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7k" (at 246.38 204.47 90)
@@ -9026,7 +9026,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "R262") (unit 1)
+          (reference "R610") (unit 1)
         )
       )
     )
@@ -9035,7 +9035,7 @@
   (symbol (lib_id "Device:R") (at 226.06 262.89 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d77ef2ef-5496-4d68-a394-f1a5d8e4030a)
-    (property "Reference" "R258" (at 224.79 260.35 90)
+    (property "Reference" "R606" (at 224.79 260.35 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "120R" (at 232.41 260.35 90)
@@ -9061,7 +9061,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "R258") (unit 1)
+          (reference "R606") (unit 1)
         )
       )
     )
@@ -9070,7 +9070,7 @@
   (symbol (lib_id "Device:R") (at 43.18 340.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d7b271b2-bad3-4eb7-bdf1-cae86ca2a652)
-    (property "Reference" "R255" (at 44.958 339.1916 0)
+    (property "Reference" "R603" (at 44.958 339.1916 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "12k" (at 44.958 341.503 0)
@@ -9096,7 +9096,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "R255") (unit 1)
+          (reference "R603") (unit 1)
         )
       )
     )
@@ -9105,7 +9105,7 @@
   (symbol (lib_id "Jumper:SolderJumper_2_Bridged") (at 139.7 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d9ed3b21-9902-431b-9d3c-0fd11056554c)
-    (property "Reference" "JP204" (at 139.7 88.265 0)
+    (property "Reference" "JP604" (at 139.7 88.265 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Jumper_2_Bridged" (at 139.7 86.995 0)
@@ -9125,7 +9125,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "JP204") (unit 1)
+          (reference "JP604") (unit 1)
         )
       )
     )
@@ -9134,7 +9134,7 @@
   (symbol (lib_id "Device:C_Small") (at 220.98 271.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid db44bf11-842f-4b7e-bcfc-24cc5b775dd6)
-    (property "Reference" "C273" (at 223.3168 270.6116 0)
+    (property "Reference" "C605" (at 223.3168 270.6116 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "15nF" (at 223.52 273.05 0)
@@ -9157,7 +9157,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "C273") (unit 1)
+          (reference "C605") (unit 1)
         )
       )
     )
@@ -9166,7 +9166,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 165.1 171.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dd5717ec-a56a-4bd8-a29d-a800056d7ee1)
-    (property "Reference" "TP241" (at 161.29 166.37 0)
+    (property "Reference" "TP611" (at 161.29 166.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 167.005 169.4179 0)
@@ -9185,7 +9185,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "TP241") (unit 1)
+          (reference "TP611") (unit 1)
         )
       )
     )
@@ -9194,7 +9194,7 @@
   (symbol (lib_id "Device:R") (at 229.87 210.82 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ddcddc65-f607-4e83-a2c8-a3ba54dfc61d)
-    (property "Reference" "R259" (at 228.6 208.28 90)
+    (property "Reference" "R607" (at 228.6 208.28 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7k" (at 236.22 208.28 90)
@@ -9220,7 +9220,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "R259") (unit 1)
+          (reference "R607") (unit 1)
         )
       )
     )
@@ -9229,7 +9229,7 @@
   (symbol (lib_id "power:+5VD") (at 43.18 320.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e00ad115-b2e0-48f0-b89e-4aa7af437bf7)
-    (property "Reference" "#PWR0315" (at 43.18 323.85 0)
+    (property "Reference" "#PWR0604" (at 43.18 323.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V_DGND" (at 43.18 316.23 0)
@@ -9245,7 +9245,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "#PWR0315") (unit 1)
+          (reference "#PWR0604") (unit 1)
         )
       )
     )
@@ -9254,7 +9254,7 @@
   (symbol (lib_id "Device:Polyfuse_Small") (at 341.63 184.15 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e0cead4e-e091-43b5-adaa-94837cf1d25d)
-    (property "Reference" "F205" (at 337.82 181.61 0)
+    (property "Reference" "F601" (at 337.82 181.61 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "350mA" (at 336.55 184.15 0)
@@ -9277,7 +9277,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "F205") (unit 1)
+          (reference "F601") (unit 1)
         )
       )
     )
@@ -9286,7 +9286,7 @@
   (symbol (lib_id "Symbols:DGND") (at 228.6 168.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e21505bf-5071-4b58-b7aa-dedc33bb414a)
-    (property "Reference" "#PWR0341" (at 228.6 175.26 0)
+    (property "Reference" "#PWR0630" (at 228.6 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "DGND" (at 228.6 173.355 0)
@@ -9302,7 +9302,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "#PWR0341") (unit 1)
+          (reference "#PWR0630") (unit 1)
         )
       )
     )
@@ -9311,7 +9311,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 135.89 171.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e2a4cd89-72af-465f-b01c-a2795fa07ccd)
-    (property "Reference" "TP232" (at 132.08 166.37 0)
+    (property "Reference" "TP602" (at 132.08 166.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 137.795 169.4179 0)
@@ -9330,7 +9330,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "TP232") (unit 1)
+          (reference "TP602") (unit 1)
         )
       )
     )
@@ -9339,7 +9339,7 @@
   (symbol (lib_id "Device:C_Small") (at 71.12 307.34 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e321d67d-0523-4629-beb3-cd80e4d384ff)
-    (property "Reference" "C271" (at 67.945 302.26 90)
+    (property "Reference" "C603" (at 67.945 302.26 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "20pF" (at 67.945 304.165 90)
@@ -9365,7 +9365,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "C271") (unit 1)
+          (reference "C603") (unit 1)
         )
       )
     )
@@ -9374,7 +9374,7 @@
   (symbol (lib_id "power:+5VP") (at 570.23 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e43ee85d-9949-4fa7-ae63-10a2e787824a)
-    (property "Reference" "#PWR0361" (at 570.23 64.77 0)
+    (property "Reference" "#PWR0651" (at 570.23 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5VP" (at 570.23 57.15 0)
@@ -9390,7 +9390,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "#PWR0361") (unit 1)
+          (reference "#PWR0651") (unit 1)
         )
       )
     )
@@ -9399,7 +9399,7 @@
   (symbol (lib_id "Symbols:DGND") (at 201.93 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e63bda25-3c7a-4787-a6c8-4248abc690c8)
-    (property "Reference" "#PWR0335" (at 201.93 97.79 0)
+    (property "Reference" "#PWR0624" (at 201.93 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "DGND" (at 201.93 95.885 0)
@@ -9415,7 +9415,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "#PWR0335") (unit 1)
+          (reference "#PWR0624") (unit 1)
         )
       )
     )
@@ -9424,7 +9424,7 @@
   (symbol (lib_id "Symbols:DGND") (at 171.45 171.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e70581ae-47ae-4f9f-a496-4611ab97171b)
-    (property "Reference" "#PWR0332" (at 171.45 177.8 0)
+    (property "Reference" "#PWR0621" (at 171.45 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "DGND" (at 168.91 175.26 0)
@@ -9440,7 +9440,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "#PWR0332") (unit 1)
+          (reference "#PWR0621") (unit 1)
         )
       )
     )
@@ -9449,7 +9449,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 171.45 171.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid eb66f522-5124-437d-83b8-4e79871236a8)
-    (property "Reference" "TP243" (at 168.91 166.37 0)
+    (property "Reference" "TP613" (at 168.91 166.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 173.355 169.4179 0)
@@ -9468,7 +9468,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "TP243") (unit 1)
+          (reference "TP613") (unit 1)
         )
       )
     )
@@ -9477,7 +9477,7 @@
   (symbol (lib_id "Jumper:SolderJumper_2_Bridged") (at 139.7 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ee39475e-d721-4efc-a8c0-93d7bb311d86)
-    (property "Reference" "JP205" (at 139.7 93.345 0)
+    (property "Reference" "JP605" (at 139.7 93.345 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Jumper_2_Bridged" (at 139.7 92.075 0)
@@ -9497,7 +9497,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "JP205") (unit 1)
+          (reference "JP605") (unit 1)
         )
       )
     )
@@ -9506,7 +9506,7 @@
   (symbol (lib_id "power:+6V") (at 346.71 168.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid efd324a6-58c8-46b3-8ac7-5dedfbc04a00)
-    (property "Reference" "#PWR0352" (at 346.71 172.72 0)
+    (property "Reference" "#PWR0641" (at 346.71 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+6V_DGND" (at 346.71 165.1 0)
@@ -9522,7 +9522,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "#PWR0352") (unit 1)
+          (reference "#PWR0641") (unit 1)
         )
       )
     )
@@ -9531,7 +9531,7 @@
   (symbol (lib_name "OPA2277_1") (lib_id "Amplifier_Operational:OPA2277") (at 251.46 213.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f03b2ce5-0156-4968-9d9b-1e4a349ba088)
-    (property "Reference" "U221" (at 254 207.01 0)
+    (property "Reference" "U603" (at 254 207.01 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "OPA2277" (at 259.08 209.55 0)
@@ -9560,7 +9560,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "U221") (unit 1)
+          (reference "U603") (unit 1)
         )
       )
     )
@@ -9569,7 +9569,7 @@
   (symbol (lib_id "Symbols:DGND") (at 114.3 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f1dbb1a2-2124-49d6-8668-a4fb25173229)
-    (property "Reference" "#PWR0326" (at 114.3 151.13 0)
+    (property "Reference" "#PWR0615" (at 114.3 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "DGND" (at 114.3 149.225 0)
@@ -9585,7 +9585,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "#PWR0326") (unit 1)
+          (reference "#PWR0615") (unit 1)
         )
       )
     )
@@ -9594,7 +9594,7 @@
   (symbol (lib_id "Symbols:DGND") (at 143.51 171.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f1fde7f6-6578-4f32-a43a-ab36191c275e)
-    (property "Reference" "#PWR0328" (at 143.51 177.8 0)
+    (property "Reference" "#PWR0617" (at 143.51 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "DGND" (at 140.97 175.26 0)
@@ -9610,7 +9610,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "#PWR0328") (unit 1)
+          (reference "#PWR0617") (unit 1)
         )
       )
     )
@@ -9619,7 +9619,7 @@
   (symbol (lib_id "Symbols:DGND") (at 207.01 248.92 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f2e261dd-3940-473c-bab5-dea6f78c5a3b)
-    (property "Reference" "#PWR0337" (at 207.01 255.27 0)
+    (property "Reference" "#PWR0626" (at 207.01 255.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "DGND" (at 209.55 252.73 0)
@@ -9635,7 +9635,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "#PWR0337") (unit 1)
+          (reference "#PWR0626") (unit 1)
         )
       )
     )
@@ -9644,7 +9644,7 @@
   (symbol (lib_id "Jumper:SolderJumper_2_Bridged") (at 208.28 269.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f3001e82-85da-473d-a742-2373964e0441)
-    (property "Reference" "JP211" (at 208.28 266.954 0)
+    (property "Reference" "JP611" (at 208.28 266.954 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Jumper_2_Bridged" (at 208.28 266.065 0)
@@ -9664,7 +9664,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "JP211") (unit 1)
+          (reference "JP611") (unit 1)
         )
       )
     )
@@ -9673,7 +9673,7 @@
   (symbol (lib_id "Symbols:DGND") (at 143.51 158.75 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f3178c27-2aeb-4e1a-a50b-8820eb8dbc20)
-    (property "Reference" "#PWR0327" (at 143.51 165.1 0)
+    (property "Reference" "#PWR0616" (at 143.51 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "DGND" (at 146.05 162.56 0)
@@ -9689,7 +9689,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "#PWR0327") (unit 1)
+          (reference "#PWR0616") (unit 1)
         )
       )
     )
@@ -9698,7 +9698,7 @@
   (symbol (lib_id "Symbols:Inverter_Architecture") (at 400.05 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f61b8422-a755-4d12-813a-a0ea83353e92)
-    (property "Reference" "P201" (at 402.59 26.67 0)
+    (property "Reference" "P601" (at 402.59 26.67 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Inverter_Architecture" (at 472.44 29.21 0)
@@ -9710,15 +9710,15 @@
     (property "Datasheet" "" (at 416.5092 21.9202 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 44e8cd76-8f96-41f0-ae16-86c43e8755c8))
-    (pin "" (uuid 44e8cd76-8f96-41f0-ae16-86c43e8755c8))
-    (pin "" (uuid 44e8cd76-8f96-41f0-ae16-86c43e8755c8))
-    (pin "1" (uuid 5d005bf0-11d2-4fbf-8679-61ff5c73231e))
-    (pin "1" (uuid 5d005bf0-11d2-4fbf-8679-61ff5c73231e))
-    (pin "1" (uuid 5d005bf0-11d2-4fbf-8679-61ff5c73231e))
-    (pin "13" (uuid f2cff0f7-5730-4580-a36c-6e72d09a3af2))
-    (pin "13" (uuid f2cff0f7-5730-4580-a36c-6e72d09a3af2))
-    (pin "13" (uuid f2cff0f7-5730-4580-a36c-6e72d09a3af2))
+    (pin "" (uuid 44e8cd76-8f96-41f0-ae16-86c43e8755ca))
+    (pin "" (uuid 44e8cd76-8f96-41f0-ae16-86c43e8755ca))
+    (pin "" (uuid 44e8cd76-8f96-41f0-ae16-86c43e8755ca))
+    (pin "1" (uuid 5d005bf0-11d2-4fbf-8679-61ff5c732320))
+    (pin "1" (uuid 5d005bf0-11d2-4fbf-8679-61ff5c732320))
+    (pin "1" (uuid 5d005bf0-11d2-4fbf-8679-61ff5c732320))
+    (pin "13" (uuid f2cff0f7-5730-4580-a36c-6e72d09a3af4))
+    (pin "13" (uuid f2cff0f7-5730-4580-a36c-6e72d09a3af4))
+    (pin "13" (uuid f2cff0f7-5730-4580-a36c-6e72d09a3af4))
     (pin "15" (uuid f92d3ad0-2c67-48c4-bc05-16f2f4568e49))
     (pin "17" (uuid 51292e53-c7d1-4ac3-86ec-5cc2a620bf38))
     (pin "19" (uuid b3e184a1-ae41-4578-bc78-b10715f97990))
@@ -9727,18 +9727,18 @@
     (pin "27" (uuid a4ce9fc0-37c3-4726-8bb9-369fb4558739))
     (pin "28" (uuid 85e9a66b-e35b-4621-bdbd-308e84631029))
     (pin "29" (uuid 235b1b96-7f83-4927-a5a7-dfd68f2839ca))
-    (pin "3" (uuid d267d5d3-9210-4a56-b6af-eb4e49d907b3))
-    (pin "3" (uuid d267d5d3-9210-4a56-b6af-eb4e49d907b3))
-    (pin "3" (uuid d267d5d3-9210-4a56-b6af-eb4e49d907b3))
+    (pin "3" (uuid d267d5d3-9210-4a56-b6af-eb4e49d907b5))
+    (pin "3" (uuid d267d5d3-9210-4a56-b6af-eb4e49d907b5))
+    (pin "3" (uuid d267d5d3-9210-4a56-b6af-eb4e49d907b5))
     (pin "30" (uuid f44e4241-997c-4ab9-88de-5852a71b3c35))
-    (pin "33" (uuid 05be5a34-61c3-4e4a-b9b2-588a0585fa90))
-    (pin "33" (uuid 05be5a34-61c3-4e4a-b9b2-588a0585fa90))
-    (pin "33" (uuid 05be5a34-61c3-4e4a-b9b2-588a0585fa90))
-    (pin "33" (uuid 05be5a34-61c3-4e4a-b9b2-588a0585fa90))
+    (pin "33" (uuid 05be5a34-61c3-4e4a-b9b2-588a0585fa93))
+    (pin "33" (uuid 05be5a34-61c3-4e4a-b9b2-588a0585fa93))
+    (pin "33" (uuid 05be5a34-61c3-4e4a-b9b2-588a0585fa93))
+    (pin "33" (uuid 05be5a34-61c3-4e4a-b9b2-588a0585fa93))
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "P201") (unit 1)
+          (reference "P601") (unit 1)
         )
       )
     )
@@ -9747,7 +9747,7 @@
   (symbol (lib_id "Device:C_Small") (at 234.95 242.57 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f6f23212-781c-4f46-b2b8-d02b37b17fa2)
-    (property "Reference" "C275" (at 229.87 241.3 90)
+    (property "Reference" "C607" (at 229.87 241.3 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "20pF" (at 241.3 241.3 90)
@@ -9773,7 +9773,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "C275") (unit 1)
+          (reference "C607") (unit 1)
         )
       )
     )
@@ -9782,7 +9782,7 @@
   (symbol (lib_id "Device:R") (at 251.46 166.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f817709c-5fb5-4821-a246-3d69ce46c0ae)
-    (property "Reference" "R264" (at 253.238 165.2016 0)
+    (property "Reference" "R612" (at 253.238 165.2016 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "59R" (at 253.238 167.513 0)
@@ -9805,7 +9805,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "R264") (unit 1)
+          (reference "R612") (unit 1)
         )
       )
     )
@@ -9814,7 +9814,7 @@
   (symbol (lib_name "OPA2277_1") (lib_id "Amplifier_Operational:OPA2277") (at 240.03 262.89 180) (unit 2)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f9ee24e7-8cf3-47d6-9a3d-3ada75d8a0c9)
-    (property "Reference" "U221" (at 232.41 255.27 0)
+    (property "Reference" "U603" (at 232.41 255.27 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "OPA2277" (at 232.41 257.81 0)
@@ -9843,7 +9843,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "U221") (unit 2)
+          (reference "U603") (unit 2)
         )
       )
     )
@@ -9852,7 +9852,7 @@
   (symbol (lib_id "Jumper:SolderJumper_2_Bridged") (at 140.97 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fd4ee4aa-a2af-4762-8d1a-77d5a98a54bf)
-    (property "Reference" "JP207" (at 140.97 109.474 0)
+    (property "Reference" "JP607" (at 140.97 109.474 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Jumper_2_Bridged" (at 140.97 108.585 0)
@@ -9872,7 +9872,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "JP207") (unit 1)
+          (reference "JP607") (unit 1)
         )
       )
     )
@@ -9881,7 +9881,7 @@
   (symbol (lib_id "Device:R") (at 60.96 233.68 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fe1f9800-0452-41e8-bce3-b2c5c1c99eeb)
-    (property "Reference" "R256" (at 58.42 233.045 0)
+    (property "Reference" "R604" (at 58.42 233.045 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "20k" (at 58.42 234.95 0)
@@ -9910,7 +9910,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "R256") (unit 1)
+          (reference "R604") (unit 1)
         )
       )
     )
