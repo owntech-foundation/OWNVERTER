@@ -4099,7 +4099,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid d312b717-d00c-44a3-8703-8155d0a4ef8f)
   )
-  (label "HRTIM_CHE2" (at 160.02 100.33 180) (fields_autoplaced)
+  (label "HRTIM_CHF2" (at 160.02 100.33 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid d3e87210-5a07-4949-95ca-b0c24c954a33)
   )
