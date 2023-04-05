@@ -7075,7 +7075,7 @@
     (property "DNP" "" (at 379.73 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 06829be7-965d-4c0f-8203-c228f3e2788a))
+    (pin "" (uuid cbc467d7-d930-4d65-8520-043e4b30de55))
     (pin "" (uuid cbc467d7-d930-4d65-8520-043e4b30de55))
     (instances
       (project "inverter"

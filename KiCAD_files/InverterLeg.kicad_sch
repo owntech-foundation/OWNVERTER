@@ -3699,8 +3699,8 @@
     (pin "5" (uuid 58f4a560-1088-4888-821d-a700cb2f9ac5))
     (pin "6" (uuid 6bf9bd2e-f2f6-489d-90cf-08ead876d05e))
     (pin "7" (uuid 0bcc7c25-967e-46b7-8c05-cf75dee5f195))
-    (pin "8" (uuid 560a8a6d-c4da-4deb-be55-6c5bcf8b196f))
-    (pin "8" (uuid 560a8a6d-c4da-4deb-be55-6c5bcf8b196f))
+    (pin "8" (uuid 560a8a6d-c4da-4deb-be55-6c5bcf8b1970))
+    (pin "8" (uuid 560a8a6d-c4da-4deb-be55-6c5bcf8b1970))
     (pin "9" (uuid 754c52cb-daa7-4ac8-a871-a2592e196963))
     (instances
       (project "inverter"
