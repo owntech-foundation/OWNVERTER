@@ -6006,7 +6006,7 @@
     (property "Reference" "C604" (at 193.04 193.04 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100nF" (at 190.5 198.12 90)
+    (property "Value" "100nF" (at 193.04 198.12 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Footprints:C_0805_2012Metric" (at 198.12 195.58 0)

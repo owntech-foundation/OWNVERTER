@@ -3827,6 +3827,11 @@
     (fill (type none))
     (uuid 49910b55-db8d-4416-85ad-e35ed3c641fc)
   )
+  (rectangle (start 365.76 54.61) (end 401.32 73.66)
+    (stroke (width 0) (type dash) (color 255 21 0 1))
+    (fill (type none))
+    (uuid 508f56e2-7f5e-4f0c-a508-b14f67f9b17a)
+  )
   (rectangle (start 304.8 81.28) (end 405.13 146.05)
     (stroke (width 0) (type default))
     (fill (type none))
@@ -7075,8 +7080,8 @@
     (property "DNP" "" (at 379.73 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid cbc467d7-d930-4d65-8520-043e4b30de55))
-    (pin "" (uuid cbc467d7-d930-4d65-8520-043e4b30de55))
+    (pin "" (uuid cbc467d7-d930-4d65-8520-043e4b30de59))
+    (pin "" (uuid cbc467d7-d930-4d65-8520-043e4b30de59))
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"

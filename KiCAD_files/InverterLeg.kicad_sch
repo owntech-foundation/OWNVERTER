@@ -1772,17 +1772,11 @@
   (junction (at 240.03 151.13) (diameter 0) (color 0 0 0 0)
     (uuid 605a7c30-cb00-451f-a3f7-bf0b2336ae17)
   )
-  (junction (at 283.21 54.61) (diameter 0) (color 0 0 0 0)
-    (uuid 61b5c6b6-ac48-41bd-868b-fda92239aa01)
-  )
   (junction (at 271.78 154.94) (diameter 0) (color 0 0 0 0)
     (uuid 64d04e41-c39b-4807-8d28-024b417a55f0)
   )
   (junction (at 71.12 66.04) (diameter 0) (color 0 0 0 0)
     (uuid 6b108d36-a186-49de-b4c2-20009b4a0b21)
-  )
-  (junction (at 271.78 54.61) (diameter 0) (color 0 0 0 0)
-    (uuid 6bd65f67-f69c-4006-aa1a-613a37247e39)
   )
   (junction (at 321.31 43.18) (diameter 0) (color 0 0 0 0)
     (uuid 6bd6c8d8-ed38-4735-9ca9-425fe38834da)
@@ -2284,7 +2278,7 @@
     (stroke (width 0) (type default))
     (uuid 6a7b5d78-4fd7-454c-a4b9-1c2dabecc038)
   )
-  (wire (pts (xy 210.82 26.67) (xy 254 26.67))
+  (wire (pts (xy 248.92 26.67) (xy 254 26.67))
     (stroke (width 0) (type default))
     (uuid 6ba0052e-0d74-4c72-91b8-6f7cc882e076)
   )
@@ -3062,6 +3056,11 @@
     (fill (type none))
     (uuid aeb57216-643e-42d8-a6e8-edb5a8f7a538)
   )
+  (rectangle (start 349.25 99.06) (end 356.87 106.68)
+    (stroke (width 0) (type dash) (color 255 21 0 1))
+    (fill (type none))
+    (uuid c0b1f5c7-c172-4287-8f79-6c564c5a19f2)
+  )
   (rectangle (start 13.97 110.49) (end 203.2 196.85)
     (stroke (width 0) (type default))
     (fill (type none))
@@ -3330,7 +3329,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 9644e120-71af-4614-9464-68818f581420)
   )
-  (hierarchical_label "V_{IHigh}" (shape input) (at 210.82 26.67 180) (fields_autoplaced)
+  (hierarchical_label "V_{IHigh}" (shape input) (at 248.92 26.67 180) (fields_autoplaced)
     (effects (font (size 2.54 2.54)) (justify right))
     (uuid a63aff27-1b77-4aed-a098-f187fbcbffb4)
   )
@@ -3365,45 +3364,6 @@
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/c29c0895-5a72-4e03-a202-b33f08bed5d8"
           (reference "#FLG0506") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 271.78 54.61 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 01eec247-9d5a-4ce4-b766-ddb6344b0ae5)
-    (property "Reference" "#PWR?" (at 271.78 60.96 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "PGND" (at 271.78 58.42 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 271.78 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 271.78 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid e3115f8d-109a-4f54-9007-f8c5cc2b9a01))
-    (instances
-      (project "InverterLeg"
-        (path "/22b63e0d-f11c-46a0-b2d0-b08207a579ff"
-          (reference "#PWR?") (unit 1)
-        )
-      )
-      (project "inverter"
-        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "#PWR0262") (unit 1)
-        )
-        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/57b86bcd-9913-4f3e-a2d4-23a6270fc2e6"
-          (reference "#PWR0341") (unit 1)
-        )
-        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/c29c0895-5a72-4e03-a202-b33f08bed5d8"
-          (reference "#PWR0441") (unit 1)
         )
       )
     )
@@ -3699,8 +3659,8 @@
     (pin "5" (uuid 58f4a560-1088-4888-821d-a700cb2f9ac5))
     (pin "6" (uuid 6bf9bd2e-f2f6-489d-90cf-08ead876d05e))
     (pin "7" (uuid 0bcc7c25-967e-46b7-8c05-cf75dee5f195))
-    (pin "8" (uuid 560a8a6d-c4da-4deb-be55-6c5bcf8b1970))
-    (pin "8" (uuid 560a8a6d-c4da-4deb-be55-6c5bcf8b1970))
+    (pin "8" (uuid 560a8a6d-c4da-4deb-be55-6c5bcf8b1974))
+    (pin "8" (uuid 560a8a6d-c4da-4deb-be55-6c5bcf8b1974))
     (pin "9" (uuid 754c52cb-daa7-4ac8-a871-a2592e196963))
     (instances
       (project "inverter"
@@ -3871,84 +3831,6 @@
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/c29c0895-5a72-4e03-a202-b33f08bed5d8"
           (reference "R417") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 283.21 54.61 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 0e4dcb09-b95f-4e8b-ac6c-0577ea57eb68)
-    (property "Reference" "#PWR?" (at 283.21 60.96 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "PGND" (at 283.21 58.42 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 283.21 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 283.21 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 662d8504-4a2b-488d-9ef1-ec5ae98d0aed))
-    (instances
-      (project "InverterLeg"
-        (path "/22b63e0d-f11c-46a0-b2d0-b08207a579ff"
-          (reference "#PWR?") (unit 1)
-        )
-      )
-      (project "inverter"
-        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "#PWR0267") (unit 1)
-        )
-        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/57b86bcd-9913-4f3e-a2d4-23a6270fc2e6"
-          (reference "#PWR0346") (unit 1)
-        )
-        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/c29c0895-5a72-4e03-a202-b33f08bed5d8"
-          (reference "#PWR0446") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 271.78 54.61 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 0ee2cae9-6ce7-41ae-a351-1a9c44a27c06)
-    (property "Reference" "#PWR?" (at 271.78 60.96 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "PGND" (at 271.78 58.42 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 271.78 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 271.78 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid e3115f8d-109a-4f54-9007-f8c5cc2b9a02))
-    (instances
-      (project "InverterLeg"
-        (path "/22b63e0d-f11c-46a0-b2d0-b08207a579ff"
-          (reference "#PWR?") (unit 1)
-        )
-      )
-      (project "inverter"
-        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "#PWR0263") (unit 1)
-        )
-        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/57b86bcd-9913-4f3e-a2d4-23a6270fc2e6"
-          (reference "#PWR0342") (unit 1)
-        )
-        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/c29c0895-5a72-4e03-a202-b33f08bed5d8"
-          (reference "#PWR0442") (unit 1)
         )
       )
     )
@@ -4308,45 +4190,6 @@
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/c29c0895-5a72-4e03-a202-b33f08bed5d8"
           (reference "#PWR0434") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 283.21 54.61 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 26d146b6-43a7-495c-8568-a010ad1f1822)
-    (property "Reference" "#PWR?" (at 283.21 60.96 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "PGND" (at 283.21 58.42 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 283.21 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 283.21 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 662d8504-4a2b-488d-9ef1-ec5ae98d0aee))
-    (instances
-      (project "InverterLeg"
-        (path "/22b63e0d-f11c-46a0-b2d0-b08207a579ff"
-          (reference "#PWR?") (unit 1)
-        )
-      )
-      (project "inverter"
-        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "#PWR0268") (unit 1)
-        )
-        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/57b86bcd-9913-4f3e-a2d4-23a6270fc2e6"
-          (reference "#PWR0347") (unit 1)
-        )
-        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/c29c0895-5a72-4e03-a202-b33f08bed5d8"
-          (reference "#PWR0447") (unit 1)
         )
       )
     )
@@ -5453,45 +5296,6 @@
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/c29c0895-5a72-4e03-a202-b33f08bed5d8"
           (reference "#PWR0407") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 283.21 54.61 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 6912ecd8-04d1-4ce8-8548-6d9fa8ac5849)
-    (property "Reference" "#PWR?" (at 283.21 60.96 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "PGND" (at 283.21 58.42 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 283.21 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 283.21 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 662d8504-4a2b-488d-9ef1-ec5ae98d0af0))
-    (instances
-      (project "InverterLeg"
-        (path "/22b63e0d-f11c-46a0-b2d0-b08207a579ff"
-          (reference "#PWR?") (unit 1)
-        )
-      )
-      (project "inverter"
-        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "#PWR0270") (unit 1)
-        )
-        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/57b86bcd-9913-4f3e-a2d4-23a6270fc2e6"
-          (reference "#PWR0349") (unit 1)
-        )
-        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/c29c0895-5a72-4e03-a202-b33f08bed5d8"
-          (reference "#PWR0449") (unit 1)
         )
       )
     )
@@ -8615,45 +8419,6 @@
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/c29c0895-5a72-4e03-a202-b33f08bed5d8"
           (reference "#PWR0445") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 271.78 54.61 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid fa14cb2c-be5f-4ac1-8ff6-ae76b6a50af4)
-    (property "Reference" "#PWR?" (at 271.78 60.96 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "PGND" (at 271.78 58.42 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 271.78 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 271.78 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid e3115f8d-109a-4f54-9007-f8c5cc2b9a04))
-    (instances
-      (project "InverterLeg"
-        (path "/22b63e0d-f11c-46a0-b2d0-b08207a579ff"
-          (reference "#PWR?") (unit 1)
-        )
-      )
-      (project "inverter"
-        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "#PWR0265") (unit 1)
-        )
-        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/57b86bcd-9913-4f3e-a2d4-23a6270fc2e6"
-          (reference "#PWR0344") (unit 1)
-        )
-        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/c29c0895-5a72-4e03-a202-b33f08bed5d8"
-          (reference "#PWR0444") (unit 1)
         )
       )
     )
