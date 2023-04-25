@@ -456,7 +456,7 @@
     "page_layout_descr_file": "Title_block.kicad_wks"
   },
   "schematic": {
-    "annotate_start_num": 500,
+    "annotate_start_num": 800,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
       "dashed_lines_gap_length_ratio": 3.0,
@@ -505,24 +505,36 @@
       ""
     ],
     [
-      "9564004e-9746-4b6b-831d-1e0ecc025868",
-      "Phase1"
+      "d5d50263-0660-44c8-a20f-043dc430c72e",
+      "High_side"
     ],
     [
-      "57b86bcd-9913-4f3e-a2d4-23a6270fc2e6",
-      "Phase2"
-    ],
-    [
-      "c29c0895-5a72-4e03-a202-b33f08bed5d8",
-      "Phase3"
+      "bce1534c-362e-45ed-a9dd-a44d6954485a",
+      "Feeder"
     ],
     [
       "122c01f4-f23e-4db0-9503-7261d96dc78b",
       "MCU"
     ],
     [
-      "bce1534c-362e-45ed-a9dd-a44d6954485a",
-      "Feeder"
+      "9564004e-9746-4b6b-831d-1e0ecc025868",
+      "Phase1"
+    ],
+    [
+      "7ae88aae-56f0-479d-acd9-b86c409d47f0",
+      "Phase2"
+    ],
+    [
+      "bc2bead7-ad3b-42ab-8e83-5198afec2d42",
+      "Phase3"
+    ],
+    [
+      "dfeea27c-77f6-42a7-9d0f-afec9440e2ae",
+      "PSUs"
+    ],
+    [
+      "d8e0f3be-356c-4f17-abdf-62f1abb3dd16",
+      "Earth_shielding"
     ]
   ],
   "text_variables": {}
