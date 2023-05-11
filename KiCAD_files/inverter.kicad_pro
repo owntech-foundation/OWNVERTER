@@ -543,6 +543,10 @@
     [
       "077b7708-3fc9-48ea-abd9-3780ae4a5672",
       "Hall_Sensor"
+    ],
+    [
+      "3847caef-0247-40a4-ad39-73d799d6ae12",
+      "V_Neutral"
     ]
   ],
   "text_variables": {}
