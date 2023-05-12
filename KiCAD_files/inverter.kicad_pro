@@ -509,12 +509,16 @@
       "High_side"
     ],
     [
-      "bce1534c-362e-45ed-a9dd-a44d6954485a",
-      "Feeder"
+      "dfeea27c-77f6-42a7-9d0f-afec9440e2ae",
+      "PSUs"
     ],
     [
-      "122c01f4-f23e-4db0-9503-7261d96dc78b",
-      "MCU"
+      "077b7708-3fc9-48ea-abd9-3780ae4a5672",
+      "Hall_Sensor"
+    ],
+    [
+      "bce1534c-362e-45ed-a9dd-a44d6954485a",
+      "Feeder"
     ],
     [
       "9564004e-9746-4b6b-831d-1e0ecc025868",
@@ -529,24 +533,12 @@
       "Phase3"
     ],
     [
-      "dfeea27c-77f6-42a7-9d0f-afec9440e2ae",
-      "PSUs"
+      "122c01f4-f23e-4db0-9503-7261d96dc78b",
+      "MCU"
     ],
     [
       "d8e0f3be-356c-4f17-abdf-62f1abb3dd16",
       "Earth_shielding"
-    ],
-    [
-      "4df77b26-7307-4e40-9a60-69ca1e14c4c8",
-      "Hall_sensors"
-    ],
-    [
-      "077b7708-3fc9-48ea-abd9-3780ae4a5672",
-      "Hall_Sensor"
-    ],
-    [
-      "3847caef-0247-40a4-ad39-73d799d6ae12",
-      "V_Neutral"
     ]
   ],
   "text_variables": {}

@@ -2862,7 +2862,7 @@
     (property "Value" "OwnTech_SPIN" (at 3.81 -6.35 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Footprints:OwnTech_SPIN" (at -1.27 0 0)
+    (property "Footprint" "Footprints:OwnTech_SPINTHT" (at -1.27 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at -1.27 0 0)
@@ -6064,10 +6064,6 @@
       (pin no_connect line (at -10.16 -7.62 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -20.32 16.51 0) (length 2.54) hide
-        (name "VCCI" (effects (font (size 1.27 1.27))))
-        (number "8" (effects (font (size 1.27 1.27))))
       )
       (pin power_in line (at -12.7 5.08 0) (length 2.54)
         (name "VCCI" (effects (font (size 1.27 1.27))))

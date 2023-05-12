@@ -5,7 +5,7 @@
   (paper "A3")
 
   (title_block
-    (title "Inverter V0.1")
+    (title "OWNVERTER V0.1")
     (comment 1 "TWR")
   )
 
@@ -822,11 +822,6 @@
     (fill (type none))
     (uuid 88d56409-22eb-4367-aa1b-6efd67344d60)
   )
-  (rectangle (start 58.42 224.79) (end 139.7 264.16)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid 912bbe8c-69e6-4943-9837-116a7113718c)
-  )
   (rectangle (start 58.42 124.46) (end 139.7 177.8)
     (stroke (width 0) (type default))
     (fill (type none))
@@ -911,19 +906,19 @@
     (effects (font (face "Arial") (size 2.4892 2.4892) (thickness 0.4978) bold) (justify left bottom))
     (uuid 1b28acd2-4a31-4272-9281-6c8ecf173b89)
   )
-  (text "designator base 900\n" (at 367.03 146.05 0)
+  (text "designator base 1000" (at 367.03 146.05 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2198ff15-f1e4-495f-bc10-63e5815be33d)
   )
-  (text "designator base 500" (at 220.98 27.94 0)
+  (text "designator base 600" (at 220.98 27.94 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 27f9e036-ddfa-4711-b440-9abad62b4cbe)
   )
-  (text "designator base 800\n" (at 99.06 175.26 0)
+  (text "designator base 300\n" (at 99.06 175.26 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2b261e2c-ee8f-4446-8dc5-90c5d6da57f2)
   )
-  (text "designator base 600" (at 220.98 82.55 0)
+  (text "designator base 700" (at 220.98 82.55 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4bc6a6f5-0f01-422f-b4e2-a9e53e5bce55)
   )
@@ -934,10 +929,6 @@
   (text "POWER AREA\n" (at 241.3 102.87 0)
     (effects (font (face "Arial") (size 2.54 2.54)) (justify left bottom))
     (uuid 541afef7-1aef-4181-9d22-b98a53f29c46)
-  )
-  (text "Virtual neutral recreation\n" (at 80.01 231.14 0)
-    (effects (font (face "Arial") (size 2.4892 2.4892) (thickness 0.4978) bold) (justify left bottom))
-    (uuid 56d0fc4d-4758-47a8-8580-be14c6b70b33)
   )
   (text "Legs" (at 219.71 22.86 0)
     (effects (font (face "Arial") (size 2.4892 2.4892) (thickness 0.4978) bold) (justify left bottom))
@@ -951,7 +942,7 @@
     (effects (font (face "Arial") (size 2.54 2.54)) (justify left bottom))
     (uuid 67b556a8-0945-4fb0-b5bb-66fcdd24f311)
   )
-  (text "designator base 700" (at 219.71 138.43 0)
+  (text "designator base 800" (at 219.71 138.43 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 693c98da-cf46-40c3-9bdb-61ba0db85e39)
   )
@@ -991,11 +982,11 @@
     (effects (font (face "Arial") (size 2.4892 2.4892) (thickness 0.4978) bold) (justify left bottom))
     (uuid a76ed533-24c5-4599-b054-8c8151f298f6)
   )
-  (text "designator base 400" (at 227.33 205.74 0)
+  (text "designator base 900" (at 227.33 205.74 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a89f8492-f3c3-478c-8f67-bcf4d7fe076f)
   )
-  (text "designator base xxx\n" (at 86.36 218.44 0)
+  (text "designator base 400\n" (at 86.36 218.44 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b3670994-8cdd-4e59-a7e3-92c7b186eaa7)
   )
@@ -1015,7 +1006,7 @@
     (effects (font (face "Arial") (size 2.54 2.54)) (justify left bottom))
     (uuid c74f4e5e-3192-4f70-91c3-c492225ede5b)
   )
-  (text "designator base 300" (at 81.28 118.11 0)
+  (text "designator base 500" (at 81.28 118.11 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ca317cee-2403-4496-a445-00944f739b74)
   )
@@ -1034,10 +1025,6 @@
   (text "Low side connectors" (at 293.37 46.99 0)
     (effects (font (face "Arial") (size 2.4892 2.4892) (thickness 0.4978) bold) (justify left bottom))
     (uuid ecb0c02d-d66c-444e-a9b6-e6240e8afce2)
-  )
-  (text "Digital AREA\n" (at 59.69 262.89 0)
-    (effects (font (face "Arial") (size 2.54 2.54)) (justify left bottom))
-    (uuid f1cb1e92-2c14-4a3e-8bb4-64cad292ed30)
   )
   (text "Power supplies units\n" (at 76.2 129.54 0)
     (effects (font (face "Arial") (size 2.4892 2.4892) (thickness 0.4978) bold) (justify left bottom))
@@ -1332,22 +1319,22 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "#PWR0821") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "#PWR?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "#PWR0822") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "#PWR0823") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/dfeea27c-77f6-42a7-9d0f-afec9440e2ae"
-          (reference "#PWR0824") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
-          (reference "#PWR0112") (unit 1)
+          (reference "#PWR0103") (unit 1)
         )
       )
     )
@@ -1356,7 +1343,7 @@
   (symbol (lib_id "power:GND") (at 308.61 133.35 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 32b65306-5303-4d6b-89f4-292b54735634)
-    (property "Reference" "#PWR0129" (at 308.61 139.7 0)
+    (property "Reference" "#PWR0108" (at 308.61 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PGND" (at 308.61 137.16 0)
@@ -1372,7 +1359,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
-          (reference "#PWR0129") (unit 1)
+          (reference "#PWR0108") (unit 1)
         )
       )
     )
@@ -1410,7 +1397,7 @@
   (symbol (lib_id "power:GND") (at 308.61 102.87 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 422ff55d-00ca-46ea-a67a-66ef97cf7925)
-    (property "Reference" "#PWR0128" (at 308.61 109.22 0)
+    (property "Reference" "#PWR0107" (at 308.61 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PGND" (at 308.61 106.68 0)
@@ -1426,7 +1413,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
-          (reference "#PWR0128") (unit 1)
+          (reference "#PWR0107") (unit 1)
         )
       )
     )
@@ -1454,7 +1441,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
-          (reference "#PWR0107") (unit 1)
+          (reference "#PWR0102") (unit 1)
         )
       )
     )
@@ -1546,7 +1533,7 @@
   (symbol (lib_id "power:GND") (at 308.61 74.93 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 79fa8792-f916-40cd-ac43-ff167520e674)
-    (property "Reference" "#PWR0127" (at 308.61 81.28 0)
+    (property "Reference" "#PWR0106" (at 308.61 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PGND" (at 308.61 78.74 0)
@@ -1562,7 +1549,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
-          (reference "#PWR0127") (unit 1)
+          (reference "#PWR0106") (unit 1)
         )
       )
     )
@@ -1621,19 +1608,19 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "#PWR0525") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "#PWR?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "#PWR0662") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "#PWR0717") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
-          (reference "#PWR0106") (unit 1)
+          (reference "#PWR0104") (unit 1)
         )
       )
     )
@@ -1671,7 +1658,7 @@
   (symbol (lib_id "power:+5P") (at 128.27 143.51 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d2680136-e13d-435c-9d63-def0b951ad8f)
-    (property "Reference" "#PWR0103" (at 128.27 147.32 0)
+    (property "Reference" "#PWR0105" (at 128.27 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V_PGND" (at 128.27 139.7 0)
@@ -1687,10 +1674,10 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
-          (reference "#PWR0103") (unit 1)
+          (reference "#PWR0105") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/d5d50263-0660-44c8-a20f-043dc430c72e"
-          (reference "#PWR0533") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -1745,7 +1732,7 @@
     )
     (instances
       (project "inverter"
-        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42" (page "11"))
+        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42" (page "4"))
       )
     )
   )
@@ -1846,41 +1833,7 @@
     )
     (instances
       (project "inverter"
-        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42" (page "4"))
-      )
-    )
-  )
-
-  (sheet (at 85.09 236.22) (size 27.94 17.78) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 3847caef-0247-40a4-ad39-73d799d6ae12)
-    (property "Sheetname" "V_Neutral" (at 85.09 235.5084 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "V_Neutral.kicad_sch" (at 85.09 254.5846 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "inverter"
-        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42" (page "12"))
-      )
-    )
-  )
-
-  (sheet (at 365.76 226.06) (size 12.7 3.81) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 4df77b26-7307-4e40-9a60-69ca1e14c4c8)
-    (property "Sheetname" "Hall_sensors" (at 365.76 225.3484 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Hall_sensors.kicad_sch" (at 365.76 230.4546 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "inverter"
-        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42" (page "10"))
+        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42" (page "9"))
       )
     )
   )
@@ -1929,7 +1882,7 @@
     )
     (instances
       (project "inverter"
-        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42" (page "6"))
+        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42" (page "7"))
       )
     )
   )
@@ -1978,7 +1931,7 @@
     )
     (instances
       (project "inverter"
-        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42" (page "5"))
+        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42" (page "6"))
       )
     )
   )
@@ -2027,7 +1980,7 @@
     )
     (instances
       (project "inverter"
-        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42" (page "7"))
+        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42" (page "8"))
       )
     )
   )
@@ -2052,7 +2005,7 @@
     )
     (instances
       (project "inverter"
-        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42" (page "3"))
+        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42" (page "5"))
       )
     )
   )
@@ -2105,7 +2058,7 @@
     )
     (instances
       (project "inverter"
-        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42" (page "9"))
+        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42" (page "10"))
       )
     )
   )
@@ -2134,7 +2087,7 @@
     )
     (instances
       (project "inverter"
-        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42" (page "8"))
+        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42" (page "3"))
       )
     )
   )

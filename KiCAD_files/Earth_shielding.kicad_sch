@@ -4,6 +4,11 @@
 
   (paper "A3")
 
+  (title_block
+    (title "OWNVERTER V0.1")
+    (comment 1 "TWR")
+  )
+
   (lib_symbols
     (symbol "Mechanical:Housing_Pad" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "N" (at 4.445 0 0)
@@ -512,7 +517,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 140.97 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0f8dc45f-0083-451d-8951-b3350d158476)
-    (property "Reference" "H101" (at 144.145 99.0599 0)
+    (property "Reference" "H?" (at 144.145 99.0599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "M2.5" (at 144.145 101.5999 0)
@@ -531,10 +536,10 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
-          (reference "H101") (unit 1)
+          (reference "H?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/d8e0f3be-356c-4f17-abdf-62f1abb3dd16"
-          (reference "H901") (unit 1)
+          (reference "H1001") (unit 1)
         )
       )
     )
@@ -543,7 +548,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 195.58 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 21db89e3-9407-4399-88ae-162953954b0f)
-    (property "Reference" "H107" (at 198.12 99.0599 0)
+    (property "Reference" "H?" (at 198.12 99.0599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "M2.5" (at 198.12 101.5999 0)
@@ -562,10 +567,10 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
-          (reference "H107") (unit 1)
+          (reference "H?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/d8e0f3be-356c-4f17-abdf-62f1abb3dd16"
-          (reference "H907") (unit 1)
+          (reference "H1007") (unit 1)
         )
       )
     )
@@ -574,7 +579,7 @@
   (symbol (lib_id "power:Earth_Protective") (at 139.7 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 32febd57-27bf-4318-8c39-bb1812bcbe47)
-    (property "Reference" "#PWR0114" (at 146.05 143.51 0)
+    (property "Reference" "#PWR?" (at 146.05 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth_Protective" (at 140.97 144.78 0)
@@ -590,10 +595,10 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
-          (reference "#PWR0114") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/d8e0f3be-356c-4f17-abdf-62f1abb3dd16"
-          (reference "#PWR0130") (unit 1)
+          (reference "#PWR01001") (unit 1)
         )
       )
     )
@@ -602,7 +607,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 195.58 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4404ad96-a581-4362-a485-570e4b63e710)
-    (property "Reference" "H108" (at 198.12 106.6799 0)
+    (property "Reference" "H?" (at 198.12 106.6799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "M2.5" (at 198.12 109.2199 0)
@@ -621,10 +626,10 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
-          (reference "H108") (unit 1)
+          (reference "H?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/d8e0f3be-356c-4f17-abdf-62f1abb3dd16"
-          (reference "H908") (unit 1)
+          (reference "H1008") (unit 1)
         )
       )
     )
@@ -633,7 +638,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 177.8 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 58627630-4608-44a5-a9bc-5ea8c4aeafaa)
-    (property "Reference" "H106" (at 180.975 106.6799 0)
+    (property "Reference" "H?" (at 180.975 106.6799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "M2.5" (at 180.975 109.2199 0)
@@ -652,10 +657,10 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
-          (reference "H106") (unit 1)
+          (reference "H?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/d8e0f3be-356c-4f17-abdf-62f1abb3dd16"
-          (reference "H906") (unit 1)
+          (reference "H1006") (unit 1)
         )
       )
     )
@@ -664,7 +669,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 139.7 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6f3b6f6d-9d04-4722-ae5f-70613d4c9028)
-    (property "Reference" "#FLG0101" (at 139.7 132.715 0)
+    (property "Reference" "#FLG?" (at 139.7 132.715 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 135.89 130.81 0)
@@ -680,10 +685,10 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
-          (reference "#FLG0101") (unit 1)
+          (reference "#FLG?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/d8e0f3be-356c-4f17-abdf-62f1abb3dd16"
-          (reference "#FLG0104") (unit 1)
+          (reference "#FLG01001") (unit 1)
         )
       )
     )
@@ -692,7 +697,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 158.75 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7c31f9f1-680a-47ec-9a83-aba37148a954)
-    (property "Reference" "H104" (at 161.29 106.6799 0)
+    (property "Reference" "H?" (at 161.29 106.6799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "M2.5" (at 161.29 109.2199 0)
@@ -711,10 +716,10 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
-          (reference "H104") (unit 1)
+          (reference "H?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/d8e0f3be-356c-4f17-abdf-62f1abb3dd16"
-          (reference "H904") (unit 1)
+          (reference "H1004") (unit 1)
         )
       )
     )
@@ -723,7 +728,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 177.8 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ac946f68-c8be-4a22-9a0e-088b0a91c72f)
-    (property "Reference" "H105" (at 180.975 99.0599 0)
+    (property "Reference" "H?" (at 180.975 99.0599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "M2.5" (at 180.975 101.5999 0)
@@ -742,10 +747,10 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
-          (reference "H105") (unit 1)
+          (reference "H?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/d8e0f3be-356c-4f17-abdf-62f1abb3dd16"
-          (reference "H905") (unit 1)
+          (reference "H1005") (unit 1)
         )
       )
     )
@@ -754,7 +759,7 @@
   (symbol (lib_id "power:Earth_Protective") (at 170.18 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b3caab19-3183-4026-b893-8c07e1d19ef5)
-    (property "Reference" "#PWR0114" (at 176.53 118.11 0)
+    (property "Reference" "#PWR?" (at 176.53 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth_Protective" (at 171.45 119.38 0)
@@ -770,10 +775,10 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
-          (reference "#PWR0114") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/d8e0f3be-356c-4f17-abdf-62f1abb3dd16"
-          (reference "#PWR0901") (unit 1)
+          (reference "#PWR01002") (unit 1)
         )
       )
     )
@@ -782,7 +787,7 @@
   (symbol (lib_id "power:Earth_Protective") (at 240.03 111.76 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b80dd9d8-558c-4317-8500-82fa9f2cf68e)
-    (property "Reference" "#PWR0119" (at 233.68 118.11 0)
+    (property "Reference" "#PWR?" (at 233.68 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth_Protective" (at 240.03 120.65 0)
@@ -798,10 +803,10 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
-          (reference "#PWR0119") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/d8e0f3be-356c-4f17-abdf-62f1abb3dd16"
-          (reference "#PWR0902") (unit 1)
+          (reference "#PWR01003") (unit 1)
         )
       )
     )
@@ -810,7 +815,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 208.28 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cbb483d6-aa15-4551-b32e-763d8bd374f2)
-    (property "Reference" "H109" (at 210.82 99.0599 0)
+    (property "Reference" "H?" (at 210.82 99.0599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "M2.5" (at 210.82 101.5999 0)
@@ -829,10 +834,10 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
-          (reference "H109") (unit 1)
+          (reference "H?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/d8e0f3be-356c-4f17-abdf-62f1abb3dd16"
-          (reference "H909") (unit 1)
+          (reference "H1009") (unit 1)
         )
       )
     )
@@ -841,7 +846,7 @@
   (symbol (lib_id "Mechanical:Housing_Pad") (at 234.95 102.87 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid df53bc6b-6aec-4ca0-892a-7bce57041460)
-    (property "Reference" "N101" (at 229.87 101.9174 0)
+    (property "Reference" "N?" (at 229.87 101.9174 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Housing_Pad" (at 229.87 104.4574 0)
@@ -860,10 +865,10 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
-          (reference "N101") (unit 1)
+          (reference "N?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/d8e0f3be-356c-4f17-abdf-62f1abb3dd16"
-          (reference "N901") (unit 1)
+          (reference "N1001") (unit 1)
         )
       )
     )
@@ -872,7 +877,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 140.97 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e85ea60f-d3d8-464b-8de8-5c47575ff778)
-    (property "Reference" "H102" (at 144.145 106.6799 0)
+    (property "Reference" "H?" (at 144.145 106.6799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "M2.5" (at 144.145 109.2199 0)
@@ -891,10 +896,10 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
-          (reference "H102") (unit 1)
+          (reference "H?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/d8e0f3be-356c-4f17-abdf-62f1abb3dd16"
-          (reference "H902") (unit 1)
+          (reference "H1002") (unit 1)
         )
       )
     )
@@ -903,7 +908,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 158.75 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e99de87a-ee46-409c-b107-2c157566c176)
-    (property "Reference" "H103" (at 161.29 99.0599 0)
+    (property "Reference" "H?" (at 161.29 99.0599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "M2.5" (at 161.29 101.5999 0)
@@ -922,10 +927,10 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
-          (reference "H103") (unit 1)
+          (reference "H?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/d8e0f3be-356c-4f17-abdf-62f1abb3dd16"
-          (reference "H903") (unit 1)
+          (reference "H1003") (unit 1)
         )
       )
     )
