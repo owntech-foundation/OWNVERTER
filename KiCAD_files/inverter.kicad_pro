@@ -456,7 +456,7 @@
     "page_layout_descr_file": "Title_block.kicad_wks"
   },
   "schematic": {
-    "annotate_start_num": 500,
+    "annotate_start_num": 400,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
       "dashed_lines_gap_length_ratio": 3.0,
@@ -513,8 +513,8 @@
       "PSUs"
     ],
     [
-      "077b7708-3fc9-48ea-abd9-3780ae4a5672",
-      "Hall_Sensor"
+      "122c01f4-f23e-4db0-9503-7261d96dc78b",
+      "MCU"
     ],
     [
       "bce1534c-362e-45ed-a9dd-a44d6954485a",
@@ -533,8 +533,8 @@
       "Phase3"
     ],
     [
-      "122c01f4-f23e-4db0-9503-7261d96dc78b",
-      "MCU"
+      "077b7708-3fc9-48ea-abd9-3780ae4a5672",
+      "Hall_Sensor"
     ],
     [
       "d8e0f3be-356c-4f17-abdf-62f1abb3dd16",

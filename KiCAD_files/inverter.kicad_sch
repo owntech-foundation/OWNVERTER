@@ -982,11 +982,11 @@
     (effects (font (face "Arial") (size 2.4892 2.4892) (thickness 0.4978) bold) (justify left bottom))
     (uuid a76ed533-24c5-4599-b054-8c8151f298f6)
   )
-  (text "designator base 900" (at 227.33 205.74 0)
+  (text "designator base 400" (at 227.33 205.74 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a89f8492-f3c3-478c-8f67-bcf4d7fe076f)
   )
-  (text "designator base 400\n" (at 86.36 218.44 0)
+  (text "designator base 900\n" (at 86.36 214.63 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b3670994-8cdd-4e59-a7e3-92c7b186eaa7)
   )
@@ -1732,7 +1732,7 @@
     )
     (instances
       (project "inverter"
-        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42" (page "4"))
+        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42" (page "9"))
       )
     )
   )
@@ -1833,7 +1833,7 @@
     )
     (instances
       (project "inverter"
-        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42" (page "9"))
+        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42" (page "4"))
       )
     )
   )
