@@ -2941,7 +2941,7 @@
   (symbol (lib_id "Device:Thermistor_NTC") (at 93.98 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 001939b1-15bb-4f5a-9a65-525e80698fe7)
-    (property "Reference" "NTC101" (at 96.52 123.5074 0)
+    (property "Reference" "NTC501" (at 96.52 123.5074 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100kNTC" (at 96.52 126.0474 0)
@@ -2961,7 +2961,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bce1534c-362e-45ed-a9dd-a44d6954485a"
-          (reference "NTC101") (unit 1)
+          (reference "NTC501") (unit 1)
         )
       )
     )
@@ -2970,7 +2970,7 @@
   (symbol (lib_id "Device:R") (at 285.75 191.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0299b0d8-7260-475e-ab97-370da6b2fb4d)
-    (property "Reference" "R162" (at 288.29 190.4999 0)
+    (property "Reference" "R518" (at 288.29 190.4999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "27k" (at 288.29 193.0399 0)
@@ -2993,7 +2993,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bce1534c-362e-45ed-a9dd-a44d6954485a"
-          (reference "R162") (unit 1)
+          (reference "R518") (unit 1)
         )
       )
     )
@@ -3077,7 +3077,7 @@
   (symbol (lib_id "Device:R") (at 77.47 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 08ff93cb-2d69-4ec8-b022-a7e7d592bd93)
-    (property "Reference" "R145" (at 80.01 64.7699 0)
+    (property "Reference" "R501" (at 80.01 64.7699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "348k" (at 80.01 67.3099 0)
@@ -3100,7 +3100,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bce1534c-362e-45ed-a9dd-a44d6954485a"
-          (reference "R145") (unit 1)
+          (reference "R501") (unit 1)
         )
       )
     )
@@ -3109,7 +3109,7 @@
   (symbol (lib_id "Device:C") (at 36.83 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0d44937d-9f86-4099-ba1b-b3da7f5d577d)
-    (property "Reference" "C140" (at 40.64 78.7399 0)
+    (property "Reference" "C502" (at 40.64 78.7399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "470nF" (at 40.64 81.28 0)
@@ -3129,7 +3129,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bce1534c-362e-45ed-a9dd-a44d6954485a"
-          (reference "C140") (unit 1)
+          (reference "C502") (unit 1)
         )
       )
     )
@@ -3138,7 +3138,7 @@
   (symbol (lib_id "Device:C") (at 127 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0de7c0c8-4cf2-4581-87a3-1b16af3eda4c)
-    (property "Reference" "C147" (at 130.81 138.43 0)
+    (property "Reference" "C509" (at 130.81 138.43 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1nF" (at 130.81 140.9699 0)
@@ -3161,7 +3161,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bce1534c-362e-45ed-a9dd-a44d6954485a"
-          (reference "C147") (unit 1)
+          (reference "C509") (unit 1)
         )
       )
     )
@@ -3170,7 +3170,7 @@
   (symbol (lib_id "Device:C") (at 62.23 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0f1cb040-2999-43b7-94d2-c98fd855c7a5)
-    (property "Reference" "C144" (at 66.04 78.7399 0)
+    (property "Reference" "C506" (at 66.04 78.7399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7uF" (at 66.04 81.28 0)
@@ -3190,7 +3190,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bce1534c-362e-45ed-a9dd-a44d6954485a"
-          (reference "C144") (unit 1)
+          (reference "C506") (unit 1)
         )
       )
     )
@@ -3199,7 +3199,7 @@
   (symbol (lib_id "Device:Q_NMOS_GDS") (at 195.58 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 132cf566-127a-4219-af3b-5105ac673649)
-    (property "Reference" "Q102" (at 189.23 87.63 0)
+    (property "Reference" "Q502" (at 189.23 87.63 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TK13P25D,RQ" (at 184.15 95.25 0)
@@ -3220,7 +3220,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bce1534c-362e-45ed-a9dd-a44d6954485a"
-          (reference "Q102") (unit 1)
+          (reference "Q502") (unit 1)
         )
       )
     )
@@ -3229,7 +3229,7 @@
   (symbol (lib_id "Device:C") (at 201.93 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1514dbc1-2223-490d-a839-8893083dc09b)
-    (property "Reference" "C152" (at 205.74 59.6899 0)
+    (property "Reference" "C514" (at 205.74 59.6899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "6.8nF" (at 205.74 62.2299 0)
@@ -3249,7 +3249,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bce1534c-362e-45ed-a9dd-a44d6954485a"
-          (reference "C152") (unit 1)
+          (reference "C514") (unit 1)
         )
       )
     )
@@ -3308,7 +3308,7 @@
   (symbol (lib_id "Device:R") (at 194.31 60.96 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1b5d8ced-d2a3-4949-9d3f-0487cfd22101)
-    (property "Reference" "R153" (at 191.77 59.6899 0)
+    (property "Reference" "R509" (at 191.77 59.6899 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "348k" (at 191.77 62.2299 0)
@@ -3331,7 +3331,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bce1534c-362e-45ed-a9dd-a44d6954485a"
-          (reference "R153") (unit 1)
+          (reference "R509") (unit 1)
         )
       )
     )
@@ -3340,7 +3340,7 @@
   (symbol (lib_id "Device:C") (at 231.14 24.13 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1d603347-5d5c-49d3-842c-741b0dbc2f11)
-    (property "Reference" "C154" (at 227.33 22.86 90)
+    (property "Reference" "C516" (at 227.33 22.86 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2.2nF" (at 236.22 22.86 90)
@@ -3366,7 +3366,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bce1534c-362e-45ed-a9dd-a44d6954485a"
-          (reference "C154") (unit 1)
+          (reference "C516") (unit 1)
         )
       )
     )
@@ -3375,7 +3375,7 @@
   (symbol (lib_id "Device:R") (at 199.39 127 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 21b89028-bf5e-47ec-b3d4-767402f1da81)
-    (property "Reference" "R155" (at 199.39 124.46 90)
+    (property "Reference" "R511" (at 199.39 124.46 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10R" (at 199.39 129.54 90)
@@ -3398,7 +3398,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bce1534c-362e-45ed-a9dd-a44d6954485a"
-          (reference "R155") (unit 1)
+          (reference "R511") (unit 1)
         )
       )
     )
@@ -3407,7 +3407,7 @@
   (symbol (lib_id "Isolator:SFH617A-1X007T") (at 231.14 173.99 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 223be563-789f-43ba-9955-a86581660c62)
-    (property "Reference" "U115" (at 226.06 167.64 0)
+    (property "Reference" "U502" (at 226.06 167.64 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "FODM217A" (at 223.52 179.07 0)
@@ -3429,7 +3429,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bce1534c-362e-45ed-a9dd-a44d6954485a"
-          (reference "U115") (unit 1)
+          (reference "U502") (unit 1)
         )
       )
     )
@@ -3438,7 +3438,7 @@
   (symbol (lib_id "Device:R") (at 154.94 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 275ea20e-2e82-4528-a714-1137c881b863)
-    (property "Reference" "R148" (at 156.845 143.51 0)
+    (property "Reference" "R504" (at 156.845 143.51 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1.4k" (at 156.845 146.05 0)
@@ -3461,7 +3461,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bce1534c-362e-45ed-a9dd-a44d6954485a"
-          (reference "R148") (unit 1)
+          (reference "R504") (unit 1)
         )
       )
     )
@@ -3495,7 +3495,7 @@
   (symbol (lib_id "Device:R") (at 198.12 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2b9ab8fe-51b5-4f27-8337-24abf6c98a5e)
-    (property "Reference" "R154" (at 200.66 107.9499 0)
+    (property "Reference" "R510" (at 200.66 107.9499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "240m" (at 200.66 110.4899 0)
@@ -3515,7 +3515,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bce1534c-362e-45ed-a9dd-a44d6954485a"
-          (reference "R154") (unit 1)
+          (reference "R510") (unit 1)
         )
       )
     )
@@ -3524,7 +3524,7 @@
   (symbol (lib_id "Device:C") (at 36.83 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 34e59020-a369-4fdf-9185-2f1ab02d58c1)
-    (property "Reference" "C139" (at 40.64 62.2299 0)
+    (property "Reference" "C501" (at 40.64 62.2299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "470nF" (at 40.64 64.77 0)
@@ -3544,7 +3544,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bce1534c-362e-45ed-a9dd-a44d6954485a"
-          (reference "C139") (unit 1)
+          (reference "C501") (unit 1)
         )
       )
     )
@@ -3578,7 +3578,7 @@
   (symbol (lib_id "Device:C") (at 49.53 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 379db3d4-95e9-4dd1-8485-f4bf27d62790)
-    (property "Reference" "C142" (at 53.34 78.7399 0)
+    (property "Reference" "C504" (at 53.34 78.7399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7uF" (at 53.34 81.28 0)
@@ -3598,7 +3598,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bce1534c-362e-45ed-a9dd-a44d6954485a"
-          (reference "C142") (unit 1)
+          (reference "C504") (unit 1)
         )
       )
     )
@@ -3607,7 +3607,7 @@
   (symbol (lib_id "Device:C") (at 49.53 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 385077e7-4a1f-4033-b963-fb0c6e483814)
-    (property "Reference" "C141" (at 53.34 62.2299 0)
+    (property "Reference" "C503" (at 53.34 62.2299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7uF" (at 53.34 64.77 0)
@@ -3627,7 +3627,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bce1534c-362e-45ed-a9dd-a44d6954485a"
-          (reference "C141") (unit 1)
+          (reference "C503") (unit 1)
         )
       )
     )
@@ -3636,7 +3636,7 @@
   (symbol (lib_id "Device:D") (at 209.55 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 38f7003a-9369-42ce-a87d-242283bae472)
-    (property "Reference" "D109" (at 209.55 132.715 0)
+    (property "Reference" "D506" (at 209.55 132.715 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BAS20HT1G" (at 212.09 134.62 0)
@@ -3662,7 +3662,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bce1534c-362e-45ed-a9dd-a44d6954485a"
-          (reference "D109") (unit 1)
+          (reference "D506") (unit 1)
         )
       )
     )
@@ -3671,7 +3671,7 @@
   (symbol (lib_id "Device:R") (at 273.05 170.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 39f0272a-5fa4-426d-8074-c99f33fd1ece)
-    (property "Reference" "R159" (at 266.7 168.91 0)
+    (property "Reference" "R515" (at 266.7 168.91 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 266.7 171.45 0)
@@ -3694,7 +3694,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bce1534c-362e-45ed-a9dd-a44d6954485a"
-          (reference "R159") (unit 1)
+          (reference "R515") (unit 1)
         )
       )
     )
@@ -3728,7 +3728,7 @@
   (symbol (lib_id "Device:R") (at 285.75 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3ce4d511-d1b2-4bf8-9ca0-2b90c8003346)
-    (property "Reference" "R161" (at 288.29 156.2099 0)
+    (property "Reference" "R517" (at 288.29 156.2099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "38.3k" (at 288.29 158.7499 0)
@@ -3748,7 +3748,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bce1534c-362e-45ed-a9dd-a44d6954485a"
-          (reference "R161") (unit 1)
+          (reference "R517") (unit 1)
         )
       )
     )
@@ -3782,7 +3782,7 @@
   (symbol (lib_id "Symbols:PA2467NL") (at 231.14 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 42155f13-72d2-4db4-bc94-f02e1f70e451)
-    (property "Reference" "T101" (at 238.76 109.855 0)
+    (property "Reference" "T501" (at 238.76 109.855 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "PA2467NL" (at 241.3 112.395 0)
@@ -3810,7 +3810,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bce1534c-362e-45ed-a9dd-a44d6954485a"
-          (reference "T101") (unit 1)
+          (reference "T501") (unit 1)
         )
       )
     )
@@ -3819,7 +3819,7 @@
   (symbol (lib_id "Device:R") (at 273.05 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 45392754-f9d9-4603-8788-1f5a256e34c4)
-    (property "Reference" "R158" (at 265.43 156.21 0)
+    (property "Reference" "R514" (at 265.43 156.21 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1.4k" (at 265.43 158.75 0)
@@ -3842,7 +3842,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bce1534c-362e-45ed-a9dd-a44d6954485a"
-          (reference "R158") (unit 1)
+          (reference "R514") (unit 1)
         )
       )
     )
@@ -3876,7 +3876,7 @@
   (symbol (lib_id "Reference_Voltage:TL431DBZ") (at 273.05 185.42 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4828d60a-bf52-4381-afcf-4f31bd5d7a04)
-    (property "Reference" "U116" (at 270.51 182.88 90)
+    (property "Reference" "U503" (at 270.51 182.88 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "TL431MFDT,215" (at 270.51 189.23 90)
@@ -3897,7 +3897,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bce1534c-362e-45ed-a9dd-a44d6954485a"
-          (reference "U116") (unit 1)
+          (reference "U503") (unit 1)
         )
       )
     )
@@ -3931,7 +3931,7 @@
   (symbol (lib_id "Device:R") (at 77.47 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4f810413-3715-4603-a95f-6b1092b40205)
-    (property "Reference" "R146" (at 80.01 90.1699 0)
+    (property "Reference" "R502" (at 80.01 90.1699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "27k" (at 80.01 92.7099 0)
@@ -3954,7 +3954,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bce1534c-362e-45ed-a9dd-a44d6954485a"
-          (reference "R146") (unit 1)
+          (reference "R502") (unit 1)
         )
       )
     )
@@ -3963,7 +3963,7 @@
   (symbol (lib_id "Device:R") (at 171.45 104.14 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 503b9a6b-55dd-41b2-a7b4-f8f05bc4c906)
-    (property "Reference" "R150" (at 171.45 101.6 90)
+    (property "Reference" "R506" (at 171.45 101.6 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "470R" (at 171.45 106.68 90)
@@ -3986,7 +3986,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bce1534c-362e-45ed-a9dd-a44d6954485a"
-          (reference "R150") (unit 1)
+          (reference "R506") (unit 1)
         )
       )
     )
@@ -4020,7 +4020,7 @@
   (symbol (lib_name "D_4") (lib_id "Device:D") (at 175.26 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 52a993dd-e503-4eb1-8285-548cfcf028d8)
-    (property "Reference" "D106" (at 175.26 76.2 0)
+    (property "Reference" "D503" (at 175.26 76.2 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BAS20HT1G" (at 175.26 78.74 0)
@@ -4046,7 +4046,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bce1534c-362e-45ed-a9dd-a44d6954485a"
-          (reference "D106") (unit 1)
+          (reference "D503") (unit 1)
         )
       )
     )
@@ -4080,7 +4080,7 @@
   (symbol (lib_id "Device:C") (at 245.11 80.01 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 563b2e2f-7562-47a3-9065-f86af7226aac)
-    (property "Reference" "C156" (at 242.57 78.74 90)
+    (property "Reference" "C518" (at 242.57 78.74 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1nF" (at 242.57 82.55 90)
@@ -4109,7 +4109,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bce1534c-362e-45ed-a9dd-a44d6954485a"
-          (reference "C156") (unit 1)
+          (reference "C518") (unit 1)
         )
       )
     )
@@ -4168,7 +4168,7 @@
   (symbol (lib_id "Device:D_Schottky") (at 252.73 90.17 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5e2e2aa3-dd17-4524-9508-ae879da1af30)
-    (property "Reference" "D110" (at 250.19 87.63 0)
+    (property "Reference" "D507" (at 250.19 87.63 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "STTH4R02U" (at 252.73 92.71 0)
@@ -4188,7 +4188,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bce1534c-362e-45ed-a9dd-a44d6954485a"
-          (reference "D110") (unit 1)
+          (reference "D507") (unit 1)
         )
       )
     )
@@ -4222,7 +4222,7 @@
   (symbol (lib_id "Device:C_Polarized_Small") (at 327.66 104.14 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 616a1847-531d-48b9-a4ca-fa226df721e2)
-    (property "Reference" "C159" (at 336.55 102.87 0)
+    (property "Reference" "C521" (at 336.55 102.87 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100uF" (at 336.55 105.41 0)
@@ -4242,7 +4242,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bce1534c-362e-45ed-a9dd-a44d6954485a"
-          (reference "C159") (unit 1)
+          (reference "C521") (unit 1)
         )
       )
     )
@@ -4251,7 +4251,7 @@
   (symbol (lib_id "Device:C") (at 189.23 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 633f61df-f529-4010-a0bc-9140b33b1772)
-    (property "Reference" "C151" (at 193.04 143.51 0)
+    (property "Reference" "C513" (at 193.04 143.51 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 193.04 146.0499 0)
@@ -4274,7 +4274,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bce1534c-362e-45ed-a9dd-a44d6954485a"
-          (reference "C151") (unit 1)
+          (reference "C513") (unit 1)
         )
       )
     )
@@ -4283,7 +4283,7 @@
   (symbol (lib_id "Device:C") (at 279.4 176.53 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 662f6711-5725-4589-aa58-bf5a15ca2831)
-    (property "Reference" "C158" (at 279.4 172.72 90)
+    (property "Reference" "C520" (at 279.4 172.72 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "6.8nF" (at 279.4 180.34 90)
@@ -4303,7 +4303,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bce1534c-362e-45ed-a9dd-a44d6954485a"
-          (reference "C158") (unit 1)
+          (reference "C520") (unit 1)
         )
       )
     )
@@ -4362,7 +4362,7 @@
   (symbol (lib_name "D_2") (lib_id "Device:D") (at 170.18 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6d2db307-28cc-4234-bf21-c2742cad6e89)
-    (property "Reference" "D105" (at 170.18 122.555 0)
+    (property "Reference" "D502" (at 170.18 122.555 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BAS20HT1G" (at 170.815 124.46 0)
@@ -4388,7 +4388,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bce1534c-362e-45ed-a9dd-a44d6954485a"
-          (reference "D105") (unit 1)
+          (reference "D502") (unit 1)
         )
       )
     )
@@ -4397,7 +4397,7 @@
   (symbol (lib_id "Device:L") (at 43.18 46.99 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6f5c047e-92e2-48ea-b5d9-fcebde00fd0b)
-    (property "Reference" "L102" (at 43.18 41.275 90)
+    (property "Reference" "L501" (at 43.18 41.275 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10uH" (at 43.18 43.815 90)
@@ -4417,7 +4417,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bce1534c-362e-45ed-a9dd-a44d6954485a"
-          (reference "L102") (unit 1)
+          (reference "L501") (unit 1)
         )
       )
     )
@@ -4426,7 +4426,7 @@
   (symbol (lib_id "Symbols:NCP12700") (at 143.51 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 70ddb64f-4980-46b3-b382-cbfbe4ae5578)
-    (property "Reference" "U114" (at 143.51 77.47 0)
+    (property "Reference" "U501" (at 143.51 77.47 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "NCP12700" (at 143.51 80.01 0)
@@ -4454,7 +4454,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bce1534c-362e-45ed-a9dd-a44d6954485a"
-          (reference "U114") (unit 1)
+          (reference "U501") (unit 1)
         )
       )
     )
@@ -4513,7 +4513,7 @@
   (symbol (lib_id "Device:R") (at 175.26 90.17 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7a05de87-a41d-4521-b8e6-165f657557da)
-    (property "Reference" "R151" (at 175.26 87.63 90)
+    (property "Reference" "R507" (at 175.26 87.63 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10R" (at 173.99 92.71 90)
@@ -4536,7 +4536,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bce1534c-362e-45ed-a9dd-a44d6954485a"
-          (reference "R151") (unit 1)
+          (reference "R507") (unit 1)
         )
       )
     )
@@ -4545,7 +4545,7 @@
   (symbol (lib_id "Device:C") (at 205.74 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7bff937d-60de-4a31-934b-c1396a7b9e1f)
-    (property "Reference" "C153" (at 209.55 92.71 0)
+    (property "Reference" "C515" (at 209.55 92.71 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100pF" (at 208.915 95.25 0)
@@ -4571,7 +4571,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bce1534c-362e-45ed-a9dd-a44d6954485a"
-          (reference "C153") (unit 1)
+          (reference "C515") (unit 1)
         )
       )
     )
@@ -4580,7 +4580,7 @@
   (symbol (lib_id "Device:R") (at 257.81 80.01 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7c11897d-8f6f-4c19-a6b8-014904fa85c1)
-    (property "Reference" "R157" (at 255.27 77.47 90)
+    (property "Reference" "R513" (at 255.27 77.47 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10R" (at 255.27 82.55 90)
@@ -4609,7 +4609,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bce1534c-362e-45ed-a9dd-a44d6954485a"
-          (reference "R157") (unit 1)
+          (reference "R513") (unit 1)
         )
       )
     )
@@ -4618,7 +4618,7 @@
   (symbol (lib_id "Jumper:Jumper_2_Bridged") (at 29.21 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7cda5a61-ab26-47a3-a08f-ef3b98f02062)
-    (property "Reference" "JP113" (at 29.21 44.45 0)
+    (property "Reference" "JP501" (at 29.21 44.45 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Jumper_2_Bridged" (at 26.67 51.435 0)
@@ -4638,7 +4638,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bce1534c-362e-45ed-a9dd-a44d6954485a"
-          (reference "JP113") (unit 1)
+          (reference "JP501") (unit 1)
         )
       )
     )
@@ -4711,7 +4711,7 @@
           (reference "TP?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bce1534c-362e-45ed-a9dd-a44d6954485a"
-          (reference "TP124") (unit 1)
+          (reference "TP501") (unit 1)
         )
       )
     )
@@ -4720,7 +4720,7 @@
   (symbol (lib_id "Device:R") (at 162.56 90.17 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 884277a6-e288-4dfa-8e89-8e469216e94e)
-    (property "Reference" "R149" (at 162.56 87.63 90)
+    (property "Reference" "R505" (at 162.56 87.63 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2.2R" (at 162.56 92.71 90)
@@ -4746,7 +4746,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bce1534c-362e-45ed-a9dd-a44d6954485a"
-          (reference "R149") (unit 1)
+          (reference "R505") (unit 1)
         )
       )
     )
@@ -4780,7 +4780,7 @@
   (symbol (lib_id "Device:L_Small") (at 182.88 127 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8f1939ca-d0c0-48fa-ab23-40b7699520b3)
-    (property "Reference" "L103" (at 182.88 121.92 90)
+    (property "Reference" "L502" (at 182.88 121.92 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100uH" (at 182.88 124.46 90)
@@ -4800,7 +4800,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bce1534c-362e-45ed-a9dd-a44d6954485a"
-          (reference "L103") (unit 1)
+          (reference "L502") (unit 1)
         )
       )
     )
@@ -4834,7 +4834,7 @@
   (symbol (lib_id "Device:C") (at 86.36 124.46 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 973adc64-aaa2-4ee5-adc5-7a605504f82b)
-    (property "Reference" "C145" (at 82.55 123.1899 0)
+    (property "Reference" "C507" (at 82.55 123.1899 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10nF" (at 82.55 125.7299 0)
@@ -4854,7 +4854,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bce1534c-362e-45ed-a9dd-a44d6954485a"
-          (reference "C145") (unit 1)
+          (reference "C507") (unit 1)
         )
       )
     )
@@ -4927,7 +4927,7 @@
           (reference "TP?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bce1534c-362e-45ed-a9dd-a44d6954485a"
-          (reference "TP125") (unit 1)
+          (reference "TP502") (unit 1)
         )
       )
     )
@@ -4961,7 +4961,7 @@
   (symbol (lib_id "Device:C") (at 62.23 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9df55bb8-b4bf-4d3c-b1a9-78dc452d5e72)
-    (property "Reference" "C143" (at 66.04 62.2299 0)
+    (property "Reference" "C505" (at 66.04 62.2299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7uF" (at 66.04 64.77 0)
@@ -4981,7 +4981,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bce1534c-362e-45ed-a9dd-a44d6954485a"
-          (reference "C143") (unit 1)
+          (reference "C505") (unit 1)
         )
       )
     )
@@ -4990,7 +4990,7 @@
   (symbol (lib_id "Device:C") (at 231.14 38.1 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9f8805c5-8afd-4b0a-a228-98e2fdc2efcb)
-    (property "Reference" "C155" (at 227.33 36.83 90)
+    (property "Reference" "C517" (at 227.33 36.83 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2.2nF" (at 236.22 36.83 90)
@@ -5016,7 +5016,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bce1534c-362e-45ed-a9dd-a44d6954485a"
-          (reference "C155") (unit 1)
+          (reference "C517") (unit 1)
         )
       )
     )
@@ -5025,7 +5025,7 @@
   (symbol (lib_id "Device:C") (at 163.83 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9ff1bceb-ab03-4395-8199-24e2fad16f34)
-    (property "Reference" "C148" (at 167.005 113.03 0)
+    (property "Reference" "C510" (at 167.005 113.03 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C0G, 100pF" (at 167.005 115.57 0)
@@ -5045,7 +5045,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bce1534c-362e-45ed-a9dd-a44d6954485a"
-          (reference "C148") (unit 1)
+          (reference "C510") (unit 1)
         )
       )
     )
@@ -5132,7 +5132,7 @@
   (symbol (lib_id "Device:D") (at 209.55 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ad12c403-df0d-4e16-9d0e-4bfabbe9d11d)
-    (property "Reference" "D108" (at 209.55 122.555 0)
+    (property "Reference" "D505" (at 209.55 122.555 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BAS20HT1G" (at 212.09 124.46 0)
@@ -5158,7 +5158,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bce1534c-362e-45ed-a9dd-a44d6954485a"
-          (reference "D108") (unit 1)
+          (reference "D505") (unit 1)
         )
       )
     )
@@ -5192,7 +5192,7 @@
   (symbol (lib_id "Device:R") (at 200.66 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b1695c8d-d7b2-4e5a-83f8-91f3373834ef)
-    (property "Reference" "R156" (at 203.2 143.5099 0)
+    (property "Reference" "R512" (at 203.2 143.5099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1.4k" (at 203.2 146.0499 0)
@@ -5215,7 +5215,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bce1534c-362e-45ed-a9dd-a44d6954485a"
-          (reference "R156") (unit 1)
+          (reference "R512") (unit 1)
         )
       )
     )
@@ -5224,7 +5224,7 @@
   (symbol (lib_id "Device:R") (at 116.84 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b3d55cfd-08c2-4903-99e3-b2c99e4717a9)
-    (property "Reference" "R147" (at 119.38 138.4299 0)
+    (property "Reference" "R503" (at 119.38 138.4299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100k" (at 119.38 140.9699 0)
@@ -5247,7 +5247,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bce1534c-362e-45ed-a9dd-a44d6954485a"
-          (reference "R147") (unit 1)
+          (reference "R503") (unit 1)
         )
       )
     )
@@ -5256,7 +5256,7 @@
   (symbol (lib_id "Device:C") (at 105.41 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bcb05ee7-89aa-4062-96dd-597061fdc2ac)
-    (property "Reference" "C146" (at 109.22 138.43 0)
+    (property "Reference" "C508" (at 109.22 138.43 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22nF" (at 109.22 140.97 0)
@@ -5276,7 +5276,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bce1534c-362e-45ed-a9dd-a44d6954485a"
-          (reference "C146") (unit 1)
+          (reference "C508") (unit 1)
         )
       )
     )
@@ -5285,7 +5285,7 @@
   (symbol (lib_id "Device:C") (at 165.1 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid be8513b3-c1b4-4e90-8891-f4668a719146)
-    (property "Reference" "C150" (at 168.91 143.51 0)
+    (property "Reference" "C512" (at 168.91 143.51 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 168.91 146.0499 0)
@@ -5308,7 +5308,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bce1534c-362e-45ed-a9dd-a44d6954485a"
-          (reference "C150") (unit 1)
+          (reference "C512") (unit 1)
         )
       )
     )
@@ -5342,7 +5342,7 @@
   (symbol (lib_id "Device:D_Zener") (at 93.98 87.63 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bf69c3ac-be53-4bf8-8302-cdb021f9a259)
-    (property "Reference" "D104" (at 96.52 86.3599 90)
+    (property "Reference" "D501" (at 96.52 86.3599 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "6.2V" (at 96.52 88.8999 90)
@@ -5362,7 +5362,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bce1534c-362e-45ed-a9dd-a44d6954485a"
-          (reference "D104") (unit 1)
+          (reference "D501") (unit 1)
         )
       )
     )
@@ -5421,7 +5421,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x03") (at 311.15 97.79 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c60ba8b9-e202-40da-bd68-a1e284f84f26)
-    (property "Reference" "J113" (at 312.42 92.71 0)
+    (property "Reference" "J501" (at 312.42 92.71 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x03" (at 314.96 102.87 0)
@@ -5442,7 +5442,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bce1534c-362e-45ed-a9dd-a44d6954485a"
-          (reference "J113") (unit 1)
+          (reference "J501") (unit 1)
         )
       )
     )
@@ -5451,7 +5451,7 @@
   (symbol (lib_id "Device:R") (at 181.61 97.79 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c8039e40-01f0-4a92-9a5c-a6e2081179eb)
-    (property "Reference" "R152" (at 177.8 97.79 0)
+    (property "Reference" "R508" (at 177.8 97.79 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 177.8 100.33 0)
@@ -5474,7 +5474,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bce1534c-362e-45ed-a9dd-a44d6954485a"
-          (reference "R152") (unit 1)
+          (reference "R508") (unit 1)
         )
       )
     )
@@ -5508,7 +5508,7 @@
   (symbol (lib_id "Device:R") (at 285.75 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d4e0d808-43c7-4d36-bfa9-f12156b59bb2)
-    (property "Reference" "R160" (at 288.29 120.6499 0)
+    (property "Reference" "R516" (at 288.29 120.6499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10R" (at 288.29 123.1899 0)
@@ -5531,7 +5531,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bce1534c-362e-45ed-a9dd-a44d6954485a"
-          (reference "R160") (unit 1)
+          (reference "R516") (unit 1)
         )
       )
     )
@@ -5593,7 +5593,7 @@
   (symbol (lib_id "Device:C") (at 165.1 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid de9ba961-7670-4325-a837-351f4a9d249e)
-    (property "Reference" "C149" (at 168.91 67.31 0)
+    (property "Reference" "C511" (at 168.91 67.31 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "X7T, 100nF" (at 168.91 69.8499 0)
@@ -5613,7 +5613,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bce1534c-362e-45ed-a9dd-a44d6954485a"
-          (reference "C149") (unit 1)
+          (reference "C511") (unit 1)
         )
       )
     )
@@ -5647,7 +5647,7 @@
   (symbol (lib_id "Device:C") (at 265.43 97.79 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ed22705d-fded-4ea2-b23e-805a9a7150f2)
-    (property "Reference" "C157" (at 261.62 96.5199 0)
+    (property "Reference" "C519" (at 261.62 96.5199 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 261.62 99.0599 0)
@@ -5670,7 +5670,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bce1534c-362e-45ed-a9dd-a44d6954485a"
-          (reference "C157") (unit 1)
+          (reference "C519") (unit 1)
         )
       )
     )
@@ -5679,7 +5679,7 @@
   (symbol (lib_id "Device:Q_NMOS_GSD") (at 180.34 137.16 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ee3c317d-b5de-4fd4-b535-850681156ca0)
-    (property "Reference" "Q101" (at 174.625 135.8899 0)
+    (property "Reference" "Q501" (at 174.625 135.8899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "60V N channel" (at 176.53 139.7 0)
@@ -5700,7 +5700,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bce1534c-362e-45ed-a9dd-a44d6954485a"
-          (reference "Q101") (unit 1)
+          (reference "Q501") (unit 1)
         )
       )
     )
@@ -5734,7 +5734,7 @@
   (symbol (lib_name "D_3") (lib_id "Device:D") (at 198.12 77.47 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f2a61def-c01f-4081-aff5-994fa32ce718)
-    (property "Reference" "D107" (at 200.66 76.1999 90)
+    (property "Reference" "D504" (at 200.66 76.1999 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MURA130T3G" (at 200.66 78.7399 90)
@@ -5760,7 +5760,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bce1534c-362e-45ed-a9dd-a44d6954485a"
-          (reference "D107") (unit 1)
+          (reference "D504") (unit 1)
         )
       )
     )
