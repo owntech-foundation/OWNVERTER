@@ -3446,16 +3446,16 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "TP601") (unit 1)
+          (reference "TP126") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "TP?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "TP701") (unit 1)
+          (reference "TP143") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "TP801") (unit 1)
+          (reference "TP160") (unit 1)
         )
       )
     )
@@ -3529,16 +3529,16 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "R615") (unit 1)
+          (reference "R177") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "R?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "R715") (unit 1)
+          (reference "R198") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "R815") (unit 1)
+          (reference "R219") (unit 1)
         )
       )
     )
@@ -3659,16 +3659,16 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "C607") (unit 1)
+          (reference "C166") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "C?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "C707") (unit 1)
+          (reference "C185") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "C807") (unit 1)
+          (reference "C204") (unit 1)
         )
       )
     )
@@ -3711,16 +3711,16 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "C604") (unit 1)
+          (reference "C163") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "C?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "C704") (unit 1)
+          (reference "C182") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "C804") (unit 1)
+          (reference "C201") (unit 1)
         )
       )
     )
@@ -3763,16 +3763,16 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "R603") (unit 1)
+          (reference "R165") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "R?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "R703") (unit 1)
+          (reference "R186") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "R803") (unit 1)
+          (reference "R207") (unit 1)
         )
       )
     )
@@ -3815,16 +3815,16 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "C614") (unit 1)
+          (reference "C173") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "C?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "C714") (unit 1)
+          (reference "C192") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "C814") (unit 1)
+          (reference "C211") (unit 1)
         )
       )
     )
@@ -3867,16 +3867,16 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "R621") (unit 1)
+          (reference "R183") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "R?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "R721") (unit 1)
+          (reference "R204") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "R821") (unit 1)
+          (reference "R225") (unit 1)
         )
       )
     )
@@ -3915,16 +3915,16 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "U602") (unit 1)
+          (reference "U118") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "U?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "U702") (unit 1)
+          (reference "U124") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "U802") (unit 1)
+          (reference "U130") (unit 1)
         )
       )
     )
@@ -3957,16 +3957,16 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "TP608") (unit 1)
+          (reference "TP133") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "TP?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "TP708") (unit 1)
+          (reference "TP150") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "TP808") (unit 1)
+          (reference "TP167") (unit 1)
         )
       )
     )
@@ -3999,16 +3999,16 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "TP610") (unit 1)
+          (reference "TP135") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "TP?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "TP710") (unit 1)
+          (reference "TP152") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "TP810") (unit 1)
+          (reference "TP169") (unit 1)
         )
       )
     )
@@ -4041,16 +4041,16 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "TP611") (unit 1)
+          (reference "TP136") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "TP?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "TP711") (unit 1)
+          (reference "TP153") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "TP811") (unit 1)
+          (reference "TP170") (unit 1)
         )
       )
     )
@@ -4093,16 +4093,16 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "R618") (unit 1)
+          (reference "R180") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "R?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "R718") (unit 1)
+          (reference "R201") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "R818") (unit 1)
+          (reference "R222") (unit 1)
         )
       )
     )
@@ -4135,16 +4135,16 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "TP612") (unit 1)
+          (reference "TP137") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "TP?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "TP712") (unit 1)
+          (reference "TP154") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "TP812") (unit 1)
+          (reference "TP171") (unit 1)
         )
       )
     )
@@ -4153,7 +4153,7 @@
   (symbol (lib_id "Symbols:UCC21222DR") (at 121.92 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 22cffac0-d52b-4053-a57f-06747dea0755)
-    (property "Reference" "U603" (at 113.03 146.05 0)
+    (property "Reference" "U119" (at 113.03 146.05 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "UCC21222DR" (at 128.27 146.05 0)
@@ -4193,16 +4193,16 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "U603") (unit 1)
+          (reference "U119") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "U?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "U703") (unit 1)
+          (reference "U125") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "U803") (unit 1)
+          (reference "U131") (unit 1)
         )
       )
     )
@@ -4245,16 +4245,16 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "R605") (unit 1)
+          (reference "R167") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "R?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "R705") (unit 1)
+          (reference "R188") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "R805") (unit 1)
+          (reference "R209") (unit 1)
         )
       )
     )
@@ -4328,16 +4328,16 @@
           (reference "C?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "C618") (unit 1)
+          (reference "C177") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "C?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "C718") (unit 1)
+          (reference "C196") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "C818") (unit 1)
+          (reference "C215") (unit 1)
         )
       )
     )
@@ -4370,16 +4370,16 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "TP613") (unit 1)
+          (reference "TP138") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "TP?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "TP713") (unit 1)
+          (reference "TP155") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "TP813") (unit 1)
+          (reference "TP172") (unit 1)
         )
       )
     )
@@ -4412,16 +4412,16 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "TP606") (unit 1)
+          (reference "TP131") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "TP?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "TP706") (unit 1)
+          (reference "TP148") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "TP806") (unit 1)
+          (reference "TP165") (unit 1)
         )
       )
     )
@@ -4454,16 +4454,16 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "TP602") (unit 1)
+          (reference "TP127") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "TP?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "TP702") (unit 1)
+          (reference "TP144") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "TP802") (unit 1)
+          (reference "TP161") (unit 1)
         )
       )
     )
@@ -4496,16 +4496,16 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "TP616") (unit 1)
+          (reference "TP141") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "TP?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "TP716") (unit 1)
+          (reference "TP158") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "TP816") (unit 1)
+          (reference "TP175") (unit 1)
         )
       )
     )
@@ -4540,16 +4540,16 @@
           (reference "C?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "C610") (unit 1)
+          (reference "C169") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "C?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "C710") (unit 1)
+          (reference "C188") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "C810") (unit 1)
+          (reference "C207") (unit 1)
         )
       )
     )
@@ -4660,16 +4660,16 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "TP614") (unit 1)
+          (reference "TP139") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "TP?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "TP714") (unit 1)
+          (reference "TP156") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "TP814") (unit 1)
+          (reference "TP173") (unit 1)
         )
       )
     )
@@ -4712,16 +4712,16 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "C612") (unit 1)
+          (reference "C171") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "C?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "C712") (unit 1)
+          (reference "C190") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "C812") (unit 1)
+          (reference "C209") (unit 1)
         )
       )
     )
@@ -4803,16 +4803,16 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "C615") (unit 1)
+          (reference "C174") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "C?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "C715") (unit 1)
+          (reference "C193") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "C815") (unit 1)
+          (reference "C212") (unit 1)
         )
       )
     )
@@ -4927,16 +4927,16 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "D604") (unit 1)
+          (reference "D114") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "D?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "D704") (unit 1)
+          (reference "D119") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "D804") (unit 1)
+          (reference "D124") (unit 1)
         )
       )
     )
@@ -4979,16 +4979,16 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "C602") (unit 1)
+          (reference "C161") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "C?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "C702") (unit 1)
+          (reference "C180") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "C802") (unit 1)
+          (reference "C199") (unit 1)
         )
       )
     )
@@ -5109,16 +5109,16 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "C605") (unit 1)
+          (reference "C164") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "C?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "C705") (unit 1)
+          (reference "C183") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "C805") (unit 1)
+          (reference "C202") (unit 1)
         )
       )
     )
@@ -5156,16 +5156,16 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "Q602") (unit 1)
+          (reference "Q104") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "Q?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "Q702") (unit 1)
+          (reference "Q106") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "Q802") (unit 1)
+          (reference "Q108") (unit 1)
         )
       )
     )
@@ -5432,16 +5432,16 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "TP607") (unit 1)
+          (reference "TP132") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "TP?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "TP707") (unit 1)
+          (reference "TP149") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "TP807") (unit 1)
+          (reference "TP166") (unit 1)
         )
       )
     )
@@ -5481,16 +5481,16 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "D603") (unit 1)
+          (reference "D113") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "D?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "D703") (unit 1)
+          (reference "D118") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "D803") (unit 1)
+          (reference "D123") (unit 1)
         )
       )
     )
@@ -5611,16 +5611,16 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "R614") (unit 1)
+          (reference "R176") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "R?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "R714") (unit 1)
+          (reference "R197") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "R814") (unit 1)
+          (reference "R218") (unit 1)
         )
       )
     )
@@ -5663,16 +5663,16 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "C617") (unit 1)
+          (reference "C176") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "C?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "C717") (unit 1)
+          (reference "C195") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "C817") (unit 1)
+          (reference "C214") (unit 1)
         )
       )
     )
@@ -5715,16 +5715,16 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "R611") (unit 1)
+          (reference "R173") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "R?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "R711") (unit 1)
+          (reference "R194") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "R811") (unit 1)
+          (reference "R215") (unit 1)
         )
       )
     )
@@ -5767,16 +5767,16 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "D602") (unit 1)
+          (reference "D112") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "D?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "D702") (unit 1)
+          (reference "D117") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "D802") (unit 1)
+          (reference "D122") (unit 1)
         )
       )
     )
@@ -5900,16 +5900,16 @@
           (reference "C?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "C611") (unit 1)
+          (reference "C170") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "C?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "C711") (unit 1)
+          (reference "C189") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "C811") (unit 1)
+          (reference "C208") (unit 1)
         )
       )
     )
@@ -5952,16 +5952,16 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "D601") (unit 1)
+          (reference "D111") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "D?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "D701") (unit 1)
+          (reference "D116") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "D801") (unit 1)
+          (reference "D121") (unit 1)
         )
       )
     )
@@ -6121,16 +6121,16 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "R606") (unit 1)
+          (reference "R168") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "R?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "R706") (unit 1)
+          (reference "R189") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "R806") (unit 1)
+          (reference "R210") (unit 1)
         )
       )
     )
@@ -6163,16 +6163,16 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "TP609") (unit 1)
+          (reference "TP134") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "TP?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "TP709") (unit 1)
+          (reference "TP151") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "TP809") (unit 1)
+          (reference "TP168") (unit 1)
         )
       )
     )
@@ -6205,16 +6205,16 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "TP605") (unit 1)
+          (reference "TP130") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "TP?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "TP705") (unit 1)
+          (reference "TP147") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "TP805") (unit 1)
+          (reference "TP164") (unit 1)
         )
       )
     )
@@ -6257,16 +6257,16 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "R613") (unit 1)
+          (reference "R175") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "R?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "R713") (unit 1)
+          (reference "R196") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "R813") (unit 1)
+          (reference "R217") (unit 1)
         )
       )
     )
@@ -6275,7 +6275,7 @@
   (symbol (lib_id "Device:R_Small") (at 199.39 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9cf1de40-8dcf-498a-a74f-14d5bc7f56d7)
-    (property "Reference" "R617" (at 200.8886 83.9216 0)
+    (property "Reference" "R179" (at 200.8886 83.9216 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "470R" (at 200.8886 86.233 0)
@@ -6301,16 +6301,16 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "R617") (unit 1)
+          (reference "R179") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "R?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "R717") (unit 1)
+          (reference "R200") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "R817") (unit 1)
+          (reference "R221") (unit 1)
         )
       )
     )
@@ -6392,16 +6392,16 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "R619") (unit 1)
+          (reference "R181") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "R?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "R719") (unit 1)
+          (reference "R202") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "R819") (unit 1)
+          (reference "R223") (unit 1)
         )
       )
     )
@@ -6444,16 +6444,16 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "C613") (unit 1)
+          (reference "C172") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "C?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "C713") (unit 1)
+          (reference "C191") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "C813") (unit 1)
+          (reference "C210") (unit 1)
         )
       )
     )
@@ -6462,7 +6462,7 @@
   (symbol (lib_id "Device:R_Small") (at 199.39 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a4069caf-459e-4e17-a1e5-25324b35aa9c)
-    (property "Reference" "R616" (at 200.8886 72.4916 0)
+    (property "Reference" "R178" (at 200.8886 72.4916 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "150k" (at 200.8886 74.803 0)
@@ -6488,16 +6488,16 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "R616") (unit 1)
+          (reference "R178") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "R?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "R716") (unit 1)
+          (reference "R199") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "R816") (unit 1)
+          (reference "R220") (unit 1)
         )
       )
     )
@@ -6540,16 +6540,16 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "R620") (unit 1)
+          (reference "R182") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "R?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "R720") (unit 1)
+          (reference "R203") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "R820") (unit 1)
+          (reference "R224") (unit 1)
         )
       )
     )
@@ -6699,16 +6699,16 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "TP617") (unit 1)
+          (reference "TP142") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "TP?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "TP717") (unit 1)
+          (reference "TP159") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "TP817") (unit 1)
+          (reference "TP176") (unit 1)
         )
       )
     )
@@ -6748,16 +6748,16 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "U606") (unit 1)
+          (reference "U122") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "U?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "U706") (unit 1)
+          (reference "U128") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "U806") (unit 1)
+          (reference "U134") (unit 1)
         )
       )
     )
@@ -6789,13 +6789,13 @@
           (reference "F?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "F601") (unit 1)
+          (reference "F104") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "F701") (unit 1)
+          (reference "F105") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "F801") (unit 1)
+          (reference "F106") (unit 1)
         )
       )
     )
@@ -6838,16 +6838,16 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "C606") (unit 1)
+          (reference "C165") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "C?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "C706") (unit 1)
+          (reference "C184") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "C806") (unit 1)
+          (reference "C203") (unit 1)
         )
       )
     )
@@ -6887,7 +6887,7 @@
   (symbol (lib_id "Symbols:ACS730KLCTR-20AB") (at 172.72 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b1f97712-a851-499e-9e69-00145c3f166e)
-    (property "Reference" "U605" (at 165.1 29.21 0)
+    (property "Reference" "U121" (at 165.1 29.21 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "ACS730KLCTR-20AB" (at 181.61 29.21 0)
@@ -6913,16 +6913,16 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "U605") (unit 1)
+          (reference "U121") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "U?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "U705") (unit 1)
+          (reference "U127") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "U805") (unit 1)
+          (reference "U133") (unit 1)
         )
       )
     )
@@ -6994,16 +6994,16 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "TP615") (unit 1)
+          (reference "TP140") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "TP?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "TP715") (unit 1)
+          (reference "TP157") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "TP815") (unit 1)
+          (reference "TP174") (unit 1)
         )
       )
     )
@@ -7121,16 +7121,16 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "U604") (unit 1)
+          (reference "U120") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "U?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "U704") (unit 1)
+          (reference "U126") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "U804") (unit 1)
+          (reference "U132") (unit 1)
         )
       )
     )
@@ -7251,16 +7251,16 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "R608") (unit 1)
+          (reference "R170") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "R?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "R708") (unit 1)
+          (reference "R191") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "R808") (unit 1)
+          (reference "R212") (unit 1)
         )
       )
     )
@@ -7303,16 +7303,16 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "R612") (unit 1)
+          (reference "R174") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "R?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "R712") (unit 1)
+          (reference "R195") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "R812") (unit 1)
+          (reference "R216") (unit 1)
         )
       )
     )
@@ -7355,16 +7355,16 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "C616") (unit 1)
+          (reference "C175") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "C?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "C716") (unit 1)
+          (reference "C194") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "C816") (unit 1)
+          (reference "C213") (unit 1)
         )
       )
     )
@@ -7407,16 +7407,16 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "C601") (unit 1)
+          (reference "C160") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "C?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "C701") (unit 1)
+          (reference "C179") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "C801") (unit 1)
+          (reference "C198") (unit 1)
         )
       )
     )
@@ -7537,16 +7537,16 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "C609") (unit 1)
+          (reference "C168") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "C?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "C709") (unit 1)
+          (reference "C187") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "C809") (unit 1)
+          (reference "C206") (unit 1)
         )
       )
     )
@@ -7628,16 +7628,16 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "R604") (unit 1)
+          (reference "R166") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "R?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "R704") (unit 1)
+          (reference "R187") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "R804") (unit 1)
+          (reference "R208") (unit 1)
         )
       )
     )
@@ -7670,16 +7670,16 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "TP603") (unit 1)
+          (reference "TP128") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "TP?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "TP703") (unit 1)
+          (reference "TP145") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "TP803") (unit 1)
+          (reference "TP162") (unit 1)
         )
       )
     )
@@ -7688,7 +7688,7 @@
   (symbol (lib_id "Symbols:AMC1100DUB") (at 69.85 250.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e097ac5c-9634-4ff6-86d7-d5587b9d52c6)
-    (property "Reference" "U601" (at 60.96 236.22 0)
+    (property "Reference" "U117" (at 60.96 236.22 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "AMC1100DUB" (at 77.47 236.22 0)
@@ -7714,16 +7714,16 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "U601") (unit 1)
+          (reference "U117") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "U?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "U701") (unit 1)
+          (reference "U123") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "U801") (unit 1)
+          (reference "U129") (unit 1)
         )
       )
     )
@@ -7760,16 +7760,16 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "D605") (unit 1)
+          (reference "D115") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "D?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "D705") (unit 1)
+          (reference "D120") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "D805") (unit 1)
+          (reference "D125") (unit 1)
         )
       )
     )
@@ -7817,7 +7817,7 @@
   (symbol (lib_id "Device:L") (at 193.04 63.5 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e38f22ad-6c90-44bf-8a93-ab0c7c9b01dc)
-    (property "Reference" "L601" (at 191.77 60.96 90)
+    (property "Reference" "L104" (at 191.77 60.96 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "8,2uH" (at 193.04 64.77 90)
@@ -7837,13 +7837,13 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "L601") (unit 1)
+          (reference "L104") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "L701") (unit 1)
+          (reference "L105") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "L801") (unit 1)
+          (reference "L106") (unit 1)
         )
       )
     )
@@ -7954,16 +7954,16 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "TP604") (unit 1)
+          (reference "TP129") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "TP?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "TP704") (unit 1)
+          (reference "TP146") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "TP804") (unit 1)
+          (reference "TP163") (unit 1)
         )
       )
     )
@@ -8006,16 +8006,16 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "C619") (unit 1)
+          (reference "C178") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "C?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "C719") (unit 1)
+          (reference "C197") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "C819") (unit 1)
+          (reference "C216") (unit 1)
         )
       )
     )
@@ -8061,16 +8061,16 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "R609") (unit 1)
+          (reference "R171") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "R?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "R709") (unit 1)
+          (reference "R192") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "R809") (unit 1)
+          (reference "R213") (unit 1)
         )
       )
     )
@@ -8191,16 +8191,16 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "R601") (unit 1)
+          (reference "R163") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "R?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "R701") (unit 1)
+          (reference "R184") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "R801") (unit 1)
+          (reference "R205") (unit 1)
         )
       )
     )
@@ -8282,16 +8282,16 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "R610") (unit 1)
+          (reference "R172") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "R?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "R710") (unit 1)
+          (reference "R193") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "R810") (unit 1)
+          (reference "R214") (unit 1)
         )
       )
     )
@@ -8373,16 +8373,16 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "C603") (unit 1)
+          (reference "C162") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "C?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "C703") (unit 1)
+          (reference "C181") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "C803") (unit 1)
+          (reference "C200") (unit 1)
         )
       )
     )
@@ -8425,16 +8425,16 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "C608") (unit 1)
+          (reference "C167") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "C?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "C708") (unit 1)
+          (reference "C186") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "C808") (unit 1)
+          (reference "C205") (unit 1)
         )
       )
     )
@@ -8477,16 +8477,16 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "R607") (unit 1)
+          (reference "R169") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "R?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "R707") (unit 1)
+          (reference "R190") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "R807") (unit 1)
+          (reference "R211") (unit 1)
         )
       )
     )
@@ -8607,16 +8607,16 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "R602") (unit 1)
+          (reference "R164") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "R?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "R702") (unit 1)
+          (reference "R185") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "R802") (unit 1)
+          (reference "R206") (unit 1)
         )
       )
     )
@@ -8654,16 +8654,16 @@
       )
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-          (reference "Q601") (unit 1)
+          (reference "Q103") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
           (reference "Q?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-          (reference "Q701") (unit 1)
+          (reference "Q105") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-          (reference "Q801") (unit 1)
+          (reference "Q107") (unit 1)
         )
       )
     )

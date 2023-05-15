@@ -4346,7 +4346,7 @@
   (symbol (lib_id "Interface_CAN_LIN:TCAN334") (at 243.84 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006051d100)
-    (property "Reference" "U406" (at 236.22 119.38 0)
+    (property "Reference" "U112" (at 236.22 119.38 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TCAN334GDR" (at 233.68 137.16 0)
@@ -4375,7 +4375,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "U406") (unit 1)
+          (reference "U112") (unit 1)
         )
       )
     )
@@ -4384,7 +4384,7 @@
   (symbol (lib_id "Device:C_Small") (at 250.19 110.49 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006051f185)
-    (property "Reference" "C409" (at 249.0216 108.1532 90)
+    (property "Reference" "C134" (at 249.0216 108.1532 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 257.81 107.95 90)
@@ -4410,7 +4410,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "C409") (unit 1)
+          (reference "C134") (unit 1)
         )
       )
     )
@@ -4419,7 +4419,7 @@
   (symbol (lib_id "Jumper:Jumper_2_Bridged") (at 266.7 110.49 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006053c1cc)
-    (property "Reference" "JP408" (at 269.24 110.49 90)
+    (property "Reference" "JP108" (at 269.24 110.49 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Jumper" (at 273.685 111.125 90)
@@ -4442,7 +4442,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "JP408") (unit 1)
+          (reference "JP108") (unit 1)
         )
       )
     )
@@ -4451,7 +4451,7 @@
   (symbol (lib_id "Connector:RJ45_LED_Shielded") (at 340.36 31.75 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006062f6c1)
-    (property "Reference" "J404" (at 332.74 17.78 0)
+    (property "Reference" "J112" (at 332.74 17.78 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "RJ45_LED_Shielded" (at 327.66 43.18 0)
@@ -4485,7 +4485,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "J404") (unit 1)
+          (reference "J112") (unit 1)
         )
       )
     )
@@ -4494,7 +4494,7 @@
   (symbol (lib_id "Connector:RJ45_LED_Shielded") (at 339.09 72.39 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000606310e3)
-    (property "Reference" "J403" (at 332.74 58.42 0)
+    (property "Reference" "J111" (at 332.74 58.42 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "RJ45_LED_Shielded" (at 326.39 83.82 0)
@@ -4528,7 +4528,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "J403") (unit 1)
+          (reference "J111") (unit 1)
         )
       )
     )
@@ -4587,7 +4587,7 @@
   (symbol (lib_id "Device:D_Schottky_Small") (at 350.52 109.22 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060720972)
-    (property "Reference" "D402" (at 348.742 108.0516 90)
+    (property "Reference" "D102" (at 348.742 108.0516 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "RBR2MM60ATFTR" (at 348.742 110.363 90)
@@ -4610,7 +4610,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "D402") (unit 1)
+          (reference "D102") (unit 1)
         )
       )
     )
@@ -4619,7 +4619,7 @@
   (symbol (lib_id "Device:D_Schottky_Small") (at 355.6 138.43 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000607216af)
-    (property "Reference" "D403" (at 353.822 137.2616 90)
+    (property "Reference" "D103" (at 353.822 137.2616 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "RBR2MM60ATFTR" (at 353.822 139.573 90)
@@ -4642,7 +4642,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "D403") (unit 1)
+          (reference "D103") (unit 1)
         )
       )
     )
@@ -4651,7 +4651,7 @@
   (symbol (lib_id "Device:Polyfuse_Small") (at 355.6 119.38 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060722be6)
-    (property "Reference" "F402" (at 359.41 116.84 0)
+    (property "Reference" "F103" (at 359.41 116.84 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "350mA" (at 360.68 119.38 0)
@@ -4674,7 +4674,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "F402") (unit 1)
+          (reference "F103") (unit 1)
         )
       )
     )
@@ -4683,7 +4683,7 @@
   (symbol (lib_id "Device:R_Small") (at 355.6 36.83 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006079deb8)
-    (property "Reference" "R431" (at 355.6 33.02 90)
+    (property "Reference" "R144" (at 355.6 33.02 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "330R" (at 355.6 34.925 90)
@@ -4709,7 +4709,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "R431") (unit 1)
+          (reference "R144") (unit 1)
         )
       )
     )
@@ -4718,7 +4718,7 @@
   (symbol (lib_id "Device:R_Small") (at 355.6 21.59 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006079f09a)
-    (property "Reference" "R430" (at 355.6 16.51 90)
+    (property "Reference" "R143" (at 355.6 16.51 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3k" (at 355.6 19.05 90)
@@ -4744,7 +4744,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "R430") (unit 1)
+          (reference "R143") (unit 1)
         )
       )
     )
@@ -4753,7 +4753,7 @@
   (symbol (lib_id "Device:R_Small") (at 354.33 77.47 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000607a1f72)
-    (property "Reference" "R429" (at 354.33 73.66 90)
+    (property "Reference" "R142" (at 354.33 73.66 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "330R" (at 354.33 75.565 90)
@@ -4779,7 +4779,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "R429") (unit 1)
+          (reference "R142") (unit 1)
         )
       )
     )
@@ -4788,7 +4788,7 @@
   (symbol (lib_id "Device:R_Small") (at 354.33 62.23 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000607a1f78)
-    (property "Reference" "R428" (at 354.33 57.15 90)
+    (property "Reference" "R141" (at 354.33 57.15 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3k" (at 354.33 59.69 90)
@@ -4814,7 +4814,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "R428") (unit 1)
+          (reference "R141") (unit 1)
         )
       )
     )
@@ -4848,7 +4848,7 @@
   (symbol (lib_id "Device:Thermistor") (at 29.21 156.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000061ad6692)
-    (property "Reference" "TH401" (at 31.877 155.0416 0)
+    (property "Reference" "TH101" (at 31.877 155.0416 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "NXFT15XH103FA2B100 " (at 31.877 157.353 0)
@@ -4871,7 +4871,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "TH401") (unit 1)
+          (reference "TH101") (unit 1)
         )
       )
     )
@@ -4880,7 +4880,7 @@
   (symbol (lib_id "Device:R") (at 29.21 143.51 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000062718547)
-    (property "Reference" "R401" (at 26.67 142.875 0)
+    (property "Reference" "R114" (at 26.67 142.875 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "20k" (at 26.67 144.78 0)
@@ -4909,7 +4909,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "R401") (unit 1)
+          (reference "R114") (unit 1)
         )
       )
     )
@@ -4968,7 +4968,7 @@
   (symbol (lib_id "Device:R") (at 278.13 228.6 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 03c2b312-af69-44a3-9d3d-4e6e95877abf)
-    (property "Reference" "R423" (at 276.86 226.06 90)
+    (property "Reference" "R136" (at 276.86 226.06 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7k" (at 283.21 226.06 90)
@@ -4994,7 +4994,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "R423") (unit 1)
+          (reference "R136") (unit 1)
         )
       )
     )
@@ -5003,7 +5003,7 @@
   (symbol (lib_id "Amplifier_Operational:OPA2277") (at 227.33 207.01 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 043990e6-ce36-46cb-9668-60987d494867)
-    (property "Reference" "U405" (at 220.98 201.93 0)
+    (property "Reference" "U111" (at 220.98 201.93 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "OPA2277" (at 222.25 212.09 0)
@@ -5032,7 +5032,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "U405") (unit 3)
+          (reference "U111") (unit 3)
         )
       )
     )
@@ -5066,7 +5066,7 @@
   (symbol (lib_id "Symbols:TS5A3357") (at 128.27 214.63 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 05d99286-c120-4319-8479-12104b0bc2b8)
-    (property "Reference" "U403" (at 130.81 213.36 0)
+    (property "Reference" "U109" (at 130.81 213.36 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TS5A3357DCUT" (at 132.08 223.52 0)
@@ -5092,7 +5092,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "U403") (unit 2)
+          (reference "U109") (unit 2)
         )
       )
     )
@@ -5101,7 +5101,7 @@
   (symbol (lib_id "Device:C_Small") (at 30.48 236.22 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 07687f1a-80ce-4cea-a6a2-41ed43db935a)
-    (property "Reference" "C401" (at 27.94 237.49 0)
+    (property "Reference" "C126" (at 27.94 237.49 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "20pF" (at 27.94 239.395 0)
@@ -5127,7 +5127,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "C401") (unit 1)
+          (reference "C126") (unit 1)
         )
       )
     )
@@ -5175,7 +5175,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 142.24 73.66 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0801bc9e-3aaa-4a90-b52a-b3a2a2bcfc20)
-    (property "Reference" "TP405" (at 146.05 68.58 0)
+    (property "Reference" "TP109" (at 146.05 68.58 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 140.335 71.6279 0)
@@ -5194,7 +5194,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "TP405") (unit 1)
+          (reference "TP109") (unit 1)
         )
       )
     )
@@ -5203,7 +5203,7 @@
   (symbol (lib_id "Symbols:OwnTech_SPIN") (at 46.99 91.44 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 09d3e22b-ce93-4c5b-8176-20f513cd4299)
-    (property "Reference" "U401" (at 50.8 90.17 0)
+    (property "Reference" "U107" (at 50.8 90.17 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "OwnTech_SPIN" (at 49.53 107.95 0)
@@ -5277,7 +5277,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "U401") (unit 2)
+          (reference "U107") (unit 2)
         )
       )
     )
@@ -5313,7 +5313,7 @@
           (reference "TP?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "TP417") (unit 1)
+          (reference "TP121") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
           (reference "TP?") (unit 1)
@@ -5328,7 +5328,7 @@
   (symbol (lib_id "Device:C_Small") (at 121.92 223.52 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0e8d81e3-7c5e-4f6c-b6da-2fa2f63f54ad)
-    (property "Reference" "C404" (at 120.65 220.98 0)
+    (property "Reference" "C129" (at 120.65 220.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 120.65 226.06 0)
@@ -5354,7 +5354,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "C404") (unit 1)
+          (reference "C129") (unit 1)
         )
       )
     )
@@ -5438,7 +5438,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 142.24 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 12ce9efb-dda5-47d8-84e3-39e15c652223)
-    (property "Reference" "TP408" (at 140.97 107.95 0)
+    (property "Reference" "TP112" (at 140.97 107.95 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 144.145 110.9979 0)
@@ -5457,7 +5457,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "TP408") (unit 1)
+          (reference "TP112") (unit 1)
         )
       )
     )
@@ -5516,7 +5516,7 @@
   (symbol (lib_id "Device:C_Small") (at 260.35 38.1 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1be80dcd-2aaa-46d7-a411-1c2d45e0c230)
-    (property "Reference" "C411" (at 259.1816 35.7632 90)
+    (property "Reference" "C136" (at 259.1816 35.7632 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 267.97 35.56 90)
@@ -5542,7 +5542,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "C411") (unit 1)
+          (reference "C136") (unit 1)
         )
       )
     )
@@ -5627,7 +5627,7 @@
           (reference "R?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "R410") (unit 1)
+          (reference "R123") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
           (reference "R?") (unit 1)
@@ -5717,7 +5717,7 @@
   (symbol (lib_id "Device:R") (at 273.05 190.5 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2a18bbfd-9abf-48ac-9b1c-05b0879dfb6b)
-    (property "Reference" "R422" (at 267.97 189.23 90)
+    (property "Reference" "R135" (at 267.97 189.23 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7k" (at 281.94 189.23 90)
@@ -5743,7 +5743,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "R422") (unit 1)
+          (reference "R135") (unit 1)
         )
       )
     )
@@ -5752,7 +5752,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 170.18 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 31702055-e5bc-46f7-ae3b-2be161e8bbbc)
-    (property "Reference" "TP413" (at 167.64 68.58 0)
+    (property "Reference" "TP117" (at 167.64 68.58 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 172.085 71.6279 0)
@@ -5771,7 +5771,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "TP413") (unit 1)
+          (reference "TP117") (unit 1)
         )
       )
     )
@@ -5780,7 +5780,7 @@
   (symbol (lib_id "Device:C_Small") (at 273.05 198.12 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 33ac9c67-a274-42dc-8c4a-0fb7142dd3b1)
-    (property "Reference" "C412" (at 269.24 196.85 90)
+    (property "Reference" "C137" (at 269.24 196.85 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "20pF" (at 279.4 196.85 90)
@@ -5806,7 +5806,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "C412") (unit 1)
+          (reference "C137") (unit 1)
         )
       )
     )
@@ -5890,7 +5890,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 134.62 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3838159b-ac72-4a13-8745-3a3b55d5b1ce)
-    (property "Reference" "TP401" (at 132.08 68.58 0)
+    (property "Reference" "TP105" (at 132.08 68.58 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 136.525 71.6279 0)
@@ -5909,7 +5909,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "TP401") (unit 1)
+          (reference "TP105") (unit 1)
         )
       )
     )
@@ -5968,7 +5968,7 @@
   (symbol (lib_id "Device:R") (at 279.4 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3c56118b-e919-43bb-b818-58cf8e1432ce)
-    (property "Reference" "R425" (at 281.178 28.0416 0)
+    (property "Reference" "R138" (at 281.178 28.0416 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7k" (at 281.178 30.353 0)
@@ -5994,7 +5994,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "R425") (unit 1)
+          (reference "R138") (unit 1)
         )
       )
     )
@@ -6069,7 +6069,7 @@
           (reference "TP?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "TP418") (unit 1)
+          (reference "TP122") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
           (reference "TP?") (unit 1)
@@ -6109,7 +6109,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 134.62 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 43866dcc-9ad0-4778-9276-8ff51596d240)
-    (property "Reference" "TP404" (at 130.81 107.95 0)
+    (property "Reference" "TP108" (at 130.81 107.95 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 136.525 110.9979 0)
@@ -6128,7 +6128,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "TP404") (unit 1)
+          (reference "TP108") (unit 1)
         )
       )
     )
@@ -6162,7 +6162,7 @@
   (symbol (lib_id "Symbols:OwnTech_SPIN") (at 48.26 113.03 0) (unit 4)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4a3e3e26-a06e-43b6-9141-34680c603942)
-    (property "Reference" "U401" (at 50.8 111.76 0)
+    (property "Reference" "U107" (at 50.8 111.76 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "OwnTech_SPIN" (at 52.07 119.38 0)
@@ -6236,7 +6236,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "U401") (unit 4)
+          (reference "U107") (unit 4)
         )
       )
     )
@@ -6245,7 +6245,7 @@
   (symbol (lib_id "Jumper:SolderJumper_2_Bridged") (at 87.63 224.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4bf3b667-a4bf-489a-bdff-d26fc75a5633)
-    (property "Reference" "JP401" (at 87.63 221.615 0)
+    (property "Reference" "JP101" (at 87.63 221.615 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SolderJumper_2_Open" (at 90.17 210.82 90)
@@ -6265,7 +6265,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "JP401") (unit 1)
+          (reference "JP101") (unit 1)
         )
       )
     )
@@ -6313,7 +6313,7 @@
   (symbol (lib_id "Interface_UART:LTC2850xS8") (at 254 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 51132b87-551c-4b29-ab8b-5da8f39decdc)
-    (property "Reference" "U407" (at 243.84 46.99 0)
+    (property "Reference" "U113" (at 243.84 46.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LTC2850xS8" (at 238.76 76.2 0)
@@ -6342,7 +6342,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "U407") (unit 1)
+          (reference "U113") (unit 1)
         )
       )
     )
@@ -6410,7 +6410,7 @@
           (reference "U?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "U404") (unit 1)
+          (reference "U110") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
           (reference "U?") (unit 1)
@@ -6452,7 +6452,7 @@
           (reference "TP?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "TP409") (unit 1)
+          (reference "TP113") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
           (reference "TP?") (unit 1)
@@ -6467,7 +6467,7 @@
   (symbol (lib_id "Device:R") (at 247.65 184.15 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 588bd2da-b699-4d9c-95c6-42ef05a33b36)
-    (property "Reference" "R416" (at 245.11 186.69 90)
+    (property "Reference" "R129" (at 245.11 186.69 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7k" (at 254 186.69 90)
@@ -6493,7 +6493,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "R416") (unit 1)
+          (reference "R129") (unit 1)
         )
       )
     )
@@ -6527,7 +6527,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 163.83 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5e7d9a95-eaaf-48e3-8a44-4196dd75f112)
-    (property "Reference" "TP412" (at 160.02 93.98 0)
+    (property "Reference" "TP116" (at 160.02 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 165.735 97.0279 0)
@@ -6546,7 +6546,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "TP412") (unit 1)
+          (reference "TP116") (unit 1)
         )
       )
     )
@@ -6555,7 +6555,7 @@
   (symbol (lib_id "Device:C_Small") (at 220.98 195.58 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5f360229-8ea0-4fa7-9a9a-6f533ffc9fcb)
-    (property "Reference" "C407" (at 215.9 193.04 90)
+    (property "Reference" "C132" (at 215.9 193.04 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 215.9 198.12 90)
@@ -6581,7 +6581,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "C407") (unit 1)
+          (reference "C132") (unit 1)
         )
       )
     )
@@ -6640,7 +6640,7 @@
   (symbol (lib_id "Device:R") (at 279.4 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 65b6a2fd-a13b-4fdc-8d19-281cc2686fe5)
-    (property "Reference" "R427" (at 281.178 80.1116 0)
+    (property "Reference" "R140" (at 281.178 80.1116 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7k" (at 281.178 82.423 0)
@@ -6666,7 +6666,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "R427") (unit 1)
+          (reference "R140") (unit 1)
         )
       )
     )
@@ -6675,7 +6675,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Male") (at 334.01 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 66d80a30-b3cc-46b6-bd46-a2d50c33fb2c)
-    (property "Reference" "J401" (at 331.47 124.46 0)
+    (property "Reference" "J109" (at 331.47 124.46 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x02_Male" (at 340.36 120.015 0)
@@ -6698,7 +6698,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "J401") (unit 1)
+          (reference "J109") (unit 1)
         )
       )
     )
@@ -6707,7 +6707,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 163.83 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6820296c-522c-4edc-bec3-95bc3004746a)
-    (property "Reference" "TP410" (at 160.02 68.58 0)
+    (property "Reference" "TP114" (at 160.02 68.58 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 165.735 71.6279 0)
@@ -6726,7 +6726,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "TP410") (unit 1)
+          (reference "TP114") (unit 1)
         )
       )
     )
@@ -6772,7 +6772,7 @@
           (reference "C?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "C405") (unit 1)
+          (reference "C130") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
           (reference "C?") (unit 1)
@@ -6837,7 +6837,7 @@
   (symbol (lib_id "Device:Thermistor") (at 93.98 156.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 713f4c81-0e44-41d3-97ff-051433530757)
-    (property "Reference" "TH403" (at 96.647 155.0416 0)
+    (property "Reference" "TH103" (at 96.647 155.0416 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "NXFT15XH103FA2B100 " (at 96.647 157.353 0)
@@ -6860,7 +6860,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "TH403") (unit 1)
+          (reference "TH103") (unit 1)
         )
       )
     )
@@ -6869,7 +6869,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Male") (at 334.01 130.81 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 72c08a24-6364-492f-af77-140359a23d7d)
-    (property "Reference" "J402" (at 331.47 132.08 0)
+    (property "Reference" "J110" (at 331.47 132.08 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x02_Male" (at 341.63 134.62 0)
@@ -6892,7 +6892,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "J402") (unit 1)
+          (reference "J110") (unit 1)
         )
       )
     )
@@ -6901,7 +6901,7 @@
   (symbol (lib_id "Device:R") (at 38.1 220.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 738674e7-f727-4652-bb46-ae56a944bae8)
-    (property "Reference" "R402" (at 39.878 219.8116 0)
+    (property "Reference" "R115" (at 39.878 219.8116 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47k" (at 39.878 222.123 0)
@@ -6927,7 +6927,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "R402") (unit 1)
+          (reference "R115") (unit 1)
         )
       )
     )
@@ -6961,7 +6961,7 @@
   (symbol (lib_id "Diode:1N4148WS") (at 281.94 181.61 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 77369cc2-ea49-4f47-b626-d7b0968432d9)
-    (property "Reference" "D401" (at 280.67 177.8 0)
+    (property "Reference" "D101" (at 280.67 177.8 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "PMEG2010AEJ,115" (at 280.67 184.15 0)
@@ -6984,7 +6984,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "D401") (unit 1)
+          (reference "D101") (unit 1)
         )
       )
     )
@@ -7018,7 +7018,7 @@
   (symbol (lib_id "Jumper:SolderJumper_2_Open") (at 363.22 138.43 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7e1fe098-02bc-4003-901b-244ea9c500cc)
-    (property "Reference" "JP412" (at 368.3 137.16 90)
+    (property "Reference" "JP112" (at 368.3 137.16 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Jumper_2_Bridged" (at 360.045 138.43 0)
@@ -7038,7 +7038,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "JP412") (unit 1)
+          (reference "JP112") (unit 1)
         )
       )
     )
@@ -7047,7 +7047,7 @@
   (symbol (lib_id "Symbols:TS5A3357") (at 171.45 208.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7f8da6ca-7dba-4cc0-b165-19b9454a5995)
-    (property "Reference" "U403" (at 173.99 207.01 0)
+    (property "Reference" "U109" (at 173.99 207.01 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TS5A3357DCUT" (at 176.53 204.47 0)
@@ -7073,7 +7073,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "U403") (unit 1)
+          (reference "U109") (unit 1)
         )
       )
     )
@@ -7121,7 +7121,7 @@
   (symbol (lib_id "Device:R") (at 157.48 177.8 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 80f47aeb-c3f6-403e-a430-f141ba28e892)
-    (property "Reference" "R409" (at 154.94 177.165 0)
+    (property "Reference" "R122" (at 154.94 177.165 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "20k" (at 154.94 179.07 0)
@@ -7150,7 +7150,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "R409") (unit 1)
+          (reference "R122") (unit 1)
         )
       )
     )
@@ -7196,7 +7196,7 @@
           (reference "R?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "R408") (unit 1)
+          (reference "R121") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
           (reference "R?") (unit 1)
@@ -7211,7 +7211,7 @@
   (symbol (lib_id "Jumper:SolderJumper_2_Bridged") (at 139.7 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 837310d0-6a75-453d-83cf-63f4ab5d7a9a)
-    (property "Reference" "JP406" (at 139.7 59.944 0)
+    (property "Reference" "JP106" (at 139.7 59.944 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Jumper_2_Bridged" (at 139.7 59.055 0)
@@ -7231,7 +7231,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "JP406") (unit 1)
+          (reference "JP106") (unit 1)
         )
       )
     )
@@ -7240,7 +7240,7 @@
   (symbol (lib_id "Symbols:OwnTech_SPIN") (at 91.44 91.44 0) (mirror y) (unit 3)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 86d9c495-055a-44a7-986d-686592fa0a8b)
-    (property "Reference" "U401" (at 91.44 90.17 0)
+    (property "Reference" "U107" (at 91.44 90.17 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "OwnTech_SPIN" (at 93.98 113.03 0)
@@ -7314,7 +7314,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "U401") (unit 3)
+          (reference "U107") (unit 3)
         )
       )
     )
@@ -7373,7 +7373,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 170.18 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8ceb62aa-0312-4d35-95f8-b6e108a0cb8e)
-    (property "Reference" "TP415" (at 170.18 93.98 0)
+    (property "Reference" "TP119" (at 170.18 93.98 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TestPoint" (at 172.085 97.0279 0)
@@ -7392,7 +7392,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "TP415") (unit 1)
+          (reference "TP119") (unit 1)
         )
       )
     )
@@ -7451,7 +7451,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 142.24 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9247ed6e-7787-47bc-922a-0798ce0da4ce)
-    (property "Reference" "TP406" (at 139.7 81.28 0)
+    (property "Reference" "TP110" (at 139.7 81.28 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 144.145 84.3279 0)
@@ -7470,7 +7470,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "TP406") (unit 1)
+          (reference "TP110") (unit 1)
         )
       )
     )
@@ -7479,7 +7479,7 @@
   (symbol (lib_id "Device:R") (at 93.98 142.24 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 925435f7-6c33-4925-b949-8b99f4c148da)
-    (property "Reference" "R405" (at 91.44 141.605 0)
+    (property "Reference" "R118" (at 91.44 141.605 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "20k" (at 91.44 143.51 0)
@@ -7508,7 +7508,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "R405") (unit 1)
+          (reference "R118") (unit 1)
         )
       )
     )
@@ -7517,7 +7517,7 @@
   (symbol (lib_id "Device:Thermistor") (at 59.69 156.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 94168de8-b862-48aa-b09e-4e149cedfb3e)
-    (property "Reference" "TH402" (at 62.357 155.0416 0)
+    (property "Reference" "TH102" (at 62.357 155.0416 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "NXFT15XH103FA2B100 " (at 62.357 157.353 0)
@@ -7540,7 +7540,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "TH402") (unit 1)
+          (reference "TH102") (unit 1)
         )
       )
     )
@@ -7549,7 +7549,7 @@
   (symbol (lib_id "Jumper:Jumper_2_Bridged") (at 279.4 52.07 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9453ac4e-f975-4d37-829a-fd80f1f67e82)
-    (property "Reference" "JP410" (at 280.67 52.07 90)
+    (property "Reference" "JP110" (at 280.67 52.07 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Jumper" (at 286.385 52.705 90)
@@ -7572,7 +7572,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "JP410") (unit 1)
+          (reference "JP110") (unit 1)
         )
       )
     )
@@ -7581,7 +7581,7 @@
   (symbol (lib_id "Device:R") (at 278.13 233.68 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9a1d9814-b8c4-422e-ae7b-bfc18a8325c3)
-    (property "Reference" "R424" (at 278.13 236.22 90)
+    (property "Reference" "R137" (at 278.13 236.22 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7k" (at 284.48 236.22 90)
@@ -7607,7 +7607,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "R424") (unit 1)
+          (reference "R137") (unit 1)
         )
       )
     )
@@ -7616,7 +7616,7 @@
   (symbol (lib_id "Device:R") (at 252.73 217.17 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9b077ccb-2949-4924-87a7-660771473c84)
-    (property "Reference" "R417" (at 247.65 215.9 90)
+    (property "Reference" "R130" (at 247.65 215.9 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7k" (at 260.35 215.9 90)
@@ -7642,7 +7642,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "R417") (unit 1)
+          (reference "R130") (unit 1)
         )
       )
     )
@@ -7651,7 +7651,7 @@
   (symbol (lib_id "Device:R") (at 266.7 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9b52fe24-f3ea-4cd1-bdc6-74c04de07e2f)
-    (property "Reference" "R419" (at 268.478 118.2116 0)
+    (property "Reference" "R132" (at 268.478 118.2116 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "59R" (at 268.478 120.523 0)
@@ -7674,7 +7674,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "R419") (unit 1)
+          (reference "R132") (unit 1)
         )
       )
     )
@@ -7710,7 +7710,7 @@
           (reference "TP?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "TP416") (unit 1)
+          (reference "TP120") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
           (reference "TP?") (unit 1)
@@ -7725,7 +7725,7 @@
   (symbol (lib_id "Jumper:SolderJumper_2_Bridged") (at 139.7 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9c5d94f7-8f84-4e16-ad54-64f803f791de)
-    (property "Reference" "JP405" (at 139.7 53.594 0)
+    (property "Reference" "JP105" (at 139.7 53.594 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Jumper_2_Bridged" (at 139.7 52.705 0)
@@ -7745,7 +7745,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "JP405") (unit 1)
+          (reference "JP105") (unit 1)
         )
       )
     )
@@ -7754,7 +7754,7 @@
   (symbol (lib_id "Device:C_Small") (at 274.32 129.54 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9cf13882-5d95-451c-b51e-74a19e9409e9)
-    (property "Reference" "C413" (at 273.1516 127.2032 90)
+    (property "Reference" "C138" (at 273.1516 127.2032 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 281.94 127 90)
@@ -7780,7 +7780,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "C413") (unit 1)
+          (reference "C138") (unit 1)
         )
       )
     )
@@ -7851,7 +7851,7 @@
           (reference "R?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "R411") (unit 1)
+          (reference "R124") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
           (reference "R?") (unit 1)
@@ -7905,7 +7905,7 @@
   (symbol (lib_id "Device:R") (at 226.06 66.04 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a6a70449-1dbd-4657-9f6a-1f2187695b0a)
-    (property "Reference" "R413" (at 224.282 64.8716 0)
+    (property "Reference" "R126" (at 224.282 64.8716 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7k" (at 224.282 67.183 0)
@@ -7931,7 +7931,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "R413") (unit 1)
+          (reference "R126") (unit 1)
         )
       )
     )
@@ -7977,7 +7977,7 @@
           (reference "R?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "R406") (unit 1)
+          (reference "R119") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
           (reference "R?") (unit 1)
@@ -8019,7 +8019,7 @@
           (reference "TP?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "TP419") (unit 1)
+          (reference "TP123") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
           (reference "TP?") (unit 1)
@@ -8135,7 +8135,7 @@
           (reference "C?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "C406") (unit 1)
+          (reference "C131") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
           (reference "C?") (unit 1)
@@ -8150,7 +8150,7 @@
   (symbol (lib_id "Amplifier_Operational:TLV6001DCK") (at 64.77 224.79 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b4e81ca0-e700-4c15-96b6-e3076b5847af)
-    (property "Reference" "U402" (at 69.85 228.6 0)
+    (property "Reference" "U108" (at 69.85 228.6 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "OPA316" (at 69.85 231.14 0)
@@ -8176,7 +8176,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "U402") (unit 1)
+          (reference "U108") (unit 1)
         )
       )
     )
@@ -8210,7 +8210,7 @@
   (symbol (lib_id "Symbols:OwnTech_SPIN") (at 55.88 24.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b644fe7d-f531-4602-b826-ff2ddd13f313)
-    (property "Reference" "U401" (at 58.42 22.86 0)
+    (property "Reference" "U107" (at 58.42 22.86 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "OwnTech_SPIN" (at 52.07 83.82 0)
@@ -8284,7 +8284,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "U401") (unit 1)
+          (reference "U107") (unit 1)
         )
       )
     )
@@ -8293,7 +8293,7 @@
   (symbol (lib_id "Jumper:SolderJumper_2_Bridged") (at 139.7 26.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b91a2423-d260-416d-8a74-ddce1e6314f2)
-    (property "Reference" "JP402" (at 139.7 24.384 0)
+    (property "Reference" "JP102" (at 139.7 24.384 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Jumper_2_Bridged" (at 139.7 23.495 0)
@@ -8313,7 +8313,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "JP402") (unit 1)
+          (reference "JP102") (unit 1)
         )
       )
     )
@@ -8322,7 +8322,7 @@
   (symbol (lib_id "Device:R") (at 279.4 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c092962a-291f-4b2d-9daf-3fc67b56e59d)
-    (property "Reference" "R426" (at 281.178 59.7916 0)
+    (property "Reference" "R139" (at 281.178 59.7916 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "120R" (at 281.178 62.103 0)
@@ -8348,7 +8348,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "R426") (unit 1)
+          (reference "R139") (unit 1)
         )
       )
     )
@@ -8382,7 +8382,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 134.62 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c3455c0a-25b9-4f0a-a291-a9bc82cf22ee)
-    (property "Reference" "TP403" (at 130.81 93.98 0)
+    (property "Reference" "TP107" (at 130.81 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 136.525 97.0279 0)
@@ -8401,7 +8401,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "TP403") (unit 1)
+          (reference "TP107") (unit 1)
         )
       )
     )
@@ -8460,7 +8460,7 @@
   (symbol (lib_id "Jumper:SolderJumper_2_Bridged") (at 233.68 179.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c89bf550-d802-49bd-9b76-b37ae10c7ea3)
-    (property "Reference" "JP407" (at 233.68 176.784 0)
+    (property "Reference" "JP107" (at 233.68 176.784 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Jumper_2_Bridged" (at 233.68 175.895 0)
@@ -8480,7 +8480,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "JP407") (unit 1)
+          (reference "JP107") (unit 1)
         )
       )
     )
@@ -8489,7 +8489,7 @@
   (symbol (lib_id "Jumper:SolderJumper_2_Open") (at 279.4 72.39 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c8a6f40e-eec4-4a44-9f67-1d69af599876)
-    (property "Reference" "JP411" (at 285.75 72.39 90)
+    (property "Reference" "JP111" (at 285.75 72.39 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Jumper_2_Bridged" (at 282.575 72.39 0)
@@ -8509,7 +8509,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "JP411") (unit 1)
+          (reference "JP111") (unit 1)
         )
       )
     )
@@ -8518,7 +8518,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 142.24 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cabb1568-71bd-4868-b951-e5b80c38f9ec)
-    (property "Reference" "TP407" (at 139.7 93.98 0)
+    (property "Reference" "TP111" (at 139.7 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 144.145 97.0279 0)
@@ -8537,7 +8537,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "TP407") (unit 1)
+          (reference "TP111") (unit 1)
         )
       )
     )
@@ -8571,7 +8571,7 @@
   (symbol (lib_id "Device:R") (at 271.78 242.57 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ceafa880-2361-45c0-b3c7-4346dbbc69e8)
-    (property "Reference" "R421" (at 274.32 241.3 0)
+    (property "Reference" "R134" (at 274.32 241.3 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7k" (at 274.32 243.84 0)
@@ -8597,7 +8597,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "R421") (unit 1)
+          (reference "R134") (unit 1)
         )
       )
     )
@@ -8606,7 +8606,7 @@
   (symbol (lib_name "C_Small_5") (lib_id "Device:C_Small") (at 57.15 245.11 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cfac5ff4-feca-4c95-a6bf-02e1c9566ad0)
-    (property "Reference" "C402" (at 54.61 243.84 0)
+    (property "Reference" "C127" (at 54.61 243.84 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 54.61 245.745 0)
@@ -8632,7 +8632,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "C402") (unit 1)
+          (reference "C127") (unit 1)
         )
       )
     )
@@ -8641,7 +8641,7 @@
   (symbol (lib_id "Jumper:SolderJumper_2_Open") (at 279.4 38.1 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d348dd0b-3ff9-4e32-864c-d2356e2b2250)
-    (property "Reference" "JP409" (at 285.75 38.1 90)
+    (property "Reference" "JP109" (at 285.75 38.1 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Jumper_2_Bridged" (at 282.575 38.1 0)
@@ -8661,7 +8661,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "JP409") (unit 1)
+          (reference "JP109") (unit 1)
         )
       )
     )
@@ -8670,7 +8670,7 @@
   (symbol (lib_id "Device:R") (at 265.43 170.18 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d6dfaacc-53c5-41c9-9dc6-914f32b201a1)
-    (property "Reference" "R418" (at 264.16 167.64 90)
+    (property "Reference" "R131" (at 264.16 167.64 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7k" (at 264.16 172.72 90)
@@ -8696,7 +8696,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "R418") (unit 1)
+          (reference "R131") (unit 1)
         )
       )
     )
@@ -8705,7 +8705,7 @@
   (symbol (lib_id "Device:R") (at 243.84 231.14 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d77ef2ef-5496-4d68-a394-f1a5d8e4030a)
-    (property "Reference" "R414" (at 242.57 228.6 90)
+    (property "Reference" "R127" (at 242.57 228.6 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "120R" (at 250.19 228.6 90)
@@ -8731,7 +8731,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "R414") (unit 1)
+          (reference "R127") (unit 1)
         )
       )
     )
@@ -8740,7 +8740,7 @@
   (symbol (lib_id "Device:R") (at 38.1 236.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d7b271b2-bad3-4eb7-bdf1-cae86ca2a652)
-    (property "Reference" "R403" (at 39.878 235.0516 0)
+    (property "Reference" "R116" (at 39.878 235.0516 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "12k" (at 39.878 237.363 0)
@@ -8766,7 +8766,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "R403") (unit 1)
+          (reference "R116") (unit 1)
         )
       )
     )
@@ -8775,7 +8775,7 @@
   (symbol (lib_id "Jumper:SolderJumper_2_Bridged") (at 139.7 31.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d9ed3b21-9902-431b-9d3c-0fd11056554c)
-    (property "Reference" "JP403" (at 139.7 29.845 0)
+    (property "Reference" "JP103" (at 139.7 29.845 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Jumper_2_Bridged" (at 139.7 28.575 0)
@@ -8795,7 +8795,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "JP403") (unit 1)
+          (reference "JP103") (unit 1)
         )
       )
     )
@@ -8804,7 +8804,7 @@
   (symbol (lib_id "Device:C_Small") (at 238.76 240.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid db44bf11-842f-4b7e-bcfc-24cc5b775dd6)
-    (property "Reference" "C408" (at 241.0968 238.8616 0)
+    (property "Reference" "C133" (at 241.0968 238.8616 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "15nF" (at 241.3 241.3 0)
@@ -8827,7 +8827,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "C408") (unit 1)
+          (reference "C133") (unit 1)
         )
       )
     )
@@ -8836,7 +8836,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 163.83 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dd5717ec-a56a-4bd8-a29d-a800056d7ee1)
-    (property "Reference" "TP411" (at 160.02 81.28 0)
+    (property "Reference" "TP115" (at 160.02 81.28 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 165.735 84.3279 0)
@@ -8855,7 +8855,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "TP411") (unit 1)
+          (reference "TP115") (unit 1)
         )
       )
     )
@@ -8864,7 +8864,7 @@
   (symbol (lib_id "Device:R") (at 247.65 179.07 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ddcddc65-f607-4e83-a2c8-a3ba54dfc61d)
-    (property "Reference" "R415" (at 246.38 176.53 90)
+    (property "Reference" "R128" (at 246.38 176.53 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7k" (at 254 176.53 90)
@@ -8890,7 +8890,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "R415") (unit 1)
+          (reference "R128") (unit 1)
         )
       )
     )
@@ -8924,7 +8924,7 @@
   (symbol (lib_id "Device:Polyfuse_Small") (at 345.44 119.38 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e0cead4e-e091-43b5-adaa-94837cf1d25d)
-    (property "Reference" "F401" (at 341.63 116.84 0)
+    (property "Reference" "F102" (at 341.63 116.84 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "350mA" (at 340.36 119.38 0)
@@ -8947,7 +8947,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "F401") (unit 1)
+          (reference "F102") (unit 1)
         )
       )
     )
@@ -8981,7 +8981,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 134.62 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e2a4cd89-72af-465f-b01c-a2795fa07ccd)
-    (property "Reference" "TP402" (at 130.81 81.28 0)
+    (property "Reference" "TP106" (at 130.81 81.28 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 136.525 84.3279 0)
@@ -9000,7 +9000,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "TP402") (unit 1)
+          (reference "TP106") (unit 1)
         )
       )
     )
@@ -9009,7 +9009,7 @@
   (symbol (lib_id "Device:C_Small") (at 66.04 203.2 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e321d67d-0523-4629-beb3-cd80e4d384ff)
-    (property "Reference" "C403" (at 62.865 198.12 90)
+    (property "Reference" "C128" (at 62.865 198.12 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "20pF" (at 62.865 200.025 90)
@@ -9035,7 +9035,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "C403") (unit 1)
+          (reference "C128") (unit 1)
         )
       )
     )
@@ -9119,7 +9119,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 170.18 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid eb66f522-5124-437d-83b8-4e79871236a8)
-    (property "Reference" "TP414" (at 167.64 81.28 0)
+    (property "Reference" "TP118" (at 167.64 81.28 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 172.085 84.3279 0)
@@ -9138,7 +9138,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "TP414") (unit 1)
+          (reference "TP118") (unit 1)
         )
       )
     )
@@ -9184,7 +9184,7 @@
           (reference "R?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "R407") (unit 1)
+          (reference "R120") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
           (reference "R?") (unit 1)
@@ -9199,7 +9199,7 @@
   (symbol (lib_id "Jumper:SolderJumper_2_Bridged") (at 139.7 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ee39475e-d721-4efc-a8c0-93d7bb311d86)
-    (property "Reference" "JP404" (at 139.7 34.925 0)
+    (property "Reference" "JP104" (at 139.7 34.925 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Jumper_2_Bridged" (at 139.7 33.655 0)
@@ -9219,7 +9219,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "JP404") (unit 1)
+          (reference "JP104") (unit 1)
         )
       )
     )
@@ -9253,7 +9253,7 @@
   (symbol (lib_id "Amplifier_Operational:OPA2277") (at 269.24 181.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f03b2ce5-0156-4968-9d9b-1e4a349ba088)
-    (property "Reference" "U405" (at 269.24 175.26 0)
+    (property "Reference" "U111" (at 269.24 175.26 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "OPA2277" (at 276.86 177.8 0)
@@ -9282,7 +9282,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "U405") (unit 1)
+          (reference "U111") (unit 1)
         )
       )
     )
@@ -9428,7 +9428,7 @@
           (reference "R?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "R412") (unit 1)
+          (reference "R125") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
           (reference "R?") (unit 1)
@@ -9443,7 +9443,7 @@
   (symbol (lib_id "Device:C_Small") (at 252.73 210.82 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f6f23212-781c-4f46-b2b8-d02b37b17fa2)
-    (property "Reference" "C410" (at 247.65 209.55 90)
+    (property "Reference" "C135" (at 247.65 209.55 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "20pF" (at 259.08 209.55 90)
@@ -9469,7 +9469,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "C410") (unit 1)
+          (reference "C135") (unit 1)
         )
       )
     )
@@ -9478,7 +9478,7 @@
   (symbol (lib_id "Device:R") (at 266.7 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f817709c-5fb5-4821-a246-3d69ce46c0ae)
-    (property "Reference" "R420" (at 268.478 137.2616 0)
+    (property "Reference" "R133" (at 268.478 137.2616 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "59R" (at 268.478 139.573 0)
@@ -9501,7 +9501,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "R420") (unit 1)
+          (reference "R133") (unit 1)
         )
       )
     )
@@ -9535,7 +9535,7 @@
   (symbol (lib_id "Amplifier_Operational:OPA2277") (at 257.81 231.14 180) (unit 2)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f9ee24e7-8cf3-47d6-9a3d-3ada75d8a0c9)
-    (property "Reference" "U405" (at 250.19 223.52 0)
+    (property "Reference" "U111" (at 250.19 223.52 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "OPA2277" (at 250.19 226.06 0)
@@ -9564,7 +9564,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "U405") (unit 2)
+          (reference "U111") (unit 2)
         )
       )
     )
@@ -9598,7 +9598,7 @@
   (symbol (lib_id "Device:R") (at 59.69 142.24 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fe1f9800-0452-41e8-bce3-b2c5c1c99eeb)
-    (property "Reference" "R404" (at 57.15 141.605 0)
+    (property "Reference" "R117" (at 57.15 141.605 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "20k" (at 57.15 143.51 0)
@@ -9627,7 +9627,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "R404") (unit 1)
+          (reference "R117") (unit 1)
         )
       )
     )
