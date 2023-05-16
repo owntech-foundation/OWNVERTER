@@ -2221,7 +2221,6 @@
     )
   )
 
-
   (junction (at 163.83 143.51) (diameter 0) (color 0 0 0 0)
     (uuid 015a1921-860f-4ba7-934d-8961c4187e8d)
   )
@@ -4957,7 +4956,7 @@
   (symbol (lib_id "Symbols:TS5A3357") (at 127 215.9 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 05d99286-c120-4319-8479-12104b0bc2b8)
-    (property "Reference" "U404" (at 129.54 214.63 0)
+    (property "Reference" "U410" (at 129.54 214.63 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TS5A3357DCUT" (at 130.81 224.79 0)
@@ -4983,7 +4982,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "U404") (unit 2)
+          (reference "U410") (unit 2)
         )
       )
     )
@@ -5244,7 +5243,7 @@
   (symbol (lib_id "Device:C_Small") (at 120.65 224.79 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0e8d81e3-7c5e-4f6c-b6da-2fa2f63f54ad)
-    (property "Reference" "C402" (at 119.38 222.25 0)
+    (property "Reference" "C420" (at 119.38 222.25 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 119.38 227.33 0)
@@ -5270,7 +5269,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "C402") (unit 1)
+          (reference "C420") (unit 1)
         )
       )
     )
@@ -6670,7 +6669,7 @@
           (reference "C?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "C403") (unit 1)
+          (reference "C430") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
           (reference "C?") (unit 1)
@@ -6945,7 +6944,7 @@
   (symbol (lib_id "Symbols:TS5A3357") (at 170.18 209.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7f8da6ca-7dba-4cc0-b165-19b9454a5995)
-    (property "Reference" "U404" (at 172.72 208.28 0)
+    (property "Reference" "U410" (at 172.72 208.28 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TS5A3357DCUT" (at 175.26 205.74 0)
@@ -6971,7 +6970,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "U404") (unit 1)
+          (reference "U410") (unit 1)
         )
       )
     )
@@ -7377,7 +7376,7 @@
   (symbol (lib_id "Device:R") (at 91.44 140.97 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 925435f7-6c33-4925-b949-8b99f4c148da)
-    (property "Reference" "R408" (at 88.9 140.335 0)
+    (property "Reference" "R450" (at 88.9 140.335 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "20k" (at 88.9 142.24 0)
@@ -7406,7 +7405,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "R408") (unit 1)
+          (reference "R450") (unit 1)
         )
       )
     )
@@ -7998,7 +7997,7 @@
           (reference "C?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "C404") (unit 1)
+          (reference "C490") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
           (reference "C?") (unit 1)
@@ -8592,9 +8591,6 @@
     (property "Datasheet" "" (at 62.865 10.795 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "DNP" "x" (at 54.61 25.4 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
     (pin "1" (uuid 982c296f-6560-4cd4-93a4-d36d0a62afab))
     (pin "10" (uuid dbe0e85a-e26b-4b57-8da2-61bc3f9c5f20))
     (pin "11" (uuid a9425660-8061-4cff-961a-f841ed2be596))
@@ -8695,7 +8691,7 @@
   (symbol (lib_id "Device:C_Small") (at 237.49 241.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid db44bf11-842f-4b7e-bcfc-24cc5b775dd6)
-    (property "Reference" "C405" (at 239.8268 240.1316 0)
+    (property "Reference" "C455" (at 239.8268 240.1316 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "15nF" (at 240.03 242.57 0)
@@ -8718,7 +8714,7 @@
     (instances
       (project "inverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "C405") (unit 1)
+          (reference "C455") (unit 1)
         )
       )
     )
