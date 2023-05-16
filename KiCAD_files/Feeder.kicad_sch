@@ -3413,7 +3413,7 @@
     (property "Value" "FODM217A" (at 223.52 179.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Package_DIP:SMDIP-4_W9.53mm_Clearance8mm" (at 231.14 182.88 0)
+    (property "Footprint" "Package_SO:SO-4_4.4x2.3mm_P1.27mm" (at 231.14 182.88 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/fodm214-d.pdf" (at 231.14 175.26 0)
