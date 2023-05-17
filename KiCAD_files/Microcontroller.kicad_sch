@@ -2215,7 +2215,6 @@
     )
   )
 
-
   (junction (at 163.83 143.51) (diameter 0) (color 0 0 0 0)
     (uuid 015a1921-860f-4ba7-934d-8961c4187e8d)
   )
@@ -8857,9 +8856,6 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "DNP" "x" (at 57.15 142.24 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Champ6" "" (at 57.15 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 7e722739-194c-40e9-a6a9-e790f3bf2b8d))
