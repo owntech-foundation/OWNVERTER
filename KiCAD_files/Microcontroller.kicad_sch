@@ -8858,6 +8858,9 @@
     (property "DNP" "x" (at 57.15 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Champ6" "" (at 57.15 142.24 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 7e722739-194c-40e9-a6a9-e790f3bf2b8d))
     (pin "2" (uuid 2032765e-4198-47d8-abfa-661eb61b1c42))
     (instances
