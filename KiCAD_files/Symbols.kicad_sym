@@ -1479,6 +1479,9 @@
     (property "Datasheet" "https://www.ti.com/lit/ds/symlink/iso6741.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1684427978549&ref_url=https%253A%252F%252Fwww.mouser.fr%252F" (at 2.54 -21.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "manf#" "ISO6740DWR" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (property "ki_keywords" "digital isolator galvanic isopower" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2331,7 +2334,7 @@
         (name "IND" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin output line (at -15.24 -5.08 0) (length 2.54) hide
+      (pin output line (at -15.24 -5.08 0) (length 2.54)
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )

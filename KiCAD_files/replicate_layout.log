@@ -1,94 +1,31 @@
-05-17 16:12:45 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 359:Plugin executed on: 'win32'
-05-17 16:12:45 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 360:Plugin executed with python version: '3.9.14 (main, Feb 13 2023, 04:48:26) [MSC v.1934 64 bit (AMD64)]'
-05-17 16:12:45 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 361:KiCad build version: 7.0.1
-05-17 16:12:45 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 362:Plugin version: 2.0.10
-05-17 16:12:45 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 363:Frame repr: <wx._core.Frame object at 0x0000020747A23E50>
-05-17 16:12:45 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 387:Preparing replicator with L601 as a reference
-05-17 16:12:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 113:getting a list of all footprints on board
-05-17 16:12:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 132:Footprint kibuzzard-62CEF83D does not have Sheetfile property, it will not be replicated. Most likely it is only in layout
-05-17 16:12:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 132:Footprint kibuzzard-62A33827 does not have Sheetfile property, it will not be replicated. Most likely it is only in layout
-05-17 16:12:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 132:Footprint kibuzzard-62A337C0 does not have Sheetfile property, it will not be replicated. Most likely it is only in layout
-05-17 16:12:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 132:Footprint kibuzzard-62A33791 does not have Sheetfile property, it will not be replicated. Most likely it is only in layout
-05-17 16:12:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 132:Footprint kibuzzard-62CD8DFC does not have Sheetfile property, it will not be replicated. Most likely it is only in layout
-05-17 16:12:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 132:Footprint kibuzzard-62CEA511 does not have Sheetfile property, it will not be replicated. Most likely it is only in layout
-05-17 16:12:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 132:Footprint kibuzzard-62CEA547 does not have Sheetfile property, it will not be replicated. Most likely it is only in layout
-05-17 16:12:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 132:Footprint kibuzzard-62CEA520 does not have Sheetfile property, it will not be replicated. Most likely it is only in layout
-05-17 16:12:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 132:Footprint kibuzzard-62CD8E0E does not have Sheetfile property, it will not be replicated. Most likely it is only in layout
-05-17 16:12:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 132:Footprint kibuzzard-62A337C0 does not have Sheetfile property, it will not be replicated. Most likely it is only in layout
-05-17 16:12:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 132:Footprint kibuzzard-62A33827 does not have Sheetfile property, it will not be replicated. Most likely it is only in layout
-05-17 16:12:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 132:Footprint kibuzzard-62A33843 does not have Sheetfile property, it will not be replicated. Most likely it is only in layout
-05-17 16:12:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 132:Footprint kibuzzard-62CD907E does not have Sheetfile property, it will not be replicated. Most likely it is only in layout
-05-17 16:12:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 132:Footprint G*** does not have Sheetfile property, it will not be replicated. Most likely it is only in layout
-05-17 16:12:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 132:Footprint kibuzzard-62A33843 does not have Sheetfile property, it will not be replicated. Most likely it is only in layout
-05-17 16:12:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 132:Footprint kibuzzard-62CEF826 does not have Sheetfile property, it will not be replicated. Most likely it is only in layout
-05-17 16:12:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 132:Footprint kibuzzard-62A33791 does not have Sheetfile property, it will not be replicated. Most likely it is only in layout
-05-17 16:12:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 132:Footprint kibuzzard-62A80B88 does not have Sheetfile property, it will not be replicated. Most likely it is only in layout
-05-17 16:12:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 132:Footprint kibuzzard-62A33803 does not have Sheetfile property, it will not be replicated. Most likely it is only in layout
-05-17 16:12:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 132:Footprint kibuzzard-62A33803 does not have Sheetfile property, it will not be replicated. Most likely it is only in layout
-05-17 16:12:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 132:Footprint kibuzzard-62CEF75A does not have Sheetfile property, it will not be replicated. Most likely it is only in layout
-05-17 16:12:45 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 435:source anchor footprint is 'L601'
+05-22 15:29:06 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 359:Plugin executed on: 'win32'
+05-22 15:29:06 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 360:Plugin executed with python version: '3.9.14 (main, Feb 13 2023, 04:48:26) [MSC v.1934 64 bit (AMD64)]'
+05-22 15:29:06 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 361:KiCad build version: 7.0.1
+05-22 15:29:06 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 362:Plugin version: 2.0.10
+05-22 15:29:06 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 363:Frame repr: <wx._core.Frame object at 0x000001D367474EE0>
+05-22 15:29:06 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 387:Preparing replicator with L601 as a reference
+05-22 15:29:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 113:getting a list of all footprints on board
+05-22 15:29:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 132:Footprint  does not have Sheetfile property, it will not be replicated. Most likely it is only in layout
+05-22 15:29:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 132:Footprint  does not have Sheetfile property, it will not be replicated. Most likely it is only in layout
+05-22 15:29:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 132:Footprint kibuzzard-62CEF83D does not have Sheetfile property, it will not be replicated. Most likely it is only in layout
+05-22 15:29:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 132:Footprint kibuzzard-62CD8DFC does not have Sheetfile property, it will not be replicated. Most likely it is only in layout
+05-22 15:29:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 132:Footprint kibuzzard-62CEA511 does not have Sheetfile property, it will not be replicated. Most likely it is only in layout
+05-22 15:29:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 132:Footprint kibuzzard-62CEA547 does not have Sheetfile property, it will not be replicated. Most likely it is only in layout
+05-22 15:29:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 132:Footprint kibuzzard-62CEA520 does not have Sheetfile property, it will not be replicated. Most likely it is only in layout
+05-22 15:29:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 132:Footprint G*** does not have Sheetfile property, it will not be replicated. Most likely it is only in layout
+05-22 15:29:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 132:Footprint kibuzzard-62CEF826 does not have Sheetfile property, it will not be replicated. Most likely it is only in layout
+05-22 15:29:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 132:Footprint kibuzzard-62A80B88 does not have Sheetfile property, it will not be replicated. Most likely it is only in layout
+05-22 15:29:06 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 435:source anchor footprint is 'L601'
 Located on: ['Phase1']
 With filenames: ['InverterLeg.kicad_sch']
 With sheet_id:['Phase1']
-05-17 16:12:45 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 442:Corresponding footprints are 
+05-22 15:29:06 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 442:Corresponding footprints are 
 [('L801', ['Phase3']), ('L701', ['Phase2']), ('L601', ['Phase1'])]
-05-17 16:12:45 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 454:Showing dialog
-05-17 16:12:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 390:constructing a list of sheets suitable for replication on level:'Phase1', file:'InverterLeg.kicad_sch'
-05-17 16:12:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 427:suitable sheets are:[['Phase2'], ['Phase3']]
-05-17 16:12:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1347:Level selected: ['Phase1']
-05-17 16:12:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1182:Filtering list of tracks
-05-17 16:12:46 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 460:Toolbar position: wx.Point(2843, 80)
-05-17 16:12:46 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 465:Dialog position: wx.Point(2479, 80)
-05-17 16:12:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 390:constructing a list of sheets suitable for replication on level:'Phase1', file:'InverterLeg.kicad_sch'
-05-17 16:12:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 427:suitable sheets are:[['Phase2'], ['Phase3']]
-05-17 16:12:47 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 207:Replicating layout
-05-17 16:12:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 236:Starting replication of sheets: [['Phase2'], ['Phase3']]
-on level: ['Phase1']
-with tracks=True, zone=True, text=True, text=True, intersecting=False, remove=False, locked footprints=False, group_only=False
-05-17 16:12:47 root 299:updating GUI message: 'Preparing for replication'
-05-17 16:12:47 root 304:updating GUI with: 0
-05-17 16:12:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 306:Getting the list of source footprints
-05-17 16:12:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 316:Getting the list of all the remaining footprints
-05-17 16:12:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 323:Getting source tracks
-05-17 16:12:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1182:Filtering list of tracks
-05-17 16:12:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 327:Getting source zones
-05-17 16:12:47 root 304:updating GUI with: 50
-05-17 16:12:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 331:Getting source text items
-05-17 16:12:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 335:Getting source drawing items
-05-17 16:12:47 root 304:updating GUI with: 83
-05-17 16:12:47 root 299:updating GUI message: 'Replicating footprints'
-05-17 16:12:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 739:Replicating footprints
-05-17 16:12:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 745:Replicating footprints on sheet ['Phase2']
-05-17 16:12:47 root 304:updating GUI with: 7
-05-17 16:12:47 root 304:updating GUI with: 30
-05-17 16:12:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 745:Replicating footprints on sheet ['Phase3']
-05-17 16:12:47 root 304:updating GUI with: 77
-05-17 16:12:47 root 299:updating GUI message: 'Replicating tracks'
-05-17 16:12:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 904:Replicating tracks
-05-17 16:12:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 910:Replicating tracks on sheet ['Phase2']
-05-17 16:12:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 734:Net pairs for sheet ['Phase2'] :[('/~{STBY1}', '/~{STBY2}'), ('+12V_PGND', '+12V_PGND'), ('Net-(U604-+)', 'Net-(U704-+)'), ('unconnected-(U603-NC-Pad12)', 'unconnected-(U703-NC-Pad12)'), ('Net-(U606-+)', 'Net-(U706-+)'), ('Net-(U605-VZCR)', 'Net-(U705-VZCR)'), ('Net-(U604--)', 'Net-(U704--)'), ('/VRef', '/VRef'), ('Net-(D601-A)', 'Net-(D701-A)'), ('DGND', 'DGND'), ('+5V_DGND', '+5V_DGND'), ('Net-(C622-Pad2)', 'Net-(C722-Pad2)'), ('Net-(U601-VOUTP)', 'Net-(U701-VOUTP)'), ('Net-(R610-Pad2)', 'Net-(R710-Pad2)'), ('/V_{I1Low_sense}', '/V_{I2Low_sense}'), ('Net-(L601-Pad1)', 'Net-(L701-Pad1)'), ('/Phase1/SW_Node', '/Phase2/SW_Node'), ('Net-(D605-K)', 'Net-(D705-K)'), ('Net-(U601-VOUTN)', 'Net-(U701-VOUTN)'), ('Net-(D601-K)', 'Net-(D701-K)'), ('Net-(U606--)', 'Net-(U706--)'), ('/Phase1/PWM_H', '/Phase2/PWM_H'), ('/Phase1/V_{ILow+}', '/Phase2/V_{ILow+}'), ('/HRTIM_CHA1', '/HRTIM_CHC1'), ('/I_{I1Low_sense}', '/I_{I2Low_sense}'), ('Net-(U603-INA)', 'Net-(U703-INA)'), ('Net-(D602-K)', 'Net-(D702-K)'), ('+5V_PGND', '+5V_PGND'), ('Net-(U603-INB)', 'Net-(U703-INB)'), ('/HRTIM_CHA2', '/HRTIM_CHC2'), ('unconnected-(U603-NC-Pad7)', 'unconnected-(U703-NC-Pad7)'), ('PGND', 'PGND'), ('Net-(D605-A)', 'Net-(D705-A)'), ('unconnected-(U603-NC-Pad13)', 'unconnected-(U703-NC-Pad13)'), ('Net-(D602-A)', 'Net-(D702-A)'), ('/DCBus', '/DCBus'), ('/Phase1/I_Hall', '/Phase2/I_Hall'), ('Net-(U603-DT)', 'Net-(U703-DT)'), ('/Phase1/PWM_L', '/Phase2/PWM_L'), ('/Phase A', '/Phase B'), ('Net-(R614-Pad2)', 'Net-(R714-Pad2)'), ('Net-(F601-Pad1)', 'Net-(F701-Pad1)')]
-05-17 16:12:47 root 304:updating GUI with: 0
-05-17 16:12:47 root 304:updating GUI with: 34
-05-17 16:12:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 910:Replicating tracks on sheet ['Phase3']
-05-17 16:12:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 734:Net pairs for sheet ['Phase3'] :[('unconnected-(U603-NC-Pad12)', 'unconnected-(U803-NC-Pad12)'), ('Net-(U601-VOUTN)', 'Net-(U801-VOUTN)'), ('Net-(U603-DT)', 'Net-(U803-DT)'), ('+12V_PGND', '+12V_PGND'), ('/V_{I1Low_sense}', '/V_{I3Low_sense}'), ('Net-(U601-VOUTP)', 'Net-(U801-VOUTP)'), ('/Phase A', '/Phase C'), ('Net-(U606-+)', 'Net-(U806-+)'), ('/VRef', '/VRef'), ('DGND', 'DGND'), ('+5V_DGND', '+5V_DGND'), ('/Phase1/PWM_L', '/Phase3/PWM_L'), ('Net-(U606--)', 'Net-(U806--)'), ('/Phase1/I_Hall', '/Phase3/I_Hall'), ('Net-(D602-A)', 'Net-(D802-A)'), ('unconnected-(U603-NC-Pad13)', 'unconnected-(U803-NC-Pad13)'), ('Net-(U603-INA)', 'Net-(U803-INA)'), ('Net-(U603-INB)', 'Net-(U803-INB)'), ('Net-(D602-K)', 'Net-(D802-K)'), ('Net-(F601-Pad1)', 'Net-(F801-Pad1)'), ('/Phase1/PWM_H', '/Phase3/PWM_H'), ('Net-(D605-K)', 'Net-(D805-K)'), ('Net-(U605-VZCR)', 'Net-(U805-VZCR)'), ('Net-(D605-A)', 'Net-(D805-A)'), ('/HRTIM_CHA1', '/HRTIM_CHE1'), ('/~{STBY1}', '/~{STBY3}'), ('/Phase1/SW_Node', '/Phase3/SW_Node'), ('Net-(D601-K)', 'Net-(D801-K)'), ('Net-(L601-Pad1)', 'Net-(L801-Pad1)'), ('Net-(U604--)', 'Net-(U804--)'), ('+5V_PGND', '+5V_PGND'), ('/Phase1/V_{ILow+}', '/Phase3/V_{ILow+}'), ('/I_{I1Low_sense}', '/I_{I3Low_sense}'), ('/HRTIM_CHA2', '/HRTIM_CHE2'), ('Net-(C622-Pad2)', 'Net-(C822-Pad2)'), ('PGND', 'PGND'), ('Net-(R614-Pad2)', 'Net-(R814-Pad2)'), ('Net-(D601-A)', 'Net-(D801-A)'), ('Net-(R610-Pad2)', 'Net-(R810-Pad2)'), ('Net-(U604-+)', 'Net-(U804-+)'), ('unconnected-(U603-NC-Pad7)', 'unconnected-(U803-NC-Pad7)'), ('/DCBus', '/DCBus')]
-05-17 16:12:47 root 304:updating GUI with: 63
-05-17 16:12:47 root 299:updating GUI message: 'Replicating zones'
-05-17 16:12:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 962:Replicating zones
-05-17 16:12:47 root 304:updating GUI with: 0
-05-17 16:12:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 969:Replicating zones on sheet ['Phase2']
-05-17 16:12:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 734:Net pairs for sheet ['Phase2'] :[('/~{STBY1}', '/~{STBY2}'), ('+12V_PGND', '+12V_PGND'), ('Net-(U604-+)', 'Net-(U704-+)'), ('unconnected-(U603-NC-Pad12)', 'unconnected-(U703-NC-Pad12)'), ('Net-(U606-+)', 'Net-(U706-+)'), ('Net-(U605-VZCR)', 'Net-(U705-VZCR)'), ('Net-(U604--)', 'Net-(U704--)'), ('/VRef', '/VRef'), ('Net-(D601-A)', 'Net-(D701-A)'), ('DGND', 'DGND'), ('+5V_DGND', '+5V_DGND'), ('Net-(C622-Pad2)', 'Net-(C722-Pad2)'), ('Net-(U601-VOUTP)', 'Net-(U701-VOUTP)'), ('Net-(R610-Pad2)', 'Net-(R710-Pad2)'), ('/V_{I1Low_sense}', '/V_{I2Low_sense}'), ('Net-(L601-Pad1)', 'Net-(L701-Pad1)'), ('/Phase1/SW_Node', '/Phase2/SW_Node'), ('Net-(D605-K)', 'Net-(D705-K)'), ('Net-(U601-VOUTN)', 'Net-(U701-VOUTN)'), ('Net-(D601-K)', 'Net-(D701-K)'), ('Net-(U606--)', 'Net-(U706--)'), ('/Phase1/PWM_H', '/Phase2/PWM_H'), ('/Phase1/V_{ILow+}', '/Phase2/V_{ILow+}'), ('/HRTIM_CHA1', '/HRTIM_CHC1'), ('/I_{I1Low_sense}', '/I_{I2Low_sense}'), ('Net-(U603-INA)', 'Net-(U703-INA)'), ('Net-(D602-K)', 'Net-(D702-K)'), ('+5V_PGND', '+5V_PGND'), ('Net-(U603-INB)', 'Net-(U703-INB)'), ('/HRTIM_CHA2', '/HRTIM_CHC2'), ('unconnected-(U603-NC-Pad7)', 'unconnected-(U703-NC-Pad7)'), ('PGND', 'PGND'), ('Net-(D605-A)', 'Net-(D705-A)'), ('unconnected-(U603-NC-Pad13)', 'unconnected-(U703-NC-Pad13)'), ('Net-(D602-A)', 'Net-(D702-A)'), ('/DCBus', '/DCBus'), ('/Phase1/I_Hall', '/Phase2/I_Hall'), ('Net-(U603-DT)', 'Net-(U703-DT)'), ('/Phase1/PWM_L', '/Phase2/PWM_L'), ('/Phase A', '/Phase B'), ('Net-(R614-Pad2)', 'Net-(R714-Pad2)'), ('Net-(F601-Pad1)', 'Net-(F701-Pad1)')]
-05-17 16:12:47 root 304:updating GUI with: 32
-05-17 16:12:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 969:Replicating zones on sheet ['Phase3']
-05-17 16:12:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 734:Net pairs for sheet ['Phase3'] :[('unconnected-(U603-NC-Pad12)', 'unconnected-(U803-NC-Pad12)'), ('Net-(U601-VOUTN)', 'Net-(U801-VOUTN)'), ('Net-(U603-DT)', 'Net-(U803-DT)'), ('+12V_PGND', '+12V_PGND'), ('/V_{I1Low_sense}', '/V_{I3Low_sense}'), ('Net-(U601-VOUTP)', 'Net-(U801-VOUTP)'), ('/Phase A', '/Phase C'), ('Net-(U606-+)', 'Net-(U806-+)'), ('/VRef', '/VRef'), ('DGND', 'DGND'), ('+5V_DGND', '+5V_DGND'), ('/Phase1/PWM_L', '/Phase3/PWM_L'), ('Net-(U606--)', 'Net-(U806--)'), ('/Phase1/I_Hall', '/Phase3/I_Hall'), ('Net-(D602-A)', 'Net-(D802-A)'), ('unconnected-(U603-NC-Pad13)', 'unconnected-(U803-NC-Pad13)'), ('Net-(U603-INA)', 'Net-(U803-INA)'), ('Net-(U603-INB)', 'Net-(U803-INB)'), ('Net-(D602-K)', 'Net-(D802-K)'), ('Net-(F601-Pad1)', 'Net-(F801-Pad1)'), ('/Phase1/PWM_H', '/Phase3/PWM_H'), ('Net-(D605-K)', 'Net-(D805-K)'), ('Net-(U605-VZCR)', 'Net-(U805-VZCR)'), ('Net-(D605-A)', 'Net-(D805-A)'), ('/HRTIM_CHA1', '/HRTIM_CHE1'), ('/~{STBY1}', '/~{STBY3}'), ('/Phase1/SW_Node', '/Phase3/SW_Node'), ('Net-(D601-K)', 'Net-(D801-K)'), ('Net-(L601-Pad1)', 'Net-(L801-Pad1)'), ('Net-(U604--)', 'Net-(U804--)'), ('+5V_PGND', '+5V_PGND'), ('/Phase1/V_{ILow+}', '/Phase3/V_{ILow+}'), ('/I_{I1Low_sense}', '/I_{I3Low_sense}'), ('/HRTIM_CHA2', '/HRTIM_CHE2'), ('Net-(C622-Pad2)', 'Net-(C822-Pad2)'), ('PGND', 'PGND'), ('Net-(R614-Pad2)', 'Net-(R814-Pad2)'), ('Net-(D601-A)', 'Net-(D801-A)'), ('Net-(R610-Pad2)', 'Net-(R810-Pad2)'), ('Net-(U604-+)', 'Net-(U804-+)'), ('unconnected-(U603-NC-Pad7)', 'unconnected-(U803-NC-Pad7)'), ('/DCBus', '/DCBus')]
-05-17 16:12:47 root 304:updating GUI with: 51
-05-17 16:12:47 root 304:updating GUI with: 82
-05-17 16:12:47 root 299:updating GUI message: 'Replicating text'
-05-17 16:12:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1040:Replicating text
-05-17 16:12:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1047:Replicating text on sheet ['Phase2']
-05-17 16:12:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1047:Replicating text on sheet ['Phase3']
-05-17 16:12:47 root 299:updating GUI message: 'Replicating drawings'
-05-17 16:12:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1080:Replicating drawings
-05-17 16:12:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1086:Replicating drawings on sheet ['Phase2']
-05-17 16:12:47 root 304:updating GUI with: 20
-05-17 16:12:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1086:Replicating drawings on sheet ['Phase3']
-05-17 16:12:49 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 223:Replication complete
+05-22 15:29:06 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 454:Showing dialog
+05-22 15:29:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 390:constructing a list of sheets suitable for replication on level:'Phase1', file:'InverterLeg.kicad_sch'
+05-22 15:29:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 427:suitable sheets are:[['Phase2'], ['Phase3']]
+05-22 15:29:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1347:Level selected: ['Phase1']
+05-22 15:29:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1182:Filtering list of tracks
+05-22 15:29:06 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 460:Toolbar position: wx.Point(3517, 117)
+05-22 15:29:06 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 465:Dialog position: wx.Point(3153, 117)
+05-22 15:29:24 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 288:User canceled the dialog
