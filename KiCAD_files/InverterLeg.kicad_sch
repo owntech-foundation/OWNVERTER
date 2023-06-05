@@ -4357,8 +4357,8 @@
     (property "Package" "0603" (at 52.07 236.22 90)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid c5839788-b4c0-462c-a78e-68e436117ea8))
-    (pin "2" (uuid eddb8bc6-0671-4ffe-839f-60ee4dd9d5bc))
+    (pin "1" (uuid dd3ef47e-8f39-4eea-9119-f0d160eb3ce4))
+    (pin "2" (uuid 13af1b80-6ba9-4624-8d50-8e8001e8d983))
     (instances
       (project "InverterLeg"
         (path "/22b63e0d-f11c-46a0-b2d0-b08207a579ff"
