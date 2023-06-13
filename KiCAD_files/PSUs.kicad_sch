@@ -1,0 +1,15 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 20cc63bc-89c5-4e60-92e2-69cdaee70177)
+
+  (paper "A3")
+
+  (title_block
+    (title "OWNVERTER V0.1")
+    (comment 1 "TWR")
+  )
+
+  (lib_symbols
+  )
+
+)
