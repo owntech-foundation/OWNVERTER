@@ -359,7 +359,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "inverter.kicad_pro",
+    "filename": "ownverter.kicad_pro",
     "version": 1
   },
   "net_settings": {
