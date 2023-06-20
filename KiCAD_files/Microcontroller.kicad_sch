@@ -4549,7 +4549,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 161.29 73.66 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board no) (dnp no)
+    (in_bom no) (on_board no) (dnp no)
     (uuid 0801bc9e-3aaa-4a90-b52a-b3a2a2bcfc20)
     (property "Reference" "TP407" (at 165.1 68.58 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4589,6 +4589,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 45.72 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "manf#" "OWN_SPIN_1.0" (at 46.99 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid b3f2ad88-a1b8-49a2-91c4-aa9044faba91))
@@ -4713,7 +4716,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 185.42 165.1 0) (unit 1)
-    (in_bom yes) (on_board no) (dnp no)
+    (in_bom no) (on_board no) (dnp no)
     (uuid 0ceaf516-52c4-4c4b-be90-8d21dc6acf56)
     (property "Reference" "TP?" (at 182.88 160.02 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4867,7 +4870,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 161.29 111.76 0) (unit 1)
-    (in_bom yes) (on_board no) (dnp no)
+    (in_bom no) (on_board no) (dnp no)
     (uuid 12ce9efb-dda5-47d8-84e3-39e15c652223)
     (property "Reference" "TP410" (at 160.02 106.68 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5156,7 +5159,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 189.23 73.66 0) (unit 1)
-    (in_bom yes) (on_board no) (dnp no)
+    (in_bom no) (on_board no) (dnp no)
     (uuid 31702055-e5bc-46f7-ae3b-2be161e8bbbc)
     (property "Reference" "TP408" (at 186.69 68.58 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5294,7 +5297,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 153.67 73.66 0) (unit 1)
-    (in_bom yes) (on_board no) (dnp no)
+    (in_bom no) (on_board no) (dnp no)
     (uuid 3838159b-ac72-4a13-8745-3a3b55d5b1ce)
     (property "Reference" "TP403" (at 151.13 68.58 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5421,7 +5424,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 189.23 217.17 0) (unit 1)
-    (in_bom yes) (on_board no) (dnp no)
+    (in_bom no) (on_board no) (dnp no)
     (uuid 40308512-a2ec-4d11-8663-dd0361f7c688)
     (property "Reference" "TP?" (at 186.69 212.09 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5488,7 +5491,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 153.67 111.76 0) (unit 1)
-    (in_bom yes) (on_board no) (dnp no)
+    (in_bom no) (on_board no) (dnp no)
     (uuid 43866dcc-9ad0-4778-9276-8ff51596d240)
     (property "Reference" "TP409" (at 149.86 106.68 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5581,6 +5584,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 46.99 114.3 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "manf#" "OWN_SPIN_1.0" (at 48.26 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid a1a7d86a-dec9-4d3c-9118-47d38cc76772))
@@ -5863,7 +5869,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 182.88 99.06 0) (unit 1)
-    (in_bom yes) (on_board no) (dnp no)
+    (in_bom no) (on_board no) (dnp no)
     (uuid 5e7d9a95-eaaf-48e3-8a44-4196dd75f112)
     (property "Reference" "TP452" (at 179.07 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -6018,7 +6024,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 182.88 73.66 0) (unit 1)
-    (in_bom yes) (on_board no) (dnp no)
+    (in_bom no) (on_board no) (dnp no)
     (uuid 6820296c-522c-4edc-bec3-95bc3004746a)
     (property "Reference" "TP404" (at 179.07 68.58 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -6504,7 +6510,7 @@
   )
 
   (symbol (lib_id "Jumper:SolderJumper_2_Bridged") (at 157.48 59.69 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 837310d0-6a75-453d-83cf-63f4ab5d7a9a)
     (property "Reference" "JP410" (at 157.48 57.404 0)
       (effects (font (size 1.27 1.27)))
@@ -6545,6 +6551,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 118.11 93.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "manf#" "OWN_SPIN_1.0" (at 116.84 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid f97aad1a-7b5f-45cd-8b7f-ced9f081c804))
@@ -6666,7 +6675,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 189.23 99.06 0) (unit 1)
-    (in_bom yes) (on_board no) (dnp no)
+    (in_bom no) (on_board no) (dnp no)
     (uuid 8ceb62aa-0312-4d35-95f8-b6e108a0cb8e)
     (property "Reference" "TP453" (at 189.23 93.98 0)
       (effects (font (size 1.27 1.27)))
@@ -6744,7 +6753,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 161.29 86.36 0) (unit 1)
-    (in_bom yes) (on_board no) (dnp no)
+    (in_bom no) (on_board no) (dnp no)
     (uuid 9247ed6e-7787-47bc-922a-0798ce0da4ce)
     (property "Reference" "TP405" (at 158.75 81.28 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -6969,7 +6978,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 185.42 156.21 0) (unit 1)
-    (in_bom yes) (on_board no) (dnp no)
+    (in_bom no) (on_board no) (dnp no)
     (uuid 9c4fd973-8b01-4c84-812d-ba055223c191)
     (property "Reference" "TP?" (at 182.88 151.13 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -7011,7 +7020,7 @@
   )
 
   (symbol (lib_id "Jumper:SolderJumper_2_Bridged") (at 157.48 53.34 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 9c5d94f7-8f84-4e16-ad54-64f803f791de)
     (property "Reference" "JP406" (at 157.48 51.054 0)
       (effects (font (size 1.27 1.27)))
@@ -7243,7 +7252,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 189.23 231.14 0) (unit 1)
-    (in_bom yes) (on_board no) (dnp no)
+    (in_bom no) (on_board no) (dnp no)
     (uuid aa7181de-e782-43f6-9056-3c33b27dbf61)
     (property "Reference" "TP?" (at 186.69 226.06 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -7458,7 +7467,7 @@
   )
 
   (symbol (lib_id "Jumper:SolderJumper_2_Bridged") (at 157.48 33.02 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid b91a2423-d260-416d-8a74-ddce1e6314f2)
     (property "Reference" "JP402" (at 157.48 30.734 0)
       (effects (font (size 1.27 1.27)))
@@ -7547,7 +7556,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 153.67 99.06 0) (unit 1)
-    (in_bom yes) (on_board no) (dnp no)
+    (in_bom no) (on_board no) (dnp no)
     (uuid c3455c0a-25b9-4f0a-a291-a9bc82cf22ee)
     (property "Reference" "TP450" (at 149.86 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -7625,7 +7634,7 @@
   )
 
   (symbol (lib_id "Jumper:SolderJumper_2_Bridged") (at 232.41 182.88 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid c89bf550-d802-49bd-9b76-b37ae10c7ea3)
     (property "Reference" "JP417" (at 232.41 180.594 0)
       (effects (font (size 1.27 1.27)))
@@ -7654,7 +7663,7 @@
   )
 
   (symbol (lib_id "Jumper:SolderJumper_2_Open") (at 278.13 73.66 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid c8a6f40e-eec4-4a44-9f67-1d69af599876)
     (property "Reference" "JP409" (at 284.48 73.66 90)
       (effects (font (size 1.27 1.27)))
@@ -7708,7 +7717,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 161.29 99.06 0) (unit 1)
-    (in_bom yes) (on_board no) (dnp no)
+    (in_bom no) (on_board no) (dnp no)
     (uuid cabb1568-71bd-4868-b951-e5b80c38f9ec)
     (property "Reference" "TP451" (at 158.75 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -7796,7 +7805,7 @@
   )
 
   (symbol (lib_id "Jumper:SolderJumper_2_Open") (at 278.13 39.37 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid d348dd0b-3ff9-4e32-864c-d2356e2b2250)
     (property "Reference" "JP408" (at 284.48 39.37 90)
       (effects (font (size 1.27 1.27)))
@@ -7837,6 +7846,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 20.32 210.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "manf#" "10129378-904001BLF" (at 20.32 210.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 22d7fb92-4bc9-4a5a-bc32-4e9eaeed3c4d))
@@ -7940,6 +7952,9 @@
     (property "Datasheet" "" (at 64.135 10.795 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "manf#" "OWN_SPIN_1.0" (at 55.88 25.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 982c296f-6560-4cd4-93a4-d36d0a62afab))
     (pin "10" (uuid dbe0e85a-e26b-4b57-8da2-61bc3f9c5f20))
     (pin "11" (uuid a9425660-8061-4cff-961a-f841ed2be596))
@@ -8009,7 +8024,7 @@
   )
 
   (symbol (lib_id "Jumper:SolderJumper_2_Bridged") (at 157.48 38.1 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid d9ed3b21-9902-431b-9d3c-0fd11056554c)
     (property "Reference" "JP404" (at 157.48 36.195 0)
       (effects (font (size 1.27 1.27)))
@@ -8070,7 +8085,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 182.88 86.36 0) (unit 1)
-    (in_bom yes) (on_board no) (dnp no)
+    (in_bom no) (on_board no) (dnp no)
     (uuid dd5717ec-a56a-4bd8-a29d-a800056d7ee1)
     (property "Reference" "TP402" (at 179.07 81.28 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -8193,7 +8208,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 153.67 86.36 0) (unit 1)
-    (in_bom yes) (on_board no) (dnp no)
+    (in_bom no) (on_board no) (dnp no)
     (uuid e2a4cd89-72af-465f-b01c-a2795fa07ccd)
     (property "Reference" "TP401" (at 149.86 81.28 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -8328,7 +8343,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 189.23 86.36 0) (unit 1)
-    (in_bom yes) (on_board no) (dnp no)
+    (in_bom no) (on_board no) (dnp no)
     (uuid eb66f522-5124-437d-83b8-4e79871236a8)
     (property "Reference" "TP406" (at 186.69 81.28 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -8408,7 +8423,7 @@
   )
 
   (symbol (lib_id "Jumper:SolderJumper_2_Bridged") (at 157.48 43.18 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid ee39475e-d721-4efc-a8c0-93d7bb311d86)
     (property "Reference" "JP405" (at 157.48 41.275 0)
       (effects (font (size 1.27 1.27)))
