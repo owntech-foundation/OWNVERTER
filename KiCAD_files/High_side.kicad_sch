@@ -181,159 +181,6 @@
         )
       )
     )
-    (symbol "C_Small_1" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "C" (at 0.254 1.778 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "C_Small_1" (at 0.254 -2.032 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "capacitor cap" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Unpolarized capacitor, small symbol" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "C_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "C_Small_1_0_1"
-        (polyline
-          (pts
-            (xy -1.524 -0.508)
-            (xy 1.524 -0.508)
-          )
-          (stroke (width 0.3302) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.524 0.508)
-            (xy 1.524 0.508)
-          )
-          (stroke (width 0.3048) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "C_Small_1_1_1"
-        (pin passive line (at 0 2.54 270) (length 2.032)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -2.54 90) (length 2.032)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "C_Small_5" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "C" (at 0.254 1.778 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "C_Small_5" (at 0.254 -2.032 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "capacitor cap" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Unpolarized capacitor, small symbol" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "C_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "C_Small_5_0_1"
-        (polyline
-          (pts
-            (xy -1.524 -0.508)
-            (xy 1.524 -0.508)
-          )
-          (stroke (width 0.3302) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.524 0.508)
-            (xy 1.524 0.508)
-          )
-          (stroke (width 0.3048) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "C_Small_5_1_1"
-        (pin passive line (at 0 2.54 270) (length 2.032)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -2.54 90) (length 2.032)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "C_Small_6" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "C" (at 0.254 1.778 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "C_Small_6" (at 0.254 -2.032 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "capacitor cap" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Unpolarized capacitor, small symbol" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "C_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "C_Small_6_0_1"
-        (polyline
-          (pts
-            (xy -1.524 -0.508)
-            (xy 1.524 -0.508)
-          )
-          (stroke (width 0.3302) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.524 0.508)
-            (xy 1.524 0.508)
-          )
-          (stroke (width 0.3048) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "C_Small_6_1_1"
-        (pin passive line (at 0 2.54 270) (length 2.032)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -2.54 90) (length 2.032)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "Connector:TestPoint" (pin_numbers hide) (pin_names (offset 0.762) hide) (in_bom yes) (on_board yes)
       (property "Reference" "TP" (at 0 6.858 0)
         (effects (font (size 1.27 1.27)))
@@ -545,84 +392,6 @@
         )
       )
     )
-    (symbol "R_Small_11" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "R" (at 0.762 0.508 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "R_Small_11" (at 0.762 -1.016 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "R resistor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Resistor, small symbol" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "R_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "R_Small_11_0_1"
-        (rectangle (start -0.762 1.778) (end 0.762 -1.778)
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "R_Small_11_1_1"
-        (pin passive line (at 0 2.54 270) (length 0.762)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -2.54 90) (length 0.762)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "R_Small_13" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "R" (at 0.762 0.508 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "R_Small_13" (at 0.762 -1.016 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "R resistor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Resistor, small symbol" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "R_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "R_Small_13_0_1"
-        (rectangle (start -0.762 1.778) (end 0.762 -1.778)
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "R_Small_13_1_1"
-        (pin passive line (at 0 2.54 270) (length 0.762)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -2.54 90) (length 0.762)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "R_Small_14" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 0.762 0.508 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -652,45 +421,6 @@
         )
       )
       (symbol "R_Small_14_1_1"
-        (pin passive line (at 0 2.54 270) (length 0.762)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -2.54 90) (length 0.762)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "R_Small_2" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "R" (at 0.762 0.508 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "R_Small_2" (at 0.762 -1.016 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "R resistor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Resistor, small symbol" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "R_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "R_Small_2_0_1"
-        (rectangle (start -0.762 1.778) (end 0.762 -1.778)
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "R_Small_2_1_1"
         (pin passive line (at 0 2.54 270) (length 0.762)
           (name "~" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
@@ -769,84 +499,6 @@
         )
       )
       (symbol "R_Small_6_1_1"
-        (pin passive line (at 0 2.54 270) (length 0.762)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -2.54 90) (length 0.762)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "R_Small_8" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "R" (at 0.762 0.508 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "R_Small_8" (at 0.762 -1.016 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "R resistor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Resistor, small symbol" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "R_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "R_Small_8_0_1"
-        (rectangle (start -0.762 1.778) (end 0.762 -1.778)
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "R_Small_8_1_1"
-        (pin passive line (at 0 2.54 270) (length 0.762)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -2.54 90) (length 0.762)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "R_Small_9" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "R" (at 0.762 0.508 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "R_Small_9" (at 0.762 -1.016 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "R resistor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Resistor, small symbol" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "R_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "R_Small_9_0_1"
-        (rectangle (start -0.762 1.778) (end 0.762 -1.778)
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "R_Small_9_1_1"
         (pin passive line (at 0 2.54 270) (length 0.762)
           (name "~" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
@@ -1121,63 +773,6 @@
         )
       )
     )
-    (symbol "TLV6001DCK_1" (pin_names (offset 0.127)) (in_bom yes) (on_board yes)
-      (property "Reference" "U" (at 7.62 2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "TLV6001DCK_1" (at 11.43 -2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5" (at 5.08 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv6001.pdf" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "op amp operational amplifier" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Low-power, Rail-to-rail, 1MHz Operational Amplifier, SOT-353" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "SOT*353*SC*70*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "TLV6001DCK_1_0_1"
-        (polyline
-          (pts
-            (xy -2.54 5.08)
-            (xy -2.54 -5.08)
-            (xy 7.62 0)
-            (xy -2.54 5.08)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-      )
-      (symbol "TLV6001DCK_1_1_1"
-        (pin input line (at -5.08 2.54 0) (length 2.54)
-          (name "+" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at 0 -7.62 90) (length 3.81)
-          (name "V-" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -5.08 -2.54 0) (length 2.54)
-          (name "-" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at 10.16 0 180) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at 0 7.62 270) (length 3.81)
-          (name "V+" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
   )
 
   (junction (at 91.44 190.5) (diameter 0) (color 0 0 0 0)
@@ -1262,6 +857,10 @@
   (wire (pts (xy 48.26 153.67) (xy 48.26 156.21))
     (stroke (width 0.5) (type default))
     (uuid 052de182-ea51-4507-b9d9-9bbfcb628c71)
+  )
+  (wire (pts (xy 203.2 205.74) (xy 209.55 205.74))
+    (stroke (width 0) (type default))
+    (uuid 071eb279-879f-4c3f-89c8-b16c64c9da1a)
   )
   (polyline (pts (xy 66.04 96.52) (xy 46.99 96.52))
     (stroke (width 0) (type dash))
@@ -1352,6 +951,10 @@
   (wire (pts (xy 52.07 220.98) (xy 54.61 220.98))
     (stroke (width 0) (type default))
     (uuid 48362511-c1ce-455c-96fd-9678d24d04c3)
+  )
+  (wire (pts (xy 185.42 205.74) (xy 198.12 205.74))
+    (stroke (width 0) (type default))
+    (uuid 48c2c0ec-1c03-41fc-9a74-522a216ef0e5)
   )
   (wire (pts (xy 115.57 212.09) (xy 123.19 212.09))
     (stroke (width 0) (type default))
@@ -1737,10 +1340,6 @@
     (stroke (width 0) (type default))
     (uuid ec92f5db-2190-4352-9c22-c99829b5277f)
   )
-  (wire (pts (xy 185.42 205.74) (xy 200.66 205.74))
-    (stroke (width 0) (type default))
-    (uuid ecc8d188-5905-4714-8e26-d5f0c040e788)
-  )
   (wire (pts (xy 53.34 198.12) (xy 53.34 200.66))
     (stroke (width 0) (type default))
     (uuid ee09f13b-46f9-40b3-a716-e1d20d1e2fe0)
@@ -1772,10 +1371,6 @@
   (wire (pts (xy 46.99 110.49) (xy 55.88 110.49))
     (stroke (width 0.45) (type default))
     (uuid ff1a8fff-f9d1-4d31-b0f1-5a53ddbb025e)
-  )
-  (wire (pts (xy 205.74 205.74) (xy 209.55 205.74))
-    (stroke (width 0) (type default))
-    (uuid ffc2e4dc-5a0f-443a-a1f0-4169dd880172)
   )
 
   (rectangle (start 38.1 49.53) (end 163.83 162.56)
@@ -1887,36 +1482,56 @@
     (uuid ef0d69db-86cc-4fba-979c-1bceee30ca34)
   )
 
-  (symbol (lib_name "C_Small_1") (lib_id "Device:C_Small") (at 233.68 189.23 90) (mirror x) (unit 1)
+  (symbol (lib_id "Device:R_Small") (at 200.66 205.74 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00b683df-b182-4a80-ac47-9d9e79c60e91)
-    (property "Reference" "C?" (at 232.41 187.96 90)
+    (uuid 03cf86eb-4ddb-4135-9398-099ff84c5c0b)
+    (property "Reference" "R?" (at 198.12 204.47 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100nF" (at 232.41 190.5 90)
+    (property "Value" "20k" (at 207.01 204.47 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Footprints:C_0805_2012Metric" (at 233.68 189.23 0)
+    (property "Footprint" "Footprints:R_0805_2012Metric" (at 200.66 205.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 233.68 189.23 0)
+    (property "Datasheet" "~" (at 200.66 205.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "manf#" "CC0805KRX7R9BB104" (at 233.68 189.23 0)
+    (property "manf#" "CR0805-FX-2002ELF" (at 200.66 205.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Package" "0805" (at 233.68 189.23 0)
+    (property "DNP" "x" (at 200.66 205.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b188ca8f-f1ee-47ab-b75e-c96cd9d441c1))
-    (pin "2" (uuid de5d6e2b-9c8d-4b32-af6a-5bebb3cd00ef))
+    (property "Package" "0805" (at 195.58 207.01 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Power" "0.125W" (at 207.01 207.01 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 2aa7a783-cf54-45f1-aa3a-490e0d4cf42a))
+    (pin "2" (uuid ef45a557-6e07-4ba7-bc2b-72832f19ad6e))
     (instances
-      (project "inverter"
-        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
-          (reference "C?") (unit 1)
+      (project "InverterLeg"
+        (path "/22b63e0d-f11c-46a0-b2d0-b08207a579ff"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project "ownverter"
+        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
+          (reference "R619") (unit 1)
+        )
+        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
+          (reference "R?") (unit 1)
+        )
+        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
+          (reference "R719") (unit 1)
+        )
+        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
+          (reference "R819") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/d5d50263-0660-44c8-a20f-043dc430c72e"
-          (reference "C218") (unit 1)
+          (reference "R210") (unit 1)
         )
       )
     )
@@ -1939,7 +1554,7 @@
     )
     (pin "1" (uuid 9ceebba4-21b2-4e9c-9101-053cb972103e))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "#PWR?") (unit 1)
         )
@@ -1967,7 +1582,7 @@
     )
     (pin "1" (uuid c7a91b08-5ed0-494e-9d7a-606b90d46230))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "#PWR?") (unit 1)
         )
@@ -1995,12 +1610,47 @@
     )
     (pin "1" (uuid 4d6bf8d7-3ab6-435e-afe2-1299b3127211))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "#PWR?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/d5d50263-0660-44c8-a20f-043dc430c72e"
           (reference "#PWR0213") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_name "R_Small_10") (lib_id "Device:R_Small") (at 226.06 222.25 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 2a98c688-f436-44d0-bb7e-366cda2acbd3)
+    (property "Reference" "R?" (at 223.52 220.98 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "5.9k" (at 232.41 220.98 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Footprints:R_0805_2012Metric" (at 226.06 222.25 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 226.06 222.25 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "manf#" "CR0805-FX-5901ELF" (at 226.06 222.25 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Package" "0805" (at 226.06 222.25 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0b9628a6-0f9f-48d7-a27f-7a0a6b86cd23))
+    (pin "2" (uuid 0b4911b4-5ad7-4f89-b69f-dfe34fb5bcb2))
+    (instances
+      (project "ownverter"
+        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
+          (reference "R?") (unit 1)
+        )
+        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/d5d50263-0660-44c8-a20f-043dc430c72e"
+          (reference "R212") (unit 1)
         )
       )
     )
@@ -2023,7 +1673,7 @@
     )
     (pin "1" (uuid 346699e5-01d4-43f3-be41-d56db0f4ebc5))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "#PWR?") (unit 1)
         )
@@ -2034,31 +1684,31 @@
     )
   )
 
-  (symbol (lib_name "TLV6001DCK_1") (lib_id "Amplifier_Operational:TLV6001DCK") (at 224.79 203.2 0) (unit 1)
+  (symbol (lib_id "Amplifier_Operational:TLV6001DCK") (at 224.79 203.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
-    (uuid 336936bd-ca8e-47eb-a997-1ec65c9cc491)
-    (property "Reference" "U?" (at 229.235 197.485 0)
+    (uuid 333b1d3a-7ec9-4732-8b3a-b7e58eec69a6)
+    (property "Reference" "U?" (at 227.33 197.485 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "OPA316" (at 229.235 199.39 0)
+    (property "Value" "OPA316" (at 227.33 199.39 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5" (at 229.87 203.2 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5" (at 229.87 208.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv6001.pdf" (at 224.79 203.2 0)
+    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv6001.pdf" (at 224.79 210.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "manf#" "OPA316IDCKT" (at 224.79 203.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ccadb027-e393-4df7-a3b9-9ae3c7670795))
-    (pin "2" (uuid 31a584ea-b8df-414d-8401-df8265041e21))
-    (pin "3" (uuid bb37789c-d5fe-4629-8f30-024e285d66f2))
-    (pin "4" (uuid 3bd7bd8b-ad58-41e1-8210-a0212918413d))
-    (pin "5" (uuid b8e30f8f-43da-4ec6-b46f-64ef42da5a82))
+    (pin "1" (uuid 06211b30-bd6e-4f1d-baa0-11bbc86aef4d))
+    (pin "2" (uuid 4613b669-b276-4c8c-9f40-a24fe102defb))
+    (pin "3" (uuid c8fc6305-29c8-4ed6-b681-c28d9ba5a058))
+    (pin "4" (uuid 8f3e450d-df07-4104-9d87-25d93e93ed6e))
+    (pin "5" (uuid 28bef072-7039-4658-b576-f17fcd89d0c8))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "U?") (unit 1)
         )
@@ -2086,7 +1736,7 @@
     )
     (pin "1" (uuid 474c5248-0092-45ee-bb9d-984993eb8936))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "#PWR?") (unit 1)
         )
@@ -2097,13 +1747,13 @@
     )
   )
 
-  (symbol (lib_name "C_Small_6") (lib_id "Device:C_Small") (at 53.34 195.58 0) (mirror y) (unit 1)
+  (symbol (lib_id "Device:C_Small") (at 53.34 195.58 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
-    (uuid 38f251c3-7faf-4c40-8ba8-1c2f0de7f888)
-    (property "Reference" "C?" (at 51.0032 194.4116 0)
+    (uuid 389b4827-ee12-4daa-af97-013a064ebb87)
+    (property "Reference" "C?" (at 50.8 194.31 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100nF" (at 51.0032 196.723 0)
+    (property "Value" "100nF" (at 52.07 198.12 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Footprints:C_0805_2012Metric" (at 53.34 195.58 0)
@@ -2112,18 +1762,38 @@
     (property "Datasheet" "~" (at 53.34 195.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "manf#" "C1206C104K5RAC7867" (at 53.34 195.58 0)
+    (property "manf#" "C0805C104K5RACTU" (at 53.34 195.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Package" "1206" (at 53.34 195.58 0)
+    (property "DNP" "x" (at 53.34 195.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid dc07f92b-b768-43a2-8d6e-9b0ee18880f0))
-    (pin "2" (uuid 291e18f7-5f54-4111-8876-200b6190dc7f))
+    (property "Voltage" "50V" (at 54.61 191.77 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Package" "0805" (at 50.8 191.77 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid cff3f0b5-ef62-4585-a507-48c9f84b6eef))
+    (pin "2" (uuid 6685c994-ac34-430f-8bbb-1a7a67262449))
     (instances
-      (project "inverter"
-        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
+      (project "InverterLeg"
+        (path "/22b63e0d-f11c-46a0-b2d0-b08207a579ff"
           (reference "C?") (unit 1)
+        )
+      )
+      (project "ownverter"
+        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
+          (reference "C606") (unit 1)
+        )
+        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
+          (reference "C?") (unit 1)
+        )
+        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
+          (reference "C706") (unit 1)
+        )
+        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
+          (reference "C806") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/d5d50263-0660-44c8-a20f-043dc430c72e"
           (reference "C201") (unit 1)
@@ -2152,7 +1822,7 @@
     )
     (pin "1" (uuid 30bf04f2-6b25-4a79-a991-5651bfcfd2c2))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "TP?") (unit 1)
         )
@@ -2180,7 +1850,7 @@
     )
     (pin "1" (uuid bbc7a5c5-0903-489e-bff8-9541b06129d1))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "#PWR?") (unit 1)
         )
@@ -2208,7 +1878,7 @@
     )
     (pin "1" (uuid 415892d6-1b9b-43ef-90f9-039bb840aca6))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "#PWR?") (unit 1)
         )
@@ -2236,7 +1906,7 @@
     )
     (pin "1" (uuid 5ee036a1-643d-41fb-8f22-73712050f757))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "#PWR?") (unit 1)
         )
@@ -2264,7 +1934,7 @@
     )
     (pin "1" (uuid 7339e8f3-5207-4cf3-ba89-ba49344d993d))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "#PWR?") (unit 1)
         )
@@ -2299,12 +1969,47 @@
     (pin "4" (uuid a8ee0b7a-a86d-43d8-93af-f048111ae56b))
     (pin "5" (uuid eae64ea1-c421-45c9-9adf-04565b13e8e0))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "U?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/d5d50263-0660-44c8-a20f-043dc430c72e"
           (reference "U203") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_name "R_Small_14") (lib_id "Device:R_Small") (at 100.33 212.09 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 4a9d05c0-4d38-4bb3-935c-d135fd56f63a)
+    (property "Reference" "R?" (at 99.06 210.185 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "27k" (at 104.775 210.185 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Footprints:R_0805_2012Metric" (at 100.33 212.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 100.33 212.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "manf#" "CR0805-FX-2702ELF" (at 100.33 212.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Package" "0805" (at 100.33 212.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 39af9d50-4b11-443b-bbab-0c0e162d3f77))
+    (pin "2" (uuid 20d15a89-3f00-41c3-a1ee-ac51a9195662))
+    (instances
+      (project "ownverter"
+        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
+          (reference "R?") (unit 1)
+        )
+        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/d5d50263-0660-44c8-a20f-043dc430c72e"
+          (reference "R203") (unit 1)
         )
       )
     )
@@ -2334,7 +2039,7 @@
     (pin "1" (uuid cc39bb9a-27ac-4e5d-bd95-60e34f910cfa))
     (pin "2" (uuid df10cd65-7732-492e-b743-6b129531a406))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "R?") (unit 1)
         )
@@ -2345,39 +2050,39 @@
     )
   )
 
-  (symbol (lib_name "R_Small_9") (lib_id "Device:R_Small") (at 203.2 205.74 90) (unit 1)
+  (symbol (lib_id "Device:R_Small") (at 115.57 207.01 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
-    (uuid 69b5f2aa-b03d-412d-a532-765c339ccfc0)
-    (property "Reference" "R?" (at 200.66 204.47 90)
+    (uuid 6d397b58-b8a6-4318-9510-26489241b0bd)
+    (property "Reference" "R?" (at 123.19 205.74 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "20k" (at 209.55 204.47 90)
+    (property "Value" "12k" (at 121.92 208.28 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Footprints:R_0805_2012Metric" (at 203.2 205.74 0)
+    (property "Footprint" "Footprints:R_0805_2012Metric" (at 115.57 207.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 203.2 205.74 0)
+    (property "Datasheet" "~" (at 115.57 207.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "manf#" "CR0805-FX-2002ELF" (at 203.2 205.74 0)
+    (property "manf#" "CR0805-FX-1202ELF" (at 115.57 207.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Package" "0805" (at 203.2 205.74 0)
+    (property "Package" "0805" (at 115.57 207.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Power" "0.125W" (at 203.2 205.74 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c09c935f-6d29-4123-8a99-31a55bc32c25))
-    (pin "2" (uuid 4fe41cb9-5367-41f3-b053-ed411e653aae))
+    (pin "1" (uuid e14fe003-0b60-4053-aa7c-b652fccc4154))
+    (pin "2" (uuid d76eb0f7-33fb-460a-a455-ca37113cface))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "R?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/d5d50263-0660-44c8-a20f-043dc430c72e"
-          (reference "R210") (unit 1)
+          (reference "R205") (unit 1)
+        )
+        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bce1534c-362e-45ed-a9dd-a44d6954485a"
+          (reference "R521") (unit 1)
         )
       )
     )
@@ -2400,7 +2105,7 @@
     )
     (pin "1" (uuid b17beea9-13e9-4ca4-bcef-87d9bb8fd6f1))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "#PWR?") (unit 1)
         )
@@ -2428,7 +2133,7 @@
     )
     (pin "1" (uuid 52b0a37e-99e3-4421-8ffe-59006f22c693))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "#PWR?") (unit 1)
         )
@@ -2456,7 +2161,7 @@
     )
     (pin "1" (uuid 728624ef-e4c6-429f-9ca0-03c4a2b5cf38))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "#PWR?") (unit 1)
         )
@@ -2484,7 +2189,7 @@
     )
     (pin "1" (uuid f2a84fa0-d4f1-4ab2-8446-44cf646e8703))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "#PWR?") (unit 1)
         )
@@ -2519,7 +2224,7 @@
     (pin "1" (uuid ce655205-9bcc-43ba-82aa-89b59e3c936a))
     (pin "2" (uuid 7057883c-4882-4de9-a151-5ee7023ee1c7))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "R?") (unit 1)
         )
@@ -2554,7 +2259,7 @@
     (pin "1" (uuid 5940b712-fb27-44a4-a828-a652284ad69d))
     (pin "2" (uuid d63f2d31-77f8-4591-8028-d9b6154edd61))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "R?") (unit 1)
         )
@@ -2582,47 +2287,12 @@
     )
     (pin "1" (uuid e1da77e0-fd0c-4d92-93af-f937a6945702))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "#PWR?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/d5d50263-0660-44c8-a20f-043dc430c72e"
           (reference "#PWR0206") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_name "R_Small_13") (lib_id "Device:R_Small") (at 115.57 207.01 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 85e114fb-7e1f-4a28-a90e-cd76eb08c38d)
-    (property "Reference" "R?" (at 121.92 205.74 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "12k" (at 120.65 208.28 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Footprints:R_0805_2012Metric" (at 115.57 207.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 115.57 207.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "manf#" "CR0805-FX-1202ELF" (at 115.57 207.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Package" "0805" (at 115.57 207.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 7a5676a4-e4b4-4201-bc6a-5c4d6df68b59))
-    (pin "2" (uuid c1acc282-99ea-4123-9f04-aff85ed5e5c8))
-    (instances
-      (project "inverter"
-        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
-          (reference "R?") (unit 1)
-        )
-        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/d5d50263-0660-44c8-a20f-043dc430c72e"
-          (reference "R205") (unit 1)
         )
       )
     )
@@ -2645,7 +2315,7 @@
     )
     (pin "1" (uuid 20cc490c-2b6e-41fe-89e1-6009c74bb8ab))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "#PWR?") (unit 1)
         )
@@ -2671,7 +2341,7 @@
     (property "Datasheet" "~" (at 91.44 194.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "manf#" "C0603C104K5RAC7867" (at 91.44 194.31 0)
+    (property "manf#" "C0805C104K5RACTU" (at 91.44 194.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "DNP" "x" (at 91.44 194.31 0)
@@ -2680,7 +2350,7 @@
     (property "Voltage" "50V" (at 90.17 190.5 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Package" "0603" (at 93.98 190.5 90)
+    (property "Package" "0805" (at 93.98 190.5 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 2570e63e-966e-42f9-a1ed-52999c707b7b))
@@ -2691,7 +2361,7 @@
           (reference "C?") (unit 1)
         )
       )
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
           (reference "C606") (unit 1)
         )
@@ -2728,7 +2398,7 @@
     )
     (pin "1" (uuid db442e8b-6dfe-4c22-9482-63b16326c9c3))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "#PWR?") (unit 1)
         )
@@ -2756,7 +2426,7 @@
     )
     (pin "1" (uuid a86d1b33-e2e0-44e2-a1e6-388083311fd9))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "#PWR?") (unit 1)
         )
@@ -2791,7 +2461,7 @@
     (pin "1" (uuid 5f2a6305-657d-4cba-b137-be4f42149353))
     (pin "2" (uuid 48922ce2-384b-4911-b8c7-de56df6fad40))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "C?") (unit 1)
         )
@@ -2822,7 +2492,7 @@
     )
     (pin "1" (uuid d26bda5a-8e37-4c1a-88b8-22b0f16ff332))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "TP?") (unit 1)
         )
@@ -2850,7 +2520,7 @@
     )
     (pin "1" (uuid 49c4c865-6277-4ac5-97e0-b30b596ca342))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "#PWR?") (unit 1)
         )
@@ -2885,7 +2555,7 @@
     (pin "1" (uuid 06817b9e-8f7d-4659-a2ad-4fe38da095e1))
     (pin "2" (uuid 7d2e0a3b-d130-4c77-b894-4415768c80ce))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "C?") (unit 1)
         )
@@ -2931,7 +2601,7 @@
           (reference "C?") (unit 1)
         )
       )
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
           (reference "C?") (unit 1)
         )
@@ -2940,6 +2610,61 @@
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/d5d50263-0660-44c8-a20f-043dc430c72e"
           (reference "C204") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C_Small") (at 137.16 200.66 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid aba5039a-157d-4ea7-822d-5f72afb345b4)
+    (property "Reference" "C?" (at 133.35 198.12 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "100nF" (at 129.54 201.93 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Footprints:C_0805_2012Metric" (at 137.16 200.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 137.16 200.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "manf#" "C0805C104K5RACTU" (at 137.16 200.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "DNP" "x" (at 137.16 200.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Voltage" "50V" (at 133.35 199.39 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Package" "0805" (at 133.35 203.2 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8c600e95-3c9a-4398-a673-1a1411db2b1d))
+    (pin "2" (uuid 86b84f69-8957-4454-8d8f-4522fa5d4e33))
+    (instances
+      (project "InverterLeg"
+        (path "/22b63e0d-f11c-46a0-b2d0-b08207a579ff"
+          (reference "C?") (unit 1)
+        )
+      )
+      (project "ownverter"
+        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
+          (reference "C606") (unit 1)
+        )
+        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
+          (reference "C?") (unit 1)
+        )
+        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
+          (reference "C706") (unit 1)
+        )
+        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
+          (reference "C806") (unit 1)
+        )
+        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/d5d50263-0660-44c8-a20f-043dc430c72e"
+          (reference "C209") (unit 1)
         )
       )
     )
@@ -2969,12 +2694,67 @@
     (pin "1" (uuid 1c606acc-90eb-4b56-8a1e-783d64df4410))
     (pin "2" (uuid b33dce8c-d05b-4291-9c1a-b2e10bb2fa14))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "R?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/d5d50263-0660-44c8-a20f-043dc430c72e"
           (reference "R209") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Small") (at 212.09 195.58 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid b215c405-d9ee-4158-9ea9-1ed521180dd3)
+    (property "Reference" "R?" (at 213.36 195.58 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "20k" (at 213.36 198.12 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Footprints:R_0805_2012Metric" (at 212.09 195.58 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 212.09 195.58 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "manf#" "CR0805-FX-2002ELF" (at 212.09 195.58 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "DNP" "x" (at 212.09 195.58 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Package" "0805" (at 210.82 190.5 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Power" "0.125W" (at 210.82 201.93 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f3949a06-a586-4547-9e04-3cf32ee781ef))
+    (pin "2" (uuid 4de3bd40-e145-4d92-a420-b3f80d6303f5))
+    (instances
+      (project "InverterLeg"
+        (path "/22b63e0d-f11c-46a0-b2d0-b08207a579ff"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project "ownverter"
+        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
+          (reference "R619") (unit 1)
+        )
+        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
+          (reference "R?") (unit 1)
+        )
+        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
+          (reference "R719") (unit 1)
+        )
+        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
+          (reference "R819") (unit 1)
+        )
+        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/d5d50263-0660-44c8-a20f-043dc430c72e"
+          (reference "R211") (unit 1)
         )
       )
     )
@@ -2997,7 +2777,7 @@
     )
     (pin "1" (uuid 3012ad7d-1d65-428b-889d-c3580316ebd2))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "#PWR?") (unit 1)
         )
@@ -3025,7 +2805,7 @@
     )
     (pin "1" (uuid e73d5bd4-53e4-457e-8a1e-c3abd5cc37f9))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "#PWR?") (unit 1)
         )
@@ -3053,7 +2833,7 @@
     )
     (pin "1" (uuid e2e923b6-1c08-4ec1-9a3a-1d1aa2426f06))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "#PWR?") (unit 1)
         )
@@ -3091,7 +2871,7 @@
     (pin "7" (uuid 285cddb7-f6b1-4260-ab3c-19961d1b8c2d))
     (pin "8" (uuid 2208972c-e23f-4c18-9ca2-d3a3b29fa21f))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "U?") (unit 1)
         )
@@ -3117,7 +2897,7 @@
     (property "Datasheet" "~" (at 60.96 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "manf#" "C0603C104K5RAC7867" (at 60.96 83.82 0)
+    (property "manf#" "C0805C104K5RACTU" (at 60.96 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "DNP" "x" (at 60.96 83.82 0)
@@ -3126,7 +2906,7 @@
     (property "Voltage" "50V" (at 62.23 80.01 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Package" "0603" (at 58.42 80.01 90)
+    (property "Package" "0805" (at 58.42 80.01 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 775e9e32-da92-4e1e-b893-57c60545a185))
@@ -3137,7 +2917,7 @@
           (reference "C?") (unit 1)
         )
       )
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
           (reference "C606") (unit 1)
         )
@@ -3152,44 +2932,6 @@
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/d5d50263-0660-44c8-a20f-043dc430c72e"
           (reference "C202") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_name "R_Small_2") (lib_id "Device:R_Small") (at 212.09 195.58 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid c64fb430-fcfd-4f5b-94b5-32bd77762b0b)
-    (property "Reference" "R?" (at 210.82 194.31 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "20k" (at 217.17 194.31 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Footprints:R_0805_2012Metric" (at 212.09 195.58 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 212.09 195.58 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "manf#" "CR0805-FX-2002ELF" (at 212.09 195.58 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Package" "0805" (at 212.09 195.58 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Power" "0.125W" (at 212.09 195.58 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 55c3f76b-dbc2-4f4f-8e55-d0302f69d806))
-    (pin "2" (uuid bfbe3d3a-814f-46f1-a99f-24d14feb0d5a))
-    (instances
-      (project "inverter"
-        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
-          (reference "R?") (unit 1)
-        )
-        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/d5d50263-0660-44c8-a20f-043dc430c72e"
-          (reference "R211") (unit 1)
         )
       )
     )
@@ -3212,7 +2954,7 @@
     )
     (pin "1" (uuid 6a5f1d12-484e-417b-8339-66dd95758c2f))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "#PWR?") (unit 1)
         )
@@ -3243,7 +2985,7 @@
     )
     (pin "1" (uuid 9409177b-43ea-40d8-a0e4-67387b6663b0))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "TP?") (unit 1)
         )
@@ -3278,7 +3020,7 @@
     (pin "1" (uuid 8a0cdbe6-2c1b-4c1a-8e02-03f0484c3e7e))
     (pin "2" (uuid a0da54a6-0cda-44a5-ac55-6b0182195692))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "R?") (unit 1)
         )
@@ -3309,7 +3051,7 @@
     )
     (pin "1" (uuid bff3c117-dd50-4e36-af3d-cec3d91f4ce1))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "TP?") (unit 1)
         )
@@ -3341,7 +3083,7 @@
     (pin "1" (uuid 6b1996d1-f96c-4636-94d7-818b302b5d20))
     (pin "2" (uuid 24a90a5c-21e0-49fe-a555-61f61e7460d9))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/d5d50263-0660-44c8-a20f-043dc430c72e"
           (reference "F201") (unit 1)
         )
@@ -3349,36 +3091,56 @@
     )
   )
 
-  (symbol (lib_name "C_Small_5") (lib_id "Device:C_Small") (at 137.16 200.66 90) (unit 1)
+  (symbol (lib_id "Device:C_Small") (at 233.68 189.23 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
-    (uuid f935e039-6116-4ed0-8d3a-fdf77e3ccdbc)
-    (property "Reference" "C?" (at 134.62 199.39 90)
+    (uuid f99a0fa0-dedc-4903-bcae-e0e9cc3730df)
+    (property "Reference" "C?" (at 229.87 186.69 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100nF" (at 135.89 203.2 90)
+    (property "Value" "100nF" (at 226.06 190.5 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Footprints:C_0805_2012Metric" (at 137.16 200.66 0)
+    (property "Footprint" "Footprints:C_0805_2012Metric" (at 233.68 189.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 137.16 200.66 0)
+    (property "Datasheet" "~" (at 233.68 189.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "manf#" "C0805C104K5RACTU" (at 137.16 200.66 0)
+    (property "manf#" "C0805C104K5RACTU" (at 233.68 189.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Package" "0805" (at 137.16 200.66 0)
+    (property "DNP" "x" (at 233.68 189.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 855a3933-b2ca-4bd2-b0ba-1e32059f3339))
-    (pin "2" (uuid 08c00ff6-267a-4195-ac8b-7937075d6f5a))
+    (property "Voltage" "50V" (at 229.87 187.96 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Package" "0805" (at 229.87 191.77 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 4c790b9c-07bd-422b-bd52-3013cba0c7f1))
+    (pin "2" (uuid ad6db2ee-2274-4899-a69e-dcf339c56bb7))
     (instances
-      (project "inverter"
-        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
+      (project "InverterLeg"
+        (path "/22b63e0d-f11c-46a0-b2d0-b08207a579ff"
           (reference "C?") (unit 1)
         )
+      )
+      (project "ownverter"
+        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
+          (reference "C606") (unit 1)
+        )
+        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
+          (reference "C?") (unit 1)
+        )
+        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
+          (reference "C706") (unit 1)
+        )
+        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
+          (reference "C806") (unit 1)
+        )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/d5d50263-0660-44c8-a20f-043dc430c72e"
-          (reference "C209") (unit 1)
+          (reference "C218") (unit 1)
         )
       )
     )
@@ -3411,82 +3173,12 @@
     (pin "7" (uuid 4a5193a0-16cd-462b-a958-f727fbdca04f))
     (pin "8" (uuid c779bed2-d809-4278-8b33-1af491775776))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "U?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/d5d50263-0660-44c8-a20f-043dc430c72e"
           (reference "U202") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_name "R_Small_8") (lib_id "Device:R_Small") (at 226.06 222.25 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid fd33f543-d3d6-4a9f-900e-b028f410aa6e)
-    (property "Reference" "R?" (at 223.52 220.98 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "5.9k" (at 232.41 220.98 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Footprints:R_0805_2012Metric" (at 226.06 222.25 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 226.06 222.25 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "manf#" "CR0805-FX-5901ELF" (at 226.06 222.25 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Package" "0805" (at 226.06 222.25 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid b8648951-43c0-483b-9043-badef03260f4))
-    (pin "2" (uuid 1cce6d72-dbc1-4a93-9df9-854c6151bd39))
-    (instances
-      (project "inverter"
-        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
-          (reference "R?") (unit 1)
-        )
-        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/d5d50263-0660-44c8-a20f-043dc430c72e"
-          (reference "R212") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_name "R_Small_11") (lib_id "Device:R_Small") (at 100.33 212.09 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid fdae2907-cd29-4480-84c8-b668e73e3bb5)
-    (property "Reference" "R?" (at 99.06 210.185 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "27k" (at 104.775 210.185 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Footprints:R_0805_2012Metric" (at 100.33 212.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 100.33 212.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "manf#" "CR0805-FX-2702ELF" (at 100.33 212.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Package" "0805" (at 100.33 212.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 8f3710b7-da26-46f1-8868-42c674f68f21))
-    (pin "2" (uuid 1ca6b973-35b1-4900-b759-12b54676e217))
-    (instances
-      (project "inverter"
-        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
-          (reference "R?") (unit 1)
-        )
-        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/d5d50263-0660-44c8-a20f-043dc430c72e"
-          (reference "R203") (unit 1)
         )
       )
     )

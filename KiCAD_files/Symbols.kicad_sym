@@ -7030,7 +7030,7 @@
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/ucc21520.pdf" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "manf" "UCC21222DR" (at 0 0 0)
+    (property "manf#" "UCC21222DR" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "DNP" "x" (at 0 0 0)

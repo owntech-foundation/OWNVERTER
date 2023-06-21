@@ -1742,7 +1742,7 @@
     (pin "15" (uuid 7f89b51c-3bc5-4f08-ae00-a9ebfe29fff5))
     (pin "16" (uuid d64a66bc-f7a2-46c6-acc7-e51da7ccfd11))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "J101") (unit 5)
         )
@@ -1770,7 +1770,7 @@
     )
     (pin "1" (uuid be97849b-84d4-4bb3-a0dc-b06f9ce18b6c))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "H106") (unit 1)
         )
@@ -1798,7 +1798,7 @@
     )
     (pin "1" (uuid 72b50e13-6a0a-4f12-9ef0-8cbcc4ff8aa8))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "H102") (unit 1)
         )
@@ -1826,7 +1826,7 @@
     )
     (pin "1" (uuid ce30e887-0f26-45ed-8977-aff58785b3ca))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "H107") (unit 1)
         )
@@ -1851,7 +1851,7 @@
     )
     (pin "1" (uuid 24dfe890-65f4-4e97-ad31-c7328baec530))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "#PWR0107") (unit 1)
         )
@@ -1876,7 +1876,7 @@
     )
     (pin "1" (uuid 8cea44da-abfb-4042-ab56-93cbc836cbcd))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "#PWR0110") (unit 1)
         )
@@ -1901,7 +1901,7 @@
     )
     (pin "1" (uuid 62ab6a80-4ba9-4a64-b717-8131afe54ee5))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "#PWR0109") (unit 1)
         )
@@ -1944,7 +1944,7 @@
     (pin "15" (uuid ca248c79-4ee1-4ac3-91b6-285db1271239))
     (pin "16" (uuid d8e505aa-6f60-4c68-a031-17091e6ddb24))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "J101") (unit 6)
         )
@@ -1987,7 +1987,7 @@
     (pin "15" (uuid f5810971-bffa-4e23-9f71-30a6ba75efaa))
     (pin "16" (uuid 784aced8-7e32-4794-ab80-18851939bc08))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "J101") (unit 4)
         )
@@ -2012,7 +2012,7 @@
     )
     (pin "1" (uuid e1dfeb48-03d1-4860-aa7a-55d364689884))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bce1534c-362e-45ed-a9dd-a44d6954485a"
           (reference "#PWR?") (unit 1)
         )
@@ -2058,7 +2058,7 @@
     (pin "15" (uuid e119683a-29ec-4789-a7d3-a4983992add6))
     (pin "16" (uuid 7a5436f1-84de-409d-8c52-8f7f771de0e6))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "J101") (unit 1)
         )
@@ -2086,7 +2086,7 @@
     )
     (pin "1" (uuid 5185ee96-d8d2-498c-82a0-642b05210375))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "H103") (unit 1)
         )
@@ -2111,7 +2111,7 @@
     )
     (pin "1" (uuid d2145791-48af-40ea-ad18-c18b11979641))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "#PWR0106") (unit 1)
         )
@@ -2136,7 +2136,7 @@
     )
     (pin "1" (uuid b82efdd6-ab70-4bae-87d3-35553e572650))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "#FLG0102") (unit 1)
         )
@@ -2161,7 +2161,7 @@
     )
     (pin "1" (uuid 4d883a7b-63d4-45f9-8fec-9ccf2b67618b))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "#PWR0108") (unit 1)
         )
@@ -2189,7 +2189,7 @@
     )
     (pin "1" (uuid af8042ec-a37c-4471-bb3a-3d709c4349c8))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "H104") (unit 1)
         )
@@ -2232,7 +2232,7 @@
     (pin "15" (uuid 980fa1c1-a53b-48fa-9ca1-f4cc109e3894))
     (pin "16" (uuid 780cafe4-37e2-403e-a684-84f26e69623c))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "J101") (unit 7)
         )
@@ -2260,7 +2260,7 @@
     )
     (pin "1" (uuid 026c1d11-1a92-4a0b-9922-4d3ea15f5417))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "H108") (unit 1)
         )
@@ -2303,7 +2303,7 @@
     (pin "15" (uuid 31346f6d-ff39-4d2c-83d4-7bfe0ba37749))
     (pin "16" (uuid aff8d50f-1a78-4a9d-83e3-18c797156dc9))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "J101") (unit 8)
         )
@@ -2346,7 +2346,7 @@
     (pin "15" (uuid 5d9d9f33-8eed-472e-9f56-947ed22793b7))
     (pin "16" (uuid 94ada19e-c955-4e9f-b76a-f5e7e252605c))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "J101") (unit 3)
         )
@@ -2389,7 +2389,7 @@
     (pin "15" (uuid 52200dcd-c7b3-4197-b048-e9af6f37214a))
     (pin "16" (uuid bcc1ec17-f3bc-484f-912f-53a9117ec83b))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "J101") (unit 2)
         )
@@ -2417,7 +2417,7 @@
     )
     (pin "1" (uuid 9894732f-cc15-45f6-898c-7aad06e18d4b))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "H101") (unit 1)
         )
@@ -2445,7 +2445,7 @@
     )
     (pin "1" (uuid 8dd1a0e1-5430-4f2c-8925-5428fb4da0b0))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "N101") (unit 1)
         )
@@ -2470,7 +2470,7 @@
     )
     (pin "1" (uuid c6420dcc-a7fc-41e8-9098-c4b9b6063b8b))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "#PWR0102") (unit 1)
         )
@@ -2495,7 +2495,7 @@
     )
     (pin "1" (uuid 7f3ca8f6-428f-4483-9076-f37422631fd8))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "#PWR0104") (unit 1)
         )
@@ -2520,7 +2520,7 @@
     )
     (pin "1" (uuid d03d1817-ab7b-4886-9572-5cd2ea25cae3))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "#PWR0101") (unit 1)
         )
@@ -2545,7 +2545,7 @@
     )
     (pin "1" (uuid 0f0e3240-1713-4288-82bd-63fb814ab36d))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "#PWR0105") (unit 1)
         )
@@ -2570,7 +2570,7 @@
     )
     (pin "1" (uuid eeb04f65-1fd1-4f4e-a645-f5eda56bc6cd))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "#FLG0101") (unit 1)
         )
@@ -2598,7 +2598,7 @@
     )
     (pin "1" (uuid 38bfb60f-c7b7-4c8f-b496-46ea65193c77))
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "H105") (unit 1)
         )
@@ -2629,7 +2629,7 @@
       (uuid f75ced35-0eff-4ea8-bdbb-8f7adfaccf58)
     )
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42" (page "9"))
       )
     )
@@ -2726,7 +2726,7 @@
       (uuid aa8221be-ca7c-4442-bf73-a709affcfc2c)
     )
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42" (page "4"))
       )
     )
@@ -2775,7 +2775,7 @@
       (uuid 31db8bd8-e205-413d-8057-2f3adb5c10a5)
     )
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42" (page "7"))
       )
     )
@@ -2824,7 +2824,7 @@
       (uuid 0b60182e-a921-47f8-94ee-3900c15bf523)
     )
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42" (page "6"))
       )
     )
@@ -2873,7 +2873,7 @@
       (uuid a980790a-a31f-4d43-a13c-b5c4c0939e84)
     )
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42" (page "8"))
       )
     )
@@ -2914,7 +2914,7 @@
       (uuid 77751d6d-c71b-4e47-8981-205fcf9e2b22)
     )
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42" (page "5"))
       )
     )
@@ -2950,7 +2950,7 @@
       (uuid d07ae248-12eb-41bb-b08a-d338e7bbf3ef)
     )
     (instances
-      (project "inverter"
+      (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42" (page "2"))
       )
     )
