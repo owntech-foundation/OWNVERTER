@@ -1944,6 +1944,7 @@
     )
   )
 
+
   (junction (at 60.96 29.21) (diameter 0) (color 0 0 0 0)
     (uuid 05fc57c9-333e-4890-b7ac-d4f2bf66bc46)
   )
@@ -4133,7 +4134,7 @@
     (property "Datasheet" "~" (at 247.65 262.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "manf#" "ERJ6RED2003V" (at 247.65 262.89 0)
+    (property "manf#" "CR0805-FX-5901ELF" (at 247.65 262.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "DNP" "x" (at 247.65 262.89 0)
@@ -4285,7 +4286,7 @@
     (property "Datasheet" "~" (at 223.52 241.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "manf#" "ERJ6RED2003V" (at 223.52 241.3 0)
+    (property "manf#" "CR0805-FX-5901ELF" (at 223.52 241.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "DNP" "x" (at 223.52 241.3 0)
