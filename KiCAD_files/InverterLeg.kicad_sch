@@ -8244,7 +8244,7 @@
     (property "Datasheet" "~" (at 252.73 231.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "manf#" "CC0805KRX7R9BB104" (at 252.73 231.14 0)
+    (property "manf#" "C0805C104K5RACTU" (at 252.73 231.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "DNP" "x" (at 252.73 231.14 0)
