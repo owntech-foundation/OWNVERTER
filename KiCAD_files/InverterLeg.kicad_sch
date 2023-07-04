@@ -1944,7 +1944,6 @@
     )
   )
 
-
   (junction (at 60.96 29.21) (diameter 0) (color 0 0 0 0)
     (uuid 05fc57c9-333e-4890-b7ac-d4f2bf66bc46)
   )
@@ -3546,7 +3545,7 @@
     (uuid f0d2ae07-54b1-46f6-8286-3fbefa4b4236)
   )
   (text "Fast decoupling \ncapacitor at the\nclosest of the switch"
-    (at 127 62.23 0)
+    (at 129.54 62.23 0)
     (effects (font (face "Arial") (size 1.27 1.27)) (justify left bottom))
     (uuid fb347da6-7558-44dc-88e2-84b57ca2a659)
   )

@@ -2407,7 +2407,6 @@
     )
   )
 
-
   (junction (at 285.75 198.12) (diameter 0) (color 0 0 0 0)
     (uuid 03c599d7-a43b-44f1-8614-e96f22a59bd2)
   )
@@ -8129,6 +8128,9 @@
     )
     (property "DNP" "x" (at 127 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Dielectric" "C0G" (at 132.08 143.51 0)
+      (effects (font (size 1.27 1.27)))
     )
     (pin "1" (uuid 507730d5-bbdf-4dfb-92b2-31c9e712d589))
     (pin "2" (uuid 31aede61-486b-453d-bc17-1bc9bc742b49))
