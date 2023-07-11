@@ -4644,7 +4644,7 @@
     (property "DNP" "x" (at 74.93 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "manf#" "0ZCJ0050AF2E" (at 74.93 185.42 0)
+    (property "manf#" "0ZCH0035FF2G" (at 74.93 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid fc8ed08b-a363-4ffe-829d-f90ca1ba752f))
