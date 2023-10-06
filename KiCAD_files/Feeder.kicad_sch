@@ -3482,7 +3482,7 @@
     (stroke (width 0.5) (type default))
     (uuid be69dd43-8025-45e7-8dbf-240683e9883a)
   )
-  (polyline (pts (xy 231.14 15.24) (xy 231.14 205.74))
+  (polyline (pts (xy 231.14 15.24) (xy 231.14 218.44))
     (stroke (width 0.15) (type dash))
     (uuid bf4383a9-6dcf-47fe-bc26-70a744f9da8f)
   )
