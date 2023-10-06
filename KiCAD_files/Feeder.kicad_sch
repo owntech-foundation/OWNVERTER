@@ -5670,7 +5670,7 @@
   (symbol (lib_id "Symbols:MCP1799T-5002H/DB") (at 264.16 243.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 67015bc4-aa0f-4141-9c7d-91d629144096)
-    (property "Reference" "U?" (at 265.43 237.49 0)
+    (property "Reference" "U505" (at 265.43 237.49 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "MCP1799T-5002H/DB" (at 265.43 240.03 0)
@@ -5692,7 +5692,7 @@
     (instances
       (project "ownverter"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bce1534c-362e-45ed-a9dd-a44d6954485a"
-          (reference "U?") (unit 1)
+          (reference "U505") (unit 1)
         )
       )
     )
