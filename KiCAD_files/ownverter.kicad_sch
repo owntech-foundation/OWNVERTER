@@ -5,7 +5,7 @@
   (paper "A3")
 
   (title_block
-    (title "OWNVERTER V0.1")
+    (title "OWNVERTER V1.0")
     (comment 1 "TWR")
   )
 
@@ -1481,10 +1481,6 @@
   (text "Earth shielding" (at 64.77 139.7 0)
     (effects (font (face "Arial") (size 2.4892 2.4892) (thickness 0.4978) bold) (justify left bottom))
     (uuid 8c560e26-3828-4c5c-a089-1870df6ac0b8)
-  )
-  (text "OWNVERTER V0.9" (at 369.57 168.91 0)
-    (effects (font (size 3 3) (thickness 0.6) bold) (justify left bottom))
-    (uuid 93b6460d-7f0d-4113-a8ac-96909949f373)
   )
   (text "All resistor to are thick film 1/8Watt unless specified"
     (at 300.99 170.18 0)
