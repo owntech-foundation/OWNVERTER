@@ -1953,7 +1953,7 @@
     (property "Value" "OPA316" (at 130.81 210.82 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5" (at 133.35 219.71 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5_Handsoldering" (at 133.35 219.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv6001.pdf" (at 128.27 222.25 0)

@@ -4630,7 +4630,7 @@
     (property "Value" "UCC21222DR" (at 161.29 149.86 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm" (at 137.16 154.94 0)
+    (property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" (at 137.16 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/ucc21520.pdf" (at 154.94 161.29 0)
