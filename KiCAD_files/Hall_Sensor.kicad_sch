@@ -5,7 +5,7 @@
   (paper "A3")
 
   (title_block
-    (title "OWNVERTER V1.0")
+    (title "OWNVERTER V1.1")
     (comment 1 "TWR")
   )
 
@@ -917,7 +917,7 @@
     (uuid 41d3cc81-4f92-4133-a6aa-1e5671965e29)
   )
   (text "Optionnal pull up/down resistor\n" (at 138.43 68.58 0)
-    (effects (font (size 2 2)) (justify left bottom))
+    (effects (font (size 2.54 2.54)) (justify left bottom))
     (uuid 64bb1dc3-4217-42e4-82ec-ab4b975da21e)
   )
   (text "Power AREA\n" (at 157.48 115.57 0)

@@ -5,7 +5,7 @@
   (paper "A3")
 
   (title_block
-    (title "OWNVERTER V1.0")
+    (title "OWNVERTER V1.1")
     (comment 1 "TWR")
   )
 
@@ -2416,7 +2416,6 @@
     )
   )
 
-
   (junction (at 285.75 198.12) (diameter 0) (color 0 0 0 0)
     (uuid 03c599d7-a43b-44f1-8614-e96f22a59bd2)
   )
@@ -3484,7 +3483,7 @@
     (stroke (width 0.5) (type default))
     (uuid be69dd43-8025-45e7-8dbf-240683e9883a)
   )
-  (polyline (pts (xy 231.14 15.24) (xy 231.14 218.44))
+  (polyline (pts (xy 231.14 12.7) (xy 231.14 218.44))
     (stroke (width 0.15) (type dash))
     (uuid bf4383a9-6dcf-47fe-bc26-70a744f9da8f)
   )
@@ -3888,8 +3887,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5a80a4f3-fffb-48a5-878f-e7132faf5ef4)
   )
-  (text "VO : A minimum of 10uF\ncapacitor (0.15Ω ≤ ESR ≤ 20Ω) must\nbe connected from this pin\nto ground to insure stability"
-    (at 153.67 279.4 0)
+  (text "AZ1117CH : A minimum of 10uF\ncapacitor (0.15Ω ≤ ESR ≤ 20Ω) must\nbe connected from this pin\nto ground to insure stability"
+    (at 138.43 273.05 0)
     (effects (font (face "Arial") (size 1.27 1.27)) (justify left bottom))
     (uuid 629ec89d-efed-48b6-a7ea-1a69c01760be)
   )
@@ -3939,7 +3938,7 @@
     (uuid 9fbe3204-2e76-4fac-874b-16f79f04b697)
   )
   (text "External power supply" (at 20.32 173.99 0)
-    (effects (font (size 2.4892 2.4892)) (justify left bottom))
+    (effects (font (size 2.54 2.54)) (justify left bottom))
     (uuid a1cd094e-f241-4128-a44a-619926898574)
   )
   (text "POWER AREA\n" (at 203.2 205.74 0)
@@ -3963,7 +3962,7 @@
     (uuid c31967cb-c73f-450f-bd83-8f5798590910)
   )
   (text "+5V_DGND, +12V_PGND, +5V_PGND generation" (at 129.54 224.79 0)
-    (effects (font (face "Arial") (size 2.4892 2.4892) (thickness 0.4978) bold) (justify left bottom))
+    (effects (font (face "Arial") (size 2.54 2.54) (thickness 0.4978) bold) (justify left bottom))
     (uuid d88b9de4-beaa-4351-a972-fdcb48532863)
   )
   (text "Type 2 Isolated feedback network with TL431\nAs per Application note DN05109-D\n\nExplanation\nhttps://www.onsemi.com/pub/Collateral/TND381-D.PDF\n\nR15 is the value to change the output voltage\nIt should be 27K to stabilize it to 6.05V\n\nTL431 give Vo = 6.05V\nwith Vo = VRef_DGND(1 + R14/R15)\n6.05V = 2,5V * (1 + 38,3K/27K)"

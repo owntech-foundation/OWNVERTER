@@ -5,7 +5,7 @@
   (paper "A3")
 
   (title_block
-    (title "OWNVERTER V1.0")
+    (title "OWNVERTER V1.1")
     (comment 1 "TWR")
   )
 
@@ -2100,7 +2100,6 @@
       )
     )
   )
-
 
   (junction (at 60.96 26.67) (diameter 0) (color 0 0 0 0)
     (uuid 05fc57c9-333e-4890-b7ac-d4f2bf66bc46)
