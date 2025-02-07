@@ -266,7 +266,7 @@ By default all OWNVERTER boards can be calibrated using the following parameters
 
 
 ### Example wiring diagram and schematic of the Twist board in Buck mode 
-![TWIST converter in Buck Mode](images/wiring_diagram_motor.svg)
+![TWIST converter in Buck Mode](images/wiring_diagram_motor.drawio)
 ![TWIST converter in Buck Mode](images/circuit_diagram_motor.svg)
 
 
