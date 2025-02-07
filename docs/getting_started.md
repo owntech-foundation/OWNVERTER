@@ -36,7 +36,7 @@ The OwnVerter Board is **fully open-source**, compatible with either the **SPIN 
 
 The OWNVERTER converter pinout is shown in the image below.
 
-![Twist board pinout overview](../Images/Circuit_datasheet.svg)
+![Twist board pinout overview](images/Circuit_datasheet.svg)
 
 !!!info Converter pins
     !!!danger Power Pins
@@ -126,7 +126,7 @@ Two OWNVERTER Boards can be synchronized via **PWM sinc IN/OUT**. Using a 15cm R
 | *Delay Between Server and Client* | td | - | 24.2 | - | ns |
 | *Jitter of PWM Client* | tj | - | 4.8 | - | ns |
 
-![Synchronization experiment results](../Images/sync_experimental_result.png)
+![Synchronization experiment results](images/sync_experimental_result.png)
 
 
 ---
@@ -146,7 +146,7 @@ Analog communication between boards allows voltage and current measurement with 
 | *Bandwidth* | $$fc = \dfrac{3}{2\cdot \pi \cdot \Delta t_{5\%}}$$ | - | 281 | - | kHz |
 
 
-![Measurement resolution results](../Images/step_response_analog.png)
+![Measurement resolution results](images/step_response_analog.png)
 
 Statistical Distribution of 10235 data samples 
 
@@ -156,7 +156,7 @@ Statistical Distribution of 10235 data samples
 | Variance | $\sigma^2$ |  | 0.795 | - |  |
 
 
-![Measurement resolution results](../Images/statistical_distribution_analog.png)
+![Measurement resolution results](images/statistical_distribution_analog.png)
 
 
 ---
@@ -196,7 +196,7 @@ The Twist Board implements full observability on all **low-side** and **high-sid
 
 Schematic showing where the measurements are performed on the circuit.
 
-![Schematic with measurement instruments](../Images/Ownverter_schematic_v1.svg)
+![Schematic with measurement instruments](images/Ownverter_schematic_v1.svg)
 
 
 !!!info Measurements location and convention
@@ -209,14 +209,14 @@ Schematic showing where the measurements are performed on the circuit.
 
 Image showing where the measurements can be accessed on the board. 
 
-![Board with measurement points](../Images/measurement_on_board.svg)
+![Board with measurement points](images/measurement_on_board.svg)
 
 !!!note Measurement pins
     All measurements have pins which can be easily accessed with a probe (oscilloscope or multimeter) as shown below.
 
     !!!warning Use ground springs for noise reduction
 
-    ![Board with measurement points](../Images/probe_on_twist.png)
+    ![Board with measurement points](images/probe_on_twist.png)
     
      
 
@@ -239,7 +239,7 @@ Image showing where the measurements can be accessed on the board.
 
 The following graphs give the accuracy of the voltage and current measurements for different levels of current and voltage for the TWIST board for reference only. Measurements for the OWNVERTER board are ongoing.
 
-![Accurary graphs](../Images/measurement_accuracy_preliminary.png)
+![Accurary graphs](images/measurement_accuracy_preliminary.png)
 
 ### Theoretical Calibration Parameters
 
@@ -266,8 +266,8 @@ By default all OWNVERTER boards can be calibrated using the following parameters
 
 
 ### Example wiring diagram and schematic of the Twist board in Buck mode 
-![TWIST converter in Buck Mode](../Images/wiring_diagram_motor.svg)
-![TWIST converter in Buck Mode](../Images/circuit_diagram_motor.svg)
+![TWIST converter in Buck Mode](images/wiring_diagram_motor.svg)
+![TWIST converter in Buck Mode](images/circuit_diagram_motor.svg)
 
 
 

@@ -6,11 +6,11 @@ a bi-directional 1kW three-phase inverter. It features a
 high side. Its maximum current value is 13A per
 power channel.
 
-![ownverter circuit diagram](Images/OwnVerter_board_valbi.png)
+![ownverter circuit diagram](docs/images/Ownverter_schematic_v1.svg)
 
 It is compatible with multiple types of speed sensors such as sin-cos and hall. 
 
-![A photo of the OwnVerter](Images/ownverter_photo.jpg)
+![A photo of the OwnVerter](docs/images/ownverter_photo.jpg)
 
 A reasonable power rating is 1kW. 
 The OwnVerter is meant to operate at 200kHz. 
