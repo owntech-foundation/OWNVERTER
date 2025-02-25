@@ -71,16 +71,19 @@
         "copper_edge_clearance": "warning",
         "copper_sliver": "warning",
         "courtyards_overlap": "warning",
+        "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
+        "footprint_filters_mismatch": "ignore",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "warning",
         "hole_clearance": "error",
         "hole_near_hole": "error",
+        "hole_to_hole": "error",
         "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
@@ -91,9 +94,11 @@
         "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "warning",
         "microvia_drill_out_of_range": "error",
+        "mirrored_text_on_front_layer": "warning",
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
         "net_conflict": "warning",
+        "nonmirrored_text_on_back_layer": "warning",
         "npth_inside_courtyard": "warning",
         "padstack": "error",
         "pth_inside_courtyard": "warning",
@@ -108,7 +113,9 @@
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
+        "track_angle": "error",
         "track_dangling": "warning",
+        "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
         "unconnected_items": "error",
@@ -125,6 +132,7 @@
         "min_clearance": 0.0,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.025,
+        "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
@@ -137,15 +145,16 @@
         "min_track_width": 0.2,
         "min_via_annular_width": 0.05,
         "min_via_diameter": 0.4,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
         {
-          "td_onpadsmd": true,
+          "td_onpthpad": true,
           "td_onroundshapesonly": false,
+          "td_onsmdpad": true,
           "td_ontrackend": false,
-          "td_onviapad": true
+          "td_onvia": true
         }
       ],
       "teardrop_parameters": [
@@ -234,43 +243,44 @@
       "mfg": "",
       "mpn": ""
     },
+    "layer_pairs": [],
     "layer_presets": [
       {
         "activeLayer": -2,
         "layers": [
           0,
-          5,
-          6,
-          7,
-          8,
           9,
-          10,
           11,
           12,
           13,
           14,
           15,
           16,
-          17,
           18,
-          19,
           20,
-          21,
           22,
-          23,
           24,
           25,
           26,
-          27,
           28,
-          29,
           30,
+          31,
           32,
-          33,
           34,
-          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
           44,
+          45,
+          46,
           47,
+          48,
+          49,
           50,
           51,
           52,
@@ -278,46 +288,29 @@
           54,
           55,
           56,
-          57,
           58,
-          59
+          60,
+          62
         ],
         "name": "Layout",
         "renderLayers": [
-          125,
-          126,
-          127,
-          128,
-          129,
-          130,
-          133,
-          134,
-          135,
-          137,
-          138,
-          140,
-          141,
-          142,
-          143,
-          144,
-          145,
-          146,
-          147,
-          148,
-          149,
-          150,
-          151,
-          152,
-          153,
-          154,
-          155,
-          157,
-          158,
-          159,
-          160,
-          161,
-          164,
-          165
+          "vias",
+          "footprint_text",
+          "footprint_anchors",
+          "grid",
+          "footprints_front",
+          "footprints_back",
+          "footprint_values",
+          "footprint_references",
+          "tracks",
+          "drc_errors",
+          "drawing_sheet",
+          "bitmaps",
+          "pads",
+          "zones",
+          "drc_warnings",
+          "locked_item_shadows",
+          "conflict_shadows"
         ]
       }
     ],
@@ -514,10 +507,15 @@
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "warning",
       "extra_units": "error",
+      "footprint_filter": "ignore",
+      "footprint_link_issues": "warning",
+      "four_way_junction": "ignore",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
+      "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
+      "lib_symbol_mismatch": "warning",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
@@ -530,9 +528,14 @@
       "pin_not_driven": "error",
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
+      "same_local_global_label": "warning",
+      "similar_label_and_power": "warning",
       "similar_labels": "warning",
+      "similar_power": "warning",
       "simulation_model_issue": "ignore",
+      "single_global_label": "ignore",
       "unannotated": "error",
+      "unconnected_wire_endpoint": "warning",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -544,7 +547,7 @@
   },
   "meta": {
     "filename": "ownverter.kicad_pro",
-    "version": 1
+    "version": 3
   },
   "net_settings": {
     "classes": [
@@ -559,6 +562,7 @@
         "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -576,6 +580,7 @@
         "microvia_drill": 0.1,
         "name": "DGND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -593,6 +598,7 @@
         "microvia_drill": 0.1,
         "name": "IBUS",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -610,6 +616,7 @@
         "microvia_drill": 0.1,
         "name": "PGND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -627,6 +634,7 @@
         "microvia_drill": 0.1,
         "name": "SWN1",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -644,6 +652,7 @@
         "microvia_drill": 0.1,
         "name": "SWN2",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -661,6 +670,7 @@
         "microvia_drill": 0.1,
         "name": "SWN3",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -669,161 +679,496 @@
       }
     ],
     "meta": {
-      "version": 3
+      "version": 4
     },
     "net_colors": null,
     "netclass_assignments": {
-      "+12V_PGND": "PGND",
-      "+5V_DGND": "DGND",
-      "+5V_PGND": "PGND",
-      "+6V": "DGND",
-      "/Feeder/+6VJP": "DGND",
-      "/Feeder/COMP": "PGND",
-      "/Feeder/VAUX": "PGND",
-      "/Feeder/VBoost": "PGND",
-      "/Feeder/input": "IBUS",
-      "/HRTIM_CHA1_DGND": "DGND",
-      "/HRTIM_CHA2_DGND": "DGND",
-      "/HRTIM_CHC1_DGND": "DGND",
-      "/HRTIM_CHC2_DGND": "DGND",
-      "/HRTIM_CHE1_DGND": "DGND",
-      "/HRTIM_CHE2_DGND": "DGND",
-      "/Hall_Sensor/HALL1_A_PGND": "PGND",
-      "/Hall_Sensor/HALL2_B_PGND": "PGND",
-      "/Hall_Sensor/HALL3_Z_PGND": "PGND",
-      "/High_side/I_{IHighHall_DGND}": "DGND",
-      "/High_side/V_{IHigh+_PGND}": "PGND",
-      "/High_side/V_{IHighIN_PGND}": "IBUS",
-      "/I_{I1Low_sense_DGND}": "DGND",
-      "/I_{I2Low_sense_DGND}": "DGND",
-      "/I_{I3Low_sense_DGND}": "DGND",
-      "/I_{IHigh_sense_DGND}": "DGND",
-      "/MCU/Neutral_buff": "DGND",
-      "/Phase1/I_Hall": "DGND",
-      "/Phase1/PWM_L": "PGND",
-      "/Phase1/V_{ILow+_PGND}": "PGND",
-      "/Phase2/I_Hall": "DGND",
-      "/Phase2/PWM_L": "PGND",
-      "/Phase2/V_{ILow+_PGND}": "PGND",
-      "/Phase3/I_Hall": "DGND",
-      "/Phase3/PWM_L": "PGND",
-      "/Phase3/V_{ILow+_PGND}": "PGND",
-      "/V_{I1Low_sense_DGND}": "DGND",
-      "/V_{I2Low_sense_DGND}": "DGND",
-      "/V_{I3Low_sense_DGND}": "DGND",
-      "/V_{IHigh_PGND}": "IBUS",
-      "/V_{IHigh_sense_DGND}": "DGND",
-      "/~{STBY1}_DGND": "DGND",
-      "/~{STBY2}_DGND": "DGND",
-      "/~{STBY3}_DGND": "DGND",
-      "DGND": "DGND",
-      "MOSD": "PGND",
-      "MOSS": "PGND",
-      "Net-(C411-Pad1)": "DGND",
-      "Net-(C501-Pad2)": "IBUS",
-      "Net-(C503-Pad2)": "IBUS",
-      "Net-(C518-Pad2)": "DGND",
-      "Net-(C523-Pad2)": "DGND",
-      "Net-(C622-Pad2)": "IBUS",
-      "Net-(C722-Pad2)": "IBUS",
-      "Net-(C822-Pad2)": "IBUS",
-      "Net-(D403-A)": "DGND",
-      "Net-(D501-A)": "PGND",
-      "Net-(D502-A)": "PGND",
-      "Net-(D503-A)": "PGND",
-      "Net-(D503-K)": "PGND",
-      "Net-(D504-K)": "IBUS",
-      "Net-(D505-A)": "PGND",
-      "Net-(D505-K)": "PGND",
-      "Net-(D506-K)": "PGND",
-      "Net-(D507-A)": "DGND",
-      "Net-(D601-A)": "PGND",
-      "Net-(D601-K)": "PGND",
-      "Net-(D605-A)": "PGND",
-      "Net-(D701-A)": "PGND",
-      "Net-(D701-K)": "PGND",
-      "Net-(D705-A)": "PGND",
-      "Net-(D801-A)": "PGND",
-      "Net-(D801-K)": "PGND",
-      "Net-(D805-A)": "PGND",
-      "Net-(F201-Pad2)": "IBUS",
-      "Net-(J401-Pin_1)": "DGND",
-      "Net-(J402-Pin_1)": "DGND",
-      "Net-(J403-Pad11)": "DGND",
-      "Net-(J403-Pad9)": "DGND",
-      "Net-(J404-Pad11)": "DGND",
-      "Net-(J404-Pad9)": "DGND",
-      "Net-(JP401-B)": "DGND",
-      "Net-(JP403-B)": "DGND",
-      "Net-(JP408-A)": "DGND",
-      "Net-(JP409-B)": "DGND",
-      "Net-(JP417-B)": "DGND",
-      "Net-(JP501-B)": "IBUS",
-      "Net-(JP502-A)": "DGND",
-      "Net-(PS501-+Vin)": "DGND",
-      "Net-(Q699-D)": "PGND",
-      "Net-(Q699-G)": "PGND",
-      "Net-(Q799-D)": "PGND",
-      "Net-(Q799-G)": "PGND",
-      "Net-(Q899-D)": "PGND",
-      "Net-(Q899-G)": "PGND",
-      "Net-(R514-Pad1)": "DGND",
-      "Net-(R514-Pad2)": "DGND",
-      "Net-(R610-Pad2)": "DGND",
-      "Net-(R710-Pad2)": "DGND",
-      "Net-(R810-Pad2)": "DGND",
-      "Net-(U201-VOUTN)": "DGND",
-      "Net-(U201-VOUTP)": "DGND",
-      "Net-(U202-BW_SEL)": "DGND",
-      "Net-(U203-+)": "DGND",
-      "Net-(U203--)": "DGND",
-      "Net-(U204-+)": "DGND",
-      "Net-(U204--)": "DGND",
-      "Net-(U406A-+)": "DGND",
-      "Net-(U406A--)": "DGND",
-      "Net-(U406B-+)": "DGND",
-      "Net-(U406B--)": "DGND",
-      "Net-(U490--)": "DGND",
-      "Net-(U501-CS)": "PGND",
-      "Net-(U501-DRV)": "PGND",
-      "Net-(U501-RT)": "PGND",
-      "Net-(U501-SS)": "PGND",
-      "Net-(U501-UVLO)": "PGND",
-      "Net-(U503-K)": "DGND",
-      "Net-(U503-REF)": "DGND",
-      "Net-(U506-+)": "DGND",
-      "Net-(U601-VOUTN)": "DGND",
-      "Net-(U601-VOUTP)": "DGND",
-      "Net-(U603-DT)": "DGND",
-      "Net-(U603-INA)": "DGND",
-      "Net-(U603-INB)": "DGND",
-      "Net-(U604-+)": "DGND",
-      "Net-(U604--)": "DGND",
-      "Net-(U605-VZCR)": "DGND",
-      "Net-(U606-+)": "DGND",
-      "Net-(U606--)": "DGND",
-      "Net-(U701-VOUTN)": "DGND",
-      "Net-(U701-VOUTP)": "DGND",
-      "Net-(U703-DT)": "DGND",
-      "Net-(U703-INA)": "DGND",
-      "Net-(U703-INB)": "DGND",
-      "Net-(U704-+)": "DGND",
-      "Net-(U704--)": "DGND",
-      "Net-(U705-VZCR)": "DGND",
-      "Net-(U706-+)": "DGND",
-      "Net-(U706--)": "DGND",
-      "Net-(U801-VOUTN)": "DGND",
-      "Net-(U801-VOUTP)": "DGND",
-      "Net-(U803-DT)": "DGND",
-      "Net-(U803-INA)": "DGND",
-      "Net-(U803-INB)": "DGND",
-      "Net-(U804-+)": "DGND",
-      "Net-(U804--)": "DGND",
-      "Net-(U805-VZCR)": "DGND",
-      "Net-(U806-+)": "DGND",
-      "Net-(U806--)": "DGND",
-      "PGND": "PGND",
-      "VRef_DGND": "DGND"
+      "+12V_PGND": [
+        "PGND"
+      ],
+      "+5V_DGND": [
+        "DGND"
+      ],
+      "+5V_PGND": [
+        "PGND"
+      ],
+      "+6V": [
+        "DGND"
+      ],
+      "/Feeder/+12V_PGND": [
+        "PGND"
+      ],
+      "/Feeder/+5V_PGND": [
+        "PGND"
+      ],
+      "/Feeder/+6VJP": [
+        "DGND"
+      ],
+      "/Feeder/+6V_DGND": [
+        "DGND"
+      ],
+      "/Feeder/COMP": [
+        "PGND"
+      ],
+      "/Feeder/VAUX": [
+        "PGND"
+      ],
+      "/Feeder/VBoost": [
+        "PGND"
+      ],
+      "/Feeder/VRef_DGND": [
+        "DGND"
+      ],
+      "/Feeder/input": [
+        "IBUS"
+      ],
+      "/HRTIM_CHA1_DGND": [
+        "DGND"
+      ],
+      "/HRTIM_CHA2_DGND": [
+        "DGND"
+      ],
+      "/HRTIM_CHC1_DGND": [
+        "DGND"
+      ],
+      "/HRTIM_CHC2_DGND": [
+        "DGND"
+      ],
+      "/HRTIM_CHE1_DGND": [
+        "DGND"
+      ],
+      "/HRTIM_CHE2_DGND": [
+        "DGND"
+      ],
+      "/Hall_Sensor/HALL1_A_PGND": [
+        "PGND"
+      ],
+      "/Hall_Sensor/HALL2_B_PGND": [
+        "PGND"
+      ],
+      "/Hall_Sensor/HALL3_Z_PGND": [
+        "PGND"
+      ],
+      "/High_side/I_{IHighHall_DGND}": [
+        "DGND"
+      ],
+      "/High_side/V_{IHigh+_PGND}": [
+        "PGND"
+      ],
+      "/High_side/V_{IHighIN_PGND}": [
+        "IBUS"
+      ],
+      "/High_side/V_{IHigh_PGND}": [
+        "IBUS"
+      ],
+      "/I_{I1Low_sense_DGND}": [
+        "DGND"
+      ],
+      "/I_{I2Low_sense_DGND}": [
+        "DGND"
+      ],
+      "/I_{I3Low_sense_DGND}": [
+        "DGND"
+      ],
+      "/I_{IHigh_sense_DGND}": [
+        "DGND"
+      ],
+      "/MCU/Neutral_buff": [
+        "DGND"
+      ],
+      "/Phase1/I_Hall": [
+        "DGND"
+      ],
+      "/Phase1/PWM_L": [
+        "PGND"
+      ],
+      "/Phase1/V_{IHigh_PGND}": [
+        "IBUS"
+      ],
+      "/Phase1/V_{ILow+_PGND}": [
+        "PGND"
+      ],
+      "/Phase2/I_Hall": [
+        "DGND"
+      ],
+      "/Phase2/PWM_L": [
+        "PGND"
+      ],
+      "/Phase2/V_{IHigh_PGND}": [
+        "IBUS"
+      ],
+      "/Phase2/V_{ILow+_PGND}": [
+        "PGND"
+      ],
+      "/Phase3/I_Hall": [
+        "DGND"
+      ],
+      "/Phase3/PWM_L": [
+        "PGND"
+      ],
+      "/Phase3/V_{IHigh_PGND}": [
+        "IBUS"
+      ],
+      "/Phase3/V_{ILow+_PGND}": [
+        "PGND"
+      ],
+      "/V_{I1Low_sense_DGND}": [
+        "DGND"
+      ],
+      "/V_{I2Low_sense_DGND}": [
+        "DGND"
+      ],
+      "/V_{I3Low_sense_DGND}": [
+        "DGND"
+      ],
+      "/V_{IHigh_PGND}": [
+        "IBUS"
+      ],
+      "/V_{IHigh_sense_DGND}": [
+        "DGND"
+      ],
+      "/~{STBY1}_DGND": [
+        "DGND"
+      ],
+      "/~{STBY2}_DGND": [
+        "DGND"
+      ],
+      "/~{STBY3}_DGND": [
+        "DGND"
+      ],
+      "DGND": [
+        "DGND"
+      ],
+      "MOSD": [
+        "PGND"
+      ],
+      "MOSS": [
+        "PGND"
+      ],
+      "Net-(C411-Pad1)": [
+        "DGND"
+      ],
+      "Net-(C501-Pad2)": [
+        "IBUS"
+      ],
+      "Net-(C503-Pad2)": [
+        "IBUS"
+      ],
+      "Net-(C518-Pad2)": [
+        "DGND"
+      ],
+      "Net-(C523-Pad2)": [
+        "DGND"
+      ],
+      "Net-(C622-Pad2)": [
+        "IBUS"
+      ],
+      "Net-(C722-Pad2)": [
+        "IBUS"
+      ],
+      "Net-(C822-Pad2)": [
+        "IBUS"
+      ],
+      "Net-(D403-A)": [
+        "DGND"
+      ],
+      "Net-(D501-A)": [
+        "PGND"
+      ],
+      "Net-(D502-A)": [
+        "PGND"
+      ],
+      "Net-(D503-A)": [
+        "PGND"
+      ],
+      "Net-(D503-K)": [
+        "PGND"
+      ],
+      "Net-(D504-K)": [
+        "IBUS"
+      ],
+      "Net-(D505-A)": [
+        "PGND"
+      ],
+      "Net-(D505-K)": [
+        "PGND"
+      ],
+      "Net-(D506-K)": [
+        "PGND"
+      ],
+      "Net-(D507-A)": [
+        "DGND"
+      ],
+      "Net-(D601-A)": [
+        "PGND"
+      ],
+      "Net-(D601-K)": [
+        "PGND"
+      ],
+      "Net-(D605-A)": [
+        "PGND"
+      ],
+      "Net-(D701-A)": [
+        "PGND"
+      ],
+      "Net-(D701-K)": [
+        "PGND"
+      ],
+      "Net-(D705-A)": [
+        "PGND"
+      ],
+      "Net-(D801-A)": [
+        "PGND"
+      ],
+      "Net-(D801-K)": [
+        "PGND"
+      ],
+      "Net-(D805-A)": [
+        "PGND"
+      ],
+      "Net-(F201-Pad2)": [
+        "IBUS"
+      ],
+      "Net-(J401-Pin_1)": [
+        "DGND"
+      ],
+      "Net-(J402-Pin_1)": [
+        "DGND"
+      ],
+      "Net-(J403-Pad11)": [
+        "DGND"
+      ],
+      "Net-(J403-Pad9)": [
+        "DGND"
+      ],
+      "Net-(J404-Pad11)": [
+        "DGND"
+      ],
+      "Net-(J404-Pad9)": [
+        "DGND"
+      ],
+      "Net-(JP401-B)": [
+        "DGND"
+      ],
+      "Net-(JP403-B)": [
+        "DGND"
+      ],
+      "Net-(JP408-A)": [
+        "DGND"
+      ],
+      "Net-(JP409-B)": [
+        "DGND"
+      ],
+      "Net-(JP417-B)": [
+        "DGND"
+      ],
+      "Net-(JP501-B)": [
+        "IBUS"
+      ],
+      "Net-(JP502-A)": [
+        "DGND"
+      ],
+      "Net-(PS501-+Vin)": [
+        "DGND"
+      ],
+      "Net-(Q699-D)": [
+        "PGND"
+      ],
+      "Net-(Q699-G)": [
+        "PGND"
+      ],
+      "Net-(Q799-D)": [
+        "PGND"
+      ],
+      "Net-(Q799-G)": [
+        "PGND"
+      ],
+      "Net-(Q799-S)": [
+        "PGND"
+      ],
+      "Net-(Q899-D)": [
+        "PGND"
+      ],
+      "Net-(Q899-G)": [
+        "PGND"
+      ],
+      "Net-(Q899-S)": [
+        "PGND"
+      ],
+      "Net-(R514-Pad1)": [
+        "DGND"
+      ],
+      "Net-(R514-Pad2)": [
+        "DGND"
+      ],
+      "Net-(R610-Pad2)": [
+        "DGND"
+      ],
+      "Net-(R710-Pad2)": [
+        "DGND"
+      ],
+      "Net-(R810-Pad2)": [
+        "DGND"
+      ],
+      "Net-(U201-VOUTN)": [
+        "DGND"
+      ],
+      "Net-(U201-VOUTP)": [
+        "DGND"
+      ],
+      "Net-(U202-BW_SEL)": [
+        "DGND"
+      ],
+      "Net-(U203-+)": [
+        "DGND"
+      ],
+      "Net-(U203--)": [
+        "DGND"
+      ],
+      "Net-(U204-+)": [
+        "DGND"
+      ],
+      "Net-(U204--)": [
+        "DGND"
+      ],
+      "Net-(U406A-+)": [
+        "DGND"
+      ],
+      "Net-(U406A--)": [
+        "DGND"
+      ],
+      "Net-(U406B-+)": [
+        "DGND"
+      ],
+      "Net-(U406B--)": [
+        "DGND"
+      ],
+      "Net-(U490--)": [
+        "DGND"
+      ],
+      "Net-(U501-CS)": [
+        "PGND"
+      ],
+      "Net-(U501-DRV)": [
+        "PGND"
+      ],
+      "Net-(U501-RT)": [
+        "PGND"
+      ],
+      "Net-(U501-SS)": [
+        "PGND"
+      ],
+      "Net-(U501-UVLO)": [
+        "PGND"
+      ],
+      "Net-(U503-K)": [
+        "DGND"
+      ],
+      "Net-(U503-REF)": [
+        "DGND"
+      ],
+      "Net-(U506-+)": [
+        "DGND"
+      ],
+      "Net-(U601-VOUTN)": [
+        "DGND"
+      ],
+      "Net-(U601-VOUTP)": [
+        "DGND"
+      ],
+      "Net-(U603-DT)": [
+        "DGND"
+      ],
+      "Net-(U603-INA)": [
+        "DGND"
+      ],
+      "Net-(U603-INB)": [
+        "DGND"
+      ],
+      "Net-(U604-+)": [
+        "DGND"
+      ],
+      "Net-(U604--)": [
+        "DGND"
+      ],
+      "Net-(U605-VZCR)": [
+        "DGND"
+      ],
+      "Net-(U606-+)": [
+        "DGND"
+      ],
+      "Net-(U606--)": [
+        "DGND"
+      ],
+      "Net-(U701-VOUTN)": [
+        "DGND"
+      ],
+      "Net-(U701-VOUTP)": [
+        "DGND"
+      ],
+      "Net-(U703-DT)": [
+        "DGND"
+      ],
+      "Net-(U703-INA)": [
+        "DGND"
+      ],
+      "Net-(U703-INB)": [
+        "DGND"
+      ],
+      "Net-(U704-+)": [
+        "DGND"
+      ],
+      "Net-(U704--)": [
+        "DGND"
+      ],
+      "Net-(U705-VZCR)": [
+        "DGND"
+      ],
+      "Net-(U706-+)": [
+        "DGND"
+      ],
+      "Net-(U706--)": [
+        "DGND"
+      ],
+      "Net-(U801-VOUTN)": [
+        "DGND"
+      ],
+      "Net-(U801-VOUTP)": [
+        "DGND"
+      ],
+      "Net-(U803-DT)": [
+        "DGND"
+      ],
+      "Net-(U803-INA)": [
+        "DGND"
+      ],
+      "Net-(U803-INB)": [
+        "DGND"
+      ],
+      "Net-(U804-+)": [
+        "DGND"
+      ],
+      "Net-(U804--)": [
+        "DGND"
+      ],
+      "Net-(U805-VZCR)": [
+        "DGND"
+      ],
+      "Net-(U806-+)": [
+        "DGND"
+      ],
+      "Net-(U806--)": [
+        "DGND"
+      ],
+      "PGND": [
+        "PGND"
+      ],
+      "VRef_DGND": [
+        "DGND"
+      ],
+      "unconnected-(R508-Pad2)": [
+        "PGND"
+      ]
     },
     "netclass_patterns": [
       {
@@ -1216,7 +1561,7 @@
   },
   "schematic": {
     "annotate_start_num": 100,
-    "bom_export_filename": "",
+    "bom_export_filename": "ownverter.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -1229,7 +1574,7 @@
     },
     "bom_presets": [],
     "bom_settings": {
-      "exclude_dnp": false,
+      "exclude_dnp": true,
       "fields_ordered": [
         {
           "group_by": false,
@@ -1238,7 +1583,7 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Value",
           "name": "Value",
           "show": true
@@ -1247,7 +1592,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -1262,17 +1607,126 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DNP",
+          "name": "DNP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Dielectric",
+          "name": "Dielectric",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Functional Block",
+          "name": "Functional Block",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Metal content",
+          "name": "Metal content",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Power",
+          "name": "Power",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Ref",
+          "name": "Ref",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Subfunction",
+          "name": "Subfunction",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Technology",
+          "name": "Technology",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Voltage",
+          "name": "Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "manf#",
+          "name": "manf#",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": true,
+          "label": "Reserved1",
+          "name": "Reserved1",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Wattage",
+          "name": "Wattage",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "include_excluded_from_bom": false,
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Référence"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -1313,6 +1767,7 @@
     },
     "page_layout_descr_file": "Title_block.kicad_wks",
     "plot_directory": "./",
+    "space_save_all_events": true,
     "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -1326,7 +1781,7 @@
   "sheets": [
     [
       "8d0c1d66-35ef-4a53-a28f-436a11b54f42",
-      "Racine"
+      "Root"
     ],
     [
       "d5d50263-0660-44c8-a20f-043dc430c72e",
