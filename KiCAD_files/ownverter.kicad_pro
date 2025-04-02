@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.75
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -66,7 +66,7 @@
       },
       "rule_severities": {
         "annular_width": "warning",
-        "clearance": "warning",
+        "clearance": "error",
         "connection_width": "warning",
         "copper_edge_clearance": "warning",
         "copper_sliver": "warning",
@@ -91,7 +91,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "ignore",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "warning",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
@@ -114,13 +114,13 @@
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_angle": "error",
-        "track_dangling": "warning",
+        "track_dangling": "error",
         "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
         "unconnected_items": "error",
         "unresolved_variable": "error",
-        "via_dangling": "warning",
+        "via_dangling": "error",
         "zones_intersect": "warning"
       },
       "rule_severitieslegacy_courtyards_overlap": false,
@@ -194,6 +194,7 @@
       ],
       "track_widths": [
         0.0,
+        0.2,
         0.25,
         0.5,
         1.0,
@@ -231,6 +232,14 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.8,
+          "drill": 0.4
         }
       ],
       "zones_allow_external_fillets": true,
@@ -243,7 +252,28 @@
       "mfg": "",
       "mpn": ""
     },
-    "layer_pairs": [],
+    "layer_pairs": [
+      {
+        "bottomLayer": 2,
+        "enabled": true,
+        "topLayer": 0
+      },
+      {
+        "bottomLayer": 8,
+        "enabled": true,
+        "topLayer": 6
+      },
+      {
+        "bottomLayer": 2,
+        "enabled": true,
+        "topLayer": 10
+      },
+      {
+        "bottomLayer": 4,
+        "enabled": true,
+        "topLayer": 0
+      }
+    ],
     "layer_presets": [
       {
         "activeLayer": -2,
@@ -311,6 +341,165 @@
           "drc_warnings",
           "locked_item_shadows",
           "conflict_shadows"
+        ]
+      },
+      {
+        "activeLayer": -2,
+        "layers": [
+          6,
+          8,
+          12,
+          14,
+          16,
+          18,
+          20,
+          22,
+          24,
+          25,
+          26,
+          28,
+          30,
+          32,
+          34,
+          36,
+          38,
+          40,
+          42,
+          44,
+          46,
+          48,
+          50,
+          52,
+          54,
+          56,
+          58,
+          60,
+          62
+        ],
+        "name": "middle",
+        "renderLayers": [
+          "vias",
+          "footprint_text",
+          "ratsnest",
+          "grid",
+          "footprints_front",
+          "footprints_back",
+          "footprint_values",
+          "footprint_references",
+          "tracks",
+          "drc_errors",
+          "drawing_sheet",
+          "bitmaps",
+          "pads",
+          "zones",
+          "drc_warnings",
+          "shapes"
+        ]
+      },
+      {
+        "activeLayer": -2,
+        "layers": [
+          2,
+          10,
+          12,
+          14,
+          16,
+          18,
+          20,
+          22,
+          24,
+          25,
+          26,
+          28,
+          30,
+          32,
+          34,
+          36,
+          38,
+          40,
+          42,
+          44,
+          46,
+          48,
+          50,
+          52,
+          54,
+          56,
+          58,
+          60,
+          62
+        ],
+        "name": "prepreg_bot",
+        "renderLayers": [
+          "vias",
+          "footprint_text",
+          "ratsnest",
+          "grid",
+          "footprints_front",
+          "footprints_back",
+          "footprint_values",
+          "footprint_references",
+          "tracks",
+          "drc_errors",
+          "drawing_sheet",
+          "bitmaps",
+          "pads",
+          "zones",
+          "drc_warnings",
+          "shapes"
+        ]
+      },
+      {
+        "activeLayer": -2,
+        "layers": [
+          0,
+          4,
+          12,
+          14,
+          16,
+          18,
+          20,
+          22,
+          24,
+          25,
+          26,
+          28,
+          30,
+          32,
+          34,
+          36,
+          38,
+          40,
+          42,
+          44,
+          46,
+          48,
+          50,
+          52,
+          54,
+          56,
+          58,
+          60,
+          62
+        ],
+        "name": "prepreg_top",
+        "renderLayers": [
+          "vias",
+          "footprint_text",
+          "ratsnest",
+          "grid",
+          "footprints_front",
+          "footprints_back",
+          "footprint_values",
+          "footprint_references",
+          "tracks",
+          "drc_errors",
+          "drawing_sheet",
+          "bitmaps",
+          "pads",
+          "zones",
+          "drc_warnings",
+          "shapes"
         ]
       }
     ],
@@ -526,7 +715,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -573,7 +762,6 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -591,7 +779,6 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -609,7 +796,6 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -627,7 +813,6 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -645,7 +830,6 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -663,7 +847,6 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -810,6 +993,15 @@
         "IBUS"
       ],
       "/Phase3/V_{ILow+_PGND}": [
+        "PGND"
+      ],
+      "/R_{Ext}": [
+        "PGND"
+      ],
+      "/S_{Ext}": [
+        "PGND"
+      ],
+      "/T_{Ext}": [
         "PGND"
       ],
       "/V_{I1Low_sense_DGND}": [
@@ -970,6 +1162,9 @@
       ],
       "Net-(PS501-+Vin)": [
         "DGND"
+      ],
+      "Net-(Q502-G)": [
+        "PGND"
       ],
       "Net-(Q699-D)": [
         "PGND"
@@ -1560,7 +1755,7 @@
     "page_layout_descr_file": "Title_block.kicad_wks"
   },
   "schematic": {
-    "annotate_start_num": 100,
+    "annotate_start_num": 900,
     "bom_export_filename": "ownverter.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -1608,20 +1803,8 @@
         },
         {
           "group_by": false,
-          "label": "DNP",
-          "name": "${DNP}",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "DNP",
-          "name": "DNP",
           "show": false
         },
         {

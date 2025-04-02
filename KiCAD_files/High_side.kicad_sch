@@ -4658,15 +4658,6 @@
 				(hide yes)
 			)
 		)
-		(property "DNP" "x"
-			(at 53.34 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Voltage" "50V"
 			(at 54.61 199.39 90)
 			(effects
@@ -4724,7 +4715,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "3dc906d3-06bf-47ef-9dcd-650e5287eb9b")
 		(property "Reference" "R230"
 			(at 116.6114 76.3016 0)
@@ -4878,15 +4869,6 @@
 			)
 		)
 		(property "manf#" "CR0805-FX-9101ELF "
-			(at 209.55 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNP" "x"
 			(at 209.55 191.77 0)
 			(effects
 				(font
@@ -5419,15 +5401,6 @@
 			)
 		)
 		(property "manf#" "CRT0805-FZ-1002ELF"
-			(at 200.66 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNP" "x"
 			(at 200.66 200.66 0)
 			(effects
 				(font
@@ -6294,15 +6267,6 @@
 				(hide yes)
 			)
 		)
-		(property "DNP" "x"
-			(at 91.44 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Voltage" "50V"
 			(at 90.17 190.5 90)
 			(effects
@@ -6748,7 +6712,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "aacb32ba-2dd1-4541-a8bd-5b9effafa6ec")
 		(property "Reference" "C204"
 			(at 110.744 85.344 0)
@@ -6815,15 +6779,6 @@
 		)
 		(property "manf#" "CL21C102JCFNNNE"
 			(at 118.11 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 113.03 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6916,15 +6871,6 @@
 			)
 		)
 		(property "manf#" "C0805C104K5RACTU"
-			(at 139.7 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNP" "x"
 			(at 139.7 200.66 0)
 			(effects
 				(font
@@ -7036,15 +6982,6 @@
 			)
 		)
 		(property "manf#" "CR0805-FX-1001ELF"
-			(at 226.06 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNP" "x"
 			(at 226.06 224.79 0)
 			(effects
 				(font
@@ -7287,15 +7224,6 @@
 			)
 		)
 		(property "manf#" "CR0805-FX-2002ELF"
-			(at 200.66 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNP" "x"
 			(at 200.66 205.74 0)
 			(effects
 				(font
@@ -7584,15 +7512,6 @@
 				(hide yes)
 			)
 		)
-		(property "DNP" "x"
-			(at 167.64 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Voltage" "50V"
 			(at 166.37 80.01 90)
 			(effects
@@ -7858,7 +7777,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "ACS723LLCTR-20AB-T"
+		(property "manf#" "ACS724LLCTR-20AB-T"
 			(at 150.495 74.93 0)
 			(effects
 				(font
@@ -7942,7 +7861,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:F_0678H_Bel"
+		(property "Footprint" "Fuse:Fuseholder_Blade_Mini_Keystone_3568"
 			(at 132.08 112.268 90)
 			(effects
 				(font
@@ -8058,15 +7977,6 @@
 			)
 		)
 		(property "manf#" "C0805C104K5RACTU"
-			(at 233.68 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNP" "x"
 			(at 233.68 186.69 0)
 			(effects
 				(font
