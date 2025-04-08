@@ -71,7 +71,7 @@
         "copper_edge_clearance": "warning",
         "copper_sliver": "warning",
         "courtyards_overlap": "warning",
-        "creepage": "error",
+        "creepage": "ignore",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
@@ -110,6 +110,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "warning",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -277,6 +278,7 @@
     "layer_presets": [
       {
         "activeLayer": -2,
+        "flipBoard": false,
         "layers": [
           0,
           9,
@@ -345,6 +347,7 @@
       },
       {
         "activeLayer": -2,
+        "flipBoard": false,
         "layers": [
           6,
           8,
@@ -398,6 +401,7 @@
       },
       {
         "activeLayer": -2,
+        "flipBoard": false,
         "layers": [
           2,
           10,
@@ -451,6 +455,7 @@
       },
       {
         "activeLayer": -2,
+        "flipBoard": false,
         "layers": [
           0,
           4,
@@ -998,10 +1003,19 @@
       "/R_{Ext}": [
         "PGND"
       ],
+      "/R_{Switch}": [
+        "PGND"
+      ],
       "/S_{Ext}": [
         "PGND"
       ],
+      "/S_{Switch}": [
+        "PGND"
+      ],
       "/T_{Ext}": [
+        "PGND"
+      ],
+      "/T_{Switch}": [
         "PGND"
       ],
       "/V_{I1Low_sense_DGND}": [
@@ -1120,6 +1134,15 @@
       ],
       "Net-(F201-Pad2)": [
         "IBUS"
+      ],
+      "Net-(J102-Pin_1)": [
+        "PGND"
+      ],
+      "Net-(J102-Pin_2)": [
+        "PGND"
+      ],
+      "Net-(J102-Pin_3)": [
+        "PGND"
       ],
       "Net-(J401-Pin_1)": [
         "DGND"
@@ -1265,6 +1288,9 @@
       "Net-(U506-+)": [
         "DGND"
       ],
+      "Net-(U601-VIN)": [
+        "PGND"
+      ],
       "Net-(U601-VOUTN)": [
         "DGND"
       ],
@@ -1295,6 +1321,9 @@
       "Net-(U606--)": [
         "DGND"
       ],
+      "Net-(U701-VIN)": [
+        "PGND"
+      ],
       "Net-(U701-VOUTN)": [
         "DGND"
       ],
@@ -1324,6 +1353,9 @@
       ],
       "Net-(U706--)": [
         "DGND"
+      ],
+      "Net-(U801-VIN)": [
+        "PGND"
       ],
       "Net-(U801-VOUTN)": [
         "DGND"
