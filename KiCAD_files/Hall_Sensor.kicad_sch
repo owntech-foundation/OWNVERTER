@@ -6,7 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "OWNVERTER V1.1")
-		(comment 1 "TWR")
+		(date "2025-04-24")
+		(comment 1 "ALINEI")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x03"
@@ -3836,7 +3837,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "150k"
+		(property "Value" "330k"
 			(at 100.076 170.4594 0)
 			(effects
 				(font
@@ -3890,7 +3891,7 @@
 				(hide yes)
 			)
 		)
-		(property "Reserved1" "1ce76788931f42d0ede4026432fe1de69c6d1f320ba1"
+		(property "Reserved1" "de80908cc82a0210b1e2e612ccfd739eec83c979ef0a"
 			(at 97.79 168.91 0)
 			(effects
 				(font
@@ -3958,7 +3959,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
+			(at 59.69 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reserved1" "c864e0ec002e269f18eaccd418466b38d3187f294dccff"
 			(at 59.69 156.21 0)
 			(effects
 				(font
@@ -4242,7 +4252,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470R"
+		(property "Value" "5.6k"
 			(at 129.286 179.3494 0)
 			(effects
 				(font
@@ -4296,7 +4306,7 @@
 				(hide yes)
 			)
 		)
-		(property "Reserved1" "cd7c759969816e211d9bfabb333774e8d2a52170679f"
+		(property "Reserved1" "67db2c24762cea30e11f13dd39d2663e9787eb3eef"
 			(at 127 177.8 0)
 			(effects
 				(font
@@ -4833,7 +4843,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470R"
+		(property "Value" "5.6k"
 			(at 100.076 179.3494 0)
 			(effects
 				(font
@@ -4887,7 +4897,7 @@
 				(hide yes)
 			)
 		)
-		(property "Reserved1" "cd7c759969816e211d9bfabb333774e8d2a52170679f"
+		(property "Reserved1" "67db2c24762cea30e11f13dd39d2663e9787eb3eef"
 			(at 97.79 177.8 0)
 			(effects
 				(font
@@ -5437,7 +5447,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "150k"
+		(property "Value" "330k"
 			(at 129.286 170.4594 0)
 			(effects
 				(font
@@ -5491,7 +5501,7 @@
 				(hide yes)
 			)
 		)
-		(property "Reserved1" "1ce76788931f42d0ede4026432fe1de69c6d1f320ba1"
+		(property "Reserved1" "de80908cc82a0210b1e2e612ccfd739eec83c979ef0a"
 			(at 127 168.91 0)
 			(effects
 				(font
@@ -5582,7 +5592,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DIP_x03")
-		(at 179.07 168.91 270)
+		(at 179.07 168.91 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5596,7 +5606,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "SW_DIP_x03"
@@ -5605,11 +5615,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Footprints:SW_DIP_SPSTx03_Slide_W5.25mm_P1.27mm"
-			(at 176.53 168.91 0)
+			(at 181.61 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5618,7 +5628,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 168.91 0)
+			(at 181.61 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5628,6 +5638,24 @@
 		)
 		(property "Description" "3x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
 			(at 179.07 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reserved1" "1ed47944d24cc5eded4436678791147b8459f95d5ee4d82b"
+			(at 179.07 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rotation Offset" "-90"
+			(at 179.07 168.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5851,7 +5879,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470R"
+		(property "Value" "5.6k"
 			(at 155.956 179.3494 0)
 			(effects
 				(font
@@ -5905,7 +5933,7 @@
 				(hide yes)
 			)
 		)
-		(property "Reserved1" "cd7c759969816e211d9bfabb333774e8d2a52170679f"
+		(property "Reserved1" "67db2c24762cea30e11f13dd39d2663e9787eb3eef"
 			(at 153.67 177.8 0)
 			(effects
 				(font
@@ -6422,7 +6450,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "150k"
+		(property "Value" "330k"
 			(at 155.956 170.4594 0)
 			(effects
 				(font
@@ -6476,7 +6504,7 @@
 				(hide yes)
 			)
 		)
-		(property "Reserved1" "1ce76788931f42d0ede4026432fe1de69c6d1f320ba1"
+		(property "Reserved1" "de80908cc82a0210b1e2e612ccfd739eec83c979ef0a"
 			(at 153.67 168.91 0)
 			(effects
 				(font

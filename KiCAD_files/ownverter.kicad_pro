@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.2954,
-          "height": 2.5,
-          "width": 2.5
+          "drill": 0.0,
+          "height": 1.4,
+          "width": 0.975
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -1045,6 +1045,9 @@
       "DGND": [
         "DGND"
       ],
+      "Earth_Protective": [
+        "DGND"
+      ],
       "MOSD": [
         "PGND"
       ],
@@ -1082,6 +1085,9 @@
         "PGND"
       ],
       "Net-(D502-A)": [
+        "PGND"
+      ],
+      "Net-(D502-K)": [
         "PGND"
       ],
       "Net-(D503-A)": [
@@ -1162,6 +1168,15 @@
       "Net-(J404-Pad9)": [
         "DGND"
       ],
+      "Net-(JP201-A)": [
+        "DGND"
+      ],
+      "Net-(JP202-A)": [
+        "DGND"
+      ],
+      "Net-(JP202-B)": [
+        "DGND"
+      ],
       "Net-(JP401-B)": [
         "DGND"
       ],
@@ -1181,6 +1196,33 @@
         "IBUS"
       ],
       "Net-(JP502-A)": [
+        "DGND"
+      ],
+      "Net-(JP701-A)": [
+        "DGND"
+      ],
+      "Net-(JP702-A)": [
+        "DGND"
+      ],
+      "Net-(JP702-B)": [
+        "DGND"
+      ],
+      "Net-(JP901-A)": [
+        "DGND"
+      ],
+      "Net-(JP901-B)": [
+        "DGND"
+      ],
+      "Net-(JP903-A)": [
+        "DGND"
+      ],
+      "Net-(JP903-B)": [
+        "DGND"
+      ],
+      "Net-(JP904-A)": [
+        "DGND"
+      ],
+      "Net-(JP906-A)": [
         "DGND"
       ],
       "Net-(PS501-+Vin)": [
@@ -1312,6 +1354,9 @@
       "Net-(U604--)": [
         "DGND"
       ],
+      "Net-(U605-FILTER)": [
+        "DGND"
+      ],
       "Net-(U605-VZCR)": [
         "DGND"
       ],
@@ -1345,6 +1390,9 @@
       "Net-(U704--)": [
         "DGND"
       ],
+      "Net-(U705-FILTER)": [
+        "DGND"
+      ],
       "Net-(U705-VZCR)": [
         "DGND"
       ],
@@ -1376,6 +1424,9 @@
         "DGND"
       ],
       "Net-(U804--)": [
+        "DGND"
+      ],
+      "Net-(U805-FILTER)": [
         "DGND"
       ],
       "Net-(U805-VZCR)": [
@@ -1787,7 +1838,7 @@
     "page_layout_descr_file": "Title_block.kicad_wks"
   },
   "schematic": {
-    "annotate_start_num": 900,
+    "annotate_start_num": 200,
     "bom_export_filename": "ownverter.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {

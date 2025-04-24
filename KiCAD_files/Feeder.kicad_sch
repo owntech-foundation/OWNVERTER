@@ -6,7 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "OWNVERTER V1.1")
-		(comment 1 "TWR")
+		(date "2025-04-24")
+		(comment 1 "ALINEI")
 	)
 	(lib_symbols
 		(symbol "C_9"
@@ -10530,6 +10531,15 @@
 				(hide yes)
 			)
 		)
+		(property "Position Offset" "-1.5875,0"
+			(at 195.58 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ff64dd91-c680-4416-9d84-a3724f81e4ad")
 		)
@@ -11006,6 +11016,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Rotation Offset" "270"
+			(at 214.63 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11819,7 +11838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Reserved1" "e451052692703ce27deaf4ac413a87e648ce07b71aa3e9"
+		(property "Reserved1" "51bf5f626b1cef1fcd7a0ab921b0c424c09c28f8f9f0cb"
 			(at 198.12 109.22 0)
 			(effects
 				(font
@@ -13768,6 +13787,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rotation Offset" "180"
+			(at 327.66 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "84dea990-d09c-453a-b72d-ab69251ad403")
 		)
@@ -14216,6 +14244,7 @@
 		(lib_name "D_2")
 		(lib_id "Device:D")
 		(at 170.18 127 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14223,7 +14252,7 @@
 		(dnp no)
 		(uuid "6d2db307-28cc-4234-bf21-c2742cad6e89")
 		(property "Reference" "D502"
-			(at 167.894 121.92 0)
+			(at 172.466 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14231,7 +14260,7 @@
 			)
 		)
 		(property "Value" "BAS20HT1G"
-			(at 170.815 124.46 0)
+			(at 169.545 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15463,7 +15492,7 @@
 				)
 			)
 		)
-		(property "Value" "22uH"
+		(property "Value" "15uH"
 			(at 185.674 241.3 90)
 			(effects
 				(font
@@ -15498,7 +15527,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "CBC3225T220KR"
+		(property "manf#" "CBC3225T150KR"
 			(at 186.69 243.84 90)
 			(effects
 				(font
@@ -15507,7 +15536,7 @@
 				(hide yes)
 			)
 		)
-		(property "Reserved1" "9b35acfe830b67317e08b3c2671bd6a924fddf8f059e3c"
+		(property "Reserved1" "49556cf10b80ab9da698451d7b9b26e507a2357ade91e3"
 			(at 186.69 243.84 0)
 			(effects
 				(font
@@ -16927,6 +16956,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rotation Offset" "270"
+			(at 231.14 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4786b6ea-d875-49d8-aa99-007b27b37532")
 		)
@@ -17668,7 +17706,16 @@
 				(hide yes)
 			)
 		)
-		(property "Reserved1" "f1473003a09f1b74e51ae7e38fcded2af77823b01836"
+		(property "Reserved1" "5189d82809801887260445f4c3b54dbc6375cba4a290be1e"
+			(at 311.15 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rotation Offset" "90"
 			(at 311.15 97.79 0)
 			(effects
 				(font

@@ -5,8 +5,10 @@
 	(uuid "8d0c1d66-35ef-4a53-a28f-436a11b54f42")
 	(paper "A3")
 	(title_block
-		(title "OWNVERTER V1.0")
-		(comment 1 "JAL")
+		(title "OWNVERTER V1.1")
+		(date "2025-04-24")
+		(comment 1 "ALINEI")
+		(comment 4 "GFE")
 	)
 	(lib_symbols
 		(symbol "Mechanical:Housing_Pad"
@@ -856,7 +858,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Symbols:Harting 15 contacts and WAGO"
+		(symbol "Symbols:Harting 15 contacts WAGO 6"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -870,6 +872,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Value" "Harting-15 and Wago 6"
@@ -934,10 +937,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "Harting 15 contacts and WAGO_1_1"
+			(symbol "Harting 15 contacts WAGO 6_1_1"
 				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
+					(start 0 1.27)
+					(end 2.54 -8.89)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -947,8 +950,8 @@
 					)
 				)
 				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
+					(start 0 0.127)
+					(end 1.27 -0.127)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -958,8 +961,30 @@
 					)
 				)
 				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
+					(start 0 -2.413)
+					(end 1.27 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0 -4.953)
+					(end 1.27 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0 -7.493)
+					(end 1.27 -7.747)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -969,7 +994,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -3.81 0 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -987,7 +1012,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -3.81 -2.54 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -1004,45 +1029,10 @@
 						)
 					)
 				)
-			)
-			(symbol "Harting 15 contacts and WAGO_2_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -3.81 -5.08 0)
 					(length 3.81)
-					(name "Pin_1"
+					(name "Pin_3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1058,9 +1048,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -3.81 -7.62 0)
 					(length 3.81)
-					(name "Pin_2"
+					(name "Pin_4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1076,7 +1066,7 @@
 					)
 				)
 			)
-			(symbol "Harting 15 contacts and WAGO_3_1"
+			(symbol "Harting 15 contacts WAGO 6_2_1"
 				(rectangle
 					(start -1.27 1.27)
 					(end 1.27 -3.81)
@@ -1147,7 +1137,87 @@
 					)
 				)
 			)
-			(symbol "Harting 15 contacts and WAGO_4_1"
+			(embedded_fonts no)
+		)
+		(symbol "Symbols:Harting 15 contacts and WAGO_1"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Harting-15 and Wago 6"
+				(at -1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Footprints:Harting - 15contacts and Wago_1_1"
+				(at -1.27 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Harting 15 contacts and WAGO_1_1_1"
 				(rectangle
 					(start -1.27 1.27)
 					(end 1.27 -3.81)
@@ -1218,78 +1288,7 @@
 					)
 				)
 			)
-			(symbol "Harting 15 contacts and WAGO_5_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Harting 15 contacts and WAGO_6_1"
+			(symbol "Harting 15 contacts and WAGO_1_2_1"
 				(rectangle
 					(start -1.27 1.27)
 					(end 1.27 -3.81)
@@ -1360,78 +1359,7 @@
 					)
 				)
 			)
-			(symbol "Harting 15 contacts and WAGO_7_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Harting 15 contacts and WAGO_8_1"
+			(symbol "Harting 15 contacts and WAGO_1_3_1"
 				(rectangle
 					(start -1.27 1.27)
 					(end 1.27 -3.81)
@@ -1592,6 +1520,296 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Symbols:WAGO 2 contacts "
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J105"
+				(at 2.54 0.0001 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "2604-1102"
+				(at 2.54 -2.5399 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Footprints:WAGO-2604-1102_1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "WAGO 2 contacts _1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "WAGO 2 contacts _1"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J104"
+				(at 2.54 0.0001 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "2604-1102"
+				(at 2.54 -2.5399 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Footprints:WAGO-2604-1102"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "WAGO 2 contacts _1_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2017,6 +2235,16 @@
 		)
 		(uuid "27f9e036-ddfa-4711-b440-9abad62b4cbe")
 	)
+	(text "Connexions for optional backplane connector"
+		(exclude_from_sim no)
+		(at 121.92 197.358 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3f9f767e-2b4a-41d8-903f-f4559a21183a")
+	)
 	(text "designator base 700"
 		(exclude_from_sim no)
 		(at 193.04 95.25 0)
@@ -2191,13 +2419,19 @@
 		(uuid "02db2da1-f7b5-4151-bf01-871619350ac8")
 	)
 	(junction
+		(at 40.64 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03319538-7b85-412f-9343-f600ff7bbeb1")
+	)
+	(junction
 		(at 40.64 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "061efa1c-c534-4c3a-9b70-363b6e7d2922")
 	)
 	(junction
-		(at 100.33 180.34)
+		(at 102.87 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "06a74983-1cec-4c64-9131-4504ea83345e")
@@ -2209,13 +2443,25 @@
 		(uuid "15340d85-1f37-4a48-b57a-d536c298972c")
 	)
 	(junction
+		(at 132.08 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4bced756-e61d-436d-b158-0d76884f24b5")
+	)
+	(junction
 		(at 156.21 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c83da33-32e9-4afa-967b-917055e100cc")
 	)
 	(junction
-		(at 83.82 180.34)
+		(at 132.08 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d5b8669-7144-4201-bfeb-39fe26e9e809")
+	)
+	(junction
+		(at 86.36 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e16b701-9631-4901-9481-b2100ac6bfee")
@@ -2227,37 +2473,25 @@
 		(uuid "8701fe15-a9ed-4a4a-a301-35edaa3ec168")
 	)
 	(junction
-		(at 270.51 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "94baf1bb-a8f2-4a2d-90db-8ad4b2c0b45e")
-	)
-	(junction
-		(at 80.01 180.34)
+		(at 82.55 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b586933-fcf4-4d10-b705-a1f6dbb939c3")
 	)
 	(junction
-		(at 83.82 168.91)
+		(at 86.36 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9d3616dc-78de-432b-a324-63fa5035a244")
 	)
 	(junction
-		(at 269.24 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a334b9fa-6e0c-4ce4-b78d-133944b81e06")
-	)
-	(junction
-		(at 100.33 168.91)
+		(at 102.87 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a9362e67-711e-4a80-9743-9cb9330039aa")
 	)
 	(junction
-		(at 40.64 62.23)
+		(at 132.08 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc01034f-55f2-40bc-b547-b33cef0fba08")
@@ -2268,12 +2502,6 @@
 		(color 0 0 0 0)
 		(uuid "d09c5a03-65b6-49fa-806d-2cd750f91ef3")
 	)
-	(junction
-		(at 270.51 167.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ff3dfb12-6257-46b6-929c-0307531d3d6a")
-	)
 	(wire
 		(pts
 			(xy 374.65 73.66) (xy 369.57 73.66)
@@ -2283,16 +2511,6 @@
 			(type default)
 		)
 		(uuid "03dd3ba8-62b0-4bac-b53e-2767df71c761")
-	)
-	(wire
-		(pts
-			(xy 273.05 111.76) (xy 270.51 111.76)
-		)
-		(stroke
-			(width 0.5)
-			(type default)
-		)
-		(uuid "04265200-3052-4fee-9848-2ee0376a3fe1")
 	)
 	(wire
 		(pts
@@ -2323,16 +2541,6 @@
 			(type default)
 		)
 		(uuid "09391f29-afe5-4725-8f8a-f40bf5a0c732")
-	)
-	(wire
-		(pts
-			(xy 271.78 53.34) (xy 269.24 53.34)
-		)
-		(stroke
-			(width 0.5)
-			(type default)
-		)
-		(uuid "0a90a777-0606-45c6-996d-94253aac1656")
 	)
 	(wire
 		(pts
@@ -2376,16 +2584,6 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 53.34) (xy 269.24 55.88)
-		)
-		(stroke
-			(width 0.5)
-			(type default)
-		)
-		(uuid "13744244-f528-4a5d-9ae0-b4be3f002fe6")
-	)
-	(wire
-		(pts
 			(xy 105.41 45.72) (xy 129.54 45.72)
 		)
 		(stroke
@@ -2396,7 +2594,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 180.34) (xy 83.82 180.34)
+			(xy 82.55 189.23) (xy 86.36 189.23)
 		)
 		(stroke
 			(width 0)
@@ -2406,7 +2604,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 62.23) (xy 40.64 62.23)
+			(xy 129.54 168.91) (xy 132.08 168.91)
 		)
 		(stroke
 			(width 0.5)
@@ -2436,16 +2634,6 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 165.1) (xy 270.51 165.1)
-		)
-		(stroke
-			(width 0.5)
-			(type default)
-		)
-		(uuid "1bb4c463-412f-483c-9a6d-e8691080fad8")
-	)
-	(wire
-		(pts
 			(xy 374.65 69.85) (xy 369.57 69.85)
 		)
 		(stroke
@@ -2466,7 +2654,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 167.64) (xy 83.82 168.91)
+			(xy 86.36 176.53) (xy 86.36 177.8)
 		)
 		(stroke
 			(width 0)
@@ -2506,6 +2694,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 153.67) (xy 132.08 156.21)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "25313844-b973-48b2-93b5-0eef4e50a2d0")
+	)
+	(wire
+		(pts
 			(xy 318.77 69.85) (xy 325.12 69.85)
 		)
 		(stroke
@@ -2513,6 +2711,16 @@
 			(type default)
 		)
 		(uuid "258b4842-476a-4857-a19f-31c7705d7713")
+	)
+	(wire
+		(pts
+			(xy 40.64 50.8) (xy 38.1 50.8)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "266fcee6-b481-4ca9-934b-d169cd809282")
 	)
 	(wire
 		(pts
@@ -2526,7 +2734,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 168.91) (xy 107.95 168.91)
+			(xy 102.87 177.8) (xy 110.49 177.8)
 		)
 		(stroke
 			(width 0)
@@ -2536,7 +2744,17 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 168.91) (xy 83.82 168.91)
+			(xy 132.08 151.13) (xy 132.08 153.67)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "349d0b77-374a-44f3-99fe-abf173f9e45f")
+	)
+	(wire
+		(pts
+			(xy 68.58 177.8) (xy 86.36 177.8)
 		)
 		(stroke
 			(width 0)
@@ -2546,7 +2764,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 167.64) (xy 100.33 168.91)
+			(xy 102.87 176.53) (xy 102.87 177.8)
 		)
 		(stroke
 			(width 0)
@@ -2563,26 +2781,6 @@
 			(type default)
 		)
 		(uuid "3774486c-0fb3-4533-98ad-18058fa03343")
-	)
-	(wire
-		(pts
-			(xy 269.24 58.42) (xy 269.24 55.88)
-		)
-		(stroke
-			(width 0.5)
-			(type default)
-		)
-		(uuid "3a7c126a-a676-4c00-9163-b35105b27e4e")
-	)
-	(wire
-		(pts
-			(xy 270.51 114.3) (xy 270.51 111.76)
-		)
-		(stroke
-			(width 0.5)
-			(type default)
-		)
-		(uuid "3acc90da-008e-42a0-9e6f-0f6543519bd0")
 	)
 	(wire
 		(pts
@@ -2626,7 +2824,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 168.91) (xy 100.33 168.91)
+			(xy 86.36 177.8) (xy 102.87 177.8)
 		)
 		(stroke
 			(width 0)
@@ -2673,16 +2871,6 @@
 			(type default)
 		)
 		(uuid "4d398804-786b-446c-b0cb-014efdb662cf")
-	)
-	(wire
-		(pts
-			(xy 270.51 165.1) (xy 270.51 167.64)
-		)
-		(stroke
-			(width 0.5)
-			(type default)
-		)
-		(uuid "4e668533-9314-41fc-9c3e-fad24d3f861d")
 	)
 	(wire
 		(pts
@@ -2736,13 +2924,23 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 45.72) (xy 271.78 45.72)
+			(xy 269.24 45.72) (xy 274.32 45.72)
 		)
 		(stroke
 			(width 0.5)
 			(type default)
 		)
 		(uuid "5c894629-9c9f-4de0-a904-228cfaf64fe5")
+	)
+	(wire
+		(pts
+			(xy 129.54 184.15) (xy 132.08 184.15)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "5e59a3bf-f6f3-444b-a12f-c12dfc957153")
 	)
 	(wire
 		(pts
@@ -2816,13 +3014,13 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 109.22) (xy 270.51 111.76)
+			(xy 132.08 184.15) (xy 132.08 187.96)
 		)
 		(stroke
 			(width 0.5)
 			(type default)
 		)
-		(uuid "724f56f1-59c1-4ee2-8e9a-b249d3fab406")
+		(uuid "722e5498-db24-481c-a174-148b6648cff4")
 	)
 	(wire
 		(pts
@@ -2836,6 +3034,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 53.34) (xy 40.64 55.88)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "7665285c-7b82-4cd5-ac08-0fe86febde15")
+	)
+	(wire
+		(pts
 			(xy 156.21 100.33) (xy 179.07 100.33)
 		)
 		(stroke
@@ -2846,7 +3054,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 180.34) (xy 80.01 180.34)
+			(xy 68.58 189.23) (xy 82.55 189.23)
 		)
 		(stroke
 			(width 0)
@@ -2866,7 +3074,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 59.69) (xy 40.64 59.69)
+			(xy 129.54 166.37) (xy 132.08 166.37)
 		)
 		(stroke
 			(width 0.5)
@@ -2893,6 +3101,16 @@
 			(type default)
 		)
 		(uuid "7ccd4ed9-5bca-4434-b309-12c565278204")
+	)
+	(wire
+		(pts
+			(xy 129.54 181.61) (xy 132.08 181.61)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "7d60670e-c82e-417e-b396-eef8097fd1be")
 	)
 	(wire
 		(pts
@@ -2936,6 +3154,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 53.34) (xy 40.64 53.34)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "86ec5e00-8d04-4c60-9d53-03d25adb7d0d")
+	)
+	(wire
+		(pts
 			(xy 175.26 74.93) (xy 179.07 74.93)
 		)
 		(stroke
@@ -2956,7 +3184,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 180.34) (xy 100.33 180.34)
+			(xy 86.36 189.23) (xy 102.87 189.23)
 		)
 		(stroke
 			(width 0)
@@ -2966,7 +3194,17 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 180.34) (xy 80.01 182.88)
+			(xy 129.54 153.67) (xy 132.08 153.67)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "8b53b1ab-513f-4c7e-bea8-88fe378092c0")
+	)
+	(wire
+		(pts
+			(xy 82.55 189.23) (xy 82.55 191.77)
 		)
 		(stroke
 			(width 0)
@@ -3046,16 +3284,6 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 55.88) (xy 269.24 55.88)
-		)
-		(stroke
-			(width 0.5)
-			(type default)
-		)
-		(uuid "9e255d0a-6e95-4bd8-8bd0-561c472657d0")
-	)
-	(wire
-		(pts
 			(xy 374.65 41.91) (xy 369.57 41.91)
 		)
 		(stroke
@@ -3066,13 +3294,13 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 170.18) (xy 270.51 167.64)
+			(xy 132.08 181.61) (xy 132.08 184.15)
 		)
 		(stroke
 			(width 0.5)
 			(type default)
 		)
-		(uuid "a1df2e84-de15-4269-a109-68118c252917")
+		(uuid "a25836e6-c617-4a14-87bc-d853cb64f692")
 	)
 	(wire
 		(pts
@@ -3093,16 +3321,6 @@
 			(type default)
 		)
 		(uuid "b057f415-2eb5-4341-997b-c9d702a8cace")
-	)
-	(wire
-		(pts
-			(xy 273.05 167.64) (xy 270.51 167.64)
-		)
-		(stroke
-			(width 0.5)
-			(type default)
-		)
-		(uuid "b10a06bc-04f0-4d56-9d97-e4a7923011be")
 	)
 	(wire
 		(pts
@@ -3136,7 +3354,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 179.07) (xy 100.33 180.34)
+			(xy 102.87 187.96) (xy 102.87 189.23)
 		)
 		(stroke
 			(width 0)
@@ -3166,7 +3384,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 181.61) (xy 123.19 177.8)
+			(xy 86.36 156.21) (xy 86.36 152.4)
 		)
 		(stroke
 			(width 0)
@@ -3256,6 +3474,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 50.8) (xy 40.64 53.34)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "d422d502-3191-422c-8c00-c9537ae7e687")
+	)
+	(wire
+		(pts
 			(xy 318.77 52.07) (xy 325.12 52.07)
 		)
 		(stroke
@@ -3296,7 +3524,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 179.07) (xy 83.82 180.34)
+			(xy 86.36 187.96) (xy 86.36 189.23)
 		)
 		(stroke
 			(width 0)
@@ -3316,6 +3544,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 151.13) (xy 132.08 151.13)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "db2310f5-dfdc-45c0-bbd9-10300fcac465")
+	)
+	(wire
+		(pts
 			(xy 105.41 102.87) (xy 129.54 102.87)
 		)
 		(stroke
@@ -3326,7 +3564,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 167.64) (xy 66.04 168.91)
+			(xy 68.58 176.53) (xy 68.58 177.8)
 		)
 		(stroke
 			(width 0)
@@ -3346,7 +3584,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 48.26) (xy 269.24 48.26)
+			(xy 274.32 48.26) (xy 269.24 48.26)
 		)
 		(stroke
 			(width 0.5)
@@ -3366,7 +3604,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 180.34) (xy 107.95 180.34)
+			(xy 102.87 189.23) (xy 110.49 189.23)
 		)
 		(stroke
 			(width 0)
@@ -3386,7 +3624,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 179.07) (xy 66.04 180.34)
+			(xy 68.58 187.96) (xy 68.58 189.23)
 		)
 		(stroke
 			(width 0)
@@ -3406,7 +3644,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 59.69) (xy 40.64 62.23)
+			(xy 132.08 166.37) (xy 132.08 168.91)
 		)
 		(stroke
 			(width 0.5)
@@ -3426,7 +3664,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 62.23) (xy 40.64 66.04)
+			(xy 132.08 168.91) (xy 132.08 172.72)
 		)
 		(stroke
 			(width 0.5)
@@ -3436,17 +3674,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 109.22) (xy 270.51 109.22)
-		)
-		(stroke
-			(width 0.5)
-			(type default)
-		)
-		(uuid "ea98f2a4-acfb-4cd9-a169-c33100702f6e")
-	)
-	(wire
-		(pts
-			(xy 107.95 168.91) (xy 107.95 180.34)
+			(xy 110.49 177.8) (xy 110.49 189.23)
 		)
 		(stroke
 			(width 0)
@@ -4142,18 +4370,20 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "Symbols:Harting 15 contacts and WAGO")
-		(at 278.13 100.33 0)
-		(unit 5)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 95.25 189.23 180)
 		(fields_autoplaced yes)
-		(uuid "0b45279e-75ce-48b6-8217-862a5b763517")
-		(property "Reference" "J101"
-			(at 280.67 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a4510f64-e264-49e6-94d0-1c5a2b86a35e")
+		(property "Netclass" "DGND"
+			(at 95.8596 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4161,8 +4391,28 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Harting-15 and Wago 6"
-			(at 276.86 105.41 0)
+		(property "Component Class" ""
+			(at -53.34 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Symbols:PGND")
+		(at 132.08 187.96 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00596ee2-b91b-4bc4-a9b5-4e5023917620")
+		(property "Reference" "#PWR0109"
+			(at 132.08 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4170,8 +4420,16 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprints:Harting - 15contacts and Wago"
-			(at 276.86 95.25 0)
+		(property "Value" "PGND"
+			(at 132.08 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4180,7 +4438,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 278.13 100.33 0)
+			(at 132.08 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4189,25 +4447,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 278.13 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "2604-1108"
-			(at 278.13 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Reserved1" ""
-			(at 278.13 100.33 0)
+			(at 132.08 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4216,74 +4456,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "7421c441-5929-4f44-9076-91d3c095532a")
-		)
-		(pin "2"
-			(uuid "1b066975-5f81-4a84-b604-48cf0498b094")
-		)
-		(pin "3"
-			(uuid "5e7e5214-d735-48ed-aa23-5de2f3ff1d8d")
-		)
-		(pin "4"
-			(uuid "f4506878-05b2-49bb-a6c1-ef146fd77713")
-		)
-		(pin "5"
-			(uuid "149fa70e-e965-439a-a7af-5b89f816dabb")
-		)
-		(pin "6"
-			(uuid "9946da67-b984-4048-a033-f92523e11c1d")
-		)
-		(pin "7"
-			(uuid "c63f8633-45d6-49f1-99d2-31c7f49cf687")
-		)
-		(pin "8"
-			(uuid "08e65d7d-c3b1-4a43-9b88-aeb7331526e0")
-		)
-		(pin "10"
-			(uuid "404df1d5-2d6c-4ec7-af7a-8900d5958e0c")
-		)
-		(pin "9"
-			(uuid "7a9bc5fa-0df3-4b53-acda-c515da7d98c0")
-		)
-		(pin "11"
-			(uuid "2c35d838-db9d-4752-a3f9-db2bba8dddb3")
-		)
-		(pin "12"
-			(uuid "7c69ae85-6d91-42d6-8c20-327151756ec4")
-		)
-		(pin "13"
-			(uuid "aa702a23-da55-4982-bf11-5ed367c3f4c1")
-		)
-		(pin "14"
-			(uuid "88c80c75-af03-4708-892e-c89ab3b67195")
-		)
-		(pin "15"
-			(uuid "7f89b51c-3bc5-4f08-ae00-a9ebfe29fff5")
-		)
-		(pin "16"
-			(uuid "d64a66bc-f7a2-46c6-acc7-e51da7ccfd11")
+			(uuid "dec38e17-6e60-4128-908c-4297c02f3c85")
 		)
 		(instances
 			(project "ownverter"
 				(path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
-					(reference "J101")
-					(unit 5)
+					(reference "#PWR0109")
+					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 66.04 176.53 0)
-		(unit 1)
-		(exclude_from_sim yes)
+		(lib_id "Symbols:Harting 15 contacts and WAGO_1")
+		(at 124.46 181.61 0)
+		(mirror y)
+		(unit 3)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "13ba3d3b-939f-4b67-aa82-10367be5ce64")
-		(property "Reference" "H102"
-			(at 68.58 173.99 0)
+		(uuid "09c8d805-7621-4910-ba30-014ab03666ad")
+		(property "Reference" "J101"
+			(at 127.254 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4291,17 +4486,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "M2.5"
-			(at 68.58 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad_TopOnly"
-			(at 66.04 176.53 0)
+		(property "Value" "Harting-15 and Wago 6"
+			(at 125.73 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4309,8 +4495,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 66.04 176.53 0)
+		(property "Footprint" "Footprints:Harting - 15contacts and Wago_1_1"
+			(at 125.73 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4318,8 +4504,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 66.04 176.53 0)
+		(property "Datasheet" "~"
+			(at 124.46 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 124.46 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "2604-1108"
+			(at 124.46 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4328,7 +4532,164 @@
 			)
 		)
 		(property "Reserved1" ""
-			(at 66.04 176.53 0)
+			(at 124.46 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "fb33ceca-22da-485a-b0bb-f31463bd39c6")
+		)
+		(pin "8"
+			(uuid "a2e3a90c-60d9-47ca-add8-cf1d10eafec5")
+		)
+		(pin "11"
+			(uuid "2dedb922-28be-4176-9c47-6a597279a309")
+		)
+		(pin "12"
+			(uuid "ef202c7a-2672-435e-beb8-ab8f35f0f4e6")
+		)
+		(pin "15"
+			(uuid "5d9d9f33-8eed-472e-9f56-947ed22793b7")
+		)
+		(pin "16"
+			(uuid "94ada19e-c955-4e9f-b76a-f5e7e252605c")
+		)
+		(instances
+			(project "ownverter"
+				(path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
+					(reference "J101")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Symbols:PGND")
+		(at 132.08 156.21 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "12465125-ec7a-4462-be4f-756d892f0a34")
+		(property "Reference" "#PWR0108"
+			(at 132.08 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PGND"
+			(at 132.08 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1d16b88-793f-4769-829f-62550c19807b")
+		)
+		(instances
+			(project "ownverter"
+				(path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 68.58 185.42 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "13ba3d3b-939f-4b67-aa82-10367be5ce64")
+		(property "Reference" "H102"
+			(at 71.12 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2.5"
+			(at 71.12 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad_TopOnly"
+			(at 68.58 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reserved1" ""
+			(at 68.58 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4350,7 +4711,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 100.33 165.1 0)
+		(at 102.87 173.99 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -4359,7 +4720,7 @@
 		(fields_autoplaced yes)
 		(uuid "1b1736c7-4cd8-478c-8f92-c0f65d90d2c8")
 		(property "Reference" "H107"
-			(at 102.87 162.5599 0)
+			(at 105.41 171.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4368,7 +4729,7 @@
 			)
 		)
 		(property "Value" "M2.5"
-			(at 102.87 165.0999 0)
+			(at 105.41 173.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4377,7 +4738,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad_TopOnly"
-			(at 100.33 165.1 0)
+			(at 102.87 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4386,7 +4747,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 165.1 0)
+			(at 102.87 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4395,7 +4756,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 100.33 165.1 0)
+			(at 102.87 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4404,7 +4765,7 @@
 			)
 		)
 		(property "Reserved1" ""
-			(at 100.33 165.1 0)
+			(at 102.87 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4419,6 +4780,87 @@
 			(project "ownverter"
 				(path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
 					(reference "H107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "WAGO 2 contacts _1")
+		(lib_id "Symbols:WAGO 2 contacts ")
+		(at 278.13 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d00ed9b-a5c0-41bf-afbc-4671095cedfc")
+		(property "Reference" "J104"
+			(at 280.67 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2604-1102"
+			(at 280.67 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Footprints:WAGO-2604-1102"
+			(at 278.13 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 278.13 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 278.13 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reserved1" "d26454c3f0624cbe073eadb6916b2e15ddf6f830e613f1cc"
+			(at 278.13 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "246f6361-12fb-4684-b99a-f38235f0048d")
+		)
+		(pin "10"
+			(uuid "0bb9ae88-fb0e-489e-b9f6-8a9b406bb6b6")
+		)
+		(instances
+			(project ""
+				(path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
+					(reference "J104")
 					(unit 1)
 				)
 			)
@@ -4490,398 +4932,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:PGND")
-		(at 270.51 170.18 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "32b65306-5303-4d6b-89f4-292b54735634")
-		(property "Reference" "#PWR0110"
-			(at 270.51 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PGND"
-			(at 270.51 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 270.51 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 270.51 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 270.51 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8cea44da-abfb-4042-ab56-93cbc836cbcd")
-		)
-		(instances
-			(project "ownverter"
-				(path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
-					(reference "#PWR0110")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Symbols:PGND")
-		(at 270.51 114.3 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "422ff55d-00ca-46ea-a67a-66ef97cf7925")
-		(property "Reference" "#PWR0109"
-			(at 270.51 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PGND"
-			(at 270.51 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 270.51 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 270.51 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 270.51 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "62ab6a80-4ba9-4a64-b717-8131afe54ee5")
-		)
-		(instances
-			(project "ownverter"
-				(path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
-					(reference "#PWR0109")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Symbols:Harting 15 contacts and WAGO")
-		(at 278.13 109.22 0)
-		(unit 6)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4360444c-a4f2-42d2-9d15-3066df4fffda")
-		(property "Reference" "J101"
-			(at 280.67 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Harting-15 and Wago 6"
-			(at 276.86 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Footprints:Harting - 15contacts and Wago"
-			(at 276.86 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 278.13 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 278.13 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "2604-1108"
-			(at 278.13 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Reserved1" ""
-			(at 278.13 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "41206664-07aa-4a6b-9863-90c30c582407")
-		)
-		(pin "2"
-			(uuid "d1908350-76f3-4db1-b58f-e344f9ef506a")
-		)
-		(pin "3"
-			(uuid "93bdbb9a-04e9-42e2-8ec0-343b04932314")
-		)
-		(pin "4"
-			(uuid "3f53c4ac-c7ab-4731-9387-eca6e24693e1")
-		)
-		(pin "5"
-			(uuid "8303815f-082a-4a9e-af1c-4f90dc3d674d")
-		)
-		(pin "6"
-			(uuid "39aadabc-94e3-4ba9-baf6-fc962b32b7be")
-		)
-		(pin "7"
-			(uuid "00da1716-2deb-4c97-93ea-c09e71a7b065")
-		)
-		(pin "8"
-			(uuid "6f3249c5-639d-4eee-b5d7-0ff9dd2dc106")
-		)
-		(pin "10"
-			(uuid "2baf9605-8fe2-4c72-92c4-14d308a31efb")
-		)
-		(pin "9"
-			(uuid "05678458-a45e-4cd8-ac76-67002182fade")
-		)
-		(pin "11"
-			(uuid "7fa7da65-5c02-420a-9ed1-cb12afa70508")
-		)
-		(pin "12"
-			(uuid "99874dbe-41ba-40b7-bc23-f1412534d64a")
-		)
-		(pin "13"
-			(uuid "154b0235-1125-462a-b5fd-d7e66b705d93")
-		)
-		(pin "14"
-			(uuid "7cea62c7-c105-4b08-8682-ca834999703b")
-		)
-		(pin "15"
-			(uuid "ca248c79-4ee1-4ac3-91b6-285db1271239")
-		)
-		(pin "16"
-			(uuid "d8e505aa-6f60-4c68-a031-17091e6ddb24")
-		)
-		(instances
-			(project "ownverter"
-				(path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
-					(reference "J101")
-					(unit 6)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Symbols:Harting 15 contacts and WAGO")
-		(at 276.86 53.34 0)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "47176cc7-a1d7-4e98-a836-650700071e23")
-		(property "Reference" "J101"
-			(at 279.4 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Harting-15 and Wago 6"
-			(at 275.59 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Footprints:Harting - 15contacts and Wago"
-			(at 275.59 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 276.86 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 276.86 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "2604-1108"
-			(at 276.86 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Reserved1" ""
-			(at 276.86 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3e8645c2-67bf-4bf9-aa0b-567bad6eec6f")
-		)
-		(pin "2"
-			(uuid "8802ca1f-d8f3-43ec-b0b3-3ff0d09d988d")
-		)
-		(pin "3"
-			(uuid "81779074-1bf8-4ae1-9904-fa18daf9d72d")
-		)
-		(pin "4"
-			(uuid "a96cb0c1-1a32-4dfc-b7be-5d166fe727d5")
-		)
-		(pin "5"
-			(uuid "a2c7ec81-e3ae-4b12-8cbd-714eb7da1665")
-		)
-		(pin "6"
-			(uuid "f2570e9d-5241-44f8-bd47-db9ad34d3b0b")
-		)
-		(pin "7"
-			(uuid "1e9da7ee-42c7-47ff-9f16-edcfec1c647b")
-		)
-		(pin "8"
-			(uuid "8400b77f-c2ef-478c-9d18-d93b527026cc")
-		)
-		(pin "10"
-			(uuid "fa6412cc-e8ad-434e-a89c-19c0e3986aaf")
-		)
-		(pin "9"
-			(uuid "aeae8b80-c806-4bf0-8294-da35f2c4bad2")
-		)
-		(pin "11"
-			(uuid "93d2524c-0a74-4e6a-b665-d40881b52b67")
-		)
-		(pin "12"
-			(uuid "a7a3724f-426f-4c2d-bfe0-f6a17efee6f3")
-		)
-		(pin "13"
-			(uuid "82af0e94-65f6-4b4c-8f11-e1e5e7fa6aef")
-		)
-		(pin "14"
-			(uuid "97337d95-1baf-47a9-bc28-1693233ee176")
-		)
-		(pin "15"
-			(uuid "f5810971-bffa-4e23-9f71-30a6ba75efaa")
-		)
-		(pin "16"
-			(uuid "784aced8-7e32-4794-ab80-18851939bc08")
-		)
-		(instances
-			(project "ownverter"
-				(path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
-					(reference "J101")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+6V")
 		(at 113.03 95.25 0)
 		(mirror y)
@@ -4948,138 +4998,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:Harting 15 contacts and WAGO")
-		(at 33.02 45.72 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "58fd3512-785c-4b4c-897a-a976033666d5")
-		(property "Reference" "J101"
-			(at 33.02 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Harting-15 and Wago 6"
-			(at 34.29 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Footprints:Harting - 15contacts and Wago"
-			(at 34.29 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 33.02 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "2604-1108"
-			(at 33.02 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Reserved1" ""
-			(at 33.02 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1a9b00ff-bc74-462d-a1f3-4b870451b8d7")
-		)
-		(pin "2"
-			(uuid "d329c2b9-821c-4bcc-b472-2e44cd12372d")
-		)
-		(pin "3"
-			(uuid "751a9ad8-3217-485b-ba5d-8c57a38f670b")
-		)
-		(pin "4"
-			(uuid "455368c3-b84d-4b01-8d07-c856aaa8546f")
-		)
-		(pin "5"
-			(uuid "9d21fa0b-dd40-4644-ba40-9b4a0a8ad95d")
-		)
-		(pin "6"
-			(uuid "e6d6a905-b29e-4f01-96c6-b930f5e1d647")
-		)
-		(pin "7"
-			(uuid "5cc517b2-97b6-40b8-b02c-5ecbecf71332")
-		)
-		(pin "8"
-			(uuid "9015f443-da8e-44e1-8737-51dded2ce312")
-		)
-		(pin "10"
-			(uuid "fa5ba10d-a42e-4cc4-9175-365e94578f9c")
-		)
-		(pin "9"
-			(uuid "40a3ba66-5ab5-461b-968c-fa5c3e49122f")
-		)
-		(pin "11"
-			(uuid "176669f5-f3af-47de-8aa3-9cb4e64b1924")
-		)
-		(pin "12"
-			(uuid "cd1d248c-e9ce-4699-9663-8f5c329492a5")
-		)
-		(pin "13"
-			(uuid "dbfcd847-53ec-4fc8-a4e2-7b33d2052281")
-		)
-		(pin "14"
-			(uuid "87bd33cd-8001-4756-8e72-b0d79019346c")
-		)
-		(pin "15"
-			(uuid "e119683a-29ec-4789-a7d3-a4983992add6")
-		)
-		(pin "16"
-			(uuid "7a5436f1-84de-409d-8c52-8f7f771de0e6")
-		)
-		(instances
-			(project "ownverter"
-				(path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
-					(reference "J101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 83.82 165.1 0)
+		(at 86.36 173.99 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -5088,7 +5008,7 @@
 		(fields_autoplaced yes)
 		(uuid "68ee62ae-cbef-4586-9977-aa6abaece3e9")
 		(property "Reference" "H103"
-			(at 86.36 162.56 0)
+			(at 88.9 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5097,7 +5017,7 @@
 			)
 		)
 		(property "Value" "M2.5"
-			(at 86.36 165.1 0)
+			(at 88.9 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5106,7 +5026,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad_TopOnly"
-			(at 83.82 165.1 0)
+			(at 86.36 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5115,7 +5035,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 165.1 0)
+			(at 86.36 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5124,7 +5044,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 83.82 165.1 0)
+			(at 86.36 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5133,7 +5053,7 @@
 			)
 		)
 		(property "Reserved1" ""
-			(at 83.82 165.1 0)
+			(at 86.36 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5155,7 +5075,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth_Protective")
-		(at 123.19 181.61 0)
+		(at 86.36 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5163,7 +5083,7 @@
 		(dnp no)
 		(uuid "6c0da28a-ba14-48d4-95c5-8e9cd03946d8")
 		(property "Reference" "#PWR0106"
-			(at 129.54 187.96 0)
+			(at 92.71 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5172,7 +5092,7 @@
 			)
 		)
 		(property "Value" "Earth_Protective"
-			(at 123.19 190.5 0)
+			(at 86.36 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5180,7 +5100,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 184.15 0)
+			(at 86.36 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5189,7 +5109,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 184.15 0)
+			(at 86.36 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5198,7 +5118,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 123.19 181.61 0)
+			(at 86.36 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5219,74 +5139,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:PGND")
-		(at 269.24 58.42 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "79fa8792-f916-40cd-ac43-ff167520e674")
-		(property "Reference" "#PWR0108"
-			(at 269.24 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PGND"
-			(at 269.24 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 269.24 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 269.24 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 269.24 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4d883a7b-63d4-45f9-8fec-9ccf2b67618b")
-		)
-		(instances
-			(project "ownverter"
-				(path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
-					(reference "#PWR0108")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 83.82 176.53 0)
+		(at 86.36 185.42 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -5295,7 +5149,7 @@
 		(fields_autoplaced yes)
 		(uuid "7aa644cd-bbc4-4f02-b418-eb0f6e0edd9a")
 		(property "Reference" "H104"
-			(at 86.36 173.99 0)
+			(at 88.9 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5304,7 +5158,7 @@
 			)
 		)
 		(property "Value" "M2.5"
-			(at 86.36 176.53 0)
+			(at 88.9 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5313,7 +5167,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad_TopOnly"
-			(at 83.82 176.53 0)
+			(at 86.36 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5322,7 +5176,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 176.53 0)
+			(at 86.36 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5331,7 +5185,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 83.82 176.53 0)
+			(at 86.36 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5340,7 +5194,7 @@
 			)
 		)
 		(property "Reserved1" ""
-			(at 83.82 176.53 0)
+			(at 86.36 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5361,26 +5215,26 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:Harting 15 contacts and WAGO")
-		(at 278.13 156.21 0)
-		(unit 7)
+		(lib_id "Symbols:Harting 15 contacts WAGO 6")
+		(at 34.29 45.72 0)
+		(mirror y)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "821062ab-55b4-4e5e-b5d3-32afe7b83138")
-		(property "Reference" "J101"
-			(at 280.67 157.48 0)
+		(uuid "86c3c073-5ac5-46c9-b018-11f1f7ea1c91")
+		(property "Reference" "J103"
+			(at 34.29 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "Harting-15 and Wago 6"
-			(at 276.86 161.29 0)
+			(at 35.56 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5388,8 +5242,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprints:Harting - 15contacts and Wago"
-			(at 276.86 151.13 0)
+		(property "Footprint" "Footprints:WAGO-2604-1106"
+			(at 35.56 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5397,8 +5251,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 278.13 156.21 0)
+		(property "Datasheet" "~"
+			(at 34.29 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5406,8 +5260,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 278.13 156.21 0)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 34.29 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5415,84 +5269,45 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "2604-1108"
-			(at 278.13 156.21 0)
+		(property "Reserved1" "39645eb037d39ab5d6f7d3583bfd19aff13267de33d9349f"
+			(at 34.29 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Reserved1" ""
-			(at 278.13 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "97decbe4-0ef6-4f26-99fe-daa894c07deb")
 		)
 		(pin "2"
-			(uuid "ac6c5878-be14-45d3-97f2-7332093346bd")
+			(uuid "434be8c0-a5a2-4d8b-81e5-9e5b482899bc")
+		)
+		(pin "1"
+			(uuid "a68dce0e-71c7-4aac-bf82-f624eb47d107")
 		)
 		(pin "3"
-			(uuid "25a9ab7c-4396-4daf-a406-c11b1754551e")
+			(uuid "77593c5b-1520-4926-b767-5f782f1d614b")
 		)
 		(pin "4"
-			(uuid "54ff2da2-145b-4f31-bc3e-1f121425ec28")
+			(uuid "64c5b81f-04b5-4201-ab0a-1d7fcc6d0fa1")
 		)
 		(pin "5"
-			(uuid "5156adbd-099b-4019-a0aa-a284e1290ff8")
+			(uuid "e7859a71-c587-4ac7-8696-8dcf0e85dd06")
 		)
 		(pin "6"
-			(uuid "1c3c2fbc-5dd7-4045-861d-63c0111b9667")
-		)
-		(pin "7"
-			(uuid "6ad462ab-395b-4bf0-bfa9-b3a667b5061d")
-		)
-		(pin "8"
-			(uuid "0bf9e264-2e0a-4639-8d48-e766bf960452")
-		)
-		(pin "10"
-			(uuid "9b2c4840-271e-411f-94d2-c1affbb6e822")
-		)
-		(pin "9"
-			(uuid "a3a475ba-cc43-4526-b9a8-5b09653a91af")
-		)
-		(pin "11"
-			(uuid "20eb5efe-ed5d-413b-b20b-b47136c779a3")
-		)
-		(pin "12"
-			(uuid "3a4dd0e7-a288-4267-bcd2-d6093e0180cc")
-		)
-		(pin "13"
-			(uuid "37eee778-956f-4a42-9b3b-84768349a611")
-		)
-		(pin "14"
-			(uuid "b2780e3c-5a05-4218-bfcc-2b00a3a4a9d2")
-		)
-		(pin "15"
-			(uuid "980fa1c1-a53b-48fa-9ca1-f4cc109e3894")
-		)
-		(pin "16"
-			(uuid "780cafe4-37e2-403e-a684-84f26e69623c")
+			(uuid "f8c8eccb-ed31-4513-bf16-7f80aa0bd7d0")
 		)
 		(instances
-			(project "ownverter"
+			(project ""
 				(path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
-					(reference "J101")
-					(unit 7)
+					(reference "J103")
+					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 100.33 176.53 0)
+		(at 102.87 185.42 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -5501,7 +5316,7 @@
 		(fields_autoplaced yes)
 		(uuid "920c8167-2bbc-4263-93af-b93874d6cb73")
 		(property "Reference" "H108"
-			(at 102.87 173.99 0)
+			(at 105.41 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5510,7 +5325,7 @@
 			)
 		)
 		(property "Value" "M2.5"
-			(at 102.87 176.53 0)
+			(at 105.41 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5519,7 +5334,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad_TopOnly"
-			(at 100.33 176.53 0)
+			(at 102.87 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5528,7 +5343,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 176.53 0)
+			(at 102.87 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5537,7 +5352,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 100.33 176.53 0)
+			(at 102.87 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5546,7 +5361,7 @@
 			)
 		)
 		(property "Reserved1" ""
-			(at 100.33 176.53 0)
+			(at 102.87 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5567,26 +5382,26 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:Harting 15 contacts and WAGO")
-		(at 278.13 165.1 0)
-		(unit 8)
+		(lib_id "Symbols:Harting 15 contacts and WAGO_1")
+		(at 124.46 151.13 0)
+		(mirror y)
+		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
-		(uuid "952e5d8a-c26e-4f34-b3d1-7bae8642f477")
+		(uuid "9a42a049-2682-4249-9a50-d4a68cb11fc1")
 		(property "Reference" "J101"
-			(at 280.67 166.37 0)
+			(at 124.46 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "Harting-15 and Wago 6"
-			(at 276.86 170.18 0)
+			(at 125.73 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5594,8 +5409,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprints:Harting - 15contacts and Wago"
-			(at 276.86 160.02 0)
+		(property "Footprint" "Footprints:Harting - 15contacts and Wago_1_1"
+			(at 125.73 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5603,8 +5418,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 278.13 165.1 0)
+		(property "Datasheet" "~"
+			(at 124.46 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5612,8 +5427,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 278.13 165.1 0)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 124.46 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5622,7 +5437,7 @@
 			)
 		)
 		(property "manf#" "2604-1108"
-			(at 278.13 165.1 0)
+			(at 124.46 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5631,7 +5446,7 @@
 			)
 		)
 		(property "Reserved1" ""
-			(at 278.13 165.1 0)
+			(at 124.46 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5639,206 +5454,46 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "a9337290-c2a3-49d6-b8a7-390e1c4e5e72")
-		)
-		(pin "2"
-			(uuid "a8d4add1-2490-4a61-bc1c-8a0eafe627f7")
-		)
-		(pin "3"
-			(uuid "8562c809-de93-4e3b-848c-aa5f192ceef6")
-		)
-		(pin "4"
-			(uuid "d188456c-8c76-4aba-a0b0-8f3e6b5e9c17")
-		)
-		(pin "5"
-			(uuid "639e089f-07b1-4430-b8c3-9a339d4922fb")
-		)
-		(pin "6"
-			(uuid "2f023469-c3f2-4672-9a49-d0e18b6389a2")
-		)
 		(pin "7"
-			(uuid "98b09197-b03e-4cba-b2d3-5fdbf71e9cd0")
+			(uuid "5cc517b2-97b6-40b8-b02c-5ecbecf71332")
 		)
 		(pin "8"
-			(uuid "6bf07305-8a5c-47a0-ae6d-1e42ba3b8ab7")
-		)
-		(pin "10"
-			(uuid "f068acdf-d06f-4bf8-9179-b582f7feaa38")
-		)
-		(pin "9"
-			(uuid "62537860-3949-4767-ad36-b7b32867ccae")
+			(uuid "9015f443-da8e-44e1-8737-51dded2ce312")
 		)
 		(pin "11"
-			(uuid "55edf963-8ab8-4a2d-ba9e-979c8b20d7f1")
+			(uuid "176669f5-f3af-47de-8aa3-9cb4e64b1924")
 		)
 		(pin "12"
-			(uuid "5aed6b9a-facc-48e1-8b93-d138db499138")
-		)
-		(pin "13"
-			(uuid "83d2def2-16dd-4c03-a2e0-aeb668404562")
-		)
-		(pin "14"
-			(uuid "6d50920f-6883-4dc4-aed9-1570a4544995")
+			(uuid "cd1d248c-e9ce-4699-9663-8f5c329492a5")
 		)
 		(pin "15"
-			(uuid "31346f6d-ff39-4d2c-83d4-7bfe0ba37749")
+			(uuid "e119683a-29ec-4789-a7d3-a4983992add6")
 		)
 		(pin "16"
-			(uuid "aff8d50f-1a78-4a9d-83e3-18c797156dc9")
+			(uuid "7a5436f1-84de-409d-8c52-8f7f771de0e6")
 		)
 		(instances
 			(project "ownverter"
 				(path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
 					(reference "J101")
-					(unit 8)
+					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Symbols:Harting 15 contacts and WAGO")
-		(at 276.86 45.72 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9e52e144-f843-4cbf-8464-d1b5cca1988e")
-		(property "Reference" "J101"
-			(at 279.4 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Harting-15 and Wago 6"
-			(at 275.59 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Footprints:Harting - 15contacts and Wago"
-			(at 275.59 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 276.86 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 276.86 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "2604-1108"
-			(at 276.86 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Reserved1" ""
-			(at 276.86 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "777fc0e5-0cf4-4818-ad57-dd92c2975d82")
-		)
-		(pin "2"
-			(uuid "4c4ee250-bb98-4098-90f8-5a83c3cbba16")
-		)
-		(pin "3"
-			(uuid "ffd132b7-7b69-4891-b927-0f32475dfa8e")
-		)
-		(pin "4"
-			(uuid "fb465c15-d44c-436c-a3af-a14fbf9bed3b")
-		)
-		(pin "5"
-			(uuid "01d11794-c155-4de7-9165-fb8ff010fc20")
-		)
-		(pin "6"
-			(uuid "b0e64052-fc9f-4047-ad9b-357b8b2db4a0")
-		)
-		(pin "7"
-			(uuid "fb33ceca-22da-485a-b0bb-f31463bd39c6")
-		)
-		(pin "8"
-			(uuid "a2e3a90c-60d9-47ca-add8-cf1d10eafec5")
-		)
-		(pin "10"
-			(uuid "405f4324-d7a5-469e-a984-3bc321450280")
-		)
-		(pin "9"
-			(uuid "193d3b49-514c-42a1-9bb6-b1e054ac0c0f")
-		)
-		(pin "11"
-			(uuid "2dedb922-28be-4176-9c47-6a597279a309")
-		)
-		(pin "12"
-			(uuid "ef202c7a-2672-435e-beb8-ab8f35f0f4e6")
-		)
-		(pin "13"
-			(uuid "81d656ce-3730-4962-9bae-a55bc0989b84")
-		)
-		(pin "14"
-			(uuid "f8672c9a-e384-49e4-9248-6b0f6e50e938")
-		)
-		(pin "15"
-			(uuid "5d9d9f33-8eed-472e-9f56-947ed22793b7")
-		)
-		(pin "16"
-			(uuid "94ada19e-c955-4e9f-b76a-f5e7e252605c")
-		)
-		(instances
-			(project "ownverter"
-				(path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
-					(reference "J101")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Symbols:Harting 15 contacts and WAGO")
-		(at 33.02 59.69 0)
+		(lib_id "Symbols:Harting 15 contacts and WAGO_1")
+		(at 124.46 166.37 0)
 		(mirror y)
 		(unit 2)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a65c496a-fd95-4267-9a8f-0fb4e67a0371")
 		(property "Reference" "J101"
-			(at 33.02 55.88 0)
+			(at 124.46 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5846,7 +5501,7 @@
 			)
 		)
 		(property "Value" "Harting-15 and Wago 6"
-			(at 34.29 64.77 0)
+			(at 125.73 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5854,8 +5509,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprints:Harting - 15contacts and Wago"
-			(at 34.29 54.61 0)
+		(property "Footprint" "Footprints:Harting - 15contacts and Wago_1_1"
+			(at 125.73 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5863,8 +5518,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 33.02 59.69 0)
+		(property "Datasheet" "~"
+			(at 124.46 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5872,8 +5527,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 33.02 59.69 0)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 124.46 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5882,7 +5537,7 @@
 			)
 		)
 		(property "manf#" "2604-1108"
-			(at 33.02 59.69 0)
+			(at 124.46 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5891,31 +5546,13 @@
 			)
 		)
 		(property "Reserved1" ""
-			(at 33.02 59.69 0)
+			(at 124.46 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "ae1ef825-51ba-409d-9aa3-4adceb9b5a0b")
-		)
-		(pin "2"
-			(uuid "3cf9087e-78a0-48ec-85f6-11cfcac8a9bb")
-		)
-		(pin "3"
-			(uuid "ac921177-a5a1-4cd3-a98f-1cf2ae84acee")
-		)
-		(pin "4"
-			(uuid "61b74684-83bf-4f2a-8f6e-fe550cd7e2da")
-		)
-		(pin "5"
-			(uuid "c27b5823-eba3-4ec6-a095-29fefdab9556")
-		)
-		(pin "6"
-			(uuid "7f91822e-0870-4ffc-8a61-0ada0cd9e706")
 		)
 		(pin "7"
 			(uuid "0c4a654b-b912-43da-b75b-5dfd9ae62d9e")
@@ -5923,23 +5560,11 @@
 		(pin "8"
 			(uuid "004f47e4-72ef-46cb-a6fb-dbe5c49ec683")
 		)
-		(pin "10"
-			(uuid "548d1559-a342-4b52-a630-182589b5c4df")
-		)
-		(pin "9"
-			(uuid "34e3e1f7-813e-43d2-aa21-0a3800c50085")
-		)
 		(pin "11"
 			(uuid "27ea0516-d523-4e76-a780-c5cb6600da2b")
 		)
 		(pin "12"
 			(uuid "39829e05-103d-4416-8993-f85a87130e55")
-		)
-		(pin "13"
-			(uuid "b6fdc1b1-3477-4d2f-bc6d-04f57c79e997")
-		)
-		(pin "14"
-			(uuid "4d123dd5-43df-45c1-bb1e-d96897e36954")
 		)
 		(pin "15"
 			(uuid "52200dcd-c7b3-4197-b048-e9af6f37214a")
@@ -5958,7 +5583,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 66.04 165.1 0)
+		(at 68.58 173.99 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -5967,7 +5592,7 @@
 		(fields_autoplaced yes)
 		(uuid "b4113ca8-d903-45b5-a209-c80bd49448db")
 		(property "Reference" "H101"
-			(at 68.58 162.56 0)
+			(at 71.12 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5976,7 +5601,7 @@
 			)
 		)
 		(property "Value" "M2.5"
-			(at 68.58 165.1 0)
+			(at 71.12 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5985,7 +5610,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad_TopOnly"
-			(at 66.04 165.1 0)
+			(at 68.58 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5994,7 +5619,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 165.1 0)
+			(at 68.58 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6003,7 +5628,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 66.04 165.1 0)
+			(at 68.58 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6012,7 +5637,7 @@
 			)
 		)
 		(property "Reserved1" ""
-			(at 66.04 165.1 0)
+			(at 68.58 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6034,7 +5659,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Housing_Pad")
-		(at 128.27 172.72 0)
+		(at 91.44 147.32 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -6042,7 +5667,7 @@
 		(dnp yes)
 		(uuid "b826d2b0-1b9b-47d2-9262-fe2e303ec991")
 		(property "Reference" "N101"
-			(at 121.92 171.7675 0)
+			(at 85.09 146.3675 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6051,7 +5676,7 @@
 			)
 		)
 		(property "Value" "Eurocard rails"
-			(at 121.92 174.3075 0)
+			(at 85.09 148.9075 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6060,7 +5685,7 @@
 			)
 		)
 		(property "Footprint" "Footprints:Guard_ring"
-			(at 130.175 171.45 0)
+			(at 93.345 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6069,7 +5694,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.175 171.45 0)
+			(at 93.345 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6078,7 +5703,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 128.27 172.72 0)
+			(at 91.44 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6087,7 +5712,7 @@
 			)
 		)
 		(property "Reserved1" ""
-			(at 128.27 172.72 0)
+			(at 91.44 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6109,7 +5734,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth_Protective")
-		(at 80.01 182.88 0)
+		(at 82.55 191.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6117,7 +5742,7 @@
 		(dnp no)
 		(uuid "bf1085f5-aceb-4820-8780-eb5038db8d03")
 		(property "Reference" "#PWR0102"
-			(at 86.36 189.23 0)
+			(at 88.9 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6126,7 +5751,7 @@
 			)
 		)
 		(property "Value" "Earth_Protective"
-			(at 81.28 190.5 0)
+			(at 83.82 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6134,7 +5759,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 185.42 0)
+			(at 82.55 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6143,7 +5768,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 80.01 185.42 0)
+			(at 82.55 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6152,7 +5777,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 80.01 182.88 0)
+			(at 82.55 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6240,7 +5865,7 @@
 	)
 	(symbol
 		(lib_id "Symbols:PGND")
-		(at 40.64 66.04 0)
+		(at 132.08 172.72 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6249,7 +5874,7 @@
 		(dnp no)
 		(uuid "d5a7f1b6-440f-497f-ab35-bcf1409ebb54")
 		(property "Reference" "#PWR0101"
-			(at 40.64 72.39 0)
+			(at 132.08 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6258,7 +5883,7 @@
 			)
 		)
 		(property "Value" "PGND"
-			(at 40.64 69.85 0)
+			(at 132.08 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6266,7 +5891,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 66.04 0)
+			(at 132.08 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6275,7 +5900,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 66.04 0)
+			(at 132.08 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6284,7 +5909,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 40.64 66.04 0)
+			(at 132.08 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6365,6 +5990,241 @@
 				(path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
 					(reference "#PWR0105")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Symbols:PGND")
+		(at 40.64 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e117b1fd-6fc6-4ad6-b602-ba53ac0e2dda")
+		(property "Reference" "#PWR0215"
+			(at 40.64 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PGND"
+			(at 40.64 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9f0d513-6cf6-4939-8243-f8a8c41e2916")
+		)
+		(instances
+			(project "ownverter"
+				(path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
+					(reference "#PWR0215")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Symbols:WAGO 2 contacts ")
+		(at 278.13 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec146d47-7918-497c-92b9-4ff70c9c7e9f")
+		(property "Reference" "J105"
+			(at 280.67 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2604-1102"
+			(at 280.67 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Footprints:WAGO-2604-1102_1"
+			(at 278.13 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 278.13 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 278.13 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reserved1" "d26454c3f0624cbe073eadb6916b2e15ddf6f830e613f1cc"
+			(at 278.13 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "7d96853f-5dc7-4e0a-80fe-63abe8a952e9")
+		)
+		(pin "14"
+			(uuid "3bad82a0-3db1-4d9d-b858-1dd15816eef5")
+		)
+		(instances
+			(project "ownverter"
+				(path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
+					(reference "J105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Symbols:Harting 15 contacts WAGO 6")
+		(at 279.4 45.72 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5bfd024-35cb-4e00-a278-a05c4ccc338e")
+		(property "Reference" "J103"
+			(at 279.4 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Harting-15 and Wago 6"
+			(at 278.13 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Footprints:WAGO-2604-1106"
+			(at 278.13 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 279.4 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 279.4 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reserved1" "39645eb037d39ab5d6f7d3583bfd19aff13267de33d9349f"
+			(at 279.4 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "b1a37a12-5476-4c86-b592-b9639553034f")
+		)
+		(pin "5"
+			(uuid "58fe67a6-42d9-4082-b821-f9742f743218")
+		)
+		(pin "4"
+			(uuid "9cb6f92f-6a3d-4179-9cd4-db7d5977b170")
+		)
+		(pin "3"
+			(uuid "b94db525-b618-48b8-bd78-fbb9b06bab91")
+		)
+		(pin "2"
+			(uuid "7f2bd92e-4d6f-434d-b2d9-d9155a1e9cc1")
+		)
+		(pin "1"
+			(uuid "2196fcb1-dce9-4e8b-9499-83b409a3a189")
+		)
+		(instances
+			(project ""
+				(path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
+					(reference "J103")
+					(unit 2)
 				)
 			)
 		)
