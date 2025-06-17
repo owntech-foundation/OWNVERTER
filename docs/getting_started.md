@@ -1,26 +1,28 @@
-# OwnVerter Board Datasheet v1.0.0
+# OwnVerter Board Datasheet v1.1.0
 
 ## Overview
 
-The **OwnVerter Board** is a reprogrammable, **1.3kW three-phase power converter** designed primarily for **motor control applications**. It can interface with **Sin-Cos encoders**, **optical speed sensors**, and **Hall effect sensors**, providing precise feedback control.
+The **OwnVerter Board** is a reprogrammable, **1.3kW three-phase power converter** 
+designed primarily for **motor control applications**. It can interface with 
+**Sin-Cos encoders**, **optical speed sensors**, and **Hall effect sensors**, 
+providing precise feedback control.
 
-The OwnVerter Board is **fully open-source**, compatible with either the **SPIN board** or other programming systems. It supports communication via **CAN-bus** or **RS-485**.
+The OwnVerter Board is **fully open-source**, compatible with either the **SPIN board** 
+or other programming systems. It supports communication via **CAN-bus** or **RS-485**.
 
-!!!check At a Glance
+!!! check "At a Glance"
     - **Rated Power:** 1.3kW
-    - **Number of Low-Side Channels:** 
-        - Three Low side 
+    - **Number of Low-Side Channels:**
+        - Three Low side
         - Single High side
-    - **Current ratings:** 
-        - 20Apk per channel
-        - 16A in parallel
-    - **Voltage Ratings:** 
-        - 12V to 72V low-side
+    - **Current ratings:**
+        - Selectable 20Apk or 50Apk per channel
+    - **Voltage Ratings:**
         - 12V to 100V high-side
 
-!!!attention Special Features
+!!! attention "Special Features"
     - **3-phase design**
-    - **Tripe, Dual or Single power channel configuration**
+    - **Triple, Dual or Single power channel configuration**
     - **Up to 97% efficiency**
     - **Standard size**: 100mm x 160mm x 35mm
     - **Wide voltage operating range**
@@ -28,8 +30,100 @@ The OwnVerter Board is **fully open-source**, compatible with either the **SPIN 
     - **CAN-bus and RS-485 communication compatible**
     - **Fully open-source**
     - **BLDC and FOC examples and control library available**
-    - [GitLab Source Code](https://github.com/owntech-foundation/OWNVERTER)
+    - [Github source files](https://github.com/owntech-foundation/OWNVERTER)
 
+## Connectivity
+
+!!! info "Hall Effect or incremental Encoders"
+    This interface is galvanically isolated from the microcontroller.  
+    Matching connector is JST EHR 5.  
+    Color code of the provided cable is  
+
+    * **+5V** Red  
+    * **H1/A** Yellow  
+    * **H2/B** Brown  
+    * **H3/Z** Green  
+    * **GND** Black  
+
+
+    Max current delivered by the board internal feeder through the +5V/GND is XXXmA  
+    ![Encoder interface](images/externalV.png){ width="300" align=left }
+
+!!! info "SIN/COS Encoders"
+    This interface is **not** galvanically isolated from the microcontroller.  
+    Matching connector is JST EHR 4.  
+    Color code of the provided cable is  
+
+    * **+5V** Red  
+    * **SIN** Green  
+    * **COS** Yellow  
+    * **GND** Black  
+
+    Max current delivered by the board internal feeder through the +5V/GND is XXXmA  
+    **SIN and COS signal should range from 0v to 2.048V.**  
+    ![Encoder sin/cos interface](images/SINCOS.png){ width="300" align=left }
+
+!!! info "Max current selection"
+    Max current sensed can be selected through solder jumpers.  
+    Solder jumpers are marked **SJ** on the PCB.  
+    
+    * If the solder jumps are bridged, max current is +/- 50 Amps  
+    * If the solder jumps are not bridged, max current is +/- 20 Amps  
+    
+    ![20/50A current selector](images/solder_jumpers.png){ width="300" align=left }
+
+!!! info "External voltage measurements"
+    User can select if voltage measurement is taken at the switching node or externally after a custom filter.  
+
+    ![External measurement selector](images/dip_switch.png){ width="300" }  
+
+    External measurement are cabled through a dedicated connector labeled L1 Ext, L2 Ext, L3 Ext  
+    These cables are meant to be tied after a custom filter.  
+    
+    * Min sensed voltage is 0V.  
+    * Max sensed voltage is 100V.  
+    
+    Matching connector is JST EHR 3.  
+    Color code of the provided cable is  
+
+    * **L1 Ext** Yellow  
+    * **L2 Ext** Brown  
+    * **L3 Ext** Green  
+
+    ![External voltage measurements connector](images/externalV.png){ width="300" align=left }
+
+!!! info "Fuses"
+    Two fuses ratings are provided with the Ownverter board.  
+    
+    * 15A fuses are meant to be equipped when max current is +/- 20 Amps  
+    * 30A fuses are meant to be equipped when max current is +/- 50 Amps  
+    
+    Fuse series is Littelfuse MINI 997  
+    ![Fuse holders](images/fuses.png){ width="300" align=left }
+
+!!! info "RJ45 connectors"
+    Recommended cables are **S / FTP** RJ45 cables.  
+    S / FTP means that the shielding is double:  
+    
+    * Overall copper braid shielding 
+    * and shielding on each pair.  
+    
+    Unlike the RJ45 F/FTP computer cable, the S/FTP cable has a drain conductor. 
+    This allows any interference to be moved to ground, reducing potential interferences.  
+    
+    ![RJ45 Terminals](images/RJ45.png){ width="300" align=left }
+
+!!! info "Termination resistors"
+    Headers marked **CAN** and **RS485** are 120 Ohm termination resistance jumpers.  
+    They should be set for first and last modules when power modules are daisy chained.  
+    ![Termination resistors jumpers](images/120Ohm.png){ width="300" align=left }
+
+!!! info "External heatsink"
+    Power dissipation can be mounted on the bottom side on the board.  
+    **Pads should be covered by an electrically isolating thermal interface material.**  
+    Advised method is to use thermal interface double side duct tape.  
+    Mounting holes can be used to fasten any heatsink in place. Refer to the mechanical drawing for drill map.  
+    ![Heatsink pads](images/Heatsink.png){ width="300" align=left }
 
 ---
 ## Converter Pinout
@@ -38,18 +132,18 @@ The OWNVERTER converter pinout is shown in the image below.
 
 ![Twist board pinout overview](images/Circuit_datasheet.svg)
 
-!!!info Converter pins
-    !!!danger Power Pins
+!!! info "Converter pins"
+    !!! danger "Power Pins"
         - **Vhigh** is the high side voltage
         - **A+/B+/C+** are the low side voltages. They are connected to the motor phases.
-        - **GND** is the power GND 
+        - **GND** is the power GND
         - **Feeder 6V** is the 6V output of the embedded feeder
         - **D6V** is the input of the digital 6V. You can feed it from an outside source.
         - **DGND** is the digital ground
-    !!!success Data Pins
+    !!! success "Data Pins"
         - **CAN1 and CAN2** the two pins of the CANBus
         - **RS485 +/-** the two pins of the RS485 bus.
-        - **Analog +/-** the two pins of the analog bus. 
+        - **Analog +/-** the two pins of the analog bus.
         - **Sync I/0** the pin through which boards synchronize. It is the same pin for both master and slave operation.
         - **DGND** is the digital ground
 
@@ -59,7 +153,7 @@ The OWNVERTER converter pinout is shown in the image below.
 ## Electrical Specifications
 
 ### Absolute Maximum Ratings
-!!!warning Absolute Maximum Ratings
+!!! warning "Absolute Maximum Ratings"
     | Parameter                             | Min | Typ | Max | Unit |
     |-----------                            |-----|-----|-----|------|
     | _Low-Side peak Voltage_                    | - | - | 92 | VDC |
@@ -148,7 +242,7 @@ Analog communication between boards allows voltage and current measurement with 
 
 ![Measurement resolution results](images/step_response_analog.png)
 
-Statistical Distribution of 10235 data samples 
+Statistical Distribution of 10235 data samples
 
 | Parameter | Symbol | Min | Typ | Max | Unit |
 |-----------|--------|-----|-----|-----|------|
@@ -199,26 +293,26 @@ Schematic showing where the measurements are performed on the circuit.
 ![Schematic with measurement instruments](images/Ownverter_schematic_v1.svg)
 
 
-!!!info Measurements location and convention
+!!!info "Measurements location and convention"
     - **Voltage sensors** - they measure phase voltage of the motor.
-    - **Low-side Current sensors** - they measure phase current of the motor. 
-        Their output is *positive* when the inverter is in **Source mode (current going OUT of the low side)**. 
+    - **Low-side Current sensors** - they measure phase current of the motor.
+        Their output is *positive* when the inverter is in **Source mode (current going OUT of the low side)**.
     - **High-side Current sensor** - it is connected right after the high-side connector.
-        Its output is *negative* when the converter is in **BUCK mode (current going IN the high side)**. 
+        Its output is *negative* when the converter is in **BUCK mode (current going IN the high side)**.
 
 
-Image showing where the measurements can be accessed on the board. 
+Image showing where the measurements can be accessed on the board.
 
 ![Board with measurement points](images/measurement_on_board.svg)
 
-!!!note Measurement pins
+!!!note "Measurement pins"
     All measurements have pins which can be easily accessed with a probe (oscilloscope or multimeter) as shown below.
 
-    !!!warning Use ground springs for noise reduction
+    !!! warning "Use ground springs for noise reduction"
 
     ![Board with measurement points](images/probe_on_twist.png)
-    
-     
+
+
 
 
 ### Standard Deviation of Measurements
@@ -265,7 +359,7 @@ By default all OWNVERTER boards can be calibrated using the following parameters
 | 3 phase inverter | Input | Output | HAL | BLDC Motor |
 
 
-### Example wiring diagram and schematic of the Twist board in Buck mode 
+### Example wiring diagram and schematic of the Twist board in Buck mode
 ![TWIST converter in Buck Mode](images/wiring_diagram_motor.drawio)
 ![TWIST converter in Buck Mode](images/circuit_diagram_motor.svg)
 
