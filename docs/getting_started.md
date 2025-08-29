@@ -30,7 +30,8 @@ or other programming systems. It supports communication via **CAN-bus** or **RS-
     - **CAN-bus and RS-485 communication compatible**
     - **Fully open-source**
     - **BLDC and FOC examples and control library available**
-    - [Github source files](https://github.com/owntech-foundation/OWNVERTER)
+    - [![Github Repository](https://img.shields.io/badge/GitHub_Repository-V1.1.0-00694C?style=for-the-badge)](https://github.com/owntech-foundation/OWNVERTER)
+    - [![kicanvas.org](https://img.shields.io/badge/Schematics-KICANVAS.ORG-8864CB?style=for-the-badge)](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2Fowntech-foundation%2FOWNVERTER%2Ftree%2Fdev%2FKiCAD_files)
 
 ## Connectivity
 

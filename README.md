@@ -6,6 +6,8 @@ a bi-directional 1kW three-phase inverter. It features a
 high side. Its maximum current value is 13A per
 power channel.
 
+You can view the schematics here [![kicanvas.org](https://img.shields.io/badge/Schematics-KICANVAS.ORG-8864CB?style=for-the-badge)](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2Fowntech-foundation%2FTWIST%2Fblob%2FTWIST-V1.4.X%2FKiCAD_files%2FPower.kicad_pro)
+
 ![ownverter circuit diagram](docs/images/Ownverter_schematic_v1.svg)
 
 It is compatible with multiple types of speed sensors such as sin-cos and hall. 
