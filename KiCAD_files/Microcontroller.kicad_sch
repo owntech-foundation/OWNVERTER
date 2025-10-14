@@ -6,9 +6,11 @@
 	(paper "A3")
 	(title_block
 		(title "OWNVERTER V1.1")
-		(date "2025-04-24")
-		(company "https://gitlab.laas.fr/owntech/1leg/-/tree/V1.1.2/KiCAD_files")
-		(comment 1 "ALINEI")
+		(date "2025-10-13")
+		(comment 1 "JAL")
+		(comment 2 "LFL")
+		(comment 3 "LFL")
+		(comment 4 "GFE")
 	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:OPA2277"
@@ -20244,7 +20246,7 @@
 				)
 			)
 		)
-		(property "Value" "PMEG2010AEJ,115"
+		(property "Value" "PMEG3010CEJ,115"
 			(at 287.782 181.102 0)
 			(effects
 				(font
@@ -20306,7 +20308,7 @@
 				(hide yes)
 			)
 		)
-		(property "Reserved1" "434df5ae13dadd363a00a9aca6322ab240ee2e6a793473"
+		(property "Reserved1" "43817ac0f4fec423c7625c960c4fb4ef1e3331450741e4"
 			(at 281.94 185.42 0)
 			(effects
 				(font

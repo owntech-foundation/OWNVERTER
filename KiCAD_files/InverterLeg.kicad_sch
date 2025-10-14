@@ -5,9 +5,12 @@
 	(uuid "22b63e0d-f11c-46a0-b2d0-b08207a579ff")
 	(paper "A3")
 	(title_block
-		(title "OWNVERTER V1.1")
-		(date "2025-04-24")
-		(comment 1 "ALINEI")
+		(title "OWNVERTER V1.1.1")
+		(date "2025-10-13")
+		(comment 1 "JAL")
+		(comment 2 "LFL")
+		(comment 3 "LFL")
+		(comment 4 "GFE")
 	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:TLV6001DCK"
@@ -5482,6 +5485,12 @@
 		(uuid "19aab320-57be-465b-8843-dc0a76696f33")
 	)
 	(junction
+		(at 49.53 257.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c5ddc24-6836-475a-b358-075d90962616")
+	)
+	(junction
 		(at 124.46 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5558,6 +5567,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "638c266b-2872-41fd-aaa9-010795893889")
+	)
+	(junction
+		(at 49.53 266.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69b5d54f-766a-4b58-bf11-077d7d57da5a")
 	)
 	(junction
 		(at 157.48 228.6)
@@ -6709,6 +6724,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 257.81) (xy 58.42 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50a5e223-b739-4857-993c-505d511132b8")
+	)
+	(wire
+		(pts
 			(xy 218.44 40.64) (xy 218.44 43.18)
 		)
 		(stroke
@@ -6746,6 +6771,16 @@
 			(type default)
 		)
 		(uuid "54bba0cc-8c5f-460b-b823-6244353694bd")
+	)
+	(wire
+		(pts
+			(xy 58.42 265.43) (xy 58.42 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "574ffad4-0770-4f8d-9224-7f590e964a56")
 	)
 	(wire
 		(pts
@@ -6879,6 +6914,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 266.7) (xy 49.53 267.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65a3c1c9-9de4-4c1f-814f-ceb43a3a9788")
+	)
+	(wire
+		(pts
 			(xy 127 229.87) (xy 140.97 229.87)
 		)
 		(stroke
@@ -6926,6 +6971,16 @@
 			(type default)
 		)
 		(uuid "6a7b5d78-4fd7-454c-a4b9-1c2dabecc038")
+	)
+	(wire
+		(pts
+			(xy 58.42 266.7) (xy 49.53 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b97107c-5281-4b5b-9f69-742228c6f552")
 	)
 	(polyline
 		(pts
@@ -7019,7 +7074,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 265.43) (xy 49.53 267.97)
+			(xy 49.53 265.43) (xy 49.53 266.7)
 		)
 		(stroke
 			(width 0)
@@ -7869,6 +7924,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 260.35) (xy 58.42 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa753d26-5b15-43c3-bdc4-f1aa1431a8dc")
+	)
+	(wire
+		(pts
 			(xy 49.53 176.53) (xy 43.18 176.53)
 		)
 		(stroke
@@ -8179,6 +8244,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 257.81) (xy 49.53 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2aea7e9-a44e-477f-afe6-d3bb20e80edf")
+	)
+	(wire
+		(pts
 			(xy 229.87 59.69) (xy 227.33 59.69)
 		)
 		(stroke
@@ -8279,7 +8354,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 255.27) (xy 49.53 260.35)
+			(xy 49.53 255.27) (xy 49.53 257.81)
 		)
 		(stroke
 			(width 0)
@@ -10012,7 +10087,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "026f3911-4480-4902-b421-e874dd3babfb")
-		(property "Reference" "U902"
+		(property "Reference" "U607"
 			(at 49.53 236.22 0)
 			(effects
 				(font
@@ -10087,15 +10162,15 @@
 		(instances
 			(project ""
 				(path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-					(reference "U903")
+					(reference "U707")
 					(unit 1)
 				)
 				(path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-					(reference "U902")
+					(reference "U607")
 					(unit 1)
 				)
 				(path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-					(reference "U904")
+					(reference "U807")
 					(unit 1)
 				)
 			)
@@ -10747,7 +10822,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0b46dde3-faf5-4a51-9b3a-57d9261f45c5")
-		(property "Reference" "R824"
+		(property "Reference" "R625"
 			(at 43.18 261.747 0)
 			(effects
 				(font
@@ -10837,11 +10912,11 @@
 		(instances
 			(project "ownverter"
 				(path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-					(reference "R825")
+					(reference "R726")
 					(unit 1)
 				)
 				(path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-					(reference "R824")
+					(reference "R625")
 					(unit 1)
 				)
 				(path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
@@ -11267,7 +11342,7 @@
 				(hide yes)
 			)
 		)
-		(property "Reserved1" "816c8140ad16dfc90e16ae251e5bb937d77740762d14ba"
+		(property "Reserved1" "023c04ba89e25817607a715cffad713605bf4fec8d4905"
 			(at 154.94 123.19 0)
 			(effects
 				(font
@@ -12723,6 +12798,120 @@
 				)
 				(path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
 					(reference "C812")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 58.42 262.89 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3d7d82a5-4629-4e10-b132-85c74ad2b536")
+		(property "Reference" "C608"
+			(at 55.88 262.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 56.642 264.668 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Footprints:C_0805_2012Metric"
+			(at 58.42 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}\\datasheet\\KEM_C1002_X7R_SMD-3316098.pdf"
+			(at 58.42 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "C0805C104K5RACTU"
+			(at 58.42 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 59.69 266.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 55.88 266.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reserved1" "19d8e62435aae811d30466f8cc008899f37785f68fd5"
+			(at 58.42 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8eeb1c1-d27b-4545-a9f7-2e8365d703f0")
+		)
+		(pin "2"
+			(uuid "67b102f2-002a-41db-b938-65a7ad38f679")
+		)
+		(instances
+			(project "ownverter"
+				(path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
+					(reference "C708")
+					(unit 1)
+				)
+				(path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
+					(reference "C608")
+					(unit 1)
+				)
+				(path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
+					(reference "C808")
 					(unit 1)
 				)
 			)
@@ -14783,7 +14972,7 @@
 				)
 			)
 		)
-		(property "Value" "PMEG2010AEJ,115"
+		(property "Value" "PMEG3010CEJ,115"
 			(at 158.75 34.798 0)
 			(effects
 				(font
@@ -14845,7 +15034,7 @@
 				(hide yes)
 			)
 		)
-		(property "Reserved1" "434df5ae13dadd363a00a9aca6322ab240ee2e6a793473"
+		(property "Reserved1" "43817ac0f4fec423c7625c960c4fb4ef1e3331450741e4"
 			(at 156.21 38.1 0)
 			(effects
 				(font
@@ -15509,7 +15698,7 @@
 				)
 			)
 		)
-		(property "Value" "PMEG2010AEJ,115"
+		(property "Value" "PMEG3010CEJ,115"
 			(at 160.528 68.072 0)
 			(effects
 				(font
@@ -15571,7 +15760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Reserved1" "434df5ae13dadd363a00a9aca6322ab240ee2e6a793473"
+		(property "Reserved1" "43817ac0f4fec423c7625c960c4fb4ef1e3331450741e4"
 			(at 154.94 71.12 0)
 			(effects
 				(font
@@ -18419,7 +18608,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c88ad696-0dd5-4b14-8343-f336803ea916")
-		(property "Reference" "U902"
+		(property "Reference" "U607"
 			(at 32.004 229.616 0)
 			(effects
 				(font
@@ -18470,6 +18659,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "6"
@@ -18493,15 +18683,15 @@
 		(instances
 			(project ""
 				(path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/7ae88aae-56f0-479d-acd9-b86c409d47f0"
-					(reference "U903")
+					(reference "U707")
 					(unit 2)
 				)
 				(path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9564004e-9746-4b6b-831d-1e0ecc025868"
-					(reference "U902")
+					(reference "U607")
 					(unit 2)
 				)
 				(path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bc2bead7-ad3b-42ab-8e83-5198afec2d42"
-					(reference "U904")
+					(reference "U807")
 					(unit 2)
 				)
 			)

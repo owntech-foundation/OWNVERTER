@@ -5,9 +5,12 @@
 	(uuid "e2d1ef63-d240-44ca-95b7-10514491a57c")
 	(paper "A3")
 	(title_block
-		(title "OWNVERTER V1.1")
-		(date "2025-04-24")
-		(comment 1 "ALINEI")
+		(title "OWNVERTER V1.1.1")
+		(date "2025-10-13")
+		(comment 1 "JAL")
+		(comment 2 "LFL")
+		(comment 3 "LFL")
+		(comment 4 "GFE")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x03"

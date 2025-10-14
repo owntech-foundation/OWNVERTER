@@ -730,6 +730,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -1223,6 +1224,9 @@
         "DGND"
       ],
       "Net-(JP906-A)": [
+        "DGND"
+      ],
+      "Net-(PS501-+VIN)": [
         "DGND"
       ],
       "Net-(PS501-+Vin)": [
@@ -1838,7 +1842,7 @@
     "page_layout_descr_file": "Title_block.kicad_wks"
   },
   "schematic": {
-    "annotate_start_num": 200,
+    "annotate_start_num": 800,
     "bom_export_filename": "ownverter.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -1882,7 +1886,7 @@
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -1984,6 +1988,24 @@
           "group_by": false,
           "label": "Wattage",
           "name": "Wattage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Position Offset",
+          "name": "Position Offset",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Rotation Offset",
+          "name": "Rotation Offset",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Reserved1",
+          "name": "Reserved1",
           "show": false
         }
       ],
