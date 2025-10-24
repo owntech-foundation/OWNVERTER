@@ -2385,7 +2385,7 @@
 		)
 		(uuid "3678451f-a212-4c69-bbe5-79917b0d8bc3")
 	)
-	(text "Filter Pin is used to set sensor bandwidth. \nFrom datasheet :\n1nF gives 120kHz (-3dB) bandwidth\n "
+	(text "Filter Pin is used to set sensor bandwidth. \nFrom datasheet :\n1nF gives 88.5kHz (-3dB) bandwidth\n "
 		(exclude_from_sim no)
 		(at 73.406 88.392 0)
 		(effects

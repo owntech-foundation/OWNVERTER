@@ -17062,15 +17062,16 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_01x36_MountingPin")
-		(at -25.4 59.69 0)
+		(at -25.4 62.23 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "4b740400-7492-4ac8-8644-d2a5821a4188")
 		(property "Reference" "J2"
-			(at -28.956 113.03 0)
+			(at -28.194 7.874 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17079,16 +17080,17 @@
 			)
 		)
 		(property "Value" "Conn_01x36_MountingPin"
-			(at -28.956 115.57 0)
+			(at -51.816 7.874 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprints:AMPHENOL_F314-1A7H1-11036"
-			(at -25.4 59.69 0)
+		(property "Footprint" "Footprints:FPC-SMD_P0.50-36P_AFC24-S36FIA-00"
+			(at -25.4 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17097,7 +17099,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at -25.4 59.69 0)
+			(at -25.4 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17106,7 +17108,16 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x36, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at -25.4 59.69 0)
+			(at -25.4 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reserved1" "45f05d9b17985b76297a09bb28b2f94415fc1a64e808cc49"
+			(at -25.4 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21811,10 +21822,10 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "cf79f9e1-1f8d-4a8e-8d5c-1e39913cc93c")
 		(property "Reference" "J1"
-			(at -60.96 113.792 0)
+			(at -46.736 109.982 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21829,9 +21840,10 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprints:AMPHENOL_F314-1A7H1-11036"
+		(property "Footprint" "Footprints:FPC-SMD_P0.50-36P_AFC24-S36FIA-00"
 			(at -40.64 59.69 0)
 			(effects
 				(font
@@ -21850,6 +21862,15 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x36, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at -40.64 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reserved1" "45f05d9b17985b76297a09bb28b2f94415fc1a64e808cc49"
 			(at -40.64 59.69 0)
 			(effects
 				(font

@@ -10916,7 +10916,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:DCDC_0512S_THT"
+		(property "Footprint" "Footprints:PWRM-TH_BXXXXS-2WR3"
 			(at 214.63 248.92 0)
 			(effects
 				(font
