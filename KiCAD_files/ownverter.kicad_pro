@@ -1835,9 +1835,9 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "libs/footprints.pretty/footprints.3dshapes/Power1_1_3.step",
+      "step": "../../../3D_Models/Main_Module/Ownverter1_1_1.step",
       "svg": "",
-      "vrml": ""
+      "vrml": "../../../3D_Models/Main_Module/ownverter_v1-1-1.wrl"
     },
     "page_layout_descr_file": "Title_block.kicad_wks"
   },
