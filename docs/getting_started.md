@@ -1,4 +1,4 @@
-# OwnVerter Board Datasheet v1.1.0
+# OwnVerter Board Datasheet v1.1.1
 
 ## Overview
 
@@ -127,11 +127,11 @@ or other programming systems. It supports communication via **CAN-bus** or **RS-
     ![Heatsink pads](images/Heatsink.png){ width="300" align=left }
 
 ---
-## Converter Pinout
+## Converter Pinout and Schematics
 
 The OWNVERTER converter pinout is shown in the image below.
 
-![Twist board pinout overview](images/Circuit_datasheet.svg)
+![Twist board pinout overview](images/ownverter_pinout.drawio.png)
 
 !!! info "Converter pins"
     !!! danger "Power Pins"
@@ -148,6 +148,10 @@ The OWNVERTER converter pinout is shown in the image below.
         - **Sync I/0** the pin through which boards synchronize. It is the same pin for both master and slave operation.
         - **DGND** is the digital ground
 
+
+The schematics of the power block of the circuit are shown in the image below.
+
+![Schematic with measurement instruments](images/Ownverter_schematic_v1.svg)
 
 
 ---
@@ -304,7 +308,7 @@ Schematic showing where the measurements are performed on the circuit.
 
 Image showing where the measurements can be accessed on the board.
 
-![Board with measurement points](images/measurement_on_board.svg)
+![Board with measurement points](images/ownverter_meas_pinout.drawio.png)
 
 !!!note "Measurement pins"
     All measurements have pins which can be easily accessed with a probe (oscilloscope or multimeter) as shown below.
@@ -360,14 +364,10 @@ By default all OWNVERTER boards can be calibrated using the following parameters
 | 3 phase inverter | Input | Output | HAL | BLDC Motor |
 
 
-### Example wiring diagram and schematic of the Twist board in Buck mode
-![TWIST converter in Buck Mode](images/wiring_diagram_motor.drawio)
+### Example wiring diagram and schematic of the OwnVerter board with a BLDC motor
+
+![TWIST converter in Buck Mode](images/wiring_diagram_motor.drawio.png)
 ![TWIST converter in Buck Mode](images/circuit_diagram_motor.svg)
-
-
-
-
-
 
 
 ---
@@ -376,6 +376,7 @@ By default all OWNVERTER boards can be calibrated using the following parameters
 | Date | Revision | Changes |
 |------|----------|---------|
 | 07-Fev-2025 | 1 | Initial Release |
+| 23-Jul-2026 | 1 | Small updates |
 
 **License:** Documentation licensed under Creative Commons SA-BY
 
